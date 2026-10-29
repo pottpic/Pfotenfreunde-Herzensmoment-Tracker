@@ -26,8 +26,10 @@ Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal i
 | `analyse` | Zahlen auswerten (Insights, Buchungen, Website), Muster finden, Empfehlungen |
 | `trend-scout` | Virale Videos/Trends beobachten und für Pottpic übersetzen |
 | `umsetzung` | Aus Ideen fertige Sachen machen: Texte, Grafiken, Reels, Trello-Karten, Web |
+| `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
+| `shooting-planung` | Shootings vorbereiten: Kunden-Infos, Location & Wetter, Ablauf, Packliste, Trello-Karte |
 
-Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` planen → `umsetzung` baut fertig.
+Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig. Für einzelne Shootings ist `shooting-planung` zuständig.
 
 ## Regeln für alle
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
