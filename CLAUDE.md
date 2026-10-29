@@ -19,15 +19,17 @@ Dieses Repo ist die Werkstatt von Moni (Pottpic). Hier liegen der Pfotenfreunde-
 Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal is er halt einfach ’n Hund, weißt du – und das is auch okay so.“
 
 ## Das Team (`.claude/agents/`)
-| Agent | Aufgabe |
-|---|---|
-| `social-media` | Posts, Reels-Ideen, Captions, Redaktionsplan, Community-Antworten |
-| `neukunden-akquise` | Zielgruppen, Kooperationspartner, Ansprache-Texte, Angebote |
-| `analyse` | Zahlen auswerten (Insights, Buchungen, Website), Muster finden, Empfehlungen |
-| `trend-scout` | Virale Videos/Trends beobachten und für Pottpic übersetzen |
-| `umsetzung` | Aus Ideen fertige Sachen machen: Texte, Grafiken, Reels, Trello-Karten, Web |
-| `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
-| `shooting-planung` | Shootings vorbereiten: Kunden-Infos, Location & Wetter, Ablauf, Packliste, Trello-Karte |
+| Spitzname | Agent | Aufgabe |
+|---|---|---|
+| **Bellfluencerin** | `social-media` | Posts, Reels-Ideen, Captions, Redaktionsplan, Community-Antworten |
+| **Rudelmagnet** | `neukunden-akquise` | Zielgruppen, Kooperationspartner, Ansprache-Texte, Angebote |
+| **Nasenarbeit** | `analyse` | Zahlen auswerten (Insights, Buchungen, Website), Muster finden, Empfehlungen |
+| **Witterung** | `trend-scout` | Virale Videos/Trends beobachten und für Pottpic übersetzen |
+| **Macherpfote** | `umsetzung` | Aus Ideen fertige Sachen machen: Texte, Grafiken, Reels, Trello-Karten, Web |
+| **Postpfote** | `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
+| **Fotopfote** | `shooting-planung` | Shootings vorbereiten: Kunden-Infos, Location & Wetter, Ablauf, Packliste, Trello-Karte |
+
+Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim Agent-Namen, beides geht.
 
 Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig. Für einzelne Shootings ist `shooting-planung` zuständig.
 
