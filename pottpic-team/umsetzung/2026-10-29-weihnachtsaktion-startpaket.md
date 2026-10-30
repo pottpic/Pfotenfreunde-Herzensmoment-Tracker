@@ -1,3 +1,5 @@
+> **Testlauf vom 29.10.2026** – Beispiel, wie das Team zusammenarbeitet. Nicht umgesetzt, nichts davon ist entschieden.
+
 # Weihnachtsaktion 2026: Startpaket für Moni
 
 **Stand:** 29.10.2026 · zusammengestellt von Macherpfote (umsetzung)

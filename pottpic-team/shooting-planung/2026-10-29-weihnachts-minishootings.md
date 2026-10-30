@@ -1,3 +1,5 @@
+> **Testlauf vom 29.10.2026** – Beispiel, wie das Team zusammenarbeitet. Nicht umgesetzt, nichts davon ist entschieden.
+
 # Weihnachts-Minishootings 2026 – Planungsentwurf
 
 **Erstellt:** 29.10.2026 von Fotopfote (Shooting-Planung)

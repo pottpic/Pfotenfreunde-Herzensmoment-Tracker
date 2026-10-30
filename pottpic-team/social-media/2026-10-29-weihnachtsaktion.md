@@ -1,3 +1,5 @@
+> **Testlauf vom 29.10.2026** – Beispiel, wie das Team zusammenarbeitet. Nicht umgesetzt, nichts davon ist entschieden.
+
 # Social-Media-Plan Weihnachtsaktion 2026: Minishootings + Fotoprodukte
 
 **Stand:** 29.10.2026 · erstellt von Bellfluencerin (social-media)

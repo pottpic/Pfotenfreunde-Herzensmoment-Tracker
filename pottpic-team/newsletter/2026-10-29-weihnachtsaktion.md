@@ -1,3 +1,5 @@
+> **Testlauf vom 29.10.2026** – Beispiel, wie das Team zusammenarbeitet. Nicht umgesetzt, nichts davon ist entschieden.
+
 # Newsletter Weihnachtsaktion 2026 – Aufbau mit CleverReach + erste Ausgaben
 
 **Erstellt:** 29.10.2026 von Postpfote (newsletter)
