@@ -17,7 +17,7 @@ Stand: 30.10.2026 · Nasenarbeit (`analyse`) · Grundlage: Briefing + Grundgerü
 
 | Messtag | Zeitraum | Was is da |
 |---|---|---|
-| **Mo 30.11.2026** | 16.11.–29.11. | **Startwert** (vor dem Start messen!) |
+| **Mo 02.11.2026** | 19.10.–01.11. | **Startwert** (vor dem ersten Teaser am 05.11.; Zeitraum in den Insights benutzerdefiniert einstellen) |
 | Mo 14.12. | 30.11.–13.12. | W1–W2 |
 | Mo 28.12. | 14.12.–27.12. | W3–W4 (zwischen den Jahren, kann auch am 04.01. nachgeholt werden) |
 | Mo 11.01.2027 | 28.12.–10.01. | W5–W6 |
@@ -62,14 +62,14 @@ Facebook/TikTok: Ob die mitzählen, is noch offen (Frage an Moni im Grundgerüst
 
 **Wo:** CleverReach → **Empfänger** → deine Liste (Postpfote schlägt „Pottpic Newsletter“ vor) → Anzahl **aktive** Empfänger:innen. Die unbestätigten zählen nicht mit. Wenn dir auffällt, dass sich Leute abgemeldet haben, schreib's in die Notiz. Die Menüs heißen bei CleverReach vielleicht 'n bisschen anders, das konnte ich von hier nicht nachgucken.
 
-**Achtung:** Das is ein **Stand**, keine Summe. Was neu dazugekommen is, ergibt sich aus der Differenz zur letzten Zeile. Vor dem Start der Challenge is der Wert wahrscheinlich 0 oder ganz klein. Läuft im November schon die Weihnachtsaktion mit Newsletter, is er höher. Trag einfach ein, was da steht.
+**Achtung:** Das is ein **Stand**, keine Summe. Was neu dazugekommen is, ergibt sich aus der Differenz zur letzten Zeile. Vor dem Start der Challenge is der Wert wahrscheinlich 0 oder ganz klein. Trag einfach ein, was da steht.
 
 ### Kennzahl 3 – Gespeichert + Geteilt pro Challenge-Reel
 **Was:** Ob die Montags-Reels mit Luke den Leuten wirklich was wert sind. Likes gibt's schnell mal. Speichern und Teilen heißt: „Das will ich wiedersehen“ oder „Das muss meine Freundin sehen“.
 
 **Wo:** Instagram → das Reel öffnen → **„Insights ansehen“** (oder „Statistiken ansehen“) → „Gespeichert“ und „Geteilt“ zusammenzählen. Das machst du für beide Montags-Reels aus dem Zeitraum und trägst den **Schnitt** ein. Beispiel für die Rechnung: (Reel A + Reel B) ÷ 2.
 
-**Startwert:** Den Schnitt aus deinen **letzten 3 normalen Reels** (Oktober/November). Das is dein Vergleich: Sind die Challenge-Reels besser oder schlechter als das, was du sonst machst?
+**Startwert:** Den Schnitt aus deinen **letzten 3 normalen Reels** vor dem ersten Teaser am 05.11. Das is dein Vergleich: Sind die Challenge-Reels besser oder schlechter als das, was du sonst machst?
 
 **Gut zu wissen:** Ein Reel sammelt oft noch tagelang weiter. Das Reel vom zweiten Montag hatte am Messtag erst eine Woche Zeit. Das is okay, solange du's jedes Mal gleich machst.
 
@@ -105,7 +105,7 @@ Keine Erfolgszahl, aber genauso wichtig: Wie viele Stunden hast du in den 2 Woch
 - **8-Wochen-Check (25.01.):** Jetzt kann man zum ersten Mal ehrlich nachsteuern (siehe unten). Is aber immer noch 'ne kleine Stichprobe.
 - **12-Wochen-Check (22.02.):** Jetzt hast du 6 Messungen. Das reicht für 'ne Entscheidung, wie's weitergeht: dranbleiben, umbauen oder aufhören. Bei den Buchungen kann's trotzdem noch zu früh sein, weil die einfach Vorlauf haben.
 - **Ausreißer:** Ein einziges Reel, das plötzlich gut läuft, kann einen ganzen Zeitraum hochziehen. Dann schreib's in die Notiz („Reel W3 is durch die Decke“), damit wir das später nicht für 'nen Trend halten.
-- **Startwert-Zeitraum 16.–29.11.:** Wenn da schon die Weihnachts-Minis laufen (Entwurf vom 29.10., noch nicht entschieden), sind Profilaufrufe und Anfragen da vielleicht höher als normal. Dann bitte in die Notiz schreiben.
+- **Startwert-Zeitraum 19.10.–01.11.:** *(Korrektur Macherpfote, 30.10.: Die Weihnachts-Minis finden nicht statt. Der alte Zeitraum 16.–29.11. hätte schon Teaser und Guide-Carousel enthalten, darum jetzt vor dem ersten Teaser.)*
 
 ---
 
@@ -144,7 +144,7 @@ Wenn du nach 12 Wochen bei Kennzahl 1, 3 und 6 im Rahmen liegst, lohnt sich die 
 
 ## 6. Was Moni vor dem Start erledigen muss
 
-- [ ] Am **Mo 30.11. vormittags** die Startwert-Zeile ausfüllen (Kennzahl 1 bleibt leer).
+- [ ] Ab **Mo 02.11.** die Startwert-Zeile für 19.10.–01.11. ausfüllen (Kennzahl 1 bleibt leer, Newsletter = 0).
 - [ ] Für Kennzahl 3 die letzten 3 normalen Reels raussuchen und den Schnitt aus Gespeichert + Geteilt bilden.
 - [ ] Album „Echt jetzt – Einsendungen“ im Handy anlegen.
 - [ ] Ab sofort bei jeder Anfrage nach der Herkunft fragen und sie ins Blatt „Anfragen“ eintragen. Damit hast du auch schon Vergleichswerte von **vor** der Challenge.

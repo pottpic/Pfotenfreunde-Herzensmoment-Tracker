@@ -3,6 +3,8 @@
 Stand: 30.10.2026 · Schnittpfote (`video-creator`) · Basis: Briefing, Grundgerüst (Macherpfote), Handy-Foto-Guide (Fotopfote), Weihnachtsplan (Bellfluencerin, 29.10.)
 **Entwurf. Noch kein Material da, nix geschnitten, nix gepostet.** Alle Zeiten sind Schätzungen.
 
+> **Korrektur Macherpfote (Runde 3, 30.10.):** Die Weihnachts-Minis und der ganze Weihnachtsplan sind nur ein Testlauf und finden nicht statt (kein Kranz-, Stiefel-, Wunschzettel-Reel). Posting-Tage gelten laut `umsetzung/2026-10-30-echt-jetzt-startklar.md`: R1 = Reveal Mo 16.11. (dazu ein kurzer Teaser Do 05.11.), R2 Launch-Reel entfällt, R3 = W1-Reel Mo 30.11. 18 Uhr. Guide-Fotos 9–10 + S2 an Tag 2.
+
 Zu Luke steht nix zu Rasse oder Aussehen im Repo, deshalb steht hier nur, was er *tut*. Alles in **[eckigen Klammern]** passt Moni an – vor allem da, wo ich nicht weiß, ob Luke das wirklich so macht. Fails werden nicht nachgestellt: Wenn was nicht passiert, fliegt die Szene raus oder wird ersetzt.
 
 ---
@@ -158,7 +160,7 @@ Reine Aufnahmezeit ca. 35–40 Min in 5-Min-Blöcken, mit Pausen ca. 2–2,5 h (
 | C12 | Monis Hand in Lukes Fell | egal | 8 s | **[F→C]** Foto 26 | R2, R5 |
 | C13 *(Reserve)* | Moni putzt die Linse am Pulli | egal | 5 s | **[F→C]** Fotos 27–28 | Mittwochs-Handy-Trick (Bellfluencerin) |
 
-### Tag 2 · Draußen Mittagsrunde + abends drinnen · Vorschlag zw. Mo 09. und Fr 13.11. (nicht an Mini-Shooting-Tagen 14./21./22.11.)
+### Tag 2 · Draußen Mittagsrunde + abends drinnen · Vorschlag zw. Mo 09. und Do 12.11. (damit der Reveal am 16.11. steht)
 Reine Aufnahmezeit ca. 25–30 Min, mit Runde und Pausen ca. 1,5–2 h (Schätzung, die Runde läuft ja eh). Deckt Fotos 3–6, 16–23, 29–30 und Bonus „Pause“ mit ab.
 
 | Clip | Was | Wo | Länge | Mit Foto | Für |
@@ -169,7 +171,7 @@ Reine Aufnahmezeit ca. 25–30 Min, mit Runde und Pausen ca. 1,5–2 h (Schätzu
 | C17 *(Reserve)* | Pause: Handy weg, Luke trinkt oder schnüffelt | Runde oder zuhause | 8 s | **[F→C]** Bonus „Pause“ | Tierwohl-Story, R5-Reserve |
 | C18 *(Reserve)* | Abends: Luke pennt, Lichterkette/Stehlampe seitlich, ganz ruhig | Sofa/Platz | 20 s | **[F→C]** Fotos 3–4, 6 | Ruhiges Vorrats-Material für die Silvester-Woche, damit da keiner filmen muss |
 
-### Tag 3 · „In echt“-Tag mit Kamera · Vorschlag Mo 16. bis Fr 20.11. (zwischen den Mini-Wochenenden) oder Mo 23.–Fr 27.11.
+### Tag 3 · „In echt“-Tag mit Kamera · Vorschlag Mo 23.–Fr 27.11. (geht auch schon ab 16.11.)
 Reine Aufnahmezeit ca. 20–25 Min, mit Aufbau und Pausen ca. 1–1,5 h (Schätzung). Restliche Guide-Fotos (9–10 Hintergrund, S2 Regler-Screenshot) gehen hier nebenbei mit.
 
 | Clip | Was | Wo | Länge | Mit Foto | Für |
