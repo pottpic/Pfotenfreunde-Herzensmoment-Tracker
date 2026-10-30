@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Bellfluencerin"><defs><clipPath id="c-bellfluencerin"><circle cx="100" cy="100" r="100"/></clipPath></defs><g clip-path="url(#c-bellfluencerin)"><rect width="200" height="200" fill="#F6C7C0"/><circle cx="160" cy="40" r="46" fill="#fff" opacity=".22"/>
+  <path d="M50 86 C44 120 50 150 62 160 L118 160 C130 150 134 120 128 86 Z" fill="#6B3E26"/>
+  <path d="M30 200 C30 160 56 142 90 142 C124 142 150 160 150 200 Z" fill="#D9576B"/>
+  <rect x="80" y="112" width="20" height="26" rx="8" fill="#F2C9A5"/>
+  <path d="M78 138 Q90 150 102 138" stroke="#F2C9A5" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="90" cy="86" rx="34" ry="38" fill="#F2C9A5"/>
+  <ellipse cx="56" cy="90" rx="5" ry="7" fill="#F2C9A5"/><ellipse cx="124" cy="90" rx="5" ry="7" fill="#F2C9A5"/>
+  <path d="M54 84 C54 58 70 46 90 46 C112 46 126 60 124 84 C112 70 98 66 86 64 C76 70 64 76 54 84 Z" fill="#6B3E26"/>
+  <ellipse cx="77" cy="90" rx="3.2" ry="4" fill="#2B1D16"/><ellipse cx="103" cy="90" rx="3.2" ry="4" fill="#2B1D16"/>
+  <path d="M70 80 Q77 76 84 80" stroke="#2B1D16" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+  <path d="M96 80 Q103 76 110 80" stroke="#2B1D16" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+  <circle cx="70" cy="102" r="6" fill="#E8735A" opacity=".25"/><circle cx="110" cy="102" r="6" fill="#E8735A" opacity=".25"/>
+  <path d="M80 106 Q90 115 100 106" stroke="#7A2E22" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  
+  
+  <g transform="translate(150 158) scale(1.32) translate(-146 -150)"><path d="M122 136 L116 108 L138 128 Z" fill="#B8946A"/><path d="M170 136 L176 108 L154 128 Z" fill="#B8946A"/><ellipse cx="146" cy="150" rx="28" ry="25" fill="#E2C29B"/><ellipse cx="146" cy="160" rx="15" ry="11" fill="#f4d4ad"/><ellipse cx="146" cy="154" rx="6" ry="4.4" fill="#1A1210"/><path d="M146 158 V162 M140 164 Q146 168 152 164" stroke="#1A1210" stroke-width="1.8" fill="none" stroke-linecap="round"/><circle cx="135" cy="144" r="3.6" fill="#1A1210"/><circle cx="157" cy="144" r="3.6" fill="#1A1210"/><circle cx="136" cy="142.8" r="1.1" fill="#fff"/><circle cx="158" cy="142.8" r="1.1" fill="#fff"/></g></g><g transform="translate(18 18)"><circle cx="18" cy="18" r="18" fill="#FFFCF7" stroke="#3D2C1E" stroke-width="2"/><rect x="11" y="7" width="14" height="22" rx="3" stroke="#3D2C1E" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="25" r="1.4" fill="#3D2C1E"/><path d="M15 15 l3 3 l4-5" stroke="#3D2C1E" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
