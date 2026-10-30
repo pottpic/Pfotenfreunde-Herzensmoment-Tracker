@@ -25,13 +25,14 @@ Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal i
 | **Rudelmagnet** | `neukunden-akquise` | Zielgruppen, Kooperationspartner, Ansprache-Texte, Angebote |
 | **Nasenarbeit** | `analyse` | Zahlen auswerten (Insights, Buchungen, Website), Muster finden, Empfehlungen |
 | **Witterung** | `trend-scout` | Virale Videos/Trends beobachten und für Pottpic übersetzen |
-| **Macherpfote** | `umsetzung` | Aus Ideen fertige Sachen machen: Texte, Grafiken, Reels, Trello-Karten, Web |
+| **Macherpfote** | `umsetzung` | Aus Ideen fertige Sachen machen: Texte, Grafiken, Trello-Karten, Web |
+| **Schnittpfote** | `video-creator` | Reels und Videos schneiden: Einblendungen, Untertitel, Cover, Hook, Schnittpläne |
 | **Postpfote** | `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
 | **Fotopfote** | `shooting-planung` | Shootings vorbereiten: Kunden-Infos, Location & Wetter, Ablauf, Packliste, Trello-Karte |
 
 Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim Agent-Namen, beides geht.
 
-Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig. Für einzelne Shootings ist `shooting-planung` zuständig.
+Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
 
 ## Regeln für alle
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
