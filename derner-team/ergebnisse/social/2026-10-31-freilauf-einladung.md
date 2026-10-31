@@ -1,6 +1,6 @@
 # Einladung offener Freilauf (Herbst) – Derner Schnauzenbande
 
-Status: final, wartet auf Monis Freigabe. Gepostet wird nichts.
+Status: ✅ Von Moni freigegeben (31.10.2026). Moni postet selbst über die Meta Business Suite.
 
 Verwendete Fakten: beaufsichtigter Freilauf, mittwochs ab 17 Uhr, alle Hundeleute eingeladen (nicht nur Mitglieder), vorher kurz melden per E-Mail dernerschnauzenbande@web.de, Derner Straße 415, 44329 Dortmund. Kosten, Impfpass und Regeln werden bewusst nicht genannt. Stimmung: Herbst, früh dunkel.
 

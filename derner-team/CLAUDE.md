@@ -57,6 +57,13 @@ Ablauf: Moni → `derner-chef` (Rückfragen) → passende Mitarbeiter → `derne
 - **Alle anderen arbeiten nur auf Zuruf**, also wenn Moni was will oder wenn der Leitwolf sie nach einem Trend-Fund einteilt. Und das erst, **nachdem Moni Ja gesagt hat**.
 - Kein Fund, kein Ping. Moni wird nur gestört, wenn’s was taugt.
 
+## Nutzungslimit-Bremse
+- Vor jedem Trendsetter-Lauf und bevor der Leitwolf größere Arbeit verteilt, wird das Claude-Nutzungslimit gecheckt. Das geht über die Ereignisse der eigenen Sitzung (`get_session` ohne ID → `list_events` mit `kinds: ["rate_limit_event"]` → das neueste Ereignis → `unifiedWindows`).
+- **Grenze:** 5-Stunden-Fenster ab **80 %** oder Wochenfenster ab **90 %**, oder der Status is nicht mehr „allowed“.
+- Wird die Grenze erreicht: **nicht weiterarbeiten.** Stattdessen gibt’s ’nen kurzen Tipp an Moni: „Limit fast voll (X %). Ich setz aus, ab HH:MM Uhr is wieder frei (in ca. N Std.).“ Die Zeit steht in `resetsAt` und wird in Europe/Berlin umgerechnet.
+- Dieser Tipp darf auch erst beim nächsten Lauf kommen. Echtzeit is nicht nötig.
+- Lässt sich das Limit nicht auslesen, wird normal weitergearbeitet, und das kommt mit in den Bericht.
+
 ## Ablage
 - Ergebnisse: `ergebnisse/<bereich>/JJJJ-MM-TT-thema.md` (Bereiche: social, website, newsletter, trends, video)
 - Fertige Videos/Cover: `ergebnisse/video/JJJJ-MM-TT-thema/`

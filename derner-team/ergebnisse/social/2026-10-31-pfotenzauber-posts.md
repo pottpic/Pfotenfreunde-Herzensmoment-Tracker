@@ -11,6 +11,8 @@ Bild: Vereinsflyer. KI-Illustration ist erlaubt, aber nur dosiert. Rückblick im
 
 ## 1. Ankündigung – Mo 2.11.2026 (Instagram + Facebook)
 
+✅ Von Moni freigegeben (31.10.2026). Moni postet selbst über die Meta Business Suite, fotorealistischen Flyer als KI kennzeichnen.
+
 Bild: Vereinsflyer.
 
 ### Instagram
