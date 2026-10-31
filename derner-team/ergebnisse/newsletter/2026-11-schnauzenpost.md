@@ -42,6 +42,8 @@ Im Advent wird ja überall genascht, und der Hund guckt natürlich mit Dackelbli
 - **Neues Futter langsam:** Willst du über die Feiertage was umstellen oder was Neues probieren, mach's Stück für Stück und nich von heut auf morgen. Der Bauch dankt's dir.
 - **Beim Pfotenzauber:** Gibt's ja selbst gebackene Kekse, auch für Hund. Frag ruhig kurz nach, wenn du nich sicher bist, was drin is.
 
+**Und schon ma vormerken:** Wenn dein Hund Angst vor Böllern hat, fang jetzt an zu üben, nich erst kurz vor Silvester. Ganz leise Böller-Geräusche abspielen, während was Schönes passiert, und dann über die Wochen langsam lauter. Mehr dazu in der Dezember-Ausgabe. 🎆 *(Silvester-Satz neu am 31.10. – Moni prüft fachlich gegen)*
+
 ---
 
 ## 5. Termine
@@ -103,6 +105,7 @@ Alles Weitere findest du auf **www.dernerschnauzenbande.de** · Fragen gern an *
 - Flyer-Datei eingefügt, Alt-Text gesetzt
 - Abschlussbild ausgewählt und freigegeben (echtes Foto, Einwilligung)
 - Unterschrift „Moni ❓“ bestätigt
+- Silvester-Satz im Tipp fachlich gegengelesen (Moni)
 - Datum/Uhrzeit nochmal gegenchecken: Sa 28.11.2026, ab 15 Uhr · Freilauf Mi 18.11. und 25.11., jeweils ab 17 Uhr
 - Betreff gewählt, Testmail an dich selbst geschickt
 - Freigabe durch Moni – erst dann Versand
