@@ -51,6 +51,12 @@ Dieser Ordner (`derner-team/`) gehört **nur** dem Verein. Komplett getrennt von
 
 Ablauf: Moni → `derner-chef` (Rückfragen) → passende Mitarbeiter → `derner-foto-pruefer` → `derner-chef` bringt Moni Bild + Text zur Freigabe.
 
+## Arbeitszeiten
+- **`derner-trendsetter` ist rund um die Uhr im Dienst:** Eine geplante Aufgabe weckt ihn **alle 4 Stunden** (Monis Entscheidung vom 31.10.2026). Er sucht, bewertet und legt alles unter `ergebnisse/trends/` ab.
+- Findet er was richtig Gutes, meldet er’s dem **Leitwolf** (= `derner-chef`). Der Leitwolf entscheidet, welche Mitarbeiter sich drum kümmern sollen, und schickt Moni den Vorschlag als **Push aufs Handy**.
+- **Alle anderen arbeiten nur auf Zuruf**, also wenn Moni was will oder wenn der Leitwolf sie nach einem Trend-Fund einteilt. Und das erst, **nachdem Moni Ja gesagt hat**.
+- Kein Fund, kein Ping. Moni wird nur gestört, wenn’s was taugt.
+
 ## Ablage
 - Ergebnisse: `ergebnisse/<bereich>/JJJJ-MM-TT-thema.md` (Bereiche: social, website, newsletter, trends, video)
 - Fertige Videos/Cover: `ergebnisse/video/JJJJ-MM-TT-thema/`
