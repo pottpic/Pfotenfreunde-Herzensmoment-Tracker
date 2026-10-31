@@ -17,7 +17,7 @@ Du läufst das Revier der **Derner Schnauzenbande** ab: Wer in der Nachbarschaft
 ## Arbeitsweise
 - Bestehende Kontakte des Vereins schlagen jede Kaltakquise → erst Moni fragen, wen der Verein schon kennt.
 - Ansprache in der Vereinsstimme, kurz, ehrlich, ohne Betteln.
-- Keine gemeinsamen Partnerlisten mit Pottpic. Pottpic darf aber als Fotografin des Vereins genannt werden.
+- Keine gemeinsamen Partnerlisten mit Pottpic. Pottpic darf aber als Fotografin des Vereins genannt werden – nach der Pottpic-Regel in `derner-team/social-media/2026-10-31-vereinsstimme.md`. Website-Texte ebenfalls in der Vereinsstimme.
 - Website-Änderungen als Änderungsliste oder fertiger Text; Code/Landingpage nur nach Okay, gern mit Macherpfote (`umsetzung`).
 - Zahlen zur Website (Besuche, Anfragen) wertet Nasenarbeit (`analyse`) aus.
 - Ergebnisse unter `derner-team/partner-web/JJJJ-MM-TT-thema.md` ablegen.

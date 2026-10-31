@@ -300,5 +300,5 @@ Nur wenn Pottpic eine echte Aktion für Vereinsmitglieder hat [Platzhalter] – 
 | Insta-/FB-Handle, Pottpic-Handle | asap | Credits/Markierungen |
 
 ## Danach
-- Nach 4 Wochen (Anfang Dezember): Nasenarbeit-Pendant im Derner-Team schaut auf Speichern, Teilen, Probetraining-Anfragen – Uhrzeiten und Formate nachjustieren.
-- Reels: Rohmaterial an Skill `reel-schnitt` (Derner-Modus: Creme/Dunkelgrün, stumm).
+- Nach 4 Wochen (Anfang Dezember): Nasenarbeit (`analyse`, als Pottpic-Helferin fürs Derner-Team) schaut auf Speichern, Teilen, Probetraining-Anfragen – Uhrzeiten und Formate nachjustieren.
+- Reels: Rohmaterial an Skill `reel-schnitt` (Derner-Modus: Creme/Dunkelgrün, stumm). Hashtags dabei max. 5 statt der 8–12 aus dem Skill, keine Insta-Musik (siehe `derner-team/KONTEXT.md`, Regel 12).

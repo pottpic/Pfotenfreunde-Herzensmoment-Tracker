@@ -47,7 +47,7 @@ Monis Ton – aber in der **„wir“-Form des Vereins**. Nicht „ich“, sonde
 
 Beispiel: „Wir üben seit Wochen Abruf, und dann kommt halt ’n Blatt vorbeigeflogen – kennt ihr, oder? Genau deswegen sind wir jeden [Platzhalter: Trainingstag] auf’m Platz.“
 
-**Ausführliche Stimme:** `derner-team/social-media/2026-10-31-vereinsstimme.md` (schreibt Bellfluencerin) – die gilt, sobald sie da is.
+**Ausführliche Stimme (verbindlich):** `derner-team/social-media/2026-10-31-vereinsstimme.md` (von Bellfluencerin, Entwurf bis Monis Freigabe). Die gilt für alles, was der Verein nach außen sagt – Do/Don't, Emoji-Regel, Hashtag-Set und **Regel für Pottpic-Hinweise** stehen da im Detail. Bei Widerspruch zu älteren Dateien gilt die Vereinsstimme.
 
 ## Optik
 - Vereinsfarben: **Creme + Dunkelgrün**. (Pottpic: Navy + Gold – nie mischen.)
@@ -78,14 +78,23 @@ Wer für den Verein hilft, hält sich an **diese** Regeln (Vereinsstimme, kein #
 
 ## Regeln für alle
 
-1. **Hashtag-Regel:** **#esbeginntmiteinemwau kommt NIE an Vereinsposts.** Das is Pottpics Hashtag. Der Verein hat eigene Hashtags (Vorschlag: #dernerschnauzenbande + 2–4 passende lokale/Sparten-Tags, Instagram erlaubt laut Berichten nur noch 5 pro Beitrag). Keine Spam-Ketten.
-2. **Pottpic-Werbung is okay** (von Moni bestätigt): z. B. „Fotos: Pottpic“, Hinweis auf Pottpic-Shootings oder -Aktionen. Aber dosiert, der Verein steht vorne. Ältere Notizen in Runde 1 („keine Pottpic-Werbung“) sind damit überholt.
+1. **Hashtag-Regel:** **#esbeginntmiteinemwau kommt NIE an Vereinsposts** – auch nicht, wenn Pottpic die Fotos gemacht hat. Das is Pottpics Hashtag. Der Verein hat eigene Hashtags: **max. 5 pro Post** (lieber 3–4), immer #dernerschnauzenbande (Vorschlag, in der App prüfen) + 2–4 aus den Töpfen der Vereinsstimme. Instagram erlaubt laut Berichten nur noch 5 pro Beitrag. Facebook: max. 1–2. Keine Spam-Ketten. **Gilt auch für Reels über `reel-schnitt`** (siehe Regel 12) – die 8–12 Hashtags aus dem Skill gelten für Vereins-Reels nicht.
+2. **Pottpic-Werbung is okay** (von Moni bestätigt, 31.10.) – nach der **Regel für Pottpic-Hinweise** in der Vereinsstimme:
+   - **Foto-Credit immer**, wenn's Pottpic-Bilder sind: „Fotos: Pottpic“ (Reels: „Fotos/Video: Pottpic“), letzte Zeile vor den Hashtags. Zählt nicht als Werbung.
+   - **Aktiver Hinweis** (Aktion, Shooting-Termin) **max. 1× im Monat**, als Story oder ein Satz am Ende, nie Hauptthema eines Feed-Posts, nur mit echtem Nutzen für Mitglieder, **als „Werbung“ gekennzeichnet**, vorher im Vorstand abnicken.
+   - **Nie** an Tierwohl-/Sicherheits-Tipps, Probetraining-Einladungen, Danke-/Gedenk-Posts oder Absagen. Keine Pottpic-Hashtags, keine Pottpic-Farben.
+   - **Überholt:** „keine Pottpic-Werbung“ (Witterung, `recherche/2026-10-31-vereins-formate.md`) und „Pottpic nur als Credit“ (Rudelmagnet, `recherche/2026-10-31-vereins-aufgaben.md`). Es gilt die Regel oben.
 3. **Getrennt halten:** Eigene Kanäle, eigene Ablage, **keine gemeinsamen Listen oder Konten** mit Pottpic (kein gemeinsamer Newsletter-Verteiler, keine geteilten Kontaktlisten).
 4. **Datenschutz & Einwilligung:** Erkennbare Personen nur mit Einwilligung (freiwillig, widerrufbar). Interne Feiern sind nicht automatisch gedeckt. **Kinder unter 16:** Einwilligung aller Sorgeberechtigten, nie mit vollem Namen. Keine Mitgliederlisten, Namen oder Kontaktdaten in Dateien oder Chats. Halter:innen-Namen nur, wenn sie's wollen (Standard: nur der Hundename). Rundmails mit BCC.
-5. **Musikrechte:** Vereinskonto is nicht privat → Musik-Lizenz unklar. Standard: Originalton vom Platz, Voiceover oder ohne Musik mit Einblendungen. Keine Chart-/Trend-Sounds, keine fremde Musik in Dateien.
+5. **Musikrechte:** Vereinskonto is nicht privat → Musik-Lizenz unklar. Standard: Originalton vom Platz, Voiceover oder ohne Musik mit Einblendungen. Keine Chart-/Trend-Sounds, keine fremde Musik in Dateien – auch **keine Musik aus der Insta-Bibliothek**, bis Moni/Vorstand die GEMA-Frage geklärt haben.
 6. **Tierwohl vor allem:** Keine gestressten, ängstlichen oder verletzten Hunde zeigen, nichts „für die Kamera“ wiederholen, keine Böller-Clips. Kostüme nur kurz und nur bei gelassenen Hunden. Medizinisches immer mit „Sprich mit deinem Tierarzt“.
 7. **Nichts erfinden:** Keine Preise, Beiträge, Zeiten, Mitgliederzahlen, Trainer:innen-Namen oder Bewertungen. Was fehlt → `[Platzhalter]`. Schätzungen als Schätzung markieren. Keine Rechtsberatung – bei Satzung, Impressum, Datenschutz nur „bitte prüfen (lassen)“.
 8. **Nichts posten, verschicken, anlegen** (auch keine Trello-Karten oder Mails) ohne Monis Okay. Alles sind Entwürfe.
 9. **0 € Budget:** Keine kostenpflichtigen Tools. Magnific nur, wenn Moni es ausdrücklich sagt, vorher Kosten-Check.
 10. **Ablage:** `derner-team/<bereich>/JJJJ-MM-TT-thema.md` – nie unter `pottpic-team/`. Bereiche: `social-media`, `mitglieder`, `buero`, `events`, `partner-web`, `recherche`, `umsetzung`, `schnell`.
 11. **Unklar?** Erst kurz nachfragen, dann loslegen.
+12. **Skill `reel-schnitt` für Vereins-Reels:** Nutzen, nicht nachbauen – Zuordnung „Derner Schnauzenbande“, Creme + Dunkelgrün, stumm. Der Skill is für Pottpic und Verein gebaut; wo er was anderes sagt, **gilt fürs Derner-Team diese Datei**:
+    - **Hashtags:** max. 5 statt der 8–12 aus dem Skill (Regel 1).
+    - **Musik:** Den Skill-Tipp „Musik in Instagram hinzufügen“ für Vereins-Reels nicht geben – stumm mit Einblendungen oder Originalton (Regel 5).
+    - **Caption:** in der Vereinsstimme („wir“), nicht in Monis Ich-Ton; Pottpic-Credit nach Regel 2.
+    - Threads-/TikTok-Texte aus dem Skill nur, wenn der Verein dort wirklich ein Konto hat (bisher bekannt: nur Instagram + Facebook).
