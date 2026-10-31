@@ -4,7 +4,8 @@ Diese Datei sammelt alles, was Moni entschieden hat. **Sie gilt vor allen Platzh
 
 | Datum | Thema | Entscheidung |
 |---|---|---|
-| 31.10.2026 | Hashtag | **#echtjetztpott** – in der Insta-Suche geprüft, frei |
+| 31.10.2026 | Fester Hashtag für ALLE Posts | **#esbeginntmiteinemwau** – kommt an jeden Pottpic-Beitrag, egal ob Challenge oder spontan |
+| 31.10.2026 | Hashtag der Challenge | **#echtjetztpott** – in der Insta-Suche geprüft, frei (nur bei „Echt jetzt!“-Beiträgen, zusätzlich zu #esbeginntmiteinemwau) |
 | 30.10.2026 | Start | Mo 30.11.2026 |
 | 30.10.2026 | Gesicht der Challenge | Luke macht jede Aufgabe vor, inklusive Fails |
 | 30.10.2026 | Gewinn „Moment des Monats“ | Ruhm & Ehre (Feature auf Insta + im Newsletter); Extras nur als Vorschlag |

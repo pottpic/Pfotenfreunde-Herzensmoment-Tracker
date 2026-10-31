@@ -37,6 +37,7 @@ Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim
 Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
 
 ## Regeln für alle
+- Jeder Pottpic-Beitrag (Insta, Facebook, TikTok) bekommt immer den Hashtag **#esbeginntmiteinemwau** – zusätzlich zu den anderen Hashtags.
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
 - Ergebnisse als Markdown unter `pottpic-team/<bereich>/JJJJ-MM-TT-thema.md` ablegen.
 - Keine erfundenen Zahlen, Kunden oder Bewertungen. Was geschätzt ist, als Schätzung markieren.
