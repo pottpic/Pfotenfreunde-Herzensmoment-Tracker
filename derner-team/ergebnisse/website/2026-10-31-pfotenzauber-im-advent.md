@@ -28,14 +28,14 @@ Schnapp dir deine Menschen und komm mit auf die Wiese! Am Samstag, 28. November,
 **Was dich erwartet:**
 - **Genießen & klönen:** heiße und kalte Getränke, Reibeplätzchen mit Apfelmus, selbst gebackene Kekse für Hund und Mensch, gebrannte Mandeln
 - **Stöbern:** Geschenkideen, Leinen, Halsbänder und Trödel
-- **Pottpic ist vor Ort:** Lern die Hundefotografin kennen und buch gleich dein eigenes Hundeshooting für 'n späteren Termin.
+- **Pottpic ist vor Ort:** Lern Pottpic kennen und buch gleich dein eigenes Hundeshooting für 'n späteren Termin.
 
 ### Einladung
 Also: Menschen schnappen, ggf. Hund einpacken, ab auf die Wiese. Komm einfach vorbei, is schön, wenn du da bist – ich mein, wirklich. 🐾
 
 Fragen vorab? Schreib uns: dernerschnauzenbande@web.de · www.dernerschnauzenbande.de
 
-> Hinweis an Moni: Die Floskel „Wir freuen uns, wenn du vorbeischaust“ ist raus, die Einladung klingt jetzt nach dir. Ändere gern noch was in deine Worte.
+> Hinweis an Moni: Ändere gern noch was in deine Worte.
 
 ### Impressum / Datenschutz – bitte prüfen (keine Rechtsberatung)
 - [ ] Sind Impressum- und Datenschutz-Link auf der neuen Seite/im Footer von ClubDesk sichtbar? (bitte prüfen)

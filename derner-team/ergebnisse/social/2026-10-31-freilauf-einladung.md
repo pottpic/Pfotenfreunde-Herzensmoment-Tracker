@@ -2,7 +2,7 @@
 
 Status: final, wartet auf Monis Freigabe. Gepostet wird nichts.
 
-Verwendete Fakten: beaufsichtigter Freilauf, mittwochs ab 17 Uhr, alle Hundeleute eingeladen (nicht nur Mitglieder), vorher kurz melden per E-Mail dernerschnauzenbande@web.de (steht auf dem Vereinsflyer) bzw. über www.dernerschnauzenbande.de, Derner Straße 415, 44329 Dortmund. Kosten, Impfpass und Regeln werden bewusst nicht genannt. Stimmung: Herbst, früh dunkel.
+Verwendete Fakten: beaufsichtigter Freilauf, mittwochs ab 17 Uhr, alle Hundeleute eingeladen (nicht nur Mitglieder), vorher kurz melden per E-Mail dernerschnauzenbande@web.de, Derner Straße 415, 44329 Dortmund. Kosten, Impfpass und Regeln werden bewusst nicht genannt. Stimmung: Herbst, früh dunkel.
 
 ## Instagram
 
@@ -30,7 +30,7 @@ Es wird grade echt früh dunkel, und trotzdem brauchen unsere Hunde ihre Runde �
 
 Deshalb sagen wir ma Bescheid: Bei uns gibt's mittwochs ab 17 Uhr den beaufsichtigten Freilauf. Und das Beste: Du musst nich im Verein sein. Alle Hundeleute sind eingeladen, ob mit oder ohne Mitgliedschaft.
 
-Meld dich nur vorher kurz bei uns, per Mail an dernerschnauzenbande@web.de oder über unsere Website. Dann bring deinen Hund ma mit und schau, wie's euch gefällt, weißt du.
+Meld dich nur vorher kurz bei uns, per Mail an dernerschnauzenbande@web.de. Dann bring deinen Hund ma mit und schau, wie's euch gefällt, weißt du.
 
 📍 Derner Straße 415, 44329 Dortmund
 ✉️ dernerschnauzenbande@web.de
@@ -48,7 +48,7 @@ Ein echtes Foto vom Freilauf (Hunde in Bewegung auf dem Platz, am besten im Aben
 
 ## Stand
 
-- Text final, ohne Lücken: Anmeldung = vorher kurz melden (Mail steht auf dem Vereinsflyer).
+- Text final, ohne Lücken: Anmeldung = vorher kurz melden per Mail an dernerschnauzenbande@web.de.
 - Kosten, Impfpass, Regeln: bewusst nicht genannt.
 - Bild: noch offen, echtes Foto (Reel-Dreh am 4.11. liefert evtl. Material) oder Flyer.
 - Hashtags: 5 pro Post, bei Bedarf einen streichen.

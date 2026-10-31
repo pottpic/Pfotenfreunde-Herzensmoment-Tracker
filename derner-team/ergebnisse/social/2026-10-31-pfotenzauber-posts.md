@@ -4,7 +4,7 @@ Status: Entwurf, wartet auf Monis Freigabe. Gepostet wird nichts.
 
 Fakten (von Moni, 31.10.2026): Sa 28.11.2026 ab 15 Uhr, Wiese/Platz Derner Straße 415, 44329 Dortmund. Für alle, mit Hund oder ohne, keine Anmeldung, einfach vorbeikommen. Heiße und kalte Getränke, Reibeplätzchen mit Apfelmus, selbst gebackene Kekse für Hund und Mensch, gebrannte Mandeln. Stöbern: Geschenkideen, Leinen, Halsbänder, Trödel. Pottpic (Hundefotografie) ist vor Ort, man kann ein Shooting für später buchen.
 Bewusst nicht genannt: Ende, Preise (Monis Linie: „Das siehst du, wenn du kommst.“).
-Hashtags: je Post 3–6, kein #esbeginntmiteinemwau (das gehört zu Pottpic, nicht hierher).
+Hashtags: je Post 3–6, kein Pottpic-Hashtag.
 Bild: Vereinsflyer. KI-Illustration ist erlaubt, aber nur dosiert. Rückblick immer mit echten Fotos.
 
 ---
@@ -35,9 +35,9 @@ Sa 28.11., 15 Uhr: Wir machen die Wiese weihnachtlich – und alle sind eingelad
 
 **Hauptvariante**
 
-Der Pfotenzauber im Advent is da, und du bist eingeladen. 🎄
+Der Pfotenzauber im Advent kommt, und du bist eingeladen. 🎄
 
-Am Samstag, 28.11., ab 15 Uhr verwandeln wir unsere Wiese an der Derner Straße 415 in 'n kleinen Adventstreff. Du kannst mit Hund kommen oder auch ohne, ich mein, Hundeleute und Hundefreunde sind halt alle willkommen. Anmelden musst du dich nich, einfach vorbeikommen.
+Am Samstag, 28.11., ab 15 Uhr verwandeln wir unsere Wiese an der Derner Straße 415 in 'n kleinen Adventstreff. Du kannst mit Hund kommen oder auch ohne, ich mein, Hundeleute und Hundefreunde sind halt alle willkommen. Anmelden musst du dich nich, und Eintritt kostet nix, einfach vorbeikommen.
 
 Das erwartet dich:
 🍪 selbst gebackene Kekse für Hund und Mensch

@@ -46,12 +46,13 @@ Dunkelgrün **#2F5D50** und Creme **#FAF1E0**, z. B. Creme-Schrift auf grünem B
 | Clip 3–4 | **Beaufsichtigter Freilauf** |
 | Clip 5–6 | **Alle Hundeleute willkommen** |
 | Schluss | **Derner Straße 415, Dortmund** |
+| Schluss (2. Zeile) | **Vorher kurz melden** |
 
 (Kein Logo-Zwang; falls gewünscht, kleines Vereinslogo am Ende.)
 
 ## 3 Cover-Ideen
 1. **Hund-Nahaufnahme** (Clip 1 oder 3), darüber auf grünem Balken in Creme: „Freilauf – mittwochs ab 17 Uhr“.
-2. **Gruppenbild** der Hunde/Leute in der Dämmerung, Creme-Schrift „Komm mit deinem Hund vorbei“.
+2. **Gruppenbild** der Hunde/Leute in der Dämmerung, Creme-Schrift „Meld dich – und bring deinen Hund mit“.
 3. **Cremefarbene Fläche** mit dunkelgrünem Text „Mittwochs ab 17 Uhr ist Freilauf“ und ein kleiner Hunde-Ausschnitt (Pfote/Nase) unten.
 
 ## Caption-Entwurf (Moni prüft)
@@ -59,7 +60,7 @@ Dunkelgrün **#2F5D50** und Creme **#FAF1E0**, z. B. Creme-Schrift auf grünem B
 > Und eigentlich sind alle Hundeleute eingeladen, nicht nur Mitglieder. Komm mit, ich mein: schnüffeln, quatschen, flitzen, halt das volle Programm. Meld dich vorher kurz bei uns (dernerschnauzenbande@web.de), dann weiß ich Bescheid.
 > 📍 Derner Straße 415, 44329 Dortmund
 >
-> #dernerschnauzenbande #freilauf #hundedortmund
+> #dernerschnauzenbande #freilauf #hundesportdortmund #dortmund
 
 (Nur Fakten aus dem Vereinskontext. Hashtags sind Vorschlag.)
 
