@@ -4,6 +4,8 @@ Diese Datei sammelt alles, was Moni entschieden hat. **Sie gilt vor allen Platzh
 
 | Datum | Thema | Entscheidung |
 |---|---|---|
+| 31.10.2026 | Luke | **Luke ist ein schwarzer Labrador** (Foto liegt unter `pottpic-team/team/leitwolf-foto.webp`) |
+| 31.10.2026 | Leitwolf-Bild | Moni mit Luke – Leitwolf ist Monis „Chefin“-Rolle im Team |
 | 31.10.2026 | Fester Hashtag für ALLE Posts | **#esbeginntmiteinemwau** – kommt an jeden Pottpic-Beitrag, egal ob Challenge oder spontan |
 | 31.10.2026 | Hashtag der Challenge | **#echtjetztpott** – in der Insta-Suche geprüft, frei (nur bei „Echt jetzt!“-Beiträgen, zusätzlich zu #esbeginntmiteinemwau) |
 | 30.10.2026 | Start | Mo 30.11.2026 |
@@ -14,5 +16,5 @@ Diese Datei sammelt alles, was Moni entschieden hat. **Sie gilt vor allen Platzh
 ## Noch offen
 - @Handle (Annahme: @pottpic)
 - Zählt nur Instagram oder auch Facebook/TikTok? (Vorschlag: nur Instagram)
-- Passen die Vormach-Ideen zu Luke? Rasse, Alter, Fell, Umgang mit Böllern
+- Passen die Vormach-Ideen zu Luke? Alter, Umgang mit Böllern
 - Weitere offene Punkte: siehe `2026-10-30-echt-jetzt-startklar.md`, Abschnitt „Das musst du noch entscheiden“
