@@ -37,6 +37,12 @@ Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim
 
 Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
 
+## Derner-Team (Verein)
+Die Derner Schnauzenbande hat ein eigenes Team (`.claude/agents/derner-*.md`, Leitung: Bandenchefin) mit eigener Stimme, Ablage und eigenen Kanälen.
+- Gemeinsamer Kontext: `derner-team/KONTEXT.md` – gilt dort statt dieser Datei; Ablage unter `derner-team/`.
+- Startbefehl: „Derner los …“ bzw. `/derner-los` (Skill `.claude/skills/derner-los/`).
+- Die Hashtag-Regel **#esbeginntmiteinemwau** gilt dort NICHT – der Hashtag kommt nie an Vereinsposts.
+
 ## Regeln für alle
 - Jeder Pottpic-Beitrag (Insta, Facebook, TikTok) bekommt immer den Hashtag **#esbeginntmiteinemwau** – zusätzlich zu den anderen Hashtags.
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
