@@ -5,7 +5,15 @@ description: Startet das Pottpic-Team für ein Thema oder Projekt von Moni – f
 
 # Team los!
 
-Du bist die Teamleitung des Pottpic-Teams (siehe `CLAUDE.md`, Team-Tabelle). Moni hat ein Thema genannt (Argument nach `/team-los`). Arbeite so:
+Du bist **Leitwolf**, der Chef des Pottpic-Teams (siehe `CLAUDE.md`, Team-Tabelle). Moni hat ein Thema genannt (Argument nach `/team-los`). Lies zuerst `pottpic-team/umsetzung/echt-jetzt-entscheidungen.md` und andere Entscheidungs-Dateien – Monis Entscheidungen gelten vor allen Platzhaltern.
+
+## 0. Klein oder groß?
+- **Klein** – ein einzelner Beitrag oder Text: ein spontaner Post, ein Bild-Post, ein Karussell, ein Reel/Video, eine Story, eine Caption, eine Antwort auf einen Kommentar, eine Newsletter-Idee. Dann KEIN Briefing und KEINE Runden: Hol dir direkt die zuständige Kollegin (meist `social-media`, bei Video `video-creator` + `social-media`), lass sie den Beitrag fertig machen, gib ihn Moni direkt im Chat (fertig zum Kopieren) und leg ihn zusätzlich unter `pottpic-team/schnell/JJJJ-MM-TT-<kurzname>.md` ab (committen, pushen). Höchstens eine Rückfrage, und nur wenn wirklich was fehlt.
+- **Groß** – eine Aktion, ein Projekt, ein Plan über mehrere Wochen oder mehrere Kanäle: dann wie unten in Runden.
+
+Im Zweifel: klein anfangen und anbieten, daraus eine Aktion zu machen.
+
+Arbeite bei großen Sachen so:
 
 ## 1. Kurz nachfragen
 Stell Moni 2–4 Fragen zum Anklicken (AskUserQuestion), nur was du wirklich brauchst: Ziel, Zeitrahmen/Starttermin, wer mitmachen soll, feste Vorgaben (Preise, Termine, Budget – 0 € ist Standard). Wenn Moni schon alles gesagt hat, überspring das.

@@ -7,7 +7,7 @@ Grundlage: Briefing `umsetzung/2026-10-30-echt-jetzt-briefing.md`, Grundgerüst 
 
 | Platzhalter | Bedeutung | Arbeits-Favorit (nicht bestätigt) |
 |---|---|---|
-| **[HASHTAG]** | der eine Projekt-Hashtag | **#echtjetztpott** (Ausweich: #echtjetztpottpic) – Belegung in der Insta-Suche prüfen |
+| **#echtjetztpott** | der eine Projekt-Hashtag | **#echtjetztpott** – von Moni am 31.10. geprüft und entschieden (frei) |
 | **[@HANDLE]** | Monis Instagram-Name | **@pottpic** – bitte bestätigen |
 | **[ZÄHLT-FB-TIKTOK]** | zählen Beiträge auf FB/TikTok mit? | Plan geht von **nur Instagram** aus (Hashtag, Markierung, DM). FB/TikTok = Reichweite, nicht Einsendung |
 | **[RASSE]** | Lukes Rasse | nicht im Repo – taucht nur optional im Hashtag-Pool auf, Captions kommen ohne aus |
@@ -25,11 +25,11 @@ Grundlage: Briefing `umsetzung/2026-10-30-echt-jetzt-briefing.md`, Grundgerüst 
 ### Bio (max. 150 Zeichen)
 - **A – Vorlauf (16.–29.11.), 146 Zeichen mit #echtjetztpott:**
   > Hundefotografie im Pott 📸 Alltag statt Perfektion, mit Luke.
-  > Echt jetzt! Ab 30.11. montags 'ne Aufgabe · [HASHTAG]
+  > Echt jetzt! Ab 30.11. montags 'ne Aufgabe · #echtjetztpott
   > Mitmachen ohne Anmeldung ↓
 - **B – ab 30.11. (141 Zeichen):**
   > Hundefotografie im Pott 📸 Alltag statt Perfektion, mit Luke.
-  > Echt jetzt! Jeden Montag 'ne Aufgabe · [HASHTAG]
+  > Echt jetzt! Jeden Montag 'ne Aufgabe · #echtjetztpott
   > Mitmachen ohne Anmeldung ↓
 - Bis 16.11. bleibt die jetzige Bio, damit der Teaser am 05.11. nix verrät.
 - Kategorie im Profil: „Fotograf:in“, Ort Dortmund (falls nicht schon drin).
@@ -66,7 +66,7 @@ Falls es schon ein Highlight „Luke“ gibt: in „Echt jetzt!“ aufgehen lass
 - **[ZÄHLT-FB-TIKTOK]:** Solange offen, steht in FB/TikTok-Captions „Mitmachen läuft über Insta“. Wenn Moni FB/TikTok zählen lässt: Satz tauschen + 15 Min/Woche mehr Sichtzeit einplanen (Schätzung).
 
 ### Was Moni vorher kurz erledigt (Checkliste)
-- [ ] [HASHTAG] in der Insta-Suche prüfen (Mo 02.11.)
+- [x] #echtjetztpott in der Insta-Suche geprüft – frei (31.10.)
 - [ ] [@HANDLE] bestätigen
 - [ ] Handy-Album „Echt jetzt – Einsendungen“ und „Reposts OK“ anlegen
 - [ ] Meta Business Suite: Insta + FB verbunden? (kostenlos, zum Vorplanen)
@@ -85,7 +85,7 @@ Ziel: Neugier aufbauen, Profil vorbereiten, Guide als Vertrauens-Post, Regeln er
 | Do 05.11. | Story | Repost Teaser + Schieberegler „Wie viele Hundefotos hast du auf'm Handy?“ | Interaktion | – |
 | **Mo 09.11.** | Story (3 Frames) | Quiz „Wo pennt Luke am liebsten?“ A) teures Hundebett B) Sofa C) mein Platz. Auflösung Mi. Spoilert W1 an, ohne es zu sagen. | Interaktion | 1 Foto Hundebett leer, 1 Foto Luke |
 | Mi 11.11. | Story | Quiz-Auflösung + „Hebt euch das ma auf, ich brauch das bald.“ | Neugier | Foto Lukes Lieblingsplatz |
-| **Mo 16.11.** | **Reel Teaser 2 – Reveal** (Insta + FB + TikTok) | Lukes Fails im Schnelldurchlauf → „Perfekt is langweilig.“ → „Echt jetzt! – ab 30.11. jeden Montag 'ne Aufgabe“ → [HASHTAG]. **Bio auf Variante A, Highlight „Echt jetzt!“ anlegen.** | Reichweite | 5–8 Luke-Outtakes (Fotos oder Clips) – Schnittpfote R-T2 |
+| **Mo 16.11.** | **Reel Teaser 2 – Reveal** (Insta + FB + TikTok) | Lukes Fails im Schnelldurchlauf → „Perfekt is langweilig.“ → „Echt jetzt! – ab 30.11. jeden Montag 'ne Aufgabe“ → #echtjetztpott. **Bio auf Variante A, Highlight „Echt jetzt!“ anlegen.** | Reichweite | 5–8 Luke-Outtakes (Fotos oder Clips) – Schnittpfote R-T2 |
 | Mo 16.11. | Story | Reel teilen + Fragen-Sticker „Wie heißt dein Hund?“ | Community | – |
 | **Do 19.11.** | **Carousel: Guide-Kurzversion** (8 Slides, Insta + FB-Album, TikTok Foto-Modus) | Text fertig im Guide, Teil 1. Slide 8 klar getrennt: Guide per Mail, Challenge ohne. **Voraussetzung:** CleverReach-Formular live (Postpfote). Sonst Slide 8 ohne Mail-Hinweis und Guide-Satz später in Story nachreichen. Caption: 4.2 | Vertrauen + Newsletter | Bilder laut Guide Teil 3 (Cover Nr. 8 oder 25, Slide 8 ein Schüttel-Fail) |
 | Sa 21.11. | Story | Slide 2 + 3 vom Guide als Story → Highlight „Foto-Tipps“ | Vertrauen | aus Carousel |
@@ -145,7 +145,7 @@ Monatsende (nach jedem 4-Wochen-Block): Moment des Monats auswählen (15) + Caro
 Kommentare/DMs: jede Woche Mo nach Post + So. Album-Screenshots von Story-Einsendungen laufend (24-h-Problem).
 
 ### Hashtags (5–12 pro Post, Pool – Belegung/Passung vor Nutzung kurz checken)
-- **Immer:** [HASHTAG]
+- **Immer:** #echtjetztpott
 - **Lokal:** #ruhrgebiet #ruhrpott #dortmund #dorstfeld #hundeimpott #hundedortmund #ruhrpotthunde
 - **Nische:** #hundealltag #hundeliebe #hundemomente #echtehunde #handyfotografie #hundefotografie #hundefotografieruhrgebiet
 - **Optional:** #[RASSE] bzw. Rasse-Community-Tag, sobald Moni Lukes Rasse nennt
@@ -180,13 +180,13 @@ Kommentare/DMs: jede Woche Mo nach Post + So. Album-Screenshots von Story-Einsen
 >
 > Welcher Tipp is für dich neu?
 >
-> [HASHTAG] #handyfotografie #hundefotografie #hundealltag #hundemomente #ruhrgebiet #dortmund #hundeimpott #echtehunde
+> #echtjetztpott #handyfotografie #hundefotografie #hundealltag #hundemomente #ruhrgebiet #dortmund #hundeimpott #echtehunde
 
 ### 4.3 Launch-Post – Carousel, Mo 30.11., 12 Uhr (angepinnt)
 **Slides (Vorschlag, Text für Macherpfote):**
 1. Luke quer auf'm Sofa · „Echt jetzt! geht los.“
 2. „Jeden Montag 'ne kleine Aufgabe. Du hältst fest, wie's bei euch wirklich is.“
-3. „So machst du mit: Handy raus, Moment festhalten, posten mit [HASHTAG] oder [@HANDLE] markieren. Privates Profil? Schick's mir per DM.“
+3. „So machst du mit: Handy raus, Moment festhalten, posten mit #echtjetztpott oder [@HANDLE] markieren. Privates Profil? Schick's mir per DM.“
 4. „Anmelden musst du dich nirgends. Der Newsletter is 'n Extra, kein Eintritt.“
 5. „Einmal pro Monat stell ich den ehrlichsten Moment vor. Nicht den schönsten Hund. Den ehrlichsten.“
 6. „Wenn dein Hund keinen Bock hat, is das auch 'n Ergebnis.“ · „Aufgabe 1 kommt heut um sechs.“
@@ -196,13 +196,13 @@ Kommentare/DMs: jede Woche Mo nach Post + So. Album-Screenshots von Story-Einsen
 >
 > Die Idee is eigentlich ganz einfach: Jeden Montag gibt's 'ne kleine Aufgabe, und du hältst halt fest, wie's bei euch wirklich is. Mit'm Handy, im Alltag, ohne dass irgendwer „Sitz, bleib, guck ma hier“ rufen muss. Luke macht's jedes Mal vor, auch wenn's komplett danebengeht. Und das wird's, glaub mir.
 >
-> Mitmachen: Post's mit [HASHTAG] oder markier mich, dann seh ich's. Privates Profil? Dann schick's mir per DM. Anmelden musst du dich nirgends. Alles Weitere steht in den Slides und oben im Profil.
+> Mitmachen: Post's mit #echtjetztpott oder markier mich, dann seh ich's. Privates Profil? Dann schick's mir per DM. Anmelden musst du dich nirgends. Alles Weitere steht in den Slides und oben im Profil.
 >
 > Einmal im Monat stell ich den ehrlichsten Moment vor. Ich frag vorher immer per DM, ob ich deinen Beitrag teilen darf – und zwar nur von [@HANDLE] aus, nie mit Link oder Fragen nach Kontodaten.
 >
 > Wie heißt dein Hund? Schreib's mir, dann weiß ich schon ma, wen ich bald sehe.
 >
-> [HASHTAG] #hundealltag #hundeimpott #ruhrgebiet #ruhrpott #dortmund #dorstfeld #hundemomente #echtehunde #hundefotografieruhrgebiet
+> #echtjetztpott #hundealltag #hundeimpott #ruhrgebiet #ruhrpott #dortmund #dorstfeld #hundemomente #echtehunde #hundefotografieruhrgebiet
 
 ### 4.4 Aufgabe W1 – Reel, Mo 30.11., 18 Uhr
 **Einblendungen:** „Echt jetzt! · Aufgabe 1“ → „Wo pennt dein Hund am liebsten?“ → (Luke auf dem Platz) → „Nicht das teure Hundebett.“ → „Den echten Platz.“
@@ -215,21 +215,21 @@ Kommentare/DMs: jede Woche Mo nach Post + So. Album-Screenshots von Story-Einsen
 >
 > Aufgabe 1: Zeig mir, wo dein Hund am liebsten pennt. Den echten Platz, nicht den, wo er schlafen soll.
 >
-> Post's mit [HASHTAG] oder markier mich, bis Sonntag. Später geht auch noch, weißt du. Und bitte nich wecken fürs Foto, kein Blitz – Fensterlicht reicht, dazu Mittwoch mehr.
+> Post's mit #echtjetztpott oder markier mich, bis Sonntag. Später geht auch noch, weißt du. Und bitte nich wecken fürs Foto, kein Blitz – Fensterlicht reicht, dazu Mittwoch mehr.
 >
 > Wenn dein Hund keinen Bock hat, is das auch 'n Ergebnis.
 >
 > Also: Wo liegt deiner grad?
 >
-> [HASHTAG] #hundealltag #hundeimpott #ruhrgebiet #dortmund #dorstfeld #hundeliebe #handyfotografie #hundemomente
+> #echtjetztpott #hundealltag #hundeimpott #ruhrgebiet #dortmund #dorstfeld #hundeliebe #handyfotografie #hundemomente
 
 **FB, erster Satz:** „Wer im Pott hat auch so 'n Hund, der das Sofa für sich beansprucht?“ · Schluss: „Mitmachen läuft über Insta [@HANDLE], hier freu ich mich aber genauso über eure Geschichten.“ *(Satz anpassen, falls [ZÄHLT-FB-TIKTOK] = ja)*
-**TikTok-Einblendung Sek. 0:** „Wir haben 'n teures Hundebett.“ → Schnitt auf Luke auf Monis Kissen. Caption kurz: „Wo pennt deiner? Echt jetzt! – jeden Montag 'ne Aufgabe, mitmachen auf Insta [@HANDLE] [HASHTAG]“
+**TikTok-Einblendung Sek. 0:** „Wir haben 'n teures Hundebett.“ → Schnitt auf Luke auf Monis Kissen. Caption kurz: „Wo pennt deiner? Echt jetzt! – jeden Montag 'ne Aufgabe, mitmachen auf Insta [@HANDLE] #echtjetztpott“
 
 ### 4.5 Story-Texte Aufgaben-Montag (Vorlage, hier mit W1 gefüllt)
 - **Frame 1 (Reel teilen):** „Neue Woche, neue Aufgabe. Echt jetzt!“
 - **Frame 2 (Luke-Foto):** „Aufgabe 1: Wo pennt dein Hund am liebsten? Den echten Platz, bitte.“
-- **Frame 3:** „So geht's: Foto oder kurzes Video mit'm Handy · posten mit [HASHTAG] oder [@HANDLE] markieren · privates Profil? Schick's per DM. Anmelden musst du dich nirgends.“
+- **Frame 3:** „So geht's: Foto oder kurzes Video mit'm Handy · posten mit #echtjetztpott oder [@HANDLE] markieren · privates Profil? Schick's per DM. Anmelden musst du dich nirgends.“
 - **Frame 4 (Tierwohl):** „Nich wecken fürs Foto, kein Blitz. Und wenn dein Hund keinen Bock hat, is das auch 'n Ergebnis.“
 - **Frame 5:** Fragen-Sticker **„Zeig ma!“** + optional Link-Sticker „Aufgabe im Tracker“ → [TRACKER-URL]
 - Alles ins Highlight „Aufgaben“.
@@ -254,7 +254,7 @@ Kommentare/DMs: jede Woche Mo nach Post + So. Album-Screenshots von Story-Einsen
 >
 > Welcher is euer Liebling?
 >
-> [HASHTAG] #hundemomente #hundeimpott #ruhrgebiet #hundealltag #echtehunde
+> #echtjetztpott #hundemomente #hundeimpott #ruhrgebiet #hundealltag #echtehunde
 
 **d) Liebe DM, wenn wir nich teilen (z. B. gestresster Hund, Silvester):**
 > Danke dir fürs Mitmachen! Den Moment zeig ich nich bei mir, weil [Hundename] da 'n bisschen gestresst aussieht, und da bin ich lieber vorsichtig, weißt du. Ich drück euch und freu mich auf den nächsten. 🐾
@@ -263,7 +263,7 @@ Kommentare/DMs: jede Woche Mo nach Post + So. Album-Screenshots von Story-Einsen
 > Hey du, ich starte am 30.11. was Kleines auf Insta: jeden Montag 'ne Foto-Aufgabe für Hundemenschen, ganz ohne Posen, Handy reicht. Die erste is „Wo pennt dein Hund am liebsten?“. Hättest du Lust, in der ersten Woche mitzumachen? Wär so schön, wenn da nich nur Luke rumliegt. Und wenn nich, is auch total okay!
 
 ### 4.7 Kurz-Antworten für Kommentare/DMs
-- „Muss ich mich anmelden?“ → „Nee, gar nich! Posten mit [HASHTAG] oder mich markieren reicht. Der Newsletter is nur 'n Extra mit Foto-Tipps.“
+- „Muss ich mich anmelden?“ → „Nee, gar nich! Posten mit #echtjetztpott oder mich markieren reicht. Der Newsletter is nur 'n Extra mit Foto-Tipps.“
 - „Mein Profil is privat.“ → „Dann schick's mir einfach per DM, sonst seh ich's nämlich nich.“
 - „Mein Hund hat keinen Bock.“ → „Dann is das dein Ergebnis diese Woche, ehrlich. Zählt genauso.“
 - „Darf ich ältere Fotos nehmen?“ → „Klar, Hauptsache von dir und echt. Nur keine Profi-Shooting-Bilder.“
@@ -277,7 +277,7 @@ Die Aufgaben, Tage und Tierwohl-Punkte stehen fest im Grundgerüst – Drehliste
 | ID | Datum | Reel | Ziel | Muss rein |
 |---|---|---|---|---|
 | R-T1 | Do 05.11. | Teaser 1 „Ich hab da was vor … echt jetzt.“ (7–10 Sek.) | Reichweite/Neugier | **Kein Name, kein Hashtag.** Luke skeptisch |
-| R-T2 | Mo 16.11. | Teaser 2 Reveal: Luke-Fails → „Perfekt is langweilig“ → Name + „ab 30.11.“ + [HASHTAG] | Reichweite | 5–8 Outtakes, Hashtag als Platzhalter-Ebene, bis Moni bestätigt |
+| R-T2 | Mo 16.11. | Teaser 2 Reveal: Luke-Fails → „Perfekt is langweilig“ → Name + „ab 30.11.“ + #echtjetztpott | Reichweite | 5–8 Outtakes, Hashtag als Platzhalter-Ebene, bis Moni bestätigt |
 | R-T3 | Do 26.11. (optional, sonst Do 10.12.) | „So machst du deine Erinnerungskarte“ (Bildschirmaufnahme, 15 Sek.) | Tracker-Nutzung | nur wenn Tracker-Änderungen live |
 | R1 | **Mo 30.11.** | W1 „Wo pennt er am liebsten?“ – **Launch** | Reichweite + Community | Einblendungen aus 4.4; nicht wecken, kein Blitz |
 | R2 | Mo 07.12. | W2 „Das Leckerli-Gesicht“ | Reichweite + Community | Serienbild-Fail „schon geklaut“; Leckerli gibt's immer |
@@ -294,7 +294,7 @@ Die Aufgaben, Tage und Tierwohl-Punkte stehen fest im Grundgerüst – Drehliste
 ---
 
 ## Offene Fragen an Moni (aus Social-Sicht)
-1. [HASHTAG] frei? [@HANDLE] = @pottpic?
+1. #echtjetztpott frei? [@HANDLE] = @pottpic?
 2. [ZÄHLT-FB-TIKTOK]: nur Insta (mein Vorschlag) oder auch FB/TikTok?
 3. Lukes Rasse – für den optionalen Rasse-Hashtag.
 4. Moment des Monats Block 1: 28./29.12. oder 11./12.01.?
