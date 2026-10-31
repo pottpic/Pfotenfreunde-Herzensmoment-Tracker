@@ -34,7 +34,7 @@ Die Clips stehen schon hochkant (Rotation von ffmpeg korrigiert), also gibt's **
 | 6,7–9,9 s | **Pfützen-Kontrolle läuft.** | kleiner Hund schnüffelt am nassen Wegrand |
 | 10,1–13,2 s | **Auto riecht gleich nach nassem Hund.** | alle laufen weiter durch den Regen |
 | 13,4–15,1 s | **Pitschnass. Aber schön war's.** | schwarzer Hund, Gruppe am Horizont |
-| 15,0–18,0 s | Endkarte: **Derner Schnauzenbande** · Hundesportverein in Dortmund-Derne · Neugierig? Schreib uns! · @dernerschnauzenbande · dernerschnauzenbande.de · darunter klein und dezent: *Video: Pottpic* (Inter Medium, 30 px, 60 % Deckkraft, y≈1450) | Infos nur aus KONTEXT.md, Credit von Moni bestätigt |
+| 15,0–18,0 s | Endkarte: **Derner Schnauzenbande** · Hundesportverein in Dortmund-Derne · Neugierig? Schreib uns! · @dernerschnauzenbande · www.dernerschnauzenbande.de · dernerschnauzenbande@web.de · darunter klein und dezent: *Video: Pottpic* (Inter Medium, 30 px, 60 % Deckkraft) | Website laut KONTEXT.md, Mail und Credit von Moni bestätigt (31.10.) |
 
 Schrift: Inter Bold (Poppins is hier nicht installiert).
 
