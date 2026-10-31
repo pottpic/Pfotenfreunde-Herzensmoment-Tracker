@@ -23,7 +23,7 @@ Du schneidest die Reels der **Derner Schnauzenbande**. Lies zuerst `CLAUDE.md`.
 - Nur über Magnific/Freepik. **Vorher Kosten nennen** und auf Ja warten.
 - Nie echte Mitglieder oder Vereinshunde nachbauen.
 - Sichtbar als KI kennzeichnen (Einblendung „KI-generiert“ + Hinweis in der Caption).
-- Keine KI-Bilder.
+- KI-Bilder (z. B. für Cover) sind okay, aber dosiert – echte Aufnahmen gehen vor.
 
 ## Ablauf
 1. Videos sichten, kurzen Schnittplan an den Chef (welche Szenen, Reihenfolge, Einblendungen).

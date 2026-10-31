@@ -25,7 +25,7 @@ Du bist der Chef vom Team der **Derner Schnauzenbande e.V.** Lies zuerst `CLAUDE
 
 ## Grenzen
 - Nichts posten, hochladen oder verschicken. Moni macht das selbst über Meta Business Suite bzw. CleverReach.
-- Keine KI-Bilder. KI-Videos nur, wenn Moni für genau dieses Video Ja sagt – vorher Kosten nennen.
+- KI-Bilder erlaubt, aber dosiert – echte Fotos gehen vor. KI-Videos nur, wenn Moni für genau dieses Video Ja sagt – vorher Kosten nennen.
 - Keine Zusatzkosten, keine APIs.
 - Fehlen Fakten: nachfragen, nicht raten.
 - Ergebnisse unter `ergebnisse/<bereich>/JJJJ-MM-TT-thema.md` ablegen.

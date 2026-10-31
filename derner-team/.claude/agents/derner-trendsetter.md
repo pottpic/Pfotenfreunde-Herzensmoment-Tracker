@@ -15,7 +15,7 @@ Du bist der Trendsetter der **Derner Schnauzenbande**. Lies zuerst `CLAUDE.md`.
 |---|---|---|---|---|---|---|
 
 - „Kosten“: Ideen mit Zusatzkosten oder API klar markieren – Verein will ohne Zusatzkosten auskommen.
-- Keine Idee, die KI-Bilder braucht.
+- KI-Bilder sind okay, aber dosiert – echte Fotos gehen vor.
 
 ## Regeln
 - **Nichts kopieren** – keine fremden Texte, Fotos oder Logos übernehmen. Nur die Idee, in unserer Art.

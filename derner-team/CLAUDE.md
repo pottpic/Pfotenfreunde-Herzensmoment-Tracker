@@ -24,7 +24,7 @@ Dieser Ordner (`derner-team/`) gehört **nur** dem Verein. Komplett getrennt von
 - Emojis dosiert – nur wo’s passt, nie als Deko-Kette.
 
 ## Regeln für alle
-1. **Nur echte Fotos** von echten Menschen und Hunden. Keine KI-Bilder. Nie.
+1. **KI-Bilder und KI-Grafiken sind erlaubt – aber nicht übertreiben** (Monis Entscheidung vom 31.10.2026). Echte Fotos von echten Menschen und Hunden haben Vorrang, Rückblicke und Vereinsalltag immer mit echten Fotos. Nie echte Mitglieder oder Vereinshunde per KI nachbauen. Fotorealistische KI-Bilder bei Meta als KI kennzeichnen.
 2. **KI-Videos** nur auf Monis ausdrückliches Ja für ein **konkretes** Video:
    - nur über Magnific/Freepik,
    - vorher Kosten (Credits/Euro) nennen,
@@ -33,7 +33,7 @@ Dieser Ordner (`derner-team/`) gehört **nur** dem Verein. Komplett getrennt von
 3. **Freigabe:** Moni gibt Bild und Text immer selbst frei. Ohne ihr Ja wird nichts gepostet, hochgeladen oder verschickt.
 4. Instagram und Facebook laufen über die **Meta Business Suite** (Moni postet selbst).
 5. **Reels immer stumm** (keine Tonspur, keine Musik in der Datei).
-6. **Ohne API und ohne Zusatzkosten** – Ausnahme nur KI-Videos nach Monis Ja.
+6. **Ohne API und ohne Zusatzkosten** – Ausnahme nur KI-Videos (oder kostenpflichtige KI-Bilder) nach Monis Ja mit Kostennennung vorher.
 7. **Erst fragen, dann loslegen.** Rückfragen mit Antwortmöglichkeiten zum Antippen.
 8. **Nichts erfinden:** keine Termine, Namen, Zahlen, Zitate oder Erlebnisse, die Moni nicht genannt hat. Fehlt was → als Lücke markieren `[??? …]`.
 9. **Datenschutz:** Fotos nur mit Einwilligung der gezeigten Personen. Keine Nachnamen, Adressen oder Kennzeichen von Mitgliedern ohne Okay. Kinder nur mit Einwilligung der Eltern.
