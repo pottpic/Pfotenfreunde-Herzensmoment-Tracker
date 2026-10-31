@@ -34,7 +34,7 @@ Die Clips stehen schon hochkant (Rotation von ffmpeg korrigiert), also gibt's **
 | 6,7–9,9 s | **Pfützen-Kontrolle läuft.** | kleiner Hund schnüffelt am nassen Wegrand |
 | 10,1–13,2 s | **Auto riecht gleich nach nassem Hund.** | alle laufen weiter durch den Regen |
 | 13,4–15,1 s | **Pitschnass. Aber schön war's.** | schwarzer Hund, Gruppe am Horizont |
-| 15,0–18,0 s | Endkarte: **Derner Schnauzenbande** · Hundesportverein in Dortmund-Derne · Neugierig? Schreib uns! · @dernerschnauzenbande · dernerschnauzenbande.de | Infos nur aus KONTEXT.md |
+| 15,0–18,0 s | Endkarte: **Derner Schnauzenbande** · Hundesportverein in Dortmund-Derne · Neugierig? Schreib uns! · @dernerschnauzenbande · dernerschnauzenbande.de · darunter klein und dezent: *Video: Pottpic* (Inter Medium, 30 px, 60 % Deckkraft, y≈1450) | Infos nur aus KONTEXT.md, Credit von Moni bestätigt |
 
 Schrift: Inter Bold (Poppins is hier nicht installiert).
 
@@ -47,7 +47,7 @@ Ehrlich gesagt war's pitschnass, aber die Hunde fanden's super. Jede Pfütze wur
 Wer läuft bei euch bei Schietwetter lieber, Hund oder Mensch? 😅
 
 [Platzhalter: Anlass/Datum der Runde, z. B. „Unsere Gruppenrunde am …“, nur wenn Moni das bestätigt]
-[Nur wenn's von Pottpic gefilmt is: Fotos/Video: Pottpic]
+📸 Video: Pottpic
 
 #dernerschnauzenbande #hundeverein #derne #dortmundmithund
 
@@ -64,9 +64,9 @@ Wer läuft bei euch bei Schietwetter lieber, Hund oder Mensch? 😅
 Nicht nötig. Es ist echtes Material, nur geschnitten und mit Texten versehen.
 
 ## Offene Fragen an Moni
-1. **Menschen von vorne:** In den ersten 6 Sekunden laufen ca. 5 Leute frontal auf die Kamera zu, die Gesichter sind erkennbar. Du hast die Einverständnisse der Hundebesitzer, gilt das auch fürs **Zeigen der Personen**? Falls nicht, nehme ich nur den Rückansicht-Clip (dann ist das Reel ca. 12 s lang).
+1. ~~Menschen von vorne~~ – geklärt: Erlaubnis liegt vor (Moni, 31.10.).
 2. **Anlass/Datum:** Was war das für eine Runde, und wann war die? Kommt nur rein, wenn du's bestätigst.
-3. **Wer hat gefilmt?** Falls du als Pottpic: Credit „Fotos/Video: Pottpic“ in die vorletzte Zeile.
+3. ~~Wer hat gefilmt?~~ – geklärt: Pottpic. Credit klein auf der Endkarte und in der Caption.
 4. **Den alten Schnitt (20eb3d32…mov)** hab ich nicht genutzt. Willst du lieber dessen Sprüche („Regen? Kennen wir nich!“ usw.)? Kann ich in 2 Minuten tauschen.
 5. **Endkarte:** Passt „Neugierig? Schreib uns!“ mit Insta-Handle und Website? Oder soll das Interessenten-Formular (tally.so/r/VLD5by) in die Caption?
 6. **Spruch Nummer 4** hat 6 Wörter statt höchstens 5. Er bleibt aber gut lesbar, ich find ihn am lustigsten.
