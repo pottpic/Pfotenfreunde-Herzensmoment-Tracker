@@ -35,7 +35,7 @@ Filme jeden Clip ruhig **8–10 Sek.** lang, ich schneide draus die Zeit unten.
 - Kurz fragen: „Darf ich dich/euch fürs Reel filmen? Kommt auf Instagram/Facebook vom Verein.“ Wer nein sagt, bleibt raus.
 - Kinder nur mit Okay der Eltern.
 - **Keine Nachnamen** nennen/einblenden, **keine Autokennzeichen** im Bild.
-- Am besten Okay kurz merken (Name/Vorname, Datum), damit's nachvollziehbar is. Foto-Einwilligung: Formular ist in Arbeit (ergebnisse/website/…-foto-einwilligung.md)
+- Am besten Okay kurz merken (Name/Vorname, Datum), damit's nachvollziehbar is. Foto-Hinweis-Schild und Sätze zum mündlich Fragen: `ergebnisse/website/2026-10-31-foto-einwilligung.md`
 
 ## Einblendungen (Vereinsfarben)
 Dunkelgrün **#2F5D50** und Creme **#FAF1E0**, z. B. Creme-Schrift auf grünem Balken oder umgekehrt. Nicht in die oberen/unteren ca. 15 %.
@@ -64,7 +64,7 @@ Dunkelgrün **#2F5D50** und Creme **#FAF1E0**, z. B. Creme-Schrift auf grünem B
 (Nur Fakten aus dem Vereinskontext. Hashtags sind Vorschlag.)
 
 ## Offen
-- `[??? Reicht's Moni, die Einwilligung mündlich zu holen, oder soll's schriftlich sein?]`
+- ✅ Einwilligung: Moni hängt einen Foto-Hinweis auf, bei Nahaufnahmen einzelner Leute kurz mündlich fragen.
 - Wetter am 4.11. unklar – bei Regen Handy mit Tuch schützen.
 
 Nächster Schritt: Moni filmt → schickt die Clips → Schnitt mit FFmpeg → Prüfer → Moni gibt frei. Gepostet wird nur mit ihrem Ja.
