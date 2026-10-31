@@ -260,7 +260,7 @@ Hashtag-Kombis (alle aus der Vereinsstimme, max. 4):
 >
 > Wir bauen grad 'nen Hunde-Stadtplan für Derne und drumherum im Stadtbezirk Scharnhorst – mit Gassi-Wegen, Mülleimern, Beutelspendern und allem, was man mit Hund halt so braucht. Und ehrlich gesagt: Ihr kennt die schönen Ecken doch viel besser als jede Karte.
 >
-> Schick uns deinen Lieblingsort am besten per Nachricht oder über den Fragen-Sticker in unserer Story. Dann gucken wir uns jeden Ort erst ma in Ruhe an, bevor er auf den Plan kommt. Bitte nur öffentliche Orte – keine Adressen, keine Privatwege, weißt du.
+> Schick uns deinen Lieblingsort am besten per Nachricht oder über den Fragen-Sticker in unserer Story. Dann gucken wir uns jeden Ort erst ma in Ruhe an, bevor er auf den Plan kommt. Bitte nur öffentliche Orte – keine Adressen, keine Runden ab der Haustür, keine GPS-Aufzeichnungen aus Apps, weißt du.
 >
 > Bis Sonntag, 7. Februar, sammeln wir. Und jetzt verrat ma: Eher Wald, Wiese oder die Runde um'n Block? 💚
 >
@@ -366,7 +366,7 @@ Hashtag-Kombis (alle aus der Vereinsstimme, max. 4):
 **Caption:**
 > Wo kann man in Derne eigentlich gut mit Hund hin? Hier is unsere Antwort – der Hunde-Stadtplan für Derne. 💚
 >
-> Gassi-Wege, Wald, Mülleimer und Beutelspender, Tierarzt-Infos und 'n paar Regeln, die man kennen sollte – alles auf einer Karte. Und das Beste: Ganz viele Orte kommen von euch. Danke an alle, die uns ihre Lieblingsrunden geschickt haben, ohne euch wär der Plan halb so gut.
+> Gassi-Wege, Wald, Mülleimer und Beutelspender, Tierarzt-Infos und 'n paar Regeln, die man kennen sollte – alles auf einer Karte. Und das Beste: Ganz viele Orte kommen von euch. Danke an alle, die uns ihre Lieblingsrunden geschickt haben, ohne euch wär der Plan halb so gut. [Die zwei Sätze nur, wenn wirklich Orte von Mitgliedern/Followern drauf sind – sonst streichen. *(Abgleich Runde 3, Macherpfote, 31.10.)*]
 >
 > Der Plan is nicht fertig und soll's auch nicht sein. Wenn dein Lieblingsort fehlt, schick ihn uns einfach per Nachricht – wir gucken ihn uns an und nehmen ihn beim nächsten Update mit, wenn's passt. Alles zu Regeln haben wir mit Quelle und Stand drauf; im Zweifel gilt immer, was die Stadt Dortmund sagt.
 >
@@ -412,7 +412,7 @@ Hashtag-Kombis (alle aus der Vereinsstimme, max. 4):
 | Formular-Link aktuell? Frage „Wie bist du auf uns gekommen?“ ergänzen? | Fr 18.12. | alle M-Posts |
 | Trainer:in für Faktencheck (Neu mit Hund, Winter-Tipps, Rückruf) | Fr 18.12. | 12.01., 19.01., 02.02., 13.03. |
 | Foto-Einwilligung im Verein geklärt? | vor Januar | alle mit Menschen |
-| Kontaktweg/Meldeweg für Orte (DM, Vereins-Mail?) | Fr 15.01. | 23.01. |
+| Meldeweg für Orte (Default: Tally „Ort melden“, Vereins-Mail als Rückfall) | **Fr 11.12.** (vor der Rundmail) *(Abgleich Runde 3, Macherpfote, 31.10.)* | 23.01. + Rundmail |
 | Material-Aufruf Mitglieder-Stimmen (Bandenbüro) | Fr 29.01. | 06.02. |
 | Belegte Orte, Partner-Okays, Regel-Kasten mit Stand, Website-URL (Revierläuferin) | Mi 17.02. | Launch + Ort der Woche |
 | Platz: Derner Straße 415 = Trainingsplatz? Name „Derner Wiese“? | Mi 17.02. | Launch-Slide 9, Standort-Tag |

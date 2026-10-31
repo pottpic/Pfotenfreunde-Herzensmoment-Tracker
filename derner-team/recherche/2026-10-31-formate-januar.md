@@ -1,7 +1,7 @@
 # Formate Januar–März 2027 + Launch Hunde-Stadtplan Derne – Derner Schnauzenbande
 
 Recherche: Witterung (`trend-scout`, als Helferin fürs Derner-Team) · Stand: 31.10.2026 · Runde 1 zum Briefing `derner-team/umsetzung/2026-10-31-hundeplan-januar-briefing.md`
-Gilt nur für den Verein: Vereinsstimme („wir“), **kein #esbeginntmiteinemwau**, max. 5 Hashtags, **keine Trend-Sounds, keine fremde Musik, auch nicht aus der Insta-Bibliothek** (Originalton oder stumm mit Einblendungen). Pottpic höchstens als Credit „Fotos: Pottpic“ – an Tierwohl-/Sicherheits-Tipps und Probetraining-Einladungen **nie** ein aktiver Pottpic-Hinweis.
+Gilt nur für den Verein: Vereinsstimme („wir“), **kein #esbeginntmiteinemwau**, max. 5 Hashtags, **keine Trend-Sounds, keine fremde Musik, auch nicht aus der Insta-Bibliothek** (Originalton oder stumm mit Einblendungen). Pottpic nach der **Regel für Pottpic-Hinweise** (Vereinsstimme/KONTEXT Regel 2): Credit „Fotos: Pottpic“ immer bei Pottpic-Bildern, aktiver Hinweis max. 1× im Monat, als „Werbung“ gekennzeichnet, Vorstand vorher – an Tierwohl-/Sicherheits-Tipps, Probetraining-Einladungen, Danke-Posts und Absagen **nie**. *(Abgleich Runde 3, Macherpfote, 31.10.)* Korrigiert: Hier stand vorher „Pottpic höchstens als Credit“ – das is laut KONTEXT überholt.
 Status: **Entwurf, nix davon is entschieden oder gepostet.**
 
 ---

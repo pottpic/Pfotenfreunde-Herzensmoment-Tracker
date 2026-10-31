@@ -20,9 +20,9 @@ Grundlage: `KONTEXT.md`, Briefing `umsetzung/2026-10-31-hundeplan-januar-briefin
 |---|---|---|
 | **[Platzhalter], Vorschlag: Mitte Dezember 2026** | Rundmail 1 (Abschnitt 1.1) | Pausen-Info muss **vor** Weihnachten ankommen. Sammeln dürfen Mitglieder ruhig schon über die Feiertage – beim Gassi. |
 | gleichzeitig | Mitmach-Aushang im Vereinsheim (2a) | für alle, die keine Mails lesen |
-| **[Platzhalter], Vorschlag: Mitte Januar 2027** (KW 3) | Erinnerung (1.2) | passt zu Phase 1 „Sammeln“ (Witterung) und zum Insta-Aufruf von Platzhirschin in KW 4 |
-| **Meldeschluss [Platzhalter], Vorschlag: Ende Januar** | Revierläuferin prüft Orte | Puffer bis zum Launch |
-| **Launch [Platzhalter], Default: Mitte/Ende Februar** (KW 8/9) | Stadtplan-Aushang/Flyer (2b), Partner-Auslage (2c) | Launch-Termin laut Witterung/Briefing, hängt an geprüften Orten + Partner-Okays |
+| **[Platzhalter], Vorschlag: Sa 23.01.2027** | Erinnerung (1.2) | zeitgleich mit dem Insta-Aufruf von Platzhirschin (Sa 23.01.) *(Abgleich Runde 3, Macherpfote, 31.10.)* |
+| **Meldeschluss [Platzhalter], Vorschlag: So 07.02.2027** – gleich für Mail, Aushang, Insta | Mo 08.–Mi 17.02. Orte ablaufen + prüfen, Go/No-Go Mi 17.02. | Puffer bis zum Launch *(Abgleich Runde 3, Macherpfote, 31.10.)* (vorher: „Ende Januar“) |
+| **Launch [Platzhalter], Default: Sa 27.02.2027** (Ausweich Sa 13.03.) | Stadtplan-Aushang/Flyer (2b), Partner-Auslage (2c) | Launch-Termin laut Witterung/Briefing, hängt an geprüften Orten + Partner-Okays |
 
 ---
 
@@ -110,7 +110,7 @@ Grundlage: `KONTEXT.md`, Briefing `umsetzung/2026-10-31-hundeplan-januar-briefin
 >
 > Kurze Erinnerung an unseren Hunde-Stadtplan: Bis zum **[Platzhalter: Meldeschluss]** könnt ihr uns noch eure Lieblings-Gassi-Orte, Kotbeutel-Spender, Mülleimer und Wasserstellen in Derne und Scharnhorst schicken – über **[Platzhalter: Meldeweg]**, am besten mit Foto vom Ort.
 >
-> Wie gehabt: nur öffentliche Orte, keine Hausnummern oder Haustür-Runden, auf's Foto nur der Ort (keine Leute, keine Kennzeichen). Mit dem Einsenden dürfen wir das Foto für den Plan nutzen, euren Namen nur, wenn ihr's wollt – zurückziehen geht jederzeit.
+> Wie gehabt: nur öffentliche Orte, keine Hausnummern oder Haustür-Runden, keine GPS-Aufzeichnungen, auf's Foto nur der Ort (keine Leute, keine Kennzeichen). Mit dem Einsenden dürfen wir das Foto für den Plan nutzen, euren Namen nur, wenn ihr's wollt – zurückziehen geht jederzeit.
 >
 > Danke an alle, die schon was geschickt haben – da sind echt schöne Ecken dabei. [Satz nur, wenn's stimmt]
 >
@@ -140,7 +140,7 @@ Gestaltung: **Creme + Dunkelgrün**, gut lesbar (große Schrift, kurze Zeilen), 
 > [QR-Code-Platzhalter: Meldeweg/Formular]
 >
 > **Bitte nur öffentliche Orte.**
-> Keine Privatadressen, keine Haustür-Runden. Auf's Foto nur der Ort – keine Leute, keine Hausnummern, keine Kennzeichen.
+> Keine Privatadressen, keine Haustür-Runden, keine GPS-Aufzeichnungen aus Apps. Auf's Foto nur der Ort – keine Leute, keine Hausnummern, keine Kennzeichen.
 > Mit dem Einsenden dürfen wir dein Foto für den Stadtplan nutzen (Aushang, Flyer, Website, Insta/Facebook). Deinen Namen nennen wir nur, wenn du's willst. Zurückziehen geht jederzeit.
 >
 > Danke euch! 💚 Eure Derner Schnauzenbande
@@ -154,7 +154,7 @@ Aufbau folgt Revierläuferins Vorschlag (Kopf · Karte · Legende · Regeln · V
 > Von Hundemenschen für Hundemenschen – gesammelt von der Derner Schnauzenbande
 
 **Einstieg (A4, 2–3 Sätze):**
-> Neu mit Hund oder neu im Viertel? Hier findest du, was man mit Hund in Derne und drumherum so braucht: Gassi-Ecken, Kotbeutel-Spender, Mülleimer und wo wir trainieren. Alle Orte haben unsere Mitglieder gemeldet und wir haben sie geprüft – Stand [Platzhalter: Monat/Jahr].
+> Neu mit Hund oder neu im Viertel? Hier findest du, was man mit Hund in Derne und drumherum so braucht: Gassi-Ecken, Kotbeutel-Spender, Mülleimer und wo wir trainieren. Gesammelt aus Infos der Stadt Dortmund und Tipps unserer Mitglieder – alles von uns geprüft, Stand [Platzhalter: Monat/Jahr]. *(Abgleich Runde 3, Macherpfote, 31.10.)* Korrigiert: Vorher stand „Alle Orte haben unsere Mitglieder gemeldet“ – stimmt nicht, Trasse und Naturschutzgebiete kommen aus Stadt-Quellen.
 
 **Legende (nur Kategorien, die auch wirklich belegte Punkte haben):**
 - Pfote im Kreis: Derner Schnauzenbande – hier trainieren wir [Platzhalter: Bezeichnung Platz, erst nach Vorstandsokay]
@@ -228,7 +228,7 @@ Wir wollen 'nen kleinen Hunde-Stadtplan für Derne/Scharnhorst machen (Aushang, 
 | # | Beschluss | Team-Vorschlag (Default) | Entscheidung |
 |---|---|---|---|
 | B1 | **Stadtplan: ja/nein** und in welcher Form | Ja – A4-Aushang + A5-Flyer + uMap-Online-Karte + Website-Unterseite. Klein anfangen, nur geprüfte Orte. | [ ] |
-| B2 | **Launch-Termin** | Default **Mitte/Ende Februar 2027** (KW 8/9); Meldeschluss für Mitglieder **Ende Januar**. Verschieben, falls zu wenig geprüfte Orte. | [Platzhalter] |
+| B2 | **Launch-Termin** | Default **Sa 27.02.2027**; Meldeschluss für alle (Mitglieder + Insta) **So 07.02.2027**, Go/No-Go Mi 17.02., Ausweich Sa 13.03. *(Abgleich Runde 3, Macherpfote, 31.10.)* | [Platzhalter] |
 | B3 | **Feiertagspause** Training | Pause nur über Weihnachten/Silvester: letztes Training [Platzhalter], erstes Training [Platzhalter]. Gleiche Daten in Rundmail, Abwesenheitsnotiz, Story. | [Platzhalter] |
 | B4 | **Wer beantwortet Anfragen im Januar** (Formular, DMs, Mails) | Feste Person(en) [Platzhalter: Funktion, kein Name in dieser Datei], über Vereins-Mail/Vereins-Handy statt Privathandy, Ziel-Antwortzeit **3 Tage** (Vorschlag Schnupperschnauze), Vertretung festlegen. Bausteine liegen in `mitglieder/2026-10-31-neue-halter-januar.md`. | [Platzhalter] |
 | B5 | **Wer prüft die gemeldeten Orte** | 1–2 Mitglieder [Platzhalter: Funktion] laufen gemeldete Orte ab, Revierläuferin prüft Quellen; Freilaufflächen und Regeln nur mit Bestätigung der Stadt. 1× im Quartal Kurz-Check. | [Platzhalter] |
@@ -237,7 +237,7 @@ Wir wollen 'nen kleinen Hunde-Stadtplan für Derne/Scharnhorst machen (Aushang, 
 
 | # | Frage | Vorschlag |
 |---|---|---|
-| K1 | **Meldeweg** für Orte | **Ein** Weg: Vereins-Mail oder einfaches Formular. Nicht über WhatsApp-Gruppen (Nummern + Ortsdaten im Chat). |
+| K1 | **Meldeweg** für Orte | **Ein** Weg: Vorschlag zweites Tally-Formular „Ort melden“ (Revierläuferin 2.5), Vereins-Mail als Rückfallebene. Nicht über WhatsApp-Gruppen (Nummern + Ortsdaten im Chat). Muss bis Fr 11.12. stehen. *(Abgleich Runde 3, Macherpfote, 31.10.)* |
 | K2 | **Foto-Einwilligung** | Satz aus Rundmail/Aushang nutzen; ob die bestehende Datenschutzinfo/Foto-Einverständniserklärung des Vereins das abdeckt: **bitte prüfen (lassen)**. Fotos nur vom Ort, ohne Personen. |
 | K3 | **Platz auf der Karte** | Is Derner Straße 415 der Trainingsplatz? Genauer Punkt ja/nein? Bezeichnung („Derner Wiese“?) erst nach Okay. Achtung: nicht mit dem Platz vom HSV Dortmund-Derne 1927 e.V. verwechseln. |
 | K4 | **Verantwortlich/Impressum auf Flyer + Datenschutz Website-Seite** (eingebettete Karte lädt von Fremdservern) | **Bitte prüfen (lassen)** – keine Rechtsberatung. Keine Privatadresse auf dem Flyer ohne Okay. |
