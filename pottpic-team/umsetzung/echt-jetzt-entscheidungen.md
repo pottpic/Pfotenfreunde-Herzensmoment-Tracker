@@ -4,6 +4,7 @@ Diese Datei sammelt alles, was Moni entschieden hat. **Sie gilt vor allen Platzh
 
 | Datum | Thema | Entscheidung |
 |---|---|---|
+| 31.10.2026 | Skool-Communities | **Pfotenfreunde, Anpfiff Fußball, Campingliebe gehören alle Moni.** Ziel: mehr Besuche auf der About-Seite von Pfotenfreunde (Skool) und mehr Beitritte. Rudelruferin bereitet täglich ca. 19:30 Uhr Posts vor. About-Link: noch offen |
 | 31.10.2026 | Luke | **Luke ist ein schwarzer Labrador** (Foto liegt unter `pottpic-team/team/leitwolf-foto.webp`) |
 | 31.10.2026 | Leitwolf-Bild | Moni mit Luke – Leitwolf ist Monis „Chefin“-Rolle im Team |
 | 31.10.2026 | Fester Hashtag für ALLE Posts | **#esbeginntmiteinemwau** – kommt an jeden Pottpic-Beitrag, egal ob Challenge oder spontan |
@@ -14,6 +15,7 @@ Diese Datei sammelt alles, was Moni entschieden hat. **Sie gilt vor allen Platzh
 | 30.10.2026 | Newsletter | CleverReach, kostenloses Konto ist vorhanden |
 
 ## Noch offen
+- Link zur About-Seite der Pfotenfreunde-Community (Skool)
 - @Handle (Annahme: @pottpic)
 - Zählt nur Instagram oder auch Facebook/TikTok? (Vorschlag: nur Instagram)
 - Passen die Vormach-Ideen zu Luke? Alter, Umgang mit Böllern
