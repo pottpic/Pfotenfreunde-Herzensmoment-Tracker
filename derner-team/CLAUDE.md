@@ -64,6 +64,11 @@ Ablauf: Moni → `derner-chef` (Rückfragen) → passende Mitarbeiter → `derne
 - Dieser Tipp darf auch erst beim nächsten Lauf kommen. Echtzeit is nicht nötig.
 - Lässt sich das Limit nicht auslesen, wird normal weitergearbeitet, und das kommt mit in den Bericht.
 
+## Bedienung (wie bei Pottpic)
+- **Chef in der Leiste:** die angepinnte Seite „Derner Leitwolf“ (Quelle: `team/leitwolf.src.html`, bauen mit `python3 team/build.py`). Da gibt’s **„Mal eben was“** (ein Post sofort) und **„Team los“** (startet ’ne Sitzung mit `/derner-los`).
+- **`/derner-los <Thema>`** in Claude Code: Der Leitwolf legt mit dem ganzen Team los.
+- **Geplante Aufgaben mit Ping:** Trendsetter (alle 4 Std.), Posting-Wecker (täglich 8:37 Uhr, liest `ergebnisse/postplan.md`), Schnauzenpost-Entwurf (1. Sonntag im Monat, 10:43 Uhr).
+
 ## Ablage
 - Ergebnisse: `ergebnisse/<bereich>/JJJJ-MM-TT-thema.md` (Bereiche: social, website, newsletter, trends, video)
 - Fertige Videos/Cover: `ergebnisse/video/JJJJ-MM-TT-thema/`

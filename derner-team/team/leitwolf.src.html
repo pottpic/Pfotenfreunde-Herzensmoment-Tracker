@@ -1,0 +1,232 @@
+<title>Derner Leitwolf</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: Vereinskopf mit Logo, darunter zwei Arbeitskarten (Mal eben was / Team los), dann Postplan, Wecker und Rudel als ruhige Listen */
+:root{
+ --bg:#FAF1E0; --paper:#FFFBF2; --ink:#1F3A33; --muted:#5B6F68; --line:#E3D6BD;
+ --green:#2F5D50; --on-green:#FAF1E0; --mustard:#C9962B; --ok:#2F7A4F; --bad:#A6402E;
+ --display:"Lexend",ui-rounded,"Segoe UI",system-ui,sans-serif;
+ --body:"Source Sans 3","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --bg:#14211D; --paper:#1B2C27; --ink:#F1E8D6; --muted:#A9B8B0; --line:#2E4640;
+ --green:#7FB3A2; --on-green:#10201B; --mustard:#E0B455; --ok:#7CC79A; --bad:#E58B78; color-scheme:dark}}
+:root[data-theme="dark"]{
+ --bg:#14211D; --paper:#1B2C27; --ink:#F1E8D6; --muted:#A9B8B0; --line:#2E4640;
+ --green:#7FB3A2; --on-green:#10201B; --mustard:#E0B455; --ok:#7CC79A; --bad:#E58B78; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:860px;margin:0 auto;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+header{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.logo{width:110px;height:auto;border-radius:14px;background:#FAF1E0;padding:6px}
+header .t{min-width:0;display:grid;gap:4px}
+.eyebrow{font:600 .78rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(2rem,6vw,2.8rem);color:var(--green);font-weight:700}
+header p{margin:0;color:var(--muted);max-width:52ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px;display:grid;gap:12px;align-content:start;min-width:0}
+.card.big{border-color:var(--green);border-width:2px}
+.card h2{font-size:1.45rem;color:var(--green)}
+.card .sub{margin:0;color:var(--muted);font-size:.95rem}
+label.l{font-weight:700;font-size:.95rem}
+textarea{width:100%;min-height:96px;font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:10px 12px;resize:vertical}
+textarea:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--mustard);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips button{font:600 .95rem var(--body);padding:7px 13px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on-green)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{font:700 1rem var(--display);padding:11px 20px;border-radius:12px;border:0;background:var(--green);color:var(--on-green);cursor:pointer}
+.btn:disabled{opacity:.55;cursor:default}
+.ghost{font:600 .95rem var(--body);padding:8px 14px;border-radius:10px;border:1.5px solid var(--green);background:transparent;color:var(--green);cursor:pointer}
+.status{margin:0;font-size:.95rem;color:var(--muted);min-width:0}
+.status.ok{color:var(--ok)} .status.err{color:var(--bad)}
+.status a{color:var(--green);font-weight:700}
+.out{background:var(--bg);border:1px dashed var(--line);border-radius:12px;padding:14px;overflow-wrap:anywhere;min-width:0}
+.out h2,.out h3{font-size:1.1rem;margin:.6em 0 .3em;color:var(--green)}
+.out p{margin:.4em 0} .out ul,.out ol{margin:.3em 0;padding-left:1.2em}
+.photo{display:grid;gap:6px} #foto-prev{max-width:160px;border-radius:10px}
+.check{display:flex;gap:8px;align-items:center;font-size:.95rem}
+section.list{display:grid;gap:12px}
+section.list h2{font-size:1.35rem}
+.plan{display:grid;gap:0;border-top:1px solid var(--line)}
+.plan li{list-style:none;display:grid;grid-template-columns:7.2rem 1fr auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
+.plan{padding:0;margin:0}
+.plan .d{font:600 .92rem var(--display);font-variant-numeric:tabular-nums;color:var(--green)}
+.plan .w{min-width:0} .plan .k{display:block;font-size:.85rem;color:var(--muted)}
+.pill{font:700 .75rem var(--body);letter-spacing:.04em;padding:3px 9px;border-radius:999px;white-space:nowrap;border:1.5px solid currentColor}
+.pill.frei{color:var(--ok)} .pill.entwurf{color:var(--mustard)} .pill.todo{color:var(--muted)}
+.wecker{display:grid;gap:10px;padding:0;margin:0}
+.wecker li{list-style:none;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;padding:12px 14px;border-left:4px solid var(--mustard);background:var(--paper);border-radius:0 12px 12px 0}
+.wecker b{font-family:var(--display);color:var(--green)}
+.wecker .when{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.wecker .what{grid-column:1/-1;color:var(--muted);font-size:.95rem}
+.rudel{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:10px 22px;padding:0;margin:0}
+.rudel li{list-style:none;display:grid;gap:2px;min-width:0}
+.rudel b{font-family:var(--display);color:var(--green)}
+.rudel span{color:var(--muted);font-size:.95rem}
+.rudel code{font-size:.8rem;color:var(--muted)}
+.note{color:var(--muted);font-size:.92rem;margin:0}
+@media (max-width:520px){.plan li{grid-template-columns:1fr auto}.plan .d{grid-column:1/-1}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+ <img class="logo" src="__LOGO__" alt="Logo der Derner Schnauzenbande: drei Hundeköpfe unterm Bogen mit Herz">
+ <div class="t">
+  <span class="eyebrow">Derner Schnauzenbande e.V. · Derner Straße 415, 44329 Dortmund</span>
+  <h1>Leitwolf</h1>
+  <p>Sag mir, was ansteht. Kleines mach ich sofort, Großes geht ans ganze Team. Gepostet wird nix ohne dein Ja.</p>
+ </div>
+</header>
+
+<div class="cards">
+ <div class="card" aria-labelledby="h-klein">
+  <h2 id="h-klein">Mal eben was</h2>
+  <p class="sub">Ein Post, ’ne Story, ’ne Caption – der Social-Texter schreibt sofort.</p>
+  <div class="chips" id="fmt" role="group" aria-label="Format">
+   <button type="button" aria-pressed="true">Insta-Post</button>
+   <button type="button" aria-pressed="false">Facebook-Post</button>
+   <button type="button" aria-pressed="false">Story</button>
+   <button type="button" aria-pressed="false">Reel-Text</button>
+   <button type="button" aria-pressed="false">Nur Caption</button>
+  </div>
+  <label class="l" for="klein-text">Worum geht’s?</label>
+  <textarea id="klein-text" placeholder="Z. B. „Heute beim Freilauf war’s matschig, aber die Hunde hatten den Spaß ihres Lebens“"></textarea>
+  <span class="photo" id="photo-wrap" hidden><label class="l" for="klein-foto">Foto dazu (optional)</label><input type="file" id="klein-foto"><img id="foto-prev" alt="Vorschau deines Fotos" hidden></span>
+  <div class="row"><button class="btn" id="klein-go" type="button">Leitwolf, mach ma!</button><p class="status" id="klein-status" aria-live="polite"></p></div>
+  <div class="out" id="klein-out" hidden></div>
+  <div class="row" id="klein-tools" hidden><button class="ghost" id="klein-copy" type="button">Alles kopieren</button><button class="ghost" id="klein-again" type="button">Andere Variante</button></div>
+ </div>
+
+ <div class="card big" aria-labelledby="h-gross">
+  <h2 id="h-gross">Team los</h2>
+  <p class="sub">Event, Aktion, mehrere Kanäle: Ich starte ’ne eigene Sitzung. Da fragt dich das Team erst kurz aus, dann wird verteilt, geprüft und dir zur Freigabe gebracht.</p>
+  <label class="l" for="gross-text">Was steht an?</label>
+  <textarea id="gross-text" placeholder="Z. B. „Hunderennen im Frühjahr: Ankündigung, Website und Schnauzenpost“"></textarea>
+  <div class="row"><button class="btn" id="gross-go" type="button">Team los!</button><p class="status" id="gross-status" aria-live="polite"></p></div>
+  <p class="note">Geht auch ohne die Seite: In Claude Code <code>/derner-los</code> und dein Thema schreiben.</p>
+ </div>
+</div>
+
+<section class="list" aria-labelledby="h-plan">
+ <h2 id="h-plan">Was ansteht</h2>
+ <ul class="plan">__PLAN__</ul>
+ <p class="note">Stand __STAND__. Der aktuelle Plan liegt in <code>derner-team/ergebnisse/postplan.md</code>, den liest der Posting-Wecker jeden Morgen.</p>
+</section>
+
+<section class="list" aria-labelledby="h-wecker">
+ <h2 id="h-wecker">Geplante Aufgaben mit Ping</h2>
+ <ul class="wecker">
+  <li><b>Trendsetter</b><span class="when">alle 4 Std., rund um die Uhr</span><span class="what">Guckt, was andere Hundevereine machen. Ping nur bei ’nem richtig guten Fund, mit Vorschlag, wer’s macht – du sagst Ja oder Nein.</span></li>
+  <li><b>Posting-Wecker</b><span class="when">täglich 8:37 Uhr</span><span class="what">Ping nur an Tagen, an denen laut Postplan was rausgeht – mit dem fertigen Text zum Kopieren.</span></li>
+  <li><b>Schnauzenpost</b><span class="when">1. Sonntag im Monat, 10:43 Uhr</span><span class="what">Entwurf für die nächste Ausgabe. Du prüfst und verschickst Mitte des Monats über CleverReach.</span></li>
+ </ul>
+ <p class="note">Alle bremsen sich selbst, wenn dein Nutzungslimit fast voll is (5 Std. ab 80 %, Woche ab 90 %), und sagen dir, ab wann wieder frei is.</p>
+</section>
+
+<section class="list" aria-labelledby="h-rudel">
+ <h2 id="h-rudel">Das Rudel</h2>
+ <ul class="rudel">
+  <li><b>Leitwolf</b><span>Fragt nach, verteilt, lässt prüfen, bringt dir die Freigabe.</span><code>derner-chef</code></li>
+  <li><b>Social-Texter</b><span>Posts, Captions, Reel-Texte für Insta und Facebook.</span><code>derner-social-texter</code></li>
+  <li><b>Foto-Prüfer</b><span>Sucht Fotos aus und checkt alles. Meldet nur, ändert nix.</span><code>derner-foto-pruefer</code></li>
+  <li><b>Website &amp; Events</b><span>ClubDesk-Texte, Event-Abläufe, Social-Zeitleiste.</span><code>derner-website-events</code></li>
+  <li><b>Schnauzenpost</b><span>Der Newsletter, Versand über CleverReach.</span><code>derner-newsletter</code></li>
+  <li><b>Trendsetter</b><span>Schaut bei anderen Hundevereinen rein, rund um die Uhr.</span><code>derner-trendsetter</code></li>
+  <li><b>Video-Editor</b><span>Handy-Videos zu stummen Reels, kostenlos mit FFmpeg.</span><code>derner-video-editor</code></li>
+ </ul>
+</section>
+</div>
+
+<script>
+const CTX=__CTX__;
+const $=id=>document.getElementById(id);
+let fmt='Insta-Post',last='',photo=null,ctl=null;
+document.querySelectorAll('#fmt button').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('#fmt button').forEach(x=>x.setAttribute('aria-pressed','false'));
+ b.setAttribute('aria-pressed','true');fmt=b.textContent;
+}));
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function md(t){
+ const lines=esc(t).split('\n');let h='',list=null;
+ const inl=s=>s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+ for(const ln of lines){
+  const m=ln.match(/^\s*[-*]\s+(.*)/),n=ln.match(/^\s*\d+[.)]\s+(.*)/);
+  if(m||n){const tag=m?'ul':'ol';if(list!==tag){if(list)h+='</'+list+'>';h+='<'+tag+'>';list=tag}h+='<li>'+inl((m||n)[1])+'</li>';continue}
+  if(list){h+='</'+list+'>';list=null}
+  if(/^###?\s/.test(ln))h+='<h3>'+inl(ln.replace(/^#+\s/,''))+'</h3>';
+  else if(ln.trim())h+='<p>'+inl(ln)+'</p>';
+ }
+ if(list)h+='</'+list+'>';return h;
+}
+function prompt(text,variant){
+ const formats={
+  'Insta-Post':'Bildidee (echtes Foto bevorzugt), Caption mit starkem erstem Satz, kurz, klare Einladung (wer, wann, wo), 3–6 Hashtags. Dazu 1 alternativer erster Satz.',
+  'Facebook-Post':'Text etwas ausführlicher als bei Insta, starker erster Satz, klare Einladung, 3–5 Hashtags. Dazu 1 alternativer erster Satz.',
+  'Story':'3–5 Story-Slides: je Inhalt, Text auf dem Bild (kurz) und ein Interaktions-Sticker (Umfrage, Frage oder Quiz) mit wörtlicher Frage.',
+  'Reel-Text':'Reel ist STUMM: Hook für die ersten 1–2 Sek., Szenen mit Länge, Einblendungen wörtlich (max. ~6 Wörter pro Zeile, Vereinsfarben Dunkelgrün/Creme), 3 Cover-Ideen, kurze Drehliste fürs Handy (hochkant), dann Caption + 3–6 Hashtags.',
+  'Nur Caption':'Caption in 2 Varianten (kurz und etwas länger), jeweils mit starkem erstem Satz, plus 3–6 Hashtags.'
+ };
+ return 'Du bist der Leitwolf des Vereinsteams der Derner Schnauzenbande e.V. Hier sind die Vereinsregeln:\n\n'+CTX.kontext+
+ '\n\nRegeln des Social-Texters:\n'+CTX.texter+(fmt==='Reel-Text'?'\n\nRegeln des Video-Editors:\n'+CTX.video:'')+
+ '\n\n---\nAUFTRAG: Moni will spontan EINEN kleinen Beitrag. Format: '+fmt+'. Worum es geht: '+text+
+ (photo?'\nMoni hat ein Foto angehängt – bau darauf auf und beschreib nichts, was nicht drauf ist.':'')+
+ (variant?'\nMach diesmal eine deutlich andere Variante als vorher:\n'+variant.slice(0,1500):'')+
+ '\n\nLiefere direkt fertig: '+formats[fmt]+
+ '\nBeginne mit einer Zeile „**Social-Texter hier 🐾**“'+(fmt==='Reel-Text'?' (bzw. „**Video-Editor und Social-Texter hier 🐾**“)':'')+'. Schreib in Monis Stimme, per Du. Immer „Derner Schnauzenbande“, nie „Derna“. Kein Pottpic-Hashtag. Nichts erfinden: fehlende Termine, Namen oder Fakten als [??? …]. Freilauf = beaufsichtigt, mittwochs ab 17 Uhr, vorher kurz melden (dernerschnauzenbande@web.de). Am Ende eine Zeile „Prüfer-Check:“ mit kurzem Hinweis zu Schreibweise, Termin und Fotoeinwilligung. Kein Markdown außer **fett**, ## Überschriften und Listen. Nicht posten, nur Entwurf.';
+}
+(async()=>{
+ const sample=await (window.claude?.use?.('sample') ?? null);
+ if(!sample){$('klein-go').disabled=true;$('klein-status').textContent='Diese Ansicht kann grad nicht mit Claude sprechen. Öffne die Seite in claude.ai.';return}
+ try{const lim=await sample.limits();if(lim&&lim.images){$('photo-wrap').hidden=false;$('klein-foto').accept=lim.images.mediaTypes.join(',')}}catch(e){}
+ $('klein-foto').addEventListener('change',e=>{photo=e.target.files[0]||null;const im=$('foto-prev');if(photo){im.src=URL.createObjectURL(photo);im.hidden=false}else im.hidden=true});
+ async function run(variant){
+  const text=$('klein-text').value.trim();
+  if(!text){$('klein-status').className='status err';$('klein-status').textContent='Schreib mir kurz, worum’s gehen soll.';$('klein-text').focus();return}
+  if(ctl)ctl.abort();ctl=new AbortController();
+  $('klein-go').disabled=true;$('klein-status').className='status';$('klein-status').textContent='Leitwolf holt den Social-Texter dazu …';
+  $('klein-out').hidden=false;$('klein-out').innerHTML='';$('klein-tools').hidden=true;
+  try{
+   const opts={cache:false,signal:ctl.signal,onText:({text})=>{$('klein-out').innerHTML=md(text)}};
+   if(photo)opts.images=[photo];
+   const r=await sample(prompt(text,variant),opts);
+   last=r.text;$('klein-out').innerHTML=md(r.text);$('klein-status').className='status ok';$('klein-status').textContent=r.truncated?'Fertig (etwas gekürzt).':'Fertig – das is dein Entwurf.';$('klein-tools').hidden=false;
+  }catch(e){
+   if(e&&e.text){$('klein-out').innerHTML=md(e.text)}
+   $('klein-status').className='status err';
+   $('klein-status').textContent=e&&e.code==='not_granted'?'Ohne dein Okay kann ich nicht mit Claude sprechen.':e&&e.code==='rate_limited'?'Grad zu viele Anfragen, probier’s in ’ner Minute nochma.':'Hat nich geklappt'+(e&&e.message?': '+e.message:'.');
+  }finally{$('klein-go').disabled=false}
+ }
+ $('klein-go').addEventListener('click',()=>run(null));
+ $('klein-again').addEventListener('click',()=>run(last));
+ $('klein-copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(last||'');$('klein-status').textContent='Kopiert.'}catch(e){const r=document.createRange();r.selectNodeContents($('klein-out'));const s=getSelection();s.removeAllRanges();s.addRange(r);$('klein-status').textContent='Markiert – jetzt kopieren.'}});
+})();
+(async()=>{
+ const mcp=await (window.claude?.use?.('mcp') ?? null);
+ if(!mcp){$('gross-go').disabled=true;$('gross-status').textContent='Hier kann ich keine Sitzung starten. Nimm Claude Code und schreib /derner-los.';return}
+ $('gross-go').addEventListener('click',async()=>{
+  const t=$('gross-text').value.trim();
+  if(!t){$('gross-status').className='status err';$('gross-status').textContent='Schreib mir kurz, was ansteht.';$('gross-text').focus();return}
+  $('gross-go').disabled=true;$('gross-status').className='status';$('gross-status').textContent='Ich trommel das Rudel zusammen …';
+  try{
+   const res=await mcp.callTool('Claude Code Remote','create_session',{
+    prompt:'/derner-los '+t,
+    title:'Derner los: '+t.slice(0,60),
+    source_url:'https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker',
+    source_revision:'derner-team',
+    environment_id:'env_01PtveL49VGzxwMzmwvcbTFp'
+   });
+   const m=JSON.stringify(res).match(/session_[A-Za-z0-9]+/);
+   $('gross-status').className='status ok';
+   $('gross-status').innerHTML=m?'Team is los! <a href="https://claude.ai/code/'+m[0]+'" target="_blank" rel="noopener">Zur Sitzung</a> – da fragt dich der Leitwolf gleich kurz aus.':'Team is los! Du findest die Sitzung in Claude Code unter deinen Sitzungen.';
+  }catch(e){
+   $('gross-status').className='status err';
+   $('gross-status').textContent=e&&e.code==='not_granted'?'Ohne dein Okay kann ich keine Sitzung starten.':'Hat nich geklappt'+(e&&e.message?': '+e.message:'.')+' Alternativ: Claude Code öffnen und /derner-los schreiben.';
+  }finally{$('gross-go').disabled=false}
+ });
+})();
+</script>

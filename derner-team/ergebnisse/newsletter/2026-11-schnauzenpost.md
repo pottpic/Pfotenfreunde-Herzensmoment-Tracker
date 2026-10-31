@@ -33,14 +33,14 @@ Diesmal gibt's von uns keine großen Neuigkeiten – dafür steht ja gleich was 
 
 ---
 
-## 4. Tipp des Monats: Sichtbar bleiben im Dunkeln
+## 4. Tipp des Monats: Naschen mit Köpfchen
 
-Ab jetzt is es ja schon nachmittags duster, und die Runde nach Feierabend findet oft im Dunkeln statt. Ein paar Gedanken dazu, weißt du:
+Im Advent wird ja überall genascht, und der Hund guckt natürlich mit Dackelblick zu. Ein paar Gedanken dazu, weißt du:
 
-- **Sieh und werde gesehen:** Leuchthalsband, Reflektoren oder ’n Leuchtanhänger am Geschirr machen deinen Hund für andere viel früher erkennbar. Reflektierende Streifen an dir selbst helfen auch.
-- **Vorher testen:** Leuchtband kurz anmachen, bevor du losgehst – nix nerviger als leere Batterie mitten auf der Runde.
-- **Leine kurz, wo's eng wird:** An Straßen und Wegen ohne Licht den Hund lieber nah bei dir halten. Im Dunkeln sieht man grade bei dunklen Hunden einfach schlechter, wo sie gerade sind.
-- **Treffpunkt-Tipp:** Wenn du zum Freilauf kommst (mittwochs ab 17 Uhr), plan ruhig ’n paar Minuten fürs Anziehen der Leuchtsachen ein.
+- **Leckerli zählen mit:** Was dein Hund zwischendurch kriegt, auch die Kekse beim Pfotenzauber, gehört zur Tagesration dazu. Zieh's einfach vom normalen Futter ab, dann wird aus der Nascherei kein Extra-Speck.
+- **Menschen-Plätzchen bleiben beim Menschen:** Schokolade, Rosinen und alles mit Xylit (Zuckerersatz, steckt in manchen zuckerfreien Sachen) gehören nich in Hundemäuler. Ich mein, auch Plätzchenteller auf dem Tisch lieber außer Reichweite stellen. Is was passiert oder du bist unsicher: frag deine Tierärztin.
+- **Neues Futter langsam:** Willst du über die Feiertage was umstellen oder was Neues probieren, mach's Stück für Stück und nich von heut auf morgen. Der Bauch dankt's dir.
+- **Beim Pfotenzauber:** Gibt's ja selbst gebackene Kekse, auch für Hund. Frag ruhig kurz nach, wenn du nich sicher bist, was drin is.
 
 ---
 
@@ -75,7 +75,7 @@ Zieh dich warm an, weißt du – is ja draußen.
 **Noch kein Foto vorhanden** → [??? Foto]
 
 Vorschlag, was gut passen würde (echtes Foto):
-- Ein Bild von eurem Platz / der Wiese in Herbst- oder Winterstimmung, am besten mit ’n paar Hunden beim Freilauf – gern in der Dämmerung, passt zum Tipp mit dem Licht.
+- Ein Bild von eurem Platz / der Wiese in Herbst- oder Winterstimmung, am besten mit ’n paar Hunden beim Freilauf – oder Kekse für Hund und Mensch beim Backen, passt zum Tipp.
 - Oder: ’n Foto von selbstgebackenen Keksen / gebrannten Mandeln, wenn beim Backen oder Aufbauen was geknipst werden kann (ohne erkennbare Gesichter, außer Einwilligung liegt vor).
 - Alternativ nach dem Event: Stimmungsbild für die Dezember-Ausgabe.
 
@@ -87,7 +87,7 @@ Bitte beachten:
 
 ## 7. Gruß
 
-Ich freu mich, wenn wir uns sehen – auf der Wiese oder mittwochs beim Freilauf. Bis dahin: bleib sichtbar, bleib warm und gib deinem Hund ’n Extra-Kuscheln von uns. 🐾
+Ich freu mich, wenn wir uns sehen – auf der Wiese oder mittwochs beim Freilauf. Bis dahin: bleib warm, pass auf den Plätzchenteller auf und gib deinem Hund ’n Extra-Kuscheln von uns. 🐾
 
 Bis bald,
 Moni ❓ *(Unterschrift bewusst offen – Moni bestätigt, ob so stehen bleibt)*

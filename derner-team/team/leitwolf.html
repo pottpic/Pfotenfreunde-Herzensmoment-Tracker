@@ -1,0 +1,240 @@
+<title>Derner Leitwolf</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: Vereinskopf mit Logo, darunter zwei Arbeitskarten (Mal eben was / Team los), dann Postplan, Wecker und Rudel als ruhige Listen */
+:root{
+ --bg:#FAF1E0; --paper:#FFFBF2; --ink:#1F3A33; --muted:#5B6F68; --line:#E3D6BD;
+ --green:#2F5D50; --on-green:#FAF1E0; --mustard:#C9962B; --ok:#2F7A4F; --bad:#A6402E;
+ --display:"Lexend",ui-rounded,"Segoe UI",system-ui,sans-serif;
+ --body:"Source Sans 3","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --bg:#14211D; --paper:#1B2C27; --ink:#F1E8D6; --muted:#A9B8B0; --line:#2E4640;
+ --green:#7FB3A2; --on-green:#10201B; --mustard:#E0B455; --ok:#7CC79A; --bad:#E58B78; color-scheme:dark}}
+:root[data-theme="dark"]{
+ --bg:#14211D; --paper:#1B2C27; --ink:#F1E8D6; --muted:#A9B8B0; --line:#2E4640;
+ --green:#7FB3A2; --on-green:#10201B; --mustard:#E0B455; --ok:#7CC79A; --bad:#E58B78; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:860px;margin:0 auto;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+header{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.logo{width:110px;height:auto;border-radius:14px;background:#FAF1E0;padding:6px}
+header .t{min-width:0;display:grid;gap:4px}
+.eyebrow{font:600 .78rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(2rem,6vw,2.8rem);color:var(--green);font-weight:700}
+header p{margin:0;color:var(--muted);max-width:52ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px;display:grid;gap:12px;align-content:start;min-width:0}
+.card.big{border-color:var(--green);border-width:2px}
+.card h2{font-size:1.45rem;color:var(--green)}
+.card .sub{margin:0;color:var(--muted);font-size:.95rem}
+label.l{font-weight:700;font-size:.95rem}
+textarea{width:100%;min-height:96px;font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:10px 12px;resize:vertical}
+textarea:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--mustard);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips button{font:600 .95rem var(--body);padding:7px 13px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on-green)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{font:700 1rem var(--display);padding:11px 20px;border-radius:12px;border:0;background:var(--green);color:var(--on-green);cursor:pointer}
+.btn:disabled{opacity:.55;cursor:default}
+.ghost{font:600 .95rem var(--body);padding:8px 14px;border-radius:10px;border:1.5px solid var(--green);background:transparent;color:var(--green);cursor:pointer}
+.status{margin:0;font-size:.95rem;color:var(--muted);min-width:0}
+.status.ok{color:var(--ok)} .status.err{color:var(--bad)}
+.status a{color:var(--green);font-weight:700}
+.out{background:var(--bg);border:1px dashed var(--line);border-radius:12px;padding:14px;overflow-wrap:anywhere;min-width:0}
+.out h2,.out h3{font-size:1.1rem;margin:.6em 0 .3em;color:var(--green)}
+.out p{margin:.4em 0} .out ul,.out ol{margin:.3em 0;padding-left:1.2em}
+.photo{display:grid;gap:6px} #foto-prev{max-width:160px;border-radius:10px}
+.check{display:flex;gap:8px;align-items:center;font-size:.95rem}
+section.list{display:grid;gap:12px}
+section.list h2{font-size:1.35rem}
+.plan{display:grid;gap:0;border-top:1px solid var(--line)}
+.plan li{list-style:none;display:grid;grid-template-columns:7.2rem 1fr auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
+.plan{padding:0;margin:0}
+.plan .d{font:600 .92rem var(--display);font-variant-numeric:tabular-nums;color:var(--green)}
+.plan .w{min-width:0} .plan .k{display:block;font-size:.85rem;color:var(--muted)}
+.pill{font:700 .75rem var(--body);letter-spacing:.04em;padding:3px 9px;border-radius:999px;white-space:nowrap;border:1.5px solid currentColor}
+.pill.frei{color:var(--ok)} .pill.entwurf{color:var(--mustard)} .pill.todo{color:var(--muted)}
+.wecker{display:grid;gap:10px;padding:0;margin:0}
+.wecker li{list-style:none;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;padding:12px 14px;border-left:4px solid var(--mustard);background:var(--paper);border-radius:0 12px 12px 0}
+.wecker b{font-family:var(--display);color:var(--green)}
+.wecker .when{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.wecker .what{grid-column:1/-1;color:var(--muted);font-size:.95rem}
+.rudel{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:10px 22px;padding:0;margin:0}
+.rudel li{list-style:none;display:grid;gap:2px;min-width:0}
+.rudel b{font-family:var(--display);color:var(--green)}
+.rudel span{color:var(--muted);font-size:.95rem}
+.rudel code{font-size:.8rem;color:var(--muted)}
+.note{color:var(--muted);font-size:.92rem;margin:0}
+@media (max-width:520px){.plan li{grid-template-columns:1fr auto}.plan .d{grid-column:1/-1}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+ <img class="logo" src="data:image/webp;base64,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" alt="Logo der Derner Schnauzenbande: drei Hundeköpfe unterm Bogen mit Herz">
+ <div class="t">
+  <span class="eyebrow">Derner Schnauzenbande e.V. · Derner Straße 415, 44329 Dortmund</span>
+  <h1>Leitwolf</h1>
+  <p>Sag mir, was ansteht. Kleines mach ich sofort, Großes geht ans ganze Team. Gepostet wird nix ohne dein Ja.</p>
+ </div>
+</header>
+
+<div class="cards">
+ <div class="card" aria-labelledby="h-klein">
+  <h2 id="h-klein">Mal eben was</h2>
+  <p class="sub">Ein Post, ’ne Story, ’ne Caption – der Social-Texter schreibt sofort.</p>
+  <div class="chips" id="fmt" role="group" aria-label="Format">
+   <button type="button" aria-pressed="true">Insta-Post</button>
+   <button type="button" aria-pressed="false">Facebook-Post</button>
+   <button type="button" aria-pressed="false">Story</button>
+   <button type="button" aria-pressed="false">Reel-Text</button>
+   <button type="button" aria-pressed="false">Nur Caption</button>
+  </div>
+  <label class="l" for="klein-text">Worum geht’s?</label>
+  <textarea id="klein-text" placeholder="Z. B. „Heute beim Freilauf war’s matschig, aber die Hunde hatten den Spaß ihres Lebens“"></textarea>
+  <span class="photo" id="photo-wrap" hidden><label class="l" for="klein-foto">Foto dazu (optional)</label><input type="file" id="klein-foto"><img id="foto-prev" alt="Vorschau deines Fotos" hidden></span>
+  <div class="row"><button class="btn" id="klein-go" type="button">Leitwolf, mach ma!</button><p class="status" id="klein-status" aria-live="polite"></p></div>
+  <div class="out" id="klein-out" hidden></div>
+  <div class="row" id="klein-tools" hidden><button class="ghost" id="klein-copy" type="button">Alles kopieren</button><button class="ghost" id="klein-again" type="button">Andere Variante</button></div>
+ </div>
+
+ <div class="card big" aria-labelledby="h-gross">
+  <h2 id="h-gross">Team los</h2>
+  <p class="sub">Event, Aktion, mehrere Kanäle: Ich starte ’ne eigene Sitzung. Da fragt dich das Team erst kurz aus, dann wird verteilt, geprüft und dir zur Freigabe gebracht.</p>
+  <label class="l" for="gross-text">Was steht an?</label>
+  <textarea id="gross-text" placeholder="Z. B. „Hunderennen im Frühjahr: Ankündigung, Website und Schnauzenpost“"></textarea>
+  <div class="row"><button class="btn" id="gross-go" type="button">Team los!</button><p class="status" id="gross-status" aria-live="polite"></p></div>
+  <p class="note">Geht auch ohne die Seite: In Claude Code <code>/derner-los</code> und dein Thema schreiben.</p>
+ </div>
+</div>
+
+<section class="list" aria-labelledby="h-plan">
+ <h2 id="h-plan">Was ansteht</h2>
+ <ul class="plan"><li><span class="d">Mo 02.11.2026</span><span class="w">Pfotenzauber: Ankündigung (Bild: Flyer, bei Meta als KI kennzeichnen)<span class="k">Instagram + Facebook</span></span><span class="pill frei">freigegeben</span></li>
+  <li><span class="d">Mo 02.11.2026</span><span class="w">Foto-Hinweis-Schild ausdrucken (für Mittwoch und den Pfotenzauber)<span class="k">–</span></span><span class="pill todo">To-do</span></li>
+  <li><span class="d">Mi 04.11.2026</span><span class="w">Freilauf filmen ab 17 Uhr (gleich am Anfang, wird früh dunkel)<span class="k">–</span></span><span class="pill todo">To-do</span></li>
+  <li><span class="d">[??? Datum]</span><span class="w">Freilauf-Einladung (Bild: echtes Foto vom Freilauf)<span class="k">Instagram + Facebook</span></span><span class="pill frei">freigegeben</span></li>
+  <li><span class="d">So 15.11.2026</span><span class="w">Schnauzenpost November prüfen, Testmail, verschicken<span class="k">CleverReach</span></span><span class="pill entwurf">Entwurf</span></li>
+  <li><span class="d">Sa 21.11.2026</span><span class="w">Pfotenzauber: Erinnerung<span class="k">Instagram + Facebook</span></span><span class="pill entwurf">Entwurf</span></li>
+  <li><span class="d">Fr 27.11.2026</span><span class="w">Pfotenzauber: Tag davor<span class="k">Insta-Story + Facebook</span></span><span class="pill entwurf">Entwurf</span></li>
+  <li><span class="d">Sa 28.11.2026</span><span class="w">Pfotenzauber: live (Story-Ideen)<span class="k">Insta-Story</span></span><span class="pill entwurf">Entwurf</span></li>
+  <li><span class="d">So 29.11.2026</span><span class="w">Pfotenzauber: Rückblick (nur mit echten Fotos)<span class="k">Instagram + Facebook</span></span><span class="pill entwurf">Entwurf</span></li></ul>
+ <p class="note">Stand 31.10.2026. Der aktuelle Plan liegt in <code>derner-team/ergebnisse/postplan.md</code>, den liest der Posting-Wecker jeden Morgen.</p>
+</section>
+
+<section class="list" aria-labelledby="h-wecker">
+ <h2 id="h-wecker">Geplante Aufgaben mit Ping</h2>
+ <ul class="wecker">
+  <li><b>Trendsetter</b><span class="when">alle 4 Std., rund um die Uhr</span><span class="what">Guckt, was andere Hundevereine machen. Ping nur bei ’nem richtig guten Fund, mit Vorschlag, wer’s macht – du sagst Ja oder Nein.</span></li>
+  <li><b>Posting-Wecker</b><span class="when">täglich 8:37 Uhr</span><span class="what">Ping nur an Tagen, an denen laut Postplan was rausgeht – mit dem fertigen Text zum Kopieren.</span></li>
+  <li><b>Schnauzenpost</b><span class="when">1. Sonntag im Monat, 10:43 Uhr</span><span class="what">Entwurf für die nächste Ausgabe. Du prüfst und verschickst Mitte des Monats über CleverReach.</span></li>
+ </ul>
+ <p class="note">Alle bremsen sich selbst, wenn dein Nutzungslimit fast voll is (5 Std. ab 80 %, Woche ab 90 %), und sagen dir, ab wann wieder frei is.</p>
+</section>
+
+<section class="list" aria-labelledby="h-rudel">
+ <h2 id="h-rudel">Das Rudel</h2>
+ <ul class="rudel">
+  <li><b>Leitwolf</b><span>Fragt nach, verteilt, lässt prüfen, bringt dir die Freigabe.</span><code>derner-chef</code></li>
+  <li><b>Social-Texter</b><span>Posts, Captions, Reel-Texte für Insta und Facebook.</span><code>derner-social-texter</code></li>
+  <li><b>Foto-Prüfer</b><span>Sucht Fotos aus und checkt alles. Meldet nur, ändert nix.</span><code>derner-foto-pruefer</code></li>
+  <li><b>Website &amp; Events</b><span>ClubDesk-Texte, Event-Abläufe, Social-Zeitleiste.</span><code>derner-website-events</code></li>
+  <li><b>Schnauzenpost</b><span>Der Newsletter, Versand über CleverReach.</span><code>derner-newsletter</code></li>
+  <li><b>Trendsetter</b><span>Schaut bei anderen Hundevereinen rein, rund um die Uhr.</span><code>derner-trendsetter</code></li>
+  <li><b>Video-Editor</b><span>Handy-Videos zu stummen Reels, kostenlos mit FFmpeg.</span><code>derner-video-editor</code></li>
+ </ul>
+</section>
+</div>
+
+<script>
+const CTX={"kontext": "# Derner Schnauzenbande e.V. – gemeinsamer Kontext fürs Vereinsteam\n\nDieser Ordner (`derner-team/`) gehört **nur** dem Verein. Komplett getrennt von Pottpic – keine Pottpic-Regeln, kein Pottpic-Hashtag, keine Pottpic-Agenten hier reinmischen.\n\n## Der Verein\n- Name: **Derner Schnauzenbande** – immer genau so geschrieben. Nie „Derna“, nie „Dernaer“, nie „Schnauzen-Bande“.\n- Adresse: Derner Straße 415, 44329 Dortmund\n- Website: www.dernerschnauzenbande.de (läuft über ClubDesk)\n- 1. Vorsitzende: Sabine Stempel\n- 2. Vorsitzende: Moni – macht Website, Social Media und Verwaltung. Moni ist die, mit der das Team redet.\n- **Freilauf:** beaufsichtigt, mittwochs ab 17 Uhr, alle Hundeleute sind eingeladen (nicht nur Mitglieder).\n- Achtung Begriff: **„Vorsitz“** meint im Vereinsalltag meist die Hundesport-Übung (Hund sitzt vor dem Menschen), **nicht** das Amt. Im Zweifel nachfragen.\n\n## Look\n- Logo: `logo/derner-schnauzenbande-logo.png` (drei Hundeköpfe unterm Bogen, Herz, Schriftzug)\n- Dunkelgrün ca. **#2F5D50**\n- Creme ca. **#FAF1E0**\n- Einblendungen, Cover, Grafiken immer in diesen zwei Farben.\n\n## Ton (Monis Stimme)\n- Locker, warm, direkt, immer per Du. Ruhrpott darf durchkommen.\n- Einschübe wie „weißt du“, „ich mein“, „halt“, „eigentlich“; verschluckte Silben wie „’n“, „grade“, „ma“, „is“.\n- Keine Floskeln („Wir freuen uns sehr…“, „unvergessliche Momente“), kein Marketing-Sprech, kein glattes KI-Deutsch.\n- Emojis dosiert – nur wo’s passt, nie als Deko-Kette.\n\n## Regeln für alle\n1. **KI-Bilder und KI-Grafiken sind erlaubt – aber nicht übertreiben** (Monis Entscheidung vom 31.10.2026). Echte Fotos von echten Menschen und Hunden haben Vorrang, Rückblicke und Vereinsalltag immer mit echten Fotos. Nie echte Mitglieder oder Vereinshunde per KI nachbauen. Fotorealistische KI-Bilder bei Meta als KI kennzeichnen.\n2. **KI-Videos** nur auf Monis ausdrückliches Ja für ein **konkretes** Video:\n   - nur über Magnific/Freepik,\n   - vorher Kosten (Credits/Euro) nennen,\n   - nie echte Mitglieder oder Vereinshunde nachbauen,\n   - immer sichtbar als KI kennzeichnen.\n3. **Freigabe:** Moni gibt Bild und Text immer selbst frei. Ohne ihr Ja wird nichts gepostet, hochgeladen oder verschickt.\n4. Instagram und Facebook laufen über die **Meta Business Suite** (Moni postet selbst).\n5. **Reels immer stumm** (keine Tonspur, keine Musik in der Datei).\n6. **Ohne API und ohne Zusatzkosten** – Ausnahme nur KI-Videos (oder kostenpflichtige KI-Bilder) nach Monis Ja mit Kostennennung vorher.\n7. **Erst fragen, dann loslegen.** Rückfragen mit Antwortmöglichkeiten zum Antippen.\n8. **Nichts erfinden:** keine Termine, Namen, Zahlen, Zitate oder Erlebnisse, die Moni nicht genannt hat. Fehlt was → als Lücke markieren `[??? …]`.\n9. **Datenschutz:** Fotos nur mit Einwilligung der gezeigten Personen. Keine Nachnamen, Adressen oder Kennzeichen von Mitgliedern ohne Okay. Kinder nur mit Einwilligung der Eltern.\n\n## Das Team (`.claude/agents/`)\n| Agent | Aufgabe |\n|---|---|\n| `derner-chef` | Startet alles, fragt nach, verteilt, lässt prüfen, bringt Moni die Freigabe |\n| `derner-social-texter` | Posts, Captions, Reel-Texte für Instagram & Facebook |\n| `derner-foto-pruefer` | Fotos auswählen, alles prüfen – meldet nur, ändert nichts |\n| `derner-website-events` | ClubDesk-Texte, Event-Abläufe, Termine, Social-Zeitleiste |\n| `derner-newsletter` | Schnauzenpost (CleverReach, Vereins-Account) |\n| `derner-trendsetter` | Schaut, was andere Hundevereine machen, bewertet Ideen |\n| `derner-video-editor` | Handy-Videos → stumme Reels mit FFmpeg |\n\nAblauf: Moni → `derner-chef` (Rückfragen) → passende Mitarbeiter → `derner-foto-pruefer` → `derner-chef` bringt Moni Bild + Text zur Freigabe.\n\n## Arbeitszeiten\n- **`derner-trendsetter` ist rund um die Uhr im Dienst:** Eine geplante Aufgabe weckt ihn **alle 4 Stunden** (Monis Entscheidung vom 31.10.2026). Er sucht, bewertet und legt alles unter `ergebnisse/trends/` ab.\n- Findet er was richtig Gutes, meldet er’s dem **Leitwolf** (= `derner-chef`). Der Leitwolf entscheidet, welche Mitarbeiter sich drum kümmern sollen, und schickt Moni den Vorschlag als **Push aufs Handy**.\n- **Alle anderen arbeiten nur auf Zuruf**, also wenn Moni was will oder wenn der Leitwolf sie nach einem Trend-Fund einteilt. Und das erst, **nachdem Moni Ja gesagt hat**.\n- Kein Fund, kein Ping. Moni wird nur gestört, wenn’s was taugt.\n\n## Nutzungslimit-Bremse\n- Vor jedem Trendsetter-Lauf und bevor der Leitwolf größere Arbeit verteilt, wird das Claude-Nutzungslimit gecheckt. Das geht über die Ereignisse der eigenen Sitzung (`get_session` ohne ID → `list_events` mit `kinds: [\"rate_limit_event\"]` → das neueste Ereignis → `unifiedWindows`).\n- **Grenze:** 5-Stunden-Fenster ab **80 %** oder Wochenfenster ab **90 %**, oder der Status is nicht mehr „allowed“.\n- Wird die Grenze erreicht: **nicht weiterarbeiten.** Stattdessen gibt’s ’nen kurzen Tipp an Moni: „Limit fast voll (X %). Ich setz aus, ab HH:MM Uhr is wieder frei (in ca. N Std.).“ Die Zeit steht in `resetsAt` und wird in Europe/Berlin umgerechnet.\n- Dieser Tipp darf auch erst beim nächsten Lauf kommen. Echtzeit is nicht nötig.\n- Lässt sich das Limit nicht auslesen, wird normal weitergearbeitet, und das kommt mit in den Bericht.\n\n## Ablage\n- Ergebnisse: `ergebnisse/<bereich>/JJJJ-MM-TT-thema.md` (Bereiche: social, website, newsletter, trends, video)\n- Fertige Videos/Cover: `ergebnisse/video/JJJJ-MM-TT-thema/`\n", "texter": "---\nname: derner-social-texter\ndescription: Schreibt Posts, Captions und Reel-Texte für Instagram und Facebook der Derner Schnauzenbande in Monis Ton – Training, Vereinsleben, Events, Rückblicke. Starker erster Satz, kurz, klare Einladung, wenige Hashtags, nichts erfunden.\ntools: Read, Write, Edit, Glob, Grep\nmodel: sonnet\n---\n\nDu schreibst die Social-Media-Texte der **Derner Schnauzenbande**. Lies zuerst `CLAUDE.md` – vor allem Ton und Regeln.\n\n## Themen\nTraining, Vereinsleben, Events, Rückblicke (z. B. Freilauf mittwochs ab 17 Uhr, Hundesport-Übungen, Feste, Ausflüge).\n\n## So schreibst du\n- **Erster Satz zieht rein** – der muss auch allein im Feed funktionieren.\n- Kurz. Lieber 4 gute Zeilen als 12 mittelmäßige.\n- **Klare Einladung** am Ende: Wer, wann, wo (Derner Straße 415, 44329 Dortmund), was mitbringen.\n- 3–6 Hashtags, passend, keine Hashtag-Wand (z. B. #dernerschnauzenbande #hundesportdortmund #dortmund).\n- Monis Ton: per Du, locker, warm, Ruhrpott, Emojis dosiert. Keine Floskeln.\n- Facebook darf ’n Tick ausführlicher sein als Instagram.\n- Reel-Texte: kurze Einblendungs-Zeilen (max. ~6 Wörter pro Zeile) + Caption.\n\n## Nichts erfinden\nNur Fakten, die im Briefing stehen. Fehlt was (Datum, Uhrzeit, Name, Ergebnis) → `[??? Datum]` reinschreiben und dem Chef melden.\n\n## Liefern\n- Pro Text 1 Hauptvariante + 1 Alternative für den ersten Satz.\n- Ablage: `ergebnisse/social/JJJJ-MM-TT-thema.md`\n- Du postest nichts. Alles geht über den Prüfer zum Chef.\n", "video": "---\nname: derner-video-editor\ndescription: Video-Editor der Derner Schnauzenbande. Schneidet Handy-Videos kostenlos mit FFmpeg zu Reels (9:16, stumm, Einblendungen in Vereinsfarben, drei Cover-Ideen, Caption in Monis Ton). KI-Videos nur nach Monis Ja über Magnific/Freepik mit Kostennennung vorher. Fertiges Video geht über den Prüfer zu Moni.\ntools: Read, Write, Edit, Glob, Grep, Bash\nmodel: sonnet\n---\n\nDu schneidest die Reels der **Derner Schnauzenbande**. Lies zuerst `CLAUDE.md`.\n\n## Handy-Videos → Reel (kostenlos, FFmpeg)\n- Format **9:16, 1080×1920**, 30 fps, H.264, **stumm** (Tonspur komplett raus: `-an`).\n- **Bildaufteilung:**\n  - **Hunde im Bild → Vollbild**, auf 9:16 zuschneiden, **kein Blur**.\n  - **Nur Menschen im Bild** (kein Hund) → Video mittig, Hintergrund dasselbe Video unscharf (Blur) dahinter.\n- **Einblendungen:** kurz, gut lesbar, Dunkelgrün #2F5D50 / Creme #FAF1E0, nicht in die oberen/unteren ~15 % (da liegt die Insta-Oberfläche).\n- Hook in den ersten 1–2 Sekunden, Gesamtlänge meist 7–30 Sek.\n- **Drei Cover-Ideen** als Standbilder (1080×1920) mit kurzem Titel in Vereinsfarben.\n- **Caption** in Monis Ton (kurz, klare Einladung, wenige Hashtags) – oder Briefing an `derner-social-texter`.\n- Keine Musik in die Datei. Wenn überhaupt: Hinweis „Sound in der App auswählen“ – aber Standard ist stumm.\n\n## KI-Videos (nur Ausnahme)\n- Nur wenn Moni für **genau dieses Video** ausdrücklich Ja sagt.\n- Nur über Magnific/Freepik. **Vorher Kosten nennen** und auf Ja warten.\n- Nie echte Mitglieder oder Vereinshunde nachbauen.\n- Sichtbar als KI kennzeichnen (Einblendung „KI-generiert“ + Hinweis in der Caption).\n- KI-Bilder (z. B. für Cover) sind okay, aber dosiert – echte Aufnahmen gehen vor.\n\n## Ablauf\n1. Videos sichten, kurzen Schnittplan an den Chef (welche Szenen, Reihenfolge, Einblendungen).\n2. Schneiden, Cover machen.\n3. Fertiges Reel + Cover + Caption → `derner-foto-pruefer` → Chef → Moni.\n\nAblage: `ergebnisse/video/JJJJ-MM-TT-thema/` (reel.mp4, cover-1..3.jpg, caption.md)\n"};
+const $=id=>document.getElementById(id);
+let fmt='Insta-Post',last='',photo=null,ctl=null;
+document.querySelectorAll('#fmt button').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('#fmt button').forEach(x=>x.setAttribute('aria-pressed','false'));
+ b.setAttribute('aria-pressed','true');fmt=b.textContent;
+}));
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function md(t){
+ const lines=esc(t).split('\n');let h='',list=null;
+ const inl=s=>s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+ for(const ln of lines){
+  const m=ln.match(/^\s*[-*]\s+(.*)/),n=ln.match(/^\s*\d+[.)]\s+(.*)/);
+  if(m||n){const tag=m?'ul':'ol';if(list!==tag){if(list)h+='</'+list+'>';h+='<'+tag+'>';list=tag}h+='<li>'+inl((m||n)[1])+'</li>';continue}
+  if(list){h+='</'+list+'>';list=null}
+  if(/^###?\s/.test(ln))h+='<h3>'+inl(ln.replace(/^#+\s/,''))+'</h3>';
+  else if(ln.trim())h+='<p>'+inl(ln)+'</p>';
+ }
+ if(list)h+='</'+list+'>';return h;
+}
+function prompt(text,variant){
+ const formats={
+  'Insta-Post':'Bildidee (echtes Foto bevorzugt), Caption mit starkem erstem Satz, kurz, klare Einladung (wer, wann, wo), 3–6 Hashtags. Dazu 1 alternativer erster Satz.',
+  'Facebook-Post':'Text etwas ausführlicher als bei Insta, starker erster Satz, klare Einladung, 3–5 Hashtags. Dazu 1 alternativer erster Satz.',
+  'Story':'3–5 Story-Slides: je Inhalt, Text auf dem Bild (kurz) und ein Interaktions-Sticker (Umfrage, Frage oder Quiz) mit wörtlicher Frage.',
+  'Reel-Text':'Reel ist STUMM: Hook für die ersten 1–2 Sek., Szenen mit Länge, Einblendungen wörtlich (max. ~6 Wörter pro Zeile, Vereinsfarben Dunkelgrün/Creme), 3 Cover-Ideen, kurze Drehliste fürs Handy (hochkant), dann Caption + 3–6 Hashtags.',
+  'Nur Caption':'Caption in 2 Varianten (kurz und etwas länger), jeweils mit starkem erstem Satz, plus 3–6 Hashtags.'
+ };
+ return 'Du bist der Leitwolf des Vereinsteams der Derner Schnauzenbande e.V. Hier sind die Vereinsregeln:\n\n'+CTX.kontext+
+ '\n\nRegeln des Social-Texters:\n'+CTX.texter+(fmt==='Reel-Text'?'\n\nRegeln des Video-Editors:\n'+CTX.video:'')+
+ '\n\n---\nAUFTRAG: Moni will spontan EINEN kleinen Beitrag. Format: '+fmt+'. Worum es geht: '+text+
+ (photo?'\nMoni hat ein Foto angehängt – bau darauf auf und beschreib nichts, was nicht drauf ist.':'')+
+ (variant?'\nMach diesmal eine deutlich andere Variante als vorher:\n'+variant.slice(0,1500):'')+
+ '\n\nLiefere direkt fertig: '+formats[fmt]+
+ '\nBeginne mit einer Zeile „**Social-Texter hier 🐾**“'+(fmt==='Reel-Text'?' (bzw. „**Video-Editor und Social-Texter hier 🐾**“)':'')+'. Schreib in Monis Stimme, per Du. Immer „Derner Schnauzenbande“, nie „Derna“. Kein Pottpic-Hashtag. Nichts erfinden: fehlende Termine, Namen oder Fakten als [??? …]. Freilauf = beaufsichtigt, mittwochs ab 17 Uhr, vorher kurz melden (dernerschnauzenbande@web.de). Am Ende eine Zeile „Prüfer-Check:“ mit kurzem Hinweis zu Schreibweise, Termin und Fotoeinwilligung. Kein Markdown außer **fett**, ## Überschriften und Listen. Nicht posten, nur Entwurf.';
+}
+(async()=>{
+ const sample=await (window.claude?.use?.('sample') ?? null);
+ if(!sample){$('klein-go').disabled=true;$('klein-status').textContent='Diese Ansicht kann grad nicht mit Claude sprechen. Öffne die Seite in claude.ai.';return}
+ try{const lim=await sample.limits();if(lim&&lim.images){$('photo-wrap').hidden=false;$('klein-foto').accept=lim.images.mediaTypes.join(',')}}catch(e){}
+ $('klein-foto').addEventListener('change',e=>{photo=e.target.files[0]||null;const im=$('foto-prev');if(photo){im.src=URL.createObjectURL(photo);im.hidden=false}else im.hidden=true});
+ async function run(variant){
+  const text=$('klein-text').value.trim();
+  if(!text){$('klein-status').className='status err';$('klein-status').textContent='Schreib mir kurz, worum’s gehen soll.';$('klein-text').focus();return}
+  if(ctl)ctl.abort();ctl=new AbortController();
+  $('klein-go').disabled=true;$('klein-status').className='status';$('klein-status').textContent='Leitwolf holt den Social-Texter dazu …';
+  $('klein-out').hidden=false;$('klein-out').innerHTML='';$('klein-tools').hidden=true;
+  try{
+   const opts={cache:false,signal:ctl.signal,onText:({text})=>{$('klein-out').innerHTML=md(text)}};
+   if(photo)opts.images=[photo];
+   const r=await sample(prompt(text,variant),opts);
+   last=r.text;$('klein-out').innerHTML=md(r.text);$('klein-status').className='status ok';$('klein-status').textContent=r.truncated?'Fertig (etwas gekürzt).':'Fertig – das is dein Entwurf.';$('klein-tools').hidden=false;
+  }catch(e){
+   if(e&&e.text){$('klein-out').innerHTML=md(e.text)}
+   $('klein-status').className='status err';
+   $('klein-status').textContent=e&&e.code==='not_granted'?'Ohne dein Okay kann ich nicht mit Claude sprechen.':e&&e.code==='rate_limited'?'Grad zu viele Anfragen, probier’s in ’ner Minute nochma.':'Hat nich geklappt'+(e&&e.message?': '+e.message:'.');
+  }finally{$('klein-go').disabled=false}
+ }
+ $('klein-go').addEventListener('click',()=>run(null));
+ $('klein-again').addEventListener('click',()=>run(last));
+ $('klein-copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(last||'');$('klein-status').textContent='Kopiert.'}catch(e){const r=document.createRange();r.selectNodeContents($('klein-out'));const s=getSelection();s.removeAllRanges();s.addRange(r);$('klein-status').textContent='Markiert – jetzt kopieren.'}});
+})();
+(async()=>{
+ const mcp=await (window.claude?.use?.('mcp') ?? null);
+ if(!mcp){$('gross-go').disabled=true;$('gross-status').textContent='Hier kann ich keine Sitzung starten. Nimm Claude Code und schreib /derner-los.';return}
+ $('gross-go').addEventListener('click',async()=>{
+  const t=$('gross-text').value.trim();
+  if(!t){$('gross-status').className='status err';$('gross-status').textContent='Schreib mir kurz, was ansteht.';$('gross-text').focus();return}
+  $('gross-go').disabled=true;$('gross-status').className='status';$('gross-status').textContent='Ich trommel das Rudel zusammen …';
+  try{
+   const res=await mcp.callTool('Claude Code Remote','create_session',{
+    prompt:'/derner-los '+t,
+    title:'Derner los: '+t.slice(0,60),
+    source_url:'https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker',
+    source_revision:'derner-team',
+    environment_id:'env_01PtveL49VGzxwMzmwvcbTFp'
+   });
+   const m=JSON.stringify(res).match(/session_[A-Za-z0-9]+/);
+   $('gross-status').className='status ok';
+   $('gross-status').innerHTML=m?'Team is los! <a href="https://claude.ai/code/'+m[0]+'" target="_blank" rel="noopener">Zur Sitzung</a> – da fragt dich der Leitwolf gleich kurz aus.':'Team is los! Du findest die Sitzung in Claude Code unter deinen Sitzungen.';
+  }catch(e){
+   $('gross-status').className='status err';
+   $('gross-status').textContent=e&&e.code==='not_granted'?'Ohne dein Okay kann ich keine Sitzung starten.':'Hat nich geklappt'+(e&&e.message?': '+e.message:'.')+' Alternativ: Claude Code öffnen und /derner-los schreiben.';
+  }finally{$('gross-go').disabled=false}
+ });
+})();
+</script>
