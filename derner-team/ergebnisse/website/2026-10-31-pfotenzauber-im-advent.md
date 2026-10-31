@@ -1,7 +1,7 @@
 # Pfotenzauber im Advent – Website, Ablauf, Social-Zeitleiste
 
 Stand: Samstag, 31.10.2026 · Erstellt von `derner-website-events` · **Entwurf, wartet auf Monis Freigabe**
-Quelle: nur die Fakten vom Flyer. Alles Fehlende steht als `[??? …]`.
+Quelle: Fakten vom Flyer + Monis Antworten vom 31.10. („Eintritt kostenlos“ und „Keine Anmeldung nötig“ von Moni bestätigt, Quelle: Moni, 31.10.). Ende und Preise nennen wir bewusst nicht – Monis Linie: „Das siehst du, wenn du kommst.“ Alles andere Fehlende steht als `[??? …]`.
 
 ---
 
@@ -15,15 +15,15 @@ Schnapp dir deine Menschen und komm mit auf die Wiese! Am Samstag, 28. November,
 
 ### Infoblock
 
-**Wann:** Samstag, 28. November 2026, ab 15 Uhr (Ende: [??? Ende])
+**Wann:** Samstag, 28. November 2026, ab 15 Uhr
 
 **Wo:** Vereinsplatz/Wiese der Derner Schnauzenbande, Derner Straße 415, 44329 Dortmund
 
 **Für wen:** Für alle – mit Hund oder ohne.
 
-**Anmeldung:** Keine nötig, einfach vorbeikommen.
+**Anmeldung:** Keine nötig, einfach vorbeikommen. (Quelle: Moni, 31.10.)
 
-**Kosten:** Eintritt kostenlos. Zu Essen und Trinken: [??? Preise/Bezahlung]
+**Kosten:** Eintritt kostenlos. (Quelle: Moni, 31.10.) Was Essen und Trinken kosten und bis wann es geht? Das siehst du, wenn du kommst.
 
 **Was dich erwartet:**
 - **Genießen & klönen:** heiße und kalte Getränke, Reibeplätzchen mit Apfelmus, selbst gebackene Kekse für Hund und Mensch, gebrannte Mandeln
@@ -31,11 +31,11 @@ Schnapp dir deine Menschen und komm mit auf die Wiese! Am Samstag, 28. November,
 - **Pottpic ist vor Ort:** Lern die Hundefotografin kennen und buch gleich dein eigenes Hundeshooting für 'n späteren Termin.
 
 ### Einladung
-Also: Menschen schnappen, ggf. Hund einpacken, ab auf die Wiese. Wir freuen uns, wenn du vorbeischaust – und ja, ich mein das auch so. 🐾
+Also: Menschen schnappen, ggf. Hund einpacken, ab auf die Wiese. Komm einfach vorbei, is schön, wenn du da bist – ich mein, wirklich. 🐾
 
 Fragen vorab? Schreib uns: dernerschnauzenbande@web.de · www.dernerschnauzenbande.de
 
-> Hinweis an Moni: Die Einladung ist bewusst schlicht gehalten. Wenn dir „Wir freuen uns…“ zu floskelig klingt, ersetz es durch was in deinen Worten (z. B. „Komm vorbei, is schön, wenn du da bist.“).
+> Hinweis an Moni: Die Floskel „Wir freuen uns, wenn du vorbeischaust“ ist raus, die Einladung klingt jetzt nach dir. Ändere gern noch was in deine Worte.
 
 ### Impressum / Datenschutz – bitte prüfen (keine Rechtsberatung)
 - [ ] Sind Impressum- und Datenschutz-Link auf der neuen Seite/im Footer von ClubDesk sichtbar? (bitte prüfen)
@@ -49,13 +49,13 @@ Fragen vorab? Schreib uns: dernerschnauzenbande@web.de · www.dernerschnauzenban
 
 ## 2. Event-Ablauf als Vorbereitungs-Checkliste
 
-Bekannt: Sa 28.11.2026, ab 15 Uhr, Vereinsplatz/Wiese. Es wird gegen ca. 16:30 dunkel. **Keine Uhrzeiten für Aufbau/Programm erfunden** – alles Offene ist eine Frage.
+Bekannt: Sa 28.11.2026, ab 15 Uhr, Vereinsplatz/Wiese. Es wird gegen ca. 16:30 dunkel (Schätzung, nicht geprüft). **Keine Uhrzeiten für Aufbau/Programm erfunden** – alles Offene ist eine Frage.
 
 ### Vorher
 - [ ] Wer koordiniert das Ganze? [??? Verantwortliche/r]
 - [ ] Helfer: Wer macht was? [??? Helferliste – Namen nur mit Okay]
-- [ ] Ende der Veranstaltung festlegen [??? Ende] und auf Website/Social ergänzen
-- [ ] Preise/Bezahlung klären: kostenlos, Preisliste, Spendenbox? Bar/Karte? [??? Preise/Bezahlung]
+- [ ] Ende der Veranstaltung intern festlegen (nach außen nicht nennen, Moni: „Das siehst du, wenn du kommst.“)
+- [ ] Preise/Bezahlung intern klären: Preisliste, Spendenbox? Bar/Karte? (nach außen nicht nennen)
 - [ ] Mit Pottpic abstimmen: Platz/Stand, Strom?, Tisch?, Uhrzeit vor Ort [??? Absprache Pottpic]
 - [ ] Hinweise zu Hunden vor Ort (Leinenpflicht? Freilauf auf der Wiese? Hundekekse nur für Hunde mit Verträglichkeit?) [??? Regeln für Hunde]
 - [ ] Allergene/Zutaten bei Reibeplätzchen, Keksen, Mandeln? (bitte prüfen, ob Kennzeichnung nötig) [??? Zutaten/Allergene]
@@ -66,7 +66,7 @@ Bekannt: Sa 28.11.2026, ab 15 Uhr, Vereinsplatz/Wiese. Es wird gegen ca. 16:30 d
 - [ ] Tische/Pavillons/Zelte: Was ist da, was fehlt? [??? Anzahl]
 - [ ] Stände: Getränke (heiß/kalt), Reibeplätzchen mit Apfelmus, Kekse für Hund und Mensch (sauber getrennt/beschriftet), gebrannte Mandeln, Stöberstand (Geschenkideen, Leinen, Halsbänder, Trödel), Pottpic-Platz
 - [ ] Wegweiser/Schild „Pfotenzauber im Advent“ an der Derner Straße 415
-- [ ] Kasse/Wechselgeld, falls Bezahlung [??? Preise/Bezahlung]
+- [ ] Kasse/Wechselgeld, falls Bezahlung (intern klären)
 
 ### Material
 - [ ] Heißgetränke: Kocher/Thermoskannen/Strom? [??? Ausstattung]
@@ -83,7 +83,7 @@ Bekannt: Sa 28.11.2026, ab 15 Uhr, Vereinsplatz/Wiese. Es wird gegen ca. 16:30 d
 - [ ] Wer entscheidet und bis wann? [??? Verantwortliche/r + Uhrzeit]
 - [ ] Wie sagen wir es an (Website, Insta/FB-Story, Mail)? Kein Wetter-Versprechen in den Posts.
 
-### Plan B Dunkelheit (gegen ca. 16:30 wird's dunkel)
+### Plan B Dunkelheit (gegen ca. 16:30 wird's dunkel – Schätzung)
 - [ ] Gibt es auf dem Platz/auf der Wiese Beleuchtung? [??? Beleuchtung vorhanden?]
 - [ ] Falls nicht: Lichterketten, Laternen, Windlichter, Stirnlampen? Strom/Batterien? [??? Wer besorgt was]
 - [ ] Wege, Stolperstellen und Eingang ausleuchten (Hunde an der Leine, Kinder)
@@ -108,8 +108,8 @@ Bekannt: Sa 28.11.2026, ab 15 Uhr, Vereinsplatz/Wiese. Es wird gegen ca. 16:30 d
 
 ## 3. Social-Zeitleiste
 
-Nur Instagram, Facebook, Stories der Derner Schnauzenbande (Meta Business Suite, Moni postet selbst). Texte schreibt `derner-social-texter`. **Kein Pottpic-Hashtag**, keine Wetter-Versprechen, nur echte Fotos.
-Bild für die Ankündigung: Flyer-Grafik in Dunkelgrün #2F5D50 / Creme #FAF1E0 oder echtes Platzfoto [??? Flyer als Bild verfügbar?].
+Nur Instagram, Facebook, Stories der Derner Schnauzenbande (Meta Business Suite, Moni postet selbst). Texte schreibt `derner-social-texter`. **Kein Pottpic-Hashtag**, keine Wetter-Versprechen, echte Fotos haben Vorrang.
+Bild für die Ankündigung: Flyer als Ankündigungsbild ist ok (Moni erlaubt KI-Bilder, dosiert; Farben Dunkelgrün #2F5D50 / Creme #FAF1E0) oder echtes Platzfoto. Fotorealistische KI-Bilder bei Meta als KI kennzeichnen. Rückblick weiter nur mit echten Fotos.
 
 | Datum | Phase | Instagram | Facebook | Story |
 |---|---|---|---|---|
@@ -123,12 +123,12 @@ Bild für die Ankündigung: Flyer-Grafik in Dunkelgrün #2F5D50 / Creme #FAF1E0 
 
 **Mo 2.11. – Ankündigung (ca. 3,5 Wochen vorher)**
 - Titel „Pfotenzauber im Advent“, Motto: „Schnapp dir deine Menschen und komm mit auf die Wiese!“
-- Sa 28.11.2026, ab 15 Uhr (Ende: [??? Ende]), Vereinsplatz/Wiese, Derner Straße 415, 44329 Dortmund
+- Sa 28.11.2026, ab 15 Uhr, Vereinsplatz/Wiese, Derner Straße 415, 44329 Dortmund
 - Für alle, mit Hund oder ohne · keine Anmeldung · Eintritt kostenlos
 - Genießen & klönen (Getränke, Reibeplätzchen mit Apfelmus, Kekse für Hund und Mensch, gebrannte Mandeln) · Stöbern (Geschenkideen, Leinen, Halsbänder, Trödel)
 - Pottpic vor Ort (kennenlernen, Hundeshooting für später buchen)
 - Kontakt: www.dernerschnauzenbande.de, dernerschnauzenbande@web.de
-- Hashtags: Vereins-Hashtags [??? Standard-Hashtags des Vereins], kein #esbeginntmiteinemwau (ist Pottpic)
+- Hashtags: Vereins-Hashtags [??? Standard-Hashtags des Vereins], kein Pottpic-Hashtag
 - Freigabe durch Moni
 
 **Sa 21.11. – Erinnerung**
@@ -136,7 +136,7 @@ Bild für die Ankündigung: Flyer-Grafik in Dunkelgrün #2F5D50 / Creme #FAF1E0 
 - Die Highlights nochmal knapp: Essen & Klönen, Stöbern, Pottpic
 - Frage an die Community (z. B. Lieblingsplätzchen? Hund oder ohne?) – nur als Interaktion, nichts versprechen
 - Hinweis auf Website für alle Infos
-- Offene Punkte bis dahin klären: Ende, Preise, Beleuchtung, Regen-Entscheidung (siehe oben)
+- Intern bis dahin klären: Beleuchtung, Regen-Entscheidung (siehe oben). Ende und Preise bleiben offen: „Das siehst du, wenn du kommst.“
 
 **Fr 27.11. – Letzter Aufruf**
 - „Morgen“, Sa 28.11. ab 15 Uhr, Adresse
@@ -146,7 +146,7 @@ Bild für die Ankündigung: Flyer-Grafik in Dunkelgrün #2F5D50 / Creme #FAF1E0 
 
 **Sa 28.11. – Story live**
 - Platz/Aufbau, Stände (Getränke, Reibeplätzchen, Kekse, Mandeln, Stöberstand), Pottpic-Platz
-- Erinnerung „ab 15 Uhr, Derner Straße 415“ (Ende: [??? Ende])
+- Erinnerung „ab 15 Uhr, Derner Straße 415“
 - Stimmungsbilder nur ohne erkennbare Personen oder mit deren Okay; Kinder nur mit Einwilligung der Eltern
 - Fotohinweis beachten
 - Evtl. Geschichten/Sticker-Frage; nichts im Voraus behaupten, was nicht passiert ist
@@ -155,15 +155,15 @@ Bild für die Ankündigung: Flyer-Grafik in Dunkelgrün #2F5D50 / Creme #FAF1E0 
 - Nur echte Fotos, durch `derner-foto-pruefer` gesichtet (Einwilligung, Kinder, Kennzeichen)
 - Danke ans Rudel/Helfer – Namen nur mit Okay [??? Helfernamen/Dank]
 - Keine Zahlen (Besucher, Einnahmen) erfinden [??? Zahlen, falls gewünscht]
-- Gern: Hinweis auf Freilauf mittwochs ab 17 Uhr und Website
+- Gern: Hinweis auf Freilauf (beaufsichtigt, mittwochs ab 17 Uhr, vorher melden: dernerschnauzenbande@web.de) und Website
 - Pottpic-Bezug nur wenn es passt und abgesprochen ist
 
 ---
 
 ## Offene [???]-Punkte
 
-1. [??? Ende] der Veranstaltung
-2. [??? Preise/Bezahlung] für Getränke, Reibeplätzchen, Kekse, Mandeln (kostenlos? Spende? Bar?)
+1. Ende und Preise: bewusst nicht öffentlich (Moni, 31.10.). Nur intern festlegen (Ende, Preise/Bezahlung, Spende? Bar?)
+2. Erledigt: Eintritt kostenlos und keine Anmeldung (Moni, 31.10.)
 3. [??? Verantwortliche/r] für Organisation und Regen-Entscheidung
 4. [??? Helferliste] / Aufgaben (Namen nur mit Okay)
 5. [??? Aufbau-Uhrzeit und Abbau-Uhrzeit]
@@ -175,5 +175,5 @@ Bild für die Ankündigung: Flyer-Grafik in Dunkelgrün #2F5D50 / Creme #FAF1E0 
 11. [??? Zutaten/Allergene] und Genehmigung/Versicherung (bitte prüfen)
 12. [??? Ausstattung] (Strom, Kocher, Zubereitung Reibeplätzchen, Geschirr, Mülltonnen, Pfand)
 13. [??? Trödel-Regeln]
-14. [??? Flyer als Bild] für die Ankündigung
+14. Flyer als Ankündigungsbild: ok (Moni, 31.10.), Datei bitte bereitlegen
 15. [??? Standard-Hashtags des Vereins]

@@ -1,4 +1,4 @@
-# Schnauzenpost November 2026 – ENTWURF
+# Schnauzenpost November 2026 – ENTWURF (überarbeitet)
 
 Stand: Sa 31.10.2026 · Versand durch Moni ca. 15.11.2026 über CleverReach (Vereins-Account) · Nichts verschickt, nichts hochgeladen.
 
@@ -19,7 +19,7 @@ Am 28.11. is Pfotenzauber auf unserem Platz – mit Hund oder ohne, einfach vorb
 
 ## 2. Begrüßung
 
-Hey ihr Lieben,
+Hey du,
 
 ich mein, der November is ja eigentlich nich grade der Monat, wo man freiwillig lange draußen rumsteht – is früh dunkel, nass, grau. Aber weißt du was? Genau deshalb machen wir am 28.11. was Gemütliches auf der Wiese. Dazu gleich mehr. 🐾
 
@@ -27,9 +27,9 @@ ich mein, der November is ja eigentlich nich grade der Monat, wo man freiwillig 
 
 ## 3. Vereinsnews
 
-Diesmal gibt's bei uns im Verein nix Besonderes zu berichten – der Platz läuft, der Freilauf läuft, alles beim Alten. Dafür steht ja gleich was Schönes an (siehe Termine).
+Diesmal gibt's von uns keine großen Neuigkeiten – dafür steht ja gleich was Schönes an (siehe Termine).
 
-*Anmerkung für Moni: bewusst kurz gehalten, nichts dazugedichtet. Falls doch noch was einfällt (Rückblick, Dank an Helfer, Platzarbeiten), hier ergänzen: [??? Vereinsnews, falls doch was]*
+*Anmerkung für Moni: bewusst kurz gehalten, nichts behauptet. Falls doch was einfällt (Rückblick, Dank an Helfer, Platzarbeiten), hier ergänzen: [??? Vereinsnews, falls doch was]*
 
 ---
 
@@ -37,10 +37,10 @@ Diesmal gibt's bei uns im Verein nix Besonderes zu berichten – der Platz läuf
 
 Ab jetzt is es ja schon nachmittags duster, und die Runde nach Feierabend findet oft im Dunkeln statt. Ein paar Gedanken dazu, weißt du:
 
-- **Seht und werdet gesehen:** Leuchthalsband, Reflektoren oder ’n Leuchtanhänger am Geschirr machen deinen Hund für andere viel früher erkennbar. Reflektierende Streifen an dir selbst helfen auch.
-- **Vorher testen:** Leuchtband kurz anmachen, bevor ihr losgeht – nix nerviger als leere Batterie mitten auf der Runde.
+- **Sieh und werde gesehen:** Leuchthalsband, Reflektoren oder ’n Leuchtanhänger am Geschirr machen deinen Hund für andere viel früher erkennbar. Reflektierende Streifen an dir selbst helfen auch.
+- **Vorher testen:** Leuchtband kurz anmachen, bevor du losgehst – nix nerviger als leere Batterie mitten auf der Runde.
 - **Leine kurz, wo's eng wird:** An Straßen und Wegen ohne Licht den Hund lieber nah bei dir halten. Im Dunkeln sieht man grade bei dunklen Hunden einfach schlechter, wo sie gerade sind.
-- **Treffpunkt-Tipp:** Wenn ihr zum Freilauf kommt (mittwochs ab 17 Uhr), plant ruhig ’n paar Minuten fürs Anziehen der Leuchtsachen ein.
+- **Treffpunkt-Tipp:** Wenn du zum Freilauf kommst (mittwochs ab 17 Uhr), plan ruhig ’n paar Minuten fürs Anziehen der Leuchtsachen ein.
 
 ---
 
@@ -50,22 +50,23 @@ Ab jetzt is es ja schon nachmittags duster, und die Runde nach Feierabend findet
 Beaufsichtigter Freilauf, alle Hundeleute sind eingeladen – du musst nich Mitglied sein.
 Nächste Termine: Mi 18.11. und Mi 25.11., jeweils ab 17 Uhr
 Ort: Derner Straße 415, 44329 Dortmund
-Anmeldung: nich nötig – einfach vorbeikommen.
+Melde dich bitte vorher kurz: **dernerschnauzenbande@web.de**
 
 **Pfotenzauber im Advent**
-Samstag, 28.11.2026, ab 15 Uhr (Ende: [??? Ende-Uhrzeit])
+Samstag, 28.11.2026, ab 15 Uhr
 Ort: bei uns auf dem Vereinsplatz / der Wiese, Derner Straße 415, 44329 Dortmund
 Für alle – mit Hund oder ohne. Anmeldung: nich nötig, einfach vorbeikommen.
 
+> 🖼️ **Flyer hier einfügen** (Bild: Event-Flyer) – Datei: `material/2026-11-28-pfotenzauber-flyer.png`
+> *Hinweis: Flyer ist KI-illustriert, das is jetzt dosiert erlaubt. Falls er fotorealistisch wirkt, bei Meta-Posts als KI kennzeichnen. Im Newsletter: Alt-Text mit Datum/Uhrzeit mitgeben, damit die Infos auch ohne Bild lesbar sind.*
+
 Was dich erwartet:
 - **Zum Naschen und Wärmen:** heiße und kalte Getränke, Reibeplätzchen mit Apfelmus, selbst gebackene Kekse (für Hund *und* Mensch), gebrannte Mandeln
-- **Preise:** [??? Preise – fürs Essen und die Getränke]
+- **Was was kostet und wie lang's geht?** Das siehst du, wenn du kommst. 😉
 - **Zum Stöbern:** Geschenkideen, Leinen, Halsbänder und Trödel – vielleicht findest du ja schon was für unterm Baum
-- **Pottpic (Hundefotografie) is auch da:** Du kannst Moni und ihre Arbeit kennenlernen und gleich ’n Shooting für ’n späteren Termin buchen.
+- **Pottpic (Hundefotografie) is auch da** – da kannst du dir ’n Shooting für später sichern.
 
 Zieh dich warm an, weißt du – is ja draußen.
-
-*Hinweis für Moni: Wetter-/Schlechtwetter-Plan wurde nich genannt. Falls es einen gibt (Unterstand, Zelt, Ausweichtermin), hier ergänzen: [??? Plan bei schlechtem Wetter]*
 
 ---
 
@@ -73,23 +74,23 @@ Zieh dich warm an, weißt du – is ja draußen.
 
 **Noch kein Foto vorhanden** → [??? Foto]
 
-Vorschlag, was gut passen würde (echtes Foto, nix KI):
+Vorschlag, was gut passen würde (echtes Foto):
 - Ein Bild von eurem Platz / der Wiese in Herbst- oder Winterstimmung, am besten mit ’n paar Hunden beim Freilauf – gern in der Dämmerung, passt zum Tipp mit dem Licht.
-- Oder: ’n Foto von selbstgebackenen Keksen / gebrannten Mandeln, wenn ihr beim Backen oder Aufbauen was knipsen könnt (ohne erkennbare Gesichter, außer Einwilligung liegt vor).
+- Oder: ’n Foto von selbstgebackenen Keksen / gebrannten Mandeln, wenn beim Backen oder Aufbauen was geknipst werden kann (ohne erkennbare Gesichter, außer Einwilligung liegt vor).
 - Alternativ nach dem Event: Stimmungsbild für die Dezember-Ausgabe.
 
 Bitte beachten:
 - Fotos nur mit Einwilligung der gezeigten Personen (Kinder: Einwilligung der Eltern). Auswahl und Prüfung über `derner-foto-pruefer`.
-- **Der Event-Flyer wirkt KI-illustriert** und kommt laut Vereinsregeln ("nur echte Fotos") **nicht** als Bild in Frage – außer Moni entscheidet ausdrücklich anders. Die Infos im Text stehen ja eh drin.
+- Der Flyer is schon als (KI-)Bild im Termin-Teil. Fürs Abschlussbild lieber ’n echtes Foto, Vereinsalltag bleibt echt.
 
 ---
 
 ## 7. Gruß
 
-Ich freu mich, wenn wir uns sehen – auf der Wiese oder mittwochs beim Freilauf. Bis dahin: bleibt sichtbar, bleibt warm und gebt euren Hunden ’n Extra-Kuscheln von uns. 🐾
+Ich freu mich, wenn wir uns sehen – auf der Wiese oder mittwochs beim Freilauf. Bis dahin: bleib sichtbar, bleib warm und gib deinem Hund ’n Extra-Kuscheln von uns. 🐾
 
 Bis bald,
-Moni
+Moni ❓ *(Unterschrift bewusst offen – Moni bestätigt, ob so stehen bleibt)*
 
 Alles Weitere findest du auf **www.dernerschnauzenbande.de** · Fragen gern an **dernerschnauzenbande@web.de**
 
@@ -99,15 +100,15 @@ Alles Weitere findest du auf **www.dernerschnauzenbande.de** · Fragen gern an *
 
 - Footer prüfen (Abmeldelink und Impressum kommen über CleverReach)
 - Alle `[???]`-Punkte geklärt oder gestrichen
-- Bild ausgewählt und freigegeben (echtes Foto, Einwilligung)
-- Datum/Uhrzeit nochmal gegenchecken: Sa 28.11.2026, ab 15 Uhr · Freilauf Mi 18.11. und 25.11.
+- Flyer-Datei eingefügt, Alt-Text gesetzt
+- Abschlussbild ausgewählt und freigegeben (echtes Foto, Einwilligung)
+- Unterschrift „Moni ❓“ bestätigt
+- Datum/Uhrzeit nochmal gegenchecken: Sa 28.11.2026, ab 15 Uhr · Freilauf Mi 18.11. und 25.11., jeweils ab 17 Uhr
 - Betreff gewählt, Testmail an dich selbst geschickt
 - Freigabe durch Moni – erst dann Versand
 
 ## Offene Punkte
 
-- [??? Ende-Uhrzeit] Pfotenzauber
-- [??? Preise] Essen und Getränke
-- [??? Foto] Abschlussbild
+- [??? Foto] Abschlussbild (echtes Foto)
+- ❓ Unterschrift „Moni“ bestätigen
 - [??? Vereinsnews, falls doch was] (optional)
-- [??? Plan bei schlechtem Wetter] (optional)

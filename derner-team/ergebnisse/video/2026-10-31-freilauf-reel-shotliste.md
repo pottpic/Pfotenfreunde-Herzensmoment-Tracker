@@ -5,7 +5,7 @@ Stand: Idee/Plan, noch nichts gefilmt, nichts gepostet.
 
 ## Reel-Idee
 - Hochkant 9:16, **stumm**, fertig ca. **14 Sek.** (geht 7–20)
-- **Hook (Sek. 0–2):** Hund rennt in Hundeaugenhöhe aufs Handy zu. Dazu Einblendung: **„Mittwochs, 17 Uhr“**
+- **Hook (Sek. 0–2):** Hund rennt in Hundeaugenhöhe aufs Handy zu. Dazu Einblendung: **„Mittwochs ab 17 Uhr“**
 - Dann kurze Schnipsel vom Freilauf (Hunde, Leute, Stimmung), am Ende Einladung + Adresse.
 - Hunde im Bild = Vollbild, kein Blur. Nur Menschen (ohne Hund) = Video mittig, dahinter unscharf.
 
@@ -35,14 +35,14 @@ Filme jeden Clip ruhig **8–10 Sek.** lang, ich schneide draus die Zeit unten.
 - Kurz fragen: „Darf ich dich/euch fürs Reel filmen? Kommt auf Instagram/Facebook vom Verein.“ Wer nein sagt, bleibt raus.
 - Kinder nur mit Okay der Eltern.
 - **Keine Nachnamen** nennen/einblenden, **keine Autokennzeichen** im Bild.
-- Am besten Okay kurz merken (Name/Vorname, Datum), damit's nachvollziehbar is. `[??? Gibt's ein Einwilligungsformular im Verein? Moni fragen]`
+- Am besten Okay kurz merken (Name/Vorname, Datum), damit's nachvollziehbar is. Foto-Einwilligung: Formular ist in Arbeit (ergebnisse/website/…-foto-einwilligung.md)
 
 ## Einblendungen (Vereinsfarben)
 Dunkelgrün **#2F5D50** und Creme **#FAF1E0**, z. B. Creme-Schrift auf grünem Balken oder umgekehrt. Nicht in die oberen/unteren ca. 15 %.
 
 | Wann | Text |
 |---|---|
-| Clip 1 (Hook) | **Mittwochs, 17 Uhr** |
+| Clip 1 (Hook) | **Mittwochs ab 17 Uhr** |
 | Clip 3–4 | **Beaufsichtigter Freilauf** |
 | Clip 5–6 | **Alle Hundeleute willkommen** |
 | Schluss | **Derner Straße 415, Dortmund** |
@@ -50,13 +50,13 @@ Dunkelgrün **#2F5D50** und Creme **#FAF1E0**, z. B. Creme-Schrift auf grünem B
 (Kein Logo-Zwang; falls gewünscht, kleines Vereinslogo am Ende.)
 
 ## 3 Cover-Ideen
-1. **Hund-Nahaufnahme** (Clip 1 oder 3), darüber auf grünem Balken in Creme: „Freilauf – mittwochs 17 Uhr“.
+1. **Hund-Nahaufnahme** (Clip 1 oder 3), darüber auf grünem Balken in Creme: „Freilauf – mittwochs ab 17 Uhr“.
 2. **Gruppenbild** der Hunde/Leute in der Dämmerung, Creme-Schrift „Komm mit deinem Hund vorbei“.
-3. **Cremefarbene Fläche** mit dunkelgrünem Text „Mittwochs ist Freilauf“ und ein kleiner Hunde-Ausschnitt (Pfote/Nase) unten.
+3. **Cremefarbene Fläche** mit dunkelgrünem Text „Mittwochs ab 17 Uhr ist Freilauf“ und ein kleiner Hunde-Ausschnitt (Pfote/Nase) unten.
 
 ## Caption-Entwurf (Moni prüft)
 > Mittwochs ab 17 Uhr is bei uns Freilauf – beaufsichtigt, also du kannst entspannt zugucken, wie dein Hund ma Hund sein darf. 🐾
-> Und eigentlich sind alle Hundeleute eingeladen, nicht nur Mitglieder. Komm einfach vorbei, ich mein: schnüffeln, quatschen, flitzen, halt das volle Programm.
+> Und eigentlich sind alle Hundeleute eingeladen, nicht nur Mitglieder. Komm mit, ich mein: schnüffeln, quatschen, flitzen, halt das volle Programm. Meld dich vorher kurz bei uns (dernerschnauzenbande@web.de), dann weiß ich Bescheid.
 > 📍 Derner Straße 415, 44329 Dortmund
 >
 > #dernerschnauzenbande #freilauf #hundedortmund
