@@ -5,7 +5,7 @@ Moni hat „Derner Team los“ gesagt. Ziel: Die Derner Schnauzenbande (Hundespo
 ## Monis Entscheidungen (31.10.2026)
 - **Ziel:** Eigenes Derner-Team bauen (Agentinnen, Kontext-Datei, Startbefehl).
 - **Zeitrahmen:** November/Dezember 2026 – das Team soll noch dieses Jahr laufen.
-- **Trennung:** „Strikt getrennt, aber darf auch durch Pottpic.“ Leitwolf-Lesart (von Moni noch zu bestätigen): Verein hat eigene Stimme, eigene Kanäle, eigene Hashtags, eigene Ablage. Pottpic darf beim Verein **als Fotografin/Unterstützerin** vorkommen (z. B. „Fotos: Pottpic“ als Credit, Vereinsfotos von Pottpic), aber keine Pottpic-Werbung, kein #esbeginntmiteinemwau an Vereinsposts, keine gemeinsamen Listen/Konten.
+- **Trennung (von Moni bestätigt, 31.10.):** Verein hat eigene Stimme, eigene Kanäle, eigene Hashtags, eigene Ablage, keine gemeinsamen Listen/Konten. **Werbung für Pottpic beim Verein ist okay** (z. B. „Fotos: Pottpic“, Hinweis auf Pottpic-Shootings/Aktionen). **#esbeginntmiteinemwau kommt NIE an Vereinsposts.**
 - **Vorhanden:** Instagram + Facebook des Vereins, Vereins-Website.
 - **Moni ist im Vorstand** – sie entscheidet mit und darf für den Verein sprechen. Trotzdem: nichts geht raus ohne ihr Okay.
 - **Budget: 0 €.**
