@@ -11,7 +11,11 @@ Nur, was belegt is (Quelle: `derner-team/recherche/2026-10-31-ist-stand.md`, Bri
 - **Name:** immer exakt **„Derner Schnauzenbande“** (D-E-R-N-E-R). Nie „Derne Schnauzenbande“, nie „Schnauzenbande Derne“.
 - **Was:** Hundesportverein in Dortmund-Derne. Ehrenamtlich geführt. **Moni is im Vorstand** – sie entscheidet mit und darf für den Verein sprechen.
 - **Ort:** Derne gehört zum **Stadtbezirk Scharnhorst** (nicht Eving). Adresse vom Hunderennen laut Eventbrite: Derner Straße 415, Dortmund. Ob das auch der Trainingsplatz is: [Platzhalter – Moni bestätigen]. „Derner Wiese“ / Vereinsgelände nennt der Skill `reel-schnitt` – Ortsbezeichnung nur nutzen, wenn Moni sie bestätigt.
-- **Kanäle:** Instagram, Facebook und eine Vereins-Website gibt's laut Moni. Links: [Platzhalter]. Die Websuche findet keinen davon (Befund aus Runde 1).
+- **Kanäle (von Moni geliefert, 31.10.2026):**
+  - Website: https://www.dernerschnauzenbande.de
+  - Instagram: https://www.instagram.com/dernerschnauzenbande – Handle **@dernerschnauzenbande**
+  - Facebook: https://www.facebook.com/share/1MVStBD2gw/
+  - Die Websuche hat keinen davon gefunden (Befund aus Runde 1 → Sichtbarkeit is 'ne Aufgabe). Inhalte der Seiten konnte das Team noch nicht lesen: Website, Instagram und Facebook sind im Sitzungs-Netzwerk gesperrt (Website am 31.10. per Abruf getestet, nicht erreichbar). Fakten von dort also erst übernehmen, wenn die Domain freigegeben is oder Moni Screenshots schickt.
 - **Öffentlich gefunden:**
   - Interessenten-Formular: https://tally.so/r/VLD5by – unverbindlich, Verein meldet sich persönlich, fragt Alter, Rasse, Impfung, Haftpflicht und Verträglichkeit mit anderen Hunden ab, Kontakt auch per WhatsApp.
   - Hunderennen „Der Moment wenn dein Hund alles gibt“ am **20.06.2026** (vorbei) über Eventbrite: 50-m-Strecke, zwei Läufe, Größenklassen Mini/Medium/Large, Startgeld 12 €/15 € (gilt nur für 2026!), Tollwutimpfung + Haftpflicht Pflicht, Kurznasen und Windhunde starten nicht (Tierwohl).
@@ -19,7 +23,7 @@ Nur, was belegt is (Quelle: `derner-team/recherche/2026-10-31-ist-stand.md`, Bri
 - **Budget:** 0 €.
 
 ### Das soll Moni nachliefern (bis dahin überall [Platzhalter])
-1. **Links:** Website-URL, Instagram-Handle, Facebook-Seite
+1. ~~Links: Website-URL, Instagram-Handle, Facebook-Seite~~ → erledigt (31.10., siehe oben). Noch offen: Pottpic-Handle für Credits/Markierungen.
 2. **Sparten/Angebote:** welche Gruppen und Sportarten es wirklich gibt (Welpen, Alltag, Agility, Rally o. Ä.)
 3. **Zeiten:** Trainingszeiten, Winterpause ja/nein, Weihnachtsfeier-Termin
 4. **Mitgliedschaft:** wie man Mitglied wird, Probetraining-Ablauf, Beitrag (nur wenn öffentlich), was man mitbringen muss
