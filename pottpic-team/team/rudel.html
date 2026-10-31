@@ -77,6 +77,15 @@ h3{font-size:1.35rem;font-weight:800}
 .next{font:700 1rem var(--body);padding:10px 18px;border-radius:999px;border:none;background:var(--accent);color:var(--accent-ink);cursor:pointer}
 .feedback{margin:12px 0 0;min-height:1.5em;font-weight:500}
 @media (max-width:560px){.quiz{grid-template-columns:1fr;justify-items:center;text-align:center}.opts,.quiz__foot{justify-content:center}.quiz .av{width:130px}}
+.wo{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:22px}
+.wo__box{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.wo__box p{margin:0;color:var(--muted)}.wo__box b{color:var(--ink)}
+.wo__h{margin-top:28px}
+.files{list-style:none;padding:0;margin:12px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+.files li{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--bg);min-width:0}
+.files a{font-weight:700;color:var(--accent);text-decoration:none}.files a:hover{text-decoration:underline}
+.files span{font-size:.85rem;color:var(--muted)}
+.wo__note{color:var(--muted);font-size:.85rem;margin-top:12px}
 footer{color:var(--muted);font-size:.85rem;max-width:62ch}
 @media (prefers-reduced-motion:no-preference){.opts button,.next{transition:background .15s,border-color .15s}}
 </style>
@@ -476,6 +485,18 @@ footer{color:var(--muted);font-size:.85rem;max-width:62ch}
    <div class="quiz__foot"><button class="next" id="q-next" type="button">Nächste</button><span class="score" id="q-score">0 von 0 richtig</span></div>
   </div>
  </div>
+</section>
+<section aria-labelledby="h-wo">
+ <p class="eyebrow">Wo finde ich was</p>
+ <h2 id="h-wo">So erreichst du dein Rudel</h2>
+ <div class="wo">
+  <div class="wo__box"><h3>Im normalen Claude-Chat</h3><p>Mit dem Skill <b>pottpic-team</b> (einmal in claude.ai hochladen) sagst du einfach „Frag ma Witterung …“ oder „Postpfote, schreib mir …“. Geht auch in der Handy-App.</p></div>
+  <div class="wo__box"><h3>Für große Projekte</h3><p>In Claude Code auf deinem Repo: <b>/team-los</b> und dein Thema. Dann arbeitet das ganze Team in Runden und speichert alles.</p></div>
+  <div class="wo__box"><h3>Von alleine</h3><p>Sonntags Wochen-Paket und Newsletter-Entwurf, montags Messbogen, mittwochs Trend-Check. Du kriegst 'ne Push-Nachricht.</p></div>
+ </div>
+ <h3 class="wo__h">Die wichtigsten Ergebnisse</h3>
+ <ul class="files"><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/umsetzung/2026-10-30-echt-jetzt-startklar.md" target="_blank" rel="noopener">„Echt jetzt!“ – dein Fahrplan bis 30.11.</a><span>Alle Entscheidungen, Wochen-Checklisten, Kalender</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/umsetzung/2026-10-30-echt-jetzt-grundgeruest.md" target="_blank" rel="noopener">Die 12 Aufgaben mit Luke</a><span>Plus Regeln und Teilnahmebedingungen (Entwurf)</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/shooting-planung/2026-10-30-handy-foto-guide.md" target="_blank" rel="noopener">Handy-Foto-Guide</a><span>Das Geschenk für deine Newsletter-Abos</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/social-media/2026-10-30-echt-jetzt-social-plan.md" target="_blank" rel="noopener">Social-Plan & Captions</a><span>Teaser ab 05.11., fertige Texte</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/newsletter/2026-10-30-echt-jetzt-newsletter.md" target="_blank" rel="noopener">Newsletter</a><span>CleverReach-Checkliste, Willkommensmail, Ausgaben</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/video/2026-10-30-echt-jetzt-reels.md" target="_blank" rel="noopener">Reels & Drehliste</a><span>Was du mit Luke filmen musst</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/analyse/2026-10-30-echt-jetzt-messbogen.md" target="_blank" rel="noopener">Messbogen</a><span>Alle 2 Wochen 10 Minuten</span></li><li><a href="https://github.com/pottpic/Pfotenfreunde-Herzensmoment-Tracker/blob/main/pottpic-team/akquise/2026-10-30-echt-jetzt-partner.md" target="_blank" rel="noopener">Partner in Dortmund</a><span>Ansprache-Texte und Aushang</span></li></ul>
+ <p class="wo__note">Die Links zeigen auf GitHub (Hauptstand). Eine Sicherung des Teams liegt in deinem Google Drive im Ordner „Pottpic-Team (Sicherung)“.</p>
 </section>
 <footer>Die Gesichter sind gezeichnet, keine echten Personen. Agent-Namen in Grau, falls du lieber so rufst. Das geht auch.</footer>
 </div>
