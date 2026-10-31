@@ -30,6 +30,8 @@ Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal i
 | **Postpfote** | `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
 | **Fotopfote** | `shooting-planung` | Shootings vorbereiten: Kunden-Infos, Location & Wetter, Ablauf, Packliste, Trello-Karte |
 
+**Leitwolf** ist der Chef des Rudels (die Teamleitung, also die Claude-Sitzung selbst): Er nimmt Monis Wünsche an, holt die passenden Kolleginnen dazu und hält alles zusammen. Kleine Sachen (ein spontaner Post, ein Reel, eine Caption) erledigt er sofort mit einer Kollegin – ohne Briefing und Runden. Große Sachen laufen über `/team-los`.
+
 Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim Agent-Namen, beides geht.
 
 Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
