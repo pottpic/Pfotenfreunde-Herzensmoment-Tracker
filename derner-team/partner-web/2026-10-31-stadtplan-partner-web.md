@@ -32,7 +32,7 @@ Status: **Alles Entwurf. Nix verschickt, nix angerufen, nix auf der Website geä
 - **Name exakt „Derner Schnauzenbande“.** Nicht mit HSV Dortmund-Derne 1927 e.V. verwechseln – lohnt sich, das bei Praxen/Presse einmal kurz zu sagen („nicht der Gebrauchshundeverein, das sind wir nicht“), falls Rückfragen kommen. Nicht ungefragt reinschreiben.
 
 **Platzhalter, die in allen Texten gleich heißen:**
-`[Launch-Datum]` (Default laut Witterung: Mitte/Ende Februar 2027) · `[URL Unterseite]` (Vorschlag: www.dernerschnauzenbande.de/hunde-stadtplan) · `[Vereins-Mail]` · `[Ortsangabe Vereinsplatz]` · `[Rückmelde-Datum]` (Vorschlag: ca. 3 Wochen nach Versand)
+`[Launch-Datum]` (Default: **Sa 27.02.2027**, Ausweich Sa 13.03. – *Abgleich Runde 3, Macherpfote, 31.10.*) · `[URL Unterseite]` (Vorschlag: www.dernerschnauzenbande.de/hunde-stadtplan) · `[Vereins-Mail]` · `[Ortsangabe Vereinsplatz]` · `[Rückmelde-Datum]` (Vorschlag: ca. 3 Wochen nach Versand)
 
 ---
 
