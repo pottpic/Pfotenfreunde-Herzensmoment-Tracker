@@ -37,6 +37,7 @@ Dieser Ordner (`derner-team/`) gehört **nur** dem Verein. Komplett getrennt von
 7. **Erst fragen, dann loslegen.** Rückfragen mit Antwortmöglichkeiten zum Antippen.
 8. **Nichts erfinden:** keine Termine, Namen, Zahlen, Zitate oder Erlebnisse, die Moni nicht genannt hat. Fehlt was → als Lücke markieren `[??? …]`.
 9. **Datenschutz:** Fotos nur mit Einwilligung der gezeigten Personen. Keine Nachnamen, Adressen oder Kennzeichen von Mitgliedern ohne Okay. Kinder nur mit Einwilligung der Eltern.
+10. **Pottpic hat Vorrang** (Monis Entscheidung vom 01.11.2026): Wenn sich was mit Pottpic beißt – Zeit, Posts am selben Tag, Nutzungslimit –, geht Pottpic vor. Dann lieber 'n Vereinspost verschieben oder kürzer halten und Moni kurz Bescheid sagen. Getrennt bleibt trotzdem alles: keine Pottpic-Regeln, kein Pottpic-Hashtag hier.
 
 ## Das Team (`.claude/agents/`)
 | Agent | Aufgabe |
