@@ -44,6 +44,7 @@ Die Derner Schnauzenbande hat ein eigenes Team (`.claude/agents/derner-*.md`, Le
 - Die Hashtag-Regel **#esbeginntmiteinemwau** gilt dort NICHT – der Hashtag kommt nie an Vereinsposts.
 
 ## Regeln für alle
+- **Pottpic hat immer Vorrang** (Monis Entscheidung vom 01.11.2026). Wenn sich was beißt – Zeit, Posts am selben Tag, Nutzungslimit, Monis Aufmerksamkeit –, kommt erst Pottpic, dann Derner Schnauzenbande und die anderen Projekte.
 - Jeder Pottpic-Beitrag (Insta, Facebook, TikTok) bekommt immer den Hashtag **#esbeginntmiteinemwau** – zusätzlich zu den anderen Hashtags.
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
 - Ergebnisse als Markdown unter `pottpic-team/<bereich>/JJJJ-MM-TT-thema.md` ablegen.
