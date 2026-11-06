@@ -23,3 +23,16 @@ Wer is bei dir der Lieblingsmensch – du oder eher der Hund? 😄
 | `…-spruch-v3.jpg` | Beziehungsstatus: / Er hat mich komplett im Griff. | hat nix zu sagen | der Chef |
 
 Story-Version (9:16) mach ich, sobald eine ausgesucht is.
+
+## Runde 3: alle drei fertig
+- Feed 4:5: `…-spruch-v1/v2/v3.jpg` → als **Karussell** in der Reihenfolge v1, v2, v3 posten
+- Story 9:16: `…-story-spruch-v1/v2/v3.jpg` → drei Story-Slides nacheinander
+- Reel: `2026-11-06-luke-und-ich-reel-drei-sprueche.mp4` (11,5 s, 9:16, stumm, Wisch-Übergang). Sound wählt Moni in der App.
+
+### Caption fürs Karussell/Reel
+Ich konnt mich nich entscheiden, welcher Spruch – also kriegt ihr halt alle drei 😄
+Ehrlich gesagt stimmen die ja auch alle, weißt du. Luke is der Star, ich hab die Leckerlis und zu sagen hab ich eigentlich eh nix.
+
+Welcher passt bei dir und deinem Hund am besten – 1, 2 oder 3?
+
+#esbeginntmiteinemwau #pottpic #hundefotografie #ruhrgebiet #labrador #hundeliebe
