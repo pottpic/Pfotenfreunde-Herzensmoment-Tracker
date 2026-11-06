@@ -14,3 +14,12 @@ Er kriegt Leckerli, ich krieg den Blick. Fairer Deal, find ich.
 Wer is bei dir der Lieblingsmensch – du oder eher der Hund? 😄
 
 #esbeginntmiteinemwau #pottpic #hundefotografie #ruhrgebiet #labrador #hundeliebe
+
+## Runde 2: witzige Sprüche (Feed 4:5, Moni sucht aus)
+| Datei | Überschrift | Unter Moni | Unter Luke |
+|---|---|---|---|
+| `…-spruch-v1.jpg` | Er is der Star. / Ich halt nur die mit den Leckerlis. | die mit den Leckerlis | der Star |
+| `…-spruch-v2.jpg` | Einer von uns guckt immer so süß. / Ich bin's nich. | nich süß | süß |
+| `…-spruch-v3.jpg` | Beziehungsstatus: / Er hat mich komplett im Griff. | hat nix zu sagen | der Chef |
+
+Story-Version (9:16) mach ich, sobald eine ausgesucht is.
