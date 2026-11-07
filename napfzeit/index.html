@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>Napfzeit</title>
+<meta name="description" content="Monis Kalorien-, Gewichts- und Wasser-Tracker">
+<meta name="theme-color" content="#e07b2a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Napfzeit">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{
+  --ink:#1a120b; --bark:#3d2c1e; --wood:#7c5235; --amber:#e07b2a; --gold:#f5a623;
+  --sage:#6b8f71; --sky:#4a90b8; --rose:#c8553d;
+  --cream:#fdf7ef; --warm:#f3e8d8; --paper:#fffcf7; --line:#eadcc8; --muted:#8a7562;
+  --carb:#f5a623; --prot:#6b8f71; --fat:#c8553d;
+  --safe-b:env(safe-area-inset-bottom,0px); --safe-t:env(safe-area-inset-top,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#f6ece0; --bark:#e9dccb; --wood:#cfae8e; --muted:#a99583;
+    --cream:#17110c; --warm:#2a2018; --paper:#211912; --line:#3a2d22;
+  }
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--cream);color:var(--ink);
+  font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%}
+body{padding-top:var(--safe-t);padding-bottom:calc(72px + var(--safe-b));min-height:100vh}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer;border:0;background:none}
+h1,h2,h3{margin:0;color:var(--bark)}
+.wrap{max-width:560px;margin:0 auto;padding:0 16px}
+.hide{display:none!important}
+
+/* Kopf */
+.top{display:flex;align-items:center;justify-content:space-between;padding:14px 0 8px}
+.top h1{font-size:28px;letter-spacing:-.5px}
+.datenav{display:flex;align-items:center;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:2px}
+.datenav button{width:34px;height:34px;border-radius:50%;font-size:20px;color:var(--wood)}
+.datenav span{min-width:92px;text-align:center;font-weight:600;font-size:15px}
+
+/* Karten */
+.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:16px;margin:12px 0}
+.muted{color:var(--muted);font-size:14px}
+
+/* Übersicht */
+.summary{display:flex;align-items:center;gap:16px}
+.ring{position:relative;width:132px;height:132px;flex:none}
+.ring svg{transform:rotate(-90deg)}
+.ring .mid{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.ring .big{font-size:28px;font-weight:700;color:var(--bark);line-height:1}
+.ring .lbl{font-size:12px;color:var(--muted);margin-top:3px}
+.sumside{flex:1;display:grid;gap:8px}
+.kv{display:flex;justify-content:space-between;font-size:14px}
+.kv b{color:var(--bark)}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+.macro .n{font-size:13px;color:var(--muted)}
+.macro .v{font-size:14px;font-weight:600}
+.bar{height:7px;border-radius:9px;background:var(--warm);overflow:hidden;margin:5px 0 3px}
+.bar i{display:block;height:100%;border-radius:9px;transition:width .3s}
+
+/* Mahlzeiten */
+.meal h3{font-size:17px;display:flex;justify-content:space-between;align-items:center}
+.meal h3 small{font-weight:500;color:var(--muted);font-size:14px}
+.entry{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
+.entry:first-of-type{margin-top:8px}
+.entry .t{flex:1;min-width:0}
+.entry .t div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.entry .t small{color:var(--muted);font-size:13px}
+.entry .k{font-weight:600;font-size:15px;white-space:nowrap}
+.del{width:30px;height:30px;border-radius:50%;color:var(--muted);font-size:18px}
+.addbtn{margin-top:10px;width:100%;padding:11px;border-radius:14px;background:var(--warm);color:var(--wood);font-weight:600}
+
+/* Wasser */
+.water{display:flex;align-items:center;gap:12px}
+.glasses{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.glass{width:28px;height:36px;border:2px solid var(--sky);border-radius:4px 4px 8px 8px;position:relative;overflow:hidden;opacity:.55}
+.glass.full{opacity:1}
+.glass.full::after{content:"";position:absolute;left:0;right:0;bottom:0;height:75%;background:var(--sky);opacity:.8}
+.round{width:40px;height:40px;border-radius:50%;background:var(--warm);font-size:22px;font-weight:600;color:var(--sky);flex:none}
+
+/* Formulare */
+label.f{display:block;margin:10px 0}
+label.f span{display:block;font-size:13px;color:var(--muted);margin-bottom:4px}
+input[type=text],input[type=number],input[type=search],input[type=date],select{
+  width:100%;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--cream);font-size:16px;appearance:none;-webkit-appearance:none}
+.row{display:flex;gap:10px}
+.row>*{flex:1}
+.btn{display:block;width:100%;padding:14px;border-radius:16px;background:var(--amber);color:#fff;font-weight:700;font-size:16px;margin-top:12px}
+.btn.ghost{background:var(--warm);color:var(--wood)}
+.seg{display:flex;background:var(--warm);border-radius:12px;padding:3px;gap:3px}
+.seg button{flex:1;padding:8px 4px;border-radius:9px;font-size:14px;color:var(--wood)}
+.seg button.on{background:var(--paper);color:var(--bark);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+
+/* Tabbar */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--paper);border-top:1px solid var(--line);
+  display:flex;justify-content:space-around;padding:6px 0 calc(6px + var(--safe-b));z-index:10}
+nav.tabs button{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;color:var(--muted);padding:4px 18px}
+nav.tabs button svg{width:24px;height:24px}
+nav.tabs button.on{color:var(--amber)}
+
+/* Sheet */
+.sheetbg{position:fixed;inset:0;background:rgba(20,12,5,.45);z-index:20;opacity:0;pointer-events:none;transition:opacity .2s}
+.sheetbg.open{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;max-width:600px;margin:0 auto;height:calc(100% - 40px - var(--safe-t));
+  background:var(--cream);border-radius:22px 22px 0 0;z-index:21;transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);
+  display:flex;flex-direction:column;visibility:hidden}
+.sheet.open{transform:none;visibility:visible}
+.sheet .sh{display:flex;align-items:center;justify-content:space-between;padding:14px 16px 8px}
+.sheet .sh h2{font-size:19px}
+.sheet .x{width:34px;height:34px;border-radius:50%;background:var(--warm);font-size:18px;color:var(--wood)}
+.sheet .sb{flex:1;overflow-y:auto;padding:0 16px calc(24px + var(--safe-b));-webkit-overflow-scrolling:touch}
+.search{display:flex;gap:8px;margin:6px 0 10px}
+.search input{flex:1}
+.scan{width:48px;flex:none;border-radius:14px;background:var(--amber);color:#fff;display:flex;align-items:center;justify-content:center}
+.food{display:flex;align-items:center;gap:10px;padding:12px 4px;border-bottom:1px solid var(--line);width:100%;text-align:left}
+.food .t{flex:1;min-width:0}
+.food .t div{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.food .t small{color:var(--muted);font-size:13px}
+.food .k{font-size:14px;color:var(--wood);white-space:nowrap}
+.food .plus{width:30px;height:30px;border-radius:50%;background:var(--warm);color:var(--amber);font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none}
+.empty{text-align:center;color:var(--muted);padding:28px 10px;font-size:15px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.chip{padding:7px 12px;border-radius:999px;background:var(--warm);color:var(--wood);font-size:14px}
+.chip.on{background:var(--amber);color:#fff}
+.nutri{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;margin:12px 0}
+.nutri div{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 4px}
+.nutri b{display:block;font-size:18px;color:var(--bark)}
+.nutri small{font-size:12px;color:var(--muted)}
+
+/* Scanner */
+.scanner{position:fixed;inset:0;background:#000;z-index:40;display:flex;flex-direction:column}
+.scanner video{flex:1;width:100%;object-fit:cover}
+.scanner .frame{position:absolute;left:12%;right:12%;top:38%;height:22%;border:3px solid var(--gold);border-radius:16px;box-shadow:0 0 0 9999px rgba(0,0,0,.35)}
+.scanner .bar2{position:absolute;left:0;right:0;bottom:0;padding:16px 16px calc(16px + var(--safe-b));text-align:center;color:#fff}
+.scanner .bar2 button{margin-top:10px;padding:12px 28px;border-radius:999px;background:rgba(255,255,255,.18);color:#fff;font-weight:600}
+
+/* Gewicht */
+.chart{width:100%;height:190px;display:block}
+.wlist .entry:first-of-type{margin-top:4px}
+.toast{position:fixed;left:50%;bottom:calc(86px + var(--safe-b));transform:translateX(-50%) translateY(20px);background:var(--bark);color:var(--cream);
+  padding:10px 18px;border-radius:999px;font-size:14px;opacity:0;transition:.25s;z-index:50;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%)}
+.hint{font-size:13px;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <!-- TAGEBUCH -->
+  <section id="v-diary">
+    <div class="top">
+      <h1>Napfzeit</h1>
+      <div class="datenav">
+        <button id="dPrev" aria-label="Tag zurück">‹</button>
+        <span id="dLabel">Heute</span>
+        <button id="dNext" aria-label="Tag vor">›</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="summary">
+        <div class="ring">
+          <svg width="132" height="132" viewBox="0 0 132 132">
+            <circle cx="66" cy="66" r="56" fill="none" stroke="var(--warm)" stroke-width="12"/>
+            <circle id="ringArc" cx="66" cy="66" r="56" fill="none" stroke="var(--amber)" stroke-width="12" stroke-linecap="round" stroke-dasharray="351.86" stroke-dashoffset="351.86" style="transition:stroke-dashoffset .4s"/>
+          </svg>
+          <div class="mid"><div class="big" id="kLeft">0</div><div class="lbl" id="kLeftLbl">kcal übrig</div></div>
+        </div>
+        <div class="sumside">
+          <div class="kv"><span>Ziel</span><b id="kGoal">0</b></div>
+          <div class="kv"><span>Gegessen</span><b id="kEaten">0</b></div>
+          <div class="kv"><span>Wasser</span><b id="wSum">0 l</b></div>
+        </div>
+      </div>
+      <div class="macros" id="macros"></div>
+    </div>
+
+    <div id="meals"></div>
+
+    <div class="card">
+      <h3 style="font-size:17px;margin-bottom:10px;display:flex;justify-content:space-between">Wasser <small class="muted" id="wText"></small></h3>
+      <div class="water">
+        <button class="round" id="wMinus" aria-label="Glas weniger">−</button>
+        <div class="glasses" id="glasses"></div>
+        <button class="round" id="wPlus" aria-label="Glas mehr">+</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GEWICHT -->
+  <section id="v-weight" class="hide">
+    <div class="top"><h1>Gewicht</h1></div>
+    <div class="card">
+      <div class="row" style="align-items:flex-end">
+        <label class="f"><span>Datum</span><input type="date" id="wDate"></label>
+        <label class="f"><span>Gewicht (kg)</span><input type="number" id="wKg" inputmode="decimal" step="0.1" placeholder="z. B. 68,4"></label>
+      </div>
+      <button class="btn" id="wSave">Eintragen</button>
+    </div>
+    <div class="card">
+      <div class="kv" style="margin-bottom:6px"><span>Verlauf</span><b id="wDelta"></b></div>
+      <svg class="chart" id="wChart" viewBox="0 0 340 190" preserveAspectRatio="none"></svg>
+    </div>
+    <div class="card wlist" id="wList"></div>
+  </section>
+
+  <!-- PROFIL -->
+  <section id="v-profile" class="hide">
+    <div class="top"><h1>Profil & Ziele</h1></div>
+    <div class="card">
+      <h3 style="font-size:17px">Über dich</h3>
+      <div class="seg" id="pSex" style="margin-top:10px">
+        <button data-v="f">Frau</button><button data-v="m">Mann</button>
+      </div>
+      <div class="row">
+        <label class="f"><span>Alter</span><input type="number" id="pAge" inputmode="numeric"></label>
+        <label class="f"><span>Größe (cm)</span><input type="number" id="pHeight" inputmode="numeric"></label>
+        <label class="f"><span>Gewicht (kg)</span><input type="number" id="pWeight" inputmode="decimal" step="0.1"></label>
+      </div>
+      <label class="f"><span>Wie aktiv bist du im Alltag?</span>
+        <select id="pAct">
+          <option value="1.2">Wenig – viel Sitzen</option>
+          <option value="1.375">Leicht – Gassi & bisschen Bewegung</option>
+          <option value="1.55">Mittel – viel auf den Beinen, Sport 3–5×</option>
+          <option value="1.725">Sehr aktiv – Hundesport, Training fast täglich</option>
+        </select>
+      </label>
+      <label class="f"><span>Ziel</span>
+        <select id="pGoal">
+          <option value="-500">Abnehmen (ca. 0,5 kg pro Woche)</option>
+          <option value="-250">Langsam abnehmen</option>
+          <option value="0">Gewicht halten</option>
+          <option value="300">Zunehmen</option>
+        </select>
+      </label>
+      <button class="btn ghost" id="pCalc">Kalorienziel ausrechnen</button>
+      <p class="hint">Gerechnet wird mit der Mifflin-St-Jeor-Formel – das is 'ne Schätzung, kein ärztlicher Rat.</p>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size:17px">Tagesziele</h3>
+      <label class="f"><span>Kalorien pro Tag (kcal)</span><input type="number" id="pKcal" inputmode="numeric"></label>
+      <div class="row">
+        <label class="f"><span>Kohlenhydrate %</span><input type="number" id="pC" inputmode="numeric"></label>
+        <label class="f"><span>Eiweiß %</span><input type="number" id="pP" inputmode="numeric"></label>
+        <label class="f"><span>Fett %</span><input type="number" id="pF" inputmode="numeric"></label>
+      </div>
+      <label class="f"><span>Wasser pro Tag (Liter)</span><input type="number" id="pWater" inputmode="decimal" step="0.25"></label>
+      <button class="btn" id="pSave">Speichern</button>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size:17px">Sicherung</h3>
+      <p class="muted" style="margin:6px 0 0">Alles liegt nur auf deinem iPhone. Mach ab und zu 'ne Sicherung, dann is nix weg, wenn du ma das Handy wechselst.</p>
+      <button class="btn ghost" id="bExport">Sicherung speichern</button>
+      <button class="btn ghost" id="bImport">Sicherung laden</button>
+      <input type="file" id="bFile" accept="application/json,.json" class="hide">
+    </div>
+    <p class="hint" style="text-align:center;margin-bottom:20px">Lebensmitteldaten: Open Food Facts (openfoodfacts.org), freie Datenbank – Angaben ohne Gewähr.</p>
+  </section>
+</div>
+
+<nav class="tabs">
+  <button data-tab="diary" class="on">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 11h16a8 8 0 0 1-16 0z"/><path d="M8 20h8"/><path d="M12 7c-1.5-2-4-1-3 1l3 2 3-2c1-2-1.5-3-3-1z"/></svg>Tagebuch</button>
+  <button data-tab="weight">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="16" rx="4"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M12 10l1.5-2"/></svg>Gewicht</button>
+  <button data-tab="profile">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Profil</button>
+</nav>
+
+<!-- Hinzufügen-Sheet -->
+<div class="sheetbg" id="sheetBg"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true">
+  <div class="sh"><h2 id="shTitle">Frühstück</h2><button class="x" id="shClose" aria-label="Schließen">✕</button></div>
+  <div class="sb" id="shBody">
+    <!-- Liste -->
+    <div id="pList">
+      <div class="search">
+        <input type="search" id="q" placeholder="Lebensmittel suchen …" enterkeyhint="search" autocomplete="off">
+        <button class="scan" id="scanBtn" aria-label="Barcode scannen">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 8v8M10 8v8M13 8v8M17 8v8"/></svg>
+        </button>
+      </div>
+      <div class="seg" id="listSeg">
+        <button data-v="recent" class="on">Zuletzt</button>
+        <button data-v="basics">Basics</button>
+        <button data-v="own">Eigene</button>
+      </div>
+      <div id="results"></div>
+      <div class="row" style="margin-top:6px">
+        <button class="btn ghost" id="quickBtn">Nur Kalorien</button>
+        <button class="btn ghost" id="ownBtn">Eigenes anlegen</button>
+      </div>
+    </div>
+
+    <!-- Detail -->
+    <div id="pDetail" class="hide">
+      <button class="chip" id="backBtn" style="margin:4px 0 10px">‹ Zurück</button>
+      <h3 id="dName" style="font-size:20px"></h3>
+      <div class="muted" id="dBrand"></div>
+      <div class="nutri">
+        <div><b id="nK">0</b><small>kcal</small></div>
+        <div><b id="nC">0</b><small>Kohlenh.</small></div>
+        <div><b id="nP">0</b><small>Eiweiß</small></div>
+        <div><b id="nF">0</b><small>Fett</small></div>
+      </div>
+      <label class="f"><span>Menge (g bzw. ml)</span><input type="number" id="dAmount" inputmode="decimal"></label>
+      <div class="chips" id="portionChips"></div>
+      <label class="f"><span>Mahlzeit</span>
+        <select id="dMeal"></select>
+      </label>
+      <button class="btn" id="dAdd">Eintragen</button>
+      <button class="btn ghost hide" id="dFav">In „Eigene“ merken</button>
+    </div>
+
+    <!-- Eigenes / Schnell -->
+    <div id="pOwn" class="hide">
+      <button class="chip" id="backBtn2" style="margin:4px 0 10px">‹ Zurück</button>
+      <label class="f"><span>Name</span><input type="text" id="oName" placeholder="z. B. Omas Frikadelle"></label>
+      <p class="muted" id="oInfo" style="margin:4px 0">Nährwerte pro 100 g:</p>
+      <div class="row">
+        <label class="f"><span>kcal</span><input type="number" id="oK" inputmode="decimal"></label>
+        <label class="f oMac"><span>Kohlenh.</span><input type="number" id="oC" inputmode="decimal"></label>
+      </div>
+      <div class="row oMac">
+        <label class="f"><span>Eiweiß</span><input type="number" id="oP" inputmode="decimal"></label>
+        <label class="f"><span>Fett</span><input type="number" id="oF" inputmode="decimal"></label>
+      </div>
+      <label class="f oMac"><span>Typische Portion (g, optional)</span><input type="number" id="oServ" inputmode="decimal"></label>
+      <button class="btn" id="oSave">Speichern</button>
+    </div>
+  </div>
+</div>
+
+<div class="scanner hide" id="scanner">
+  <video id="video" playsinline muted></video>
+  <div class="frame"></div>
+  <div class="bar2"><div id="scanMsg">Halt den Barcode in den Rahmen</div><button id="scanClose">Abbrechen</button></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+'use strict';
+/* ---------- Grundlagen ---------- */
+const $ = id => document.getElementById(id);
+const KEY = 'napfzeit-v1';
+const MEALS = [
+  {id:'breakfast', name:'Frühstück'},
+  {id:'lunch', name:'Mittagessen'},
+  {id:'dinner', name:'Abendessen'},
+  {id:'snack', name:'Snacks'}
+];
+const GLASS = 250; // ml pro Glas
+
+// Richtwerte pro 100 g – ungefähre Durchschnittswerte, ohne Gewähr
+const BASICS = [
+  ['Apfel',52,14,.3,.2,150],['Banane',89,23,1.1,.3,120],['Erdbeeren',32,7.7,.7,.3,150],
+  ['Haferflocken',370,59,13.5,7,40],['Vollkornbrot',220,41,7,1.5,50],['Brötchen (Weizen)',270,55,9,1.5,60],
+  ['Reis, gekocht',130,28,2.7,.3,150],['Nudeln, gekocht',150,30,5.5,.9,200],['Kartoffeln, gekocht',72,16,2,.1,200],
+  ['Ei (Hühnerei)',155,1.1,13,11,60],['Milch 1,5 %',47,4.8,3.4,1.5,200],['Naturjoghurt 3,5 %',64,4.5,3.5,3.5,150],
+  ['Magerquark',67,4,12,.3,250],['Gouda',360,0,25,29,30],['Butter',740,.6,.7,82,10],['Olivenöl',884,0,0,100,10],
+  ['Hähnchenbrust, roh',110,0,23,1.5,150],['Lachs, roh',208,0,20,13,125],['Thunfisch (Dose, natur)',116,0,26,1,130],
+  ['Tomate',18,3.9,.9,.2,100],['Gurke',15,3.6,.7,.1,100],['Möhre',41,9.6,.9,.2,80],['Avocado',160,8.5,2,15,80],
+  ['Erdnussbutter',590,20,25,50,15],['Cola',42,10.6,0,0,330]
+].map(([name,kcal,c,p,f,serving]) => ({key:'b:'+name, name, brand:'Richtwert', per100:{kcal,c,p,f}, serving}));
+
+const DEFAULT = {
+  profile:{sex:'f', age:40, height:168, weight:70, act:'1.375', goal:'-500', kcal:1800, cPct:50, pPct:20, fPct:30, water:2},
+  days:{}, weights:[], own:[], recent:[]
+};
+
+let S = load();
+function load(){
+  try{
+    const raw = localStorage.getItem(KEY);
+    if(raw){ const d = JSON.parse(raw); return Object.assign(structuredClone(DEFAULT), d, {profile:Object.assign({}, DEFAULT.profile, d.profile)}); }
+  }catch(e){}
+  return structuredClone(DEFAULT);
+}
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){ toast('Speichern hat nich geklappt'); } }
+
+const pad = n => String(n).padStart(2,'0');
+const keyOf = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const r0 = n => Math.round(n);
+const r1 = n => Math.round(n*10)/10;
+const num = v => { const n = parseFloat(String(v).replace(',','.')); return isFinite(n) ? n : NaN; };
+const fmt = n => r1(n).toLocaleString('de-DE');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2,7);
+
+let cur = new Date(); cur.setHours(12,0,0,0);
+const day = (k = keyOf(cur)) => (S.days[k] ||= {entries:[], water:0});
+
+function toast(msg){
+  const t = $('toast'); t.textContent = msg; t.classList.add('show');
+  clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+/* ---------- Tagebuch ---------- */
+function macroGoals(){
+  const p = S.profile;
+  return { c: p.kcal*p.cPct/100/4, p: p.kcal*p.pPct/100/4, f: p.kcal*p.fPct/100/9 };
+}
+const entryVals = e => { const k = e.grams/100; return {kcal:e.per100.kcal*k, c:e.per100.c*k, p:e.per100.p*k, f:e.per100.f*k}; };
+
+function renderDiary(){
+  const today = keyOf(new Date());
+  const y = new Date(); y.setDate(y.getDate()-1);
+  const k = keyOf(cur);
+  $('dLabel').textContent = k === today ? 'Heute' : k === keyOf(y) ? 'Gestern'
+    : cur.toLocaleDateString('de-DE', {weekday:'short', day:'numeric', month:'short'});
+
+  const d = S.days[k] || {entries:[], water:0};
+  const tot = {kcal:0,c:0,p:0,f:0};
+  d.entries.forEach(e => { const v = entryVals(e); for(const x in tot) tot[x] += v[x]; });
+
+  const goal = S.profile.kcal, left = goal - tot.kcal;
+  $('kGoal').textContent = r0(goal).toLocaleString('de-DE') + ' kcal';
+  $('kEaten').textContent = r0(tot.kcal).toLocaleString('de-DE') + ' kcal';
+  $('kLeft').textContent = Math.abs(r0(left)).toLocaleString('de-DE');
+  $('kLeftLbl').textContent = left >= 0 ? 'kcal übrig' : 'kcal drüber';
+  const frac = Math.min(tot.kcal / goal, 1) || 0;
+  $('ringArc').style.strokeDashoffset = 351.86 * (1 - frac);
+  $('ringArc').style.stroke = left < 0 ? 'var(--rose)' : 'var(--amber)';
+
+  const mg = macroGoals();
+  $('macros').innerHTML = [['Kohlenh.','c','--carb'],['Eiweiß','p','--prot'],['Fett','f','--fat']].map(([n,x,col]) =>
+    `<div class="macro"><div class="n">${n}</div><div class="bar"><i style="width:${Math.min(100, tot[x]/mg[x]*100)||0}%;background:var(${col})"></i></div>
+     <div class="v">${r0(tot[x])} / ${r0(mg[x])} g</div></div>`).join('');
+
+  $('meals').innerHTML = MEALS.map(m => {
+    const list = d.entries.filter(e => e.meal === m.id);
+    const sum = list.reduce((s,e) => s + entryVals(e).kcal, 0);
+    return `<div class="card meal"><h3>${m.name} <small>${r0(sum)} kcal</small></h3>
+      ${list.map(e => `<div class="entry"><div class="t"><div>${esc(e.name)}</div>
+        <small>${e.quick ? 'Schnell eingetragen' : fmt(e.grams)+' g'}${e.brand && e.brand!=='Richtwert' ? ' · '+esc(e.brand) : ''}</small></div>
+        <div class="k">${r0(entryVals(e).kcal)} kcal</div>
+        <button class="del" data-del="${e.id}" aria-label="Löschen">✕</button></div>`).join('')}
+      <button class="addbtn" data-add="${m.id}">+ Hinzufügen</button></div>`;
+  }).join('');
+
+  const wGoal = S.profile.water*1000, n = Math.max(Math.ceil(wGoal/GLASS), Math.round(d.water/GLASS));
+  $('glasses').innerHTML = Array.from({length:n}, (_,i) => `<div class="glass ${i < d.water/GLASS ? 'full':''}"></div>`).join('');
+  $('wSum').textContent = fmt(d.water/1000) + ' l';
+  $('wText').textContent = `${fmt(d.water/1000)} von ${fmt(S.profile.water)} l`;
+}
+
+$('meals').addEventListener('click', e => {
+  const del = e.target.closest('[data-del]'), add = e.target.closest('[data-add]');
+  if(del){
+    const d = day(); const i = d.entries.findIndex(x => x.id === del.dataset.del);
+    if(i > -1){ const [gone] = d.entries.splice(i,1); save(); renderDiary(); toast(`${gone.name} gelöscht`); }
+  }
+  if(add) openSheet(add.dataset.add);
+});
+$('dPrev').onclick = () => { cur.setDate(cur.getDate()-1); renderDiary(); };
+$('dNext').onclick = () => { cur.setDate(cur.getDate()+1); renderDiary(); };
+$('wPlus').onclick = () => { day().water += GLASS; save(); renderDiary(); };
+$('wMinus').onclick = () => { const d = day(); d.water = Math.max(0, d.water - GLASS); save(); renderDiary(); };
+
+/* ---------- Hinzufügen-Sheet ---------- */
+let sheetMeal = 'breakfast', listMode = 'recent', picked = null, ownMode = 'own';
+
+function defaultMeal(){
+  const h = new Date().getHours();
+  return h < 11 ? 'breakfast' : h < 15 ? 'lunch' : h < 18 ? 'snack' : 'dinner';
+}
+function openSheet(meal){
+  sheetMeal = meal || defaultMeal();
+  $('shTitle').textContent = MEALS.find(m => m.id === sheetMeal).name;
+  $('q').value = '';
+  showPane('pList'); setListMode('recent');
+  $('sheet').classList.add('open'); $('sheetBg').classList.add('open');
+}
+function closeSheet(){ $('sheet').classList.remove('open'); $('sheetBg').classList.remove('open'); $('q').blur(); }
+$('shClose').onclick = closeSheet; $('sheetBg').onclick = closeSheet;
+function showPane(id){ ['pList','pDetail','pOwn'].forEach(p => $(p).classList.toggle('hide', p !== id)); $('shBody').scrollTop = 0; }
+
+function foodRow(f, i){
+  return `<button class="food" data-i="${i}"><div class="t"><div>${esc(f.name)}</div>
+    <small>${f.brand ? esc(f.brand)+' · ' : ''}${r0(f.per100.kcal)} kcal / 100 g</small></div>
+    <span class="plus">+</span></button>`;
+}
+let shown = [];
+function showFoods(list, emptyMsg){
+  shown = list;
+  $('results').innerHTML = list.length ? list.map(foodRow).join('') : `<div class="empty">${emptyMsg}</div>`;
+}
+function setListMode(m){
+  listMode = m;
+  [...$('listSeg').children].forEach(b => b.classList.toggle('on', b.dataset.v === m));
+  if(m === 'recent') showFoods(S.recent, 'Hier landet alles, was du schon ma eingetragen hast.<br>Such oben einfach los oder scann ’nen Barcode.');
+  if(m === 'basics') showFoods(BASICS, '');
+  if(m === 'own') showFoods(S.own, 'Noch nix Eigenes angelegt.<br>Unten auf „Eigenes anlegen“ tippen.');
+}
+$('listSeg').onclick = e => { const b = e.target.closest('button'); if(b){ $('q').value=''; setListMode(b.dataset.v); } };
+$('results').onclick = e => { const b = e.target.closest('[data-i]'); if(b) openDetail(shown[+b.dataset.i]); };
+
+/* Open Food Facts */
+const OFF_FIELDS = 'code,product_name,product_name_de,generic_name_de,brands,nutriments,serving_quantity,quantity';
+function offToFood(p){
+  const n = p.nutriments || {};
+  let kcal = n['energy-kcal_100g'];
+  if(kcal == null && n['energy_100g'] != null) kcal = n['energy_100g'] / 4.184; // kJ → kcal
+  const name = p.product_name_de || p.product_name || p.generic_name_de;
+  if(!name || kcal == null) return null;
+  return { key:'off:'+p.code, code:p.code, name:name.trim(), brand:(p.brands||'').split(',')[0].trim(),
+    per100:{kcal:+kcal||0, c:+n.carbohydrates_100g||0, p:+n.proteins_100g||0, f:+n.fat_100g||0},
+    serving: num(p.serving_quantity) > 0 ? num(p.serving_quantity) : null };
+}
+async function getJSON(url, ms = 15000){
+  const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), ms);
+  try{ const r = await fetch(url, {signal:ctl.signal}); if(!r.ok) throw new Error(r.status); return await r.json(); }
+  finally{ clearTimeout(t); }
+}
+
+let searchSeq = 0;
+async function search(q){
+  q = q.trim();
+  if(q.length < 2){ setListMode(listMode); return; }
+  const my = ++searchSeq;
+  [...$('listSeg').children].forEach(b => b.classList.remove('on'));
+  const lq = q.toLowerCase();
+  const local = [...S.own, ...S.recent, ...BASICS].filter((f,i,a) => f.name.toLowerCase().includes(lq) && a.findIndex(g => g.key === f.key) === i);
+  showFoods(local, '');
+  $('results').insertAdjacentHTML('beforeend', '<div class="empty">Suche in Open Food Facts …</div>');
+  try{
+    const url = 'https://world.openfoodfacts.org/cgi/search.pl?search_simple=1&action=process&json=1&page_size=30&lc=de&cc=de'
+      + '&search_terms=' + encodeURIComponent(q) + '&fields=' + OFF_FIELDS;
+    const data = await getJSON(url);
+    if(my !== searchSeq) return;
+    const keys = new Set(local.map(f => f.key));
+    const remote = (data.products || []).map(offToFood).filter(f => f && !keys.has(f.key));
+    showFoods([...local, ...remote], 'Nix gefunden. Leg’s doch als „Eigenes“ an.');
+  }catch(e){
+    if(my !== searchSeq) return;
+    showFoods(local, '');
+    $('results').insertAdjacentHTML('beforeend', '<div class="empty">Die Online-Suche klappt grad nich (kein Netz?).<br>Basics, Zuletzt und Eigene gehen trotzdem.</div>');
+  }
+}
+let qTimer;
+$('q').addEventListener('input', e => { clearTimeout(qTimer); qTimer = setTimeout(() => search(e.target.value), 500); });
+$('q').addEventListener('keydown', e => { if(e.key === 'Enter'){ clearTimeout(qTimer); search(e.target.value); e.target.blur(); } });
+
+/* Detail */
+function openDetail(f){
+  picked = f;
+  $('dName').textContent = f.name;
+  $('dBrand').textContent = f.brand || '';
+  $('dMeal').innerHTML = MEALS.map(m => `<option value="${m.id}" ${m.id===sheetMeal?'selected':''}>${m.name}</option>`).join('');
+  const portions = [...new Set([f.serving, 50, 100, 150, 200].filter(Boolean).map(r0))];
+  $('portionChips').innerHTML = portions.map(g => `<button class="chip" data-g="${g}">${g === r0(f.serving||0) ? 'Portion ('+g+' g)' : g+' g'}</button>`).join('');
+  $('dAmount').value = f.lastGrams || f.serving || 100;
+  $('dFav').classList.toggle('hide', !!S.own.find(o => o.key === f.key) || f.key.startsWith('b:'));
+  updateDetail(); showPane('pDetail');
+}
+function updateDetail(){
+  const g = num($('dAmount').value) || 0, k = g/100, p = picked.per100;
+  $('nK').textContent = r0(p.kcal*k); $('nC').textContent = fmt(p.c*k); $('nP').textContent = fmt(p.p*k); $('nF').textContent = fmt(p.f*k);
+  [...$('portionChips').children].forEach(c => c.classList.toggle('on', +c.dataset.g === g));
+}
+$('dAmount').addEventListener('input', updateDetail);
+$('portionChips').onclick = e => { const c = e.target.closest('[data-g]'); if(c){ $('dAmount').value = c.dataset.g; updateDetail(); } };
+$('backBtn').onclick = $('backBtn2').onclick = () => { showPane('pList'); if($('q').value.trim().length < 2) setListMode(listMode); };
+
+function remember(f, grams){
+  const copy = {...f, lastGrams:grams};
+  S.recent = [copy, ...S.recent.filter(r => r.key !== f.key)].slice(0, 40);
+}
+$('dAdd').onclick = () => {
+  const g = num($('dAmount').value);
+  if(!(g > 0)){ toast('Gib ’ne Menge ein'); return; }
+  const meal = $('dMeal').value;
+  day().entries.push({id:uid(), meal, name:picked.name, brand:picked.brand||'', grams:g, per100:{...picked.per100}});
+  remember(picked, g); save(); renderDiary(); closeSheet();
+  toast(`${picked.name} eingetragen ✓`);
+};
+$('dFav').onclick = () => {
+  const {lastGrams, ...f} = picked;
+  S.own.unshift(f); save(); $('dFav').classList.add('hide'); toast('Gemerkt ✓');
+};
+
+/* Eigenes & Schnell */
+function openOwn(mode){
+  ownMode = mode;
+  ['oName','oK','oC','oP','oF','oServ'].forEach(i => $(i).value = '');
+  document.querySelectorAll('.oMac').forEach(el => el.classList.toggle('hide', mode === 'quick'));
+  $('oInfo').textContent = mode === 'quick' ? 'Wie viele Kalorien warn’s ungefähr?' : 'Nährwerte pro 100 g (steht hinten auf der Packung):';
+  $('oName').placeholder = mode === 'quick' ? 'z. B. Stück Kuchen beim Training' : 'z. B. Omas Frikadelle';
+  $('oSave').textContent = mode === 'quick' ? 'Eintragen' : 'Speichern';
+  showPane('pOwn'); $('oName').focus();
+}
+$('quickBtn').onclick = () => openOwn('quick');
+$('ownBtn').onclick = () => openOwn('own');
+$('oSave').onclick = () => {
+  const kcal = num($('oK').value);
+  if(!(kcal >= 0)){ toast('Trag die Kalorien ein'); return; }
+  if(ownMode === 'quick'){
+    const name = $('oName').value.trim() || 'Schnell eingetragen';
+    day().entries.push({id:uid(), meal:sheetMeal, name, brand:'', grams:100, quick:true, per100:{kcal, c:0, p:0, f:0}});
+    save(); renderDiary(); closeSheet(); toast('Eingetragen ✓'); return;
+  }
+  const name = $('oName').value.trim();
+  if(!name){ toast('Gib dem Ding ’nen Namen'); return; }
+  const f = {key:'own:'+uid(), name, brand:'Eigenes',
+    per100:{kcal, c:num($('oC').value)||0, p:num($('oP').value)||0, f:num($('oF').value)||0},
+    serving: num($('oServ').value) > 0 ? num($('oServ').value) : null};
+  S.own.unshift(f); save(); toast('Angelegt ✓'); openDetail(f);
+};
+
+/* ---------- Barcode-Scanner ---------- */
+let reader = null, scanning = false;
+function loadZXing(){
+  if(window.ZXing) return Promise.resolve();
+  return new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = 'https://unpkg.com/@zxing/library@0.21.3/umd/index.min.js';
+    s.onload = res; s.onerror = () => rej(new Error('lib')); document.head.appendChild(s);
+  });
+}
+async function startScan(){
+  $('scanner').classList.remove('hide'); $('scanMsg').textContent = 'Kamera startet …';
+  try{
+    await loadZXing();
+    const hints = new Map();
+    hints.set(ZXing.DecodeHintType.POSSIBLE_FORMATS, [ZXing.BarcodeFormat.EAN_13, ZXing.BarcodeFormat.EAN_8, ZXing.BarcodeFormat.UPC_A, ZXing.BarcodeFormat.UPC_E]);
+    reader = new ZXing.BrowserMultiFormatReader(hints);
+    scanning = true;
+    $('scanMsg').textContent = 'Halt den Barcode in den Rahmen';
+    await reader.decodeFromConstraints({video:{facingMode:'environment'}}, $('video'), (result) => {
+      if(result && scanning){ scanning = false; if(navigator.vibrate) navigator.vibrate(60); stopScan(); lookup(result.getText()); }
+    });
+  }catch(e){
+    stopScan();
+    toast(e.message === 'lib' ? 'Scanner lädt nich – kein Netz?' : 'Kein Kamerazugriff – in den Einstellungen erlauben');
+  }
+}
+function stopScan(){
+  scanning = false;
+  try{ reader && reader.reset(); }catch(e){}
+  reader = null; $('scanner').classList.add('hide');
+}
+async function lookup(code){
+  const known = [...S.own, ...S.recent].find(f => f.code === code);
+  if(known){ openDetail(known); return; }
+  toast('Such Produkt …');
+  try{
+    const data = await getJSON(`https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}.json?fields=${OFF_FIELDS}`);
+    const f = data.status === 1 && data.product ? offToFood({...data.product, code}) : null;
+    if(f) openDetail(f);
+    else { toast('Produkt nich gefunden – leg’s selbst an'); openOwn('own'); }
+  }catch(e){ toast('Nachschauen klappt grad nich (kein Netz?)'); }
+}
+$('scanBtn').onclick = startScan;
+$('scanClose').onclick = stopScan;
+
+/* ---------- Gewicht ---------- */
+function renderWeight(){
+  const w = [...S.weights].sort((a,b) => a.date.localeCompare(b.date));
+  const svg = $('wChart');
+  if(w.length < 2){
+    svg.innerHTML = `<text x="170" y="95" text-anchor="middle" fill="var(--muted)" font-size="14">${w.length ? 'Noch ein Eintrag, dann gibt’s ’ne Kurve' : 'Trag oben dein erstes Gewicht ein'}</text>`;
+    $('wDelta').textContent = '';
+  } else {
+    const pts = w.slice(-60), vals = pts.map(p => p.kg);
+    let lo = Math.min(...vals), hi = Math.max(...vals);
+    if(hi - lo < 2){ const m = (hi+lo)/2; lo = m-1; hi = m+1; }
+    const t0 = Date.parse(pts[0].date), t1 = Date.parse(pts.at(-1).date) || t0+1;
+    const X = d => 30 + (Date.parse(d) - t0) / Math.max(t1 - t0, 1) * 300;
+    const Y = kg => 15 + (hi - kg) / (hi - lo) * 150;
+    const line = pts.map(p => `${X(p.date).toFixed(1)},${Y(p.kg).toFixed(1)}`).join(' ');
+    svg.innerHTML = `
+      <line x1="30" x2="330" y1="15" y2="15" stroke="var(--line)"/><line x1="30" x2="330" y1="165" y2="165" stroke="var(--line)"/>
+      <text x="0" y="19" font-size="11" fill="var(--muted)">${fmt(hi)}</text><text x="0" y="169" font-size="11" fill="var(--muted)">${fmt(lo)}</text>
+      <polyline points="30,165 ${line} ${X(pts.at(-1).date).toFixed(1)},165" fill="var(--amber)" opacity=".12" stroke="none"/>
+      <polyline points="${line}" fill="none" stroke="var(--amber)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+      ${pts.map(p => `<circle cx="${X(p.date).toFixed(1)}" cy="${Y(p.kg).toFixed(1)}" r="3" fill="var(--amber)"/>`).join('')}
+      <text x="30" y="186" font-size="11" fill="var(--muted)">${new Date(pts[0].date).toLocaleDateString('de-DE',{day:'numeric',month:'short'})}</text>
+      <text x="330" y="186" font-size="11" fill="var(--muted)" text-anchor="end">${new Date(pts.at(-1).date).toLocaleDateString('de-DE',{day:'numeric',month:'short'})}</text>`;
+    const dlt = w.at(-1).kg - w[0].kg;
+    $('wDelta').textContent = `${dlt > 0 ? '+' : ''}${fmt(dlt)} kg seit Start`;
+  }
+  $('wList').innerHTML = w.length ? [...w].reverse().map(x =>
+    `<div class="entry"><div class="t"><div>${new Date(x.date).toLocaleDateString('de-DE',{weekday:'short',day:'numeric',month:'long',year:'numeric'})}</div></div>
+     <div class="k">${fmt(x.kg)} kg</div><button class="del" data-wdel="${x.date}" aria-label="Löschen">✕</button></div>`).join('')
+    : '<div class="empty">Noch keine Einträge</div>';
+}
+$('wSave').onclick = () => {
+  const kg = num($('wKg').value), date = $('wDate').value;
+  if(!(kg > 20 && kg < 400) || !date){ toast('Datum und Gewicht prüfen'); return; }
+  S.weights = S.weights.filter(x => x.date !== date); S.weights.push({date, kg});
+  if(S.weights.every(x => x.date <= date)) S.profile.weight = kg; // neuester Eintrag = aktuelles Gewicht
+  save(); $('wKg').value = ''; renderWeight(); toast('Gewicht gespeichert ✓');
+};
+$('wList').onclick = e => { const b = e.target.closest('[data-wdel]'); if(b){ S.weights = S.weights.filter(x => x.date !== b.dataset.wdel); save(); renderWeight(); } };
+
+/* ---------- Profil ---------- */
+function renderProfile(){
+  const p = S.profile;
+  [...$('pSex').children].forEach(b => b.classList.toggle('on', b.dataset.v === p.sex));
+  $('pAge').value = p.age; $('pHeight').value = p.height; $('pWeight').value = p.weight;
+  $('pAct').value = p.act; $('pGoal').value = p.goal;
+  $('pKcal').value = p.kcal; $('pC').value = p.cPct; $('pP').value = p.pPct; $('pF').value = p.fPct; $('pWater').value = p.water;
+}
+$('pSex').onclick = e => { const b = e.target.closest('button'); if(b){ S.profile.sex = b.dataset.v; [...$('pSex').children].forEach(x => x.classList.toggle('on', x === b)); } };
+$('pCalc').onclick = () => {
+  const age = num($('pAge').value), h = num($('pHeight').value), w = num($('pWeight').value);
+  if(!(age > 0 && h > 0 && w > 0)){ toast('Alter, Größe und Gewicht ausfüllen'); return; }
+  const bmr = 10*w + 6.25*h - 5*age + (S.profile.sex === 'm' ? 5 : -161);
+  const kcal = Math.max(1200, Math.round((bmr * num($('pAct').value) + num($('pGoal').value)) / 10) * 10);
+  $('pKcal').value = kcal; toast(`Vorschlag: ${kcal} kcal – unten speichern`);
+};
+$('pSave').onclick = () => {
+  const c = num($('pC').value), p = num($('pP').value), f = num($('pF').value);
+  if(Math.round(c+p+f) !== 100){ toast(`Makros ergeben ${r0(c+p+f)} % – müssen 100 sein`); return; }
+  const kcal = num($('pKcal').value); if(!(kcal >= 800)){ toast('Kalorienziel prüfen'); return; }
+  Object.assign(S.profile, {age:num($('pAge').value)||S.profile.age, height:num($('pHeight').value)||S.profile.height,
+    weight:num($('pWeight').value)||S.profile.weight, act:$('pAct').value, goal:$('pGoal').value,
+    kcal, cPct:c, pPct:p, fPct:f, water:num($('pWater').value)||2});
+  save(); renderDiary(); toast('Gespeichert ✓');
+};
+$('bExport').onclick = async () => {
+  const name = `napfzeit-sicherung-${keyOf(new Date())}.json`;
+  const file = new File([JSON.stringify(S, null, 1)], name, {type:'application/json'});
+  if(navigator.canShare && navigator.canShare({files:[file]})){
+    try{ await navigator.share({files:[file], title:'Napfzeit-Sicherung'}); return; }catch(e){ if(e.name === 'AbortError') return; }
+  }
+  const a = document.createElement('a'); a.href = URL.createObjectURL(file); a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+};
+$('bImport').onclick = () => $('bFile').click();
+$('bFile').onchange = async e => {
+  const f = e.target.files[0]; if(!f) return;
+  try{
+    const d = JSON.parse(await f.text());
+    if(!d.profile || !d.days) throw 0;
+    if(!confirm('Sicherung laden? Deine aktuellen Daten werden dabei ersetzt.')) return;
+    S = Object.assign(structuredClone(DEFAULT), d); save(); renderAll(); toast('Sicherung geladen ✓');
+  }catch(err){ toast('Das is keine Napfzeit-Sicherung'); }
+  e.target.value = '';
+};
+
+/* ---------- Tabs & Start ---------- */
+function tab(name){
+  document.querySelectorAll('nav.tabs button').forEach(b => b.classList.toggle('on', b.dataset.tab === name));
+  ['diary','weight','profile'].forEach(v => $('v-'+v).classList.toggle('hide', v !== name));
+  if(name === 'weight') renderWeight();
+  if(name === 'profile') renderProfile();
+  if(name === 'diary') renderDiary();
+  window.scrollTo(0,0);
+}
+document.querySelector('nav.tabs').onclick = e => { const b = e.target.closest('button'); if(b) tab(b.dataset.tab); };
+function renderAll(){ renderDiary(); renderWeight(); renderProfile(); }
+
+$('wDate').value = keyOf(new Date());
+renderAll();
+// Beim Zurückkehren in die App nach Mitternacht auf „Heute“ springen
+let lastSeen = keyOf(new Date());
+document.addEventListener('visibilitychange', () => {
+  if(document.visibilityState === 'visible' && keyOf(new Date()) !== lastSeen){
+    lastSeen = keyOf(new Date()); cur = new Date(); cur.setHours(12,0,0,0); $('wDate').value = lastSeen; renderDiary();
+  }
+});
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>
