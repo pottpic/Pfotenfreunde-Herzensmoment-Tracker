@@ -37,7 +37,7 @@ Nach jeder fertigen Agentin: Datei committen und auf den Arbeits-Branch pushen.
 ## 4. Abschluss
 - Die Startklar-Datei mit SendUserFile an Moni schicken.
 - Kurze Zusammenfassung in Monis Stimme: was fertig is, die 3 dringendsten Entscheidungen, ehrliche Hinweise (Platzhalter, gesperrte Quellen, Datenschutz/Rechtliches), ungefährer Token-Verbrauch.
-- Anbieten, per PR auf `main` zu holen.
+- Per PR auf `main` holen und den PR selbst mergen (Regel „Alles ins Regal“ in `CLAUDE.md`).
 
 ## Nie
 - Nichts posten, verschicken, aushängen oder in Trello anlegen ohne Monis Okay.
