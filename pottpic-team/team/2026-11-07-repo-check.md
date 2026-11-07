@@ -1,6 +1,6 @@
 # Repo-Check: Was fehlt immer? (07.11.2026)
 
-Noch nix repariert, nur rausgesucht. Fixen nach Monis Okay.
+**Stand 07.11. abends: erledigt** (siehe unten), wartet nur noch auf Monis Merge von PR #14.
 
 ## Das große Problem: Sachen landen in Nebenschubladen
 Jede Sitzung arbeitet in 'nem eigenen Zweig (Branch). Neue Sitzungen starten aber immer von `main`.
@@ -28,3 +28,10 @@ Schon erledigt / leer: claude/derner-team, claude/derner-hundeplan-januar, claud
 2. derner-team-Zweig: nur die Ergebnisse unter `derner-team/` einsortieren, Konflikt von Hand lösen.
 3. Danach alte Zweige aufräumen.
 4. Ab dann: am Ende jeder Sitzung PR auf und mergen, damit nix mehr liegen bleibt.
+
+## Was gemacht wurde (07.11.2026)
+- Alle sauberen Zweige in einen Antrag gepackt: PR #14.
+- Derner: Moni hat entschieden, das neue Team (Bandenchefin) bleibt. Ergebnisse vom alten Team einsortiert (`derner-team/postplan.md`, `newsletter/`, `trends/`, `logo/`, `material/`, `social-media/`, `partner-web/`), alte Regeln und Agenten unter `derner-team/archiv/altes-team/`, wichtige Entscheidungen in `KONTEXT.md` übernommen.
+- Geplante Aufgaben umgestellt: Posting-Wecker, Derner-Trend-Lauf, Schnauzenpost, Community-Posts, Trend-Wache, Wochen-Paket, Messbogen und Newsletter arbeiten jetzt auf `main` und pushen direkt dahin.
+- Neue Regel in `CLAUDE.md`: Alles ins Regal.
+- Noch offen: alte Zweige auf GitHub löschen (kann Moni unter „Branches“ machen oder ich in 'ner Sitzung mit Lösch-Rechten), Metricool + Canva verbinden.
