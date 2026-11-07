@@ -37,6 +37,14 @@ Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim
 
 Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
 
+## Posten über Metricool (Pottpic)
+Pottpic-Posts (Insta, Facebook, TikTok) werden über **Metricool** eingeplant, das postet dann von alleine. Die Meta Business Suite is nur noch Plan B.
+- Verbunden über den claude.ai-Connector „Metricool Social Media Management“ (keine API, kein Schlüssel). Anleitung: `pottpic-team/METRICOOL.md`.
+- Ablauf: Team macht fertig → Moni gibt frei („passt“ / „ändern“) → **erst dann** plant `social-media` den Post in Metricool ein. Kann Metricool Entwürfe, die erst nach Monis Klick rausgehen, dürfen Posts schon vorher als Entwurf rein.
+- Fertig eingeplante Posts nur nach Monis Okay ändern oder löschen.
+- Is der Connector in der Sitzung nicht da: Posts wie gehabt als Entwurf ablegen und Moni sagen, dass Metricool grad nicht verbunden is. Nix vortäuschen.
+- Nur für Pottpic. Derner Schnauzenbande hat eigene Kanäle und wird hier nicht mit eingeplant.
+
 ## Derner-Team (Verein)
 Die Derner Schnauzenbande hat ein eigenes Team (`.claude/agents/derner-*.md`, Leitung: Bandenchefin) mit eigener Stimme, Ablage und eigenen Kanälen.
 - Gemeinsamer Kontext: `derner-team/KONTEXT.md` – gilt dort statt dieser Datei; Ablage unter `derner-team/`.
@@ -49,5 +57,5 @@ Die Derner Schnauzenbande hat ein eigenes Team (`.claude/agents/derner-*.md`, Le
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
 - Ergebnisse als Markdown unter `pottpic-team/<bereich>/JJJJ-MM-TT-thema.md` ablegen.
 - Keine erfundenen Zahlen, Kunden oder Bewertungen. Was geschätzt ist, als Schätzung markieren.
-- Nichts veröffentlichen, posten oder verschicken ohne Monis Okay.
+- Nichts veröffentlichen, posten oder verschicken ohne Monis Okay. Einplanen in Metricool zählt als Posten.
 - Kostenpflichtige Tools (z. B. Magnific-Credits) nur nach Kosten-Check und Rückfrage.
