@@ -22,6 +22,8 @@ Keine API, kein Schlüssel, keine Zusatzkosten auf Claude-Seite. Es gelten nur d
 4. Erst nach deinem „passt“ plant Bellfluencerin alles in Metricool ein.
 5. Metricool postet zur geplanten Zeit von alleine, dein Laptop kann zu sein.
 
-## Noch offen (wird beim ersten Mal getestet)
-- Wie Fotos und Videos am besten zu Metricool kommen (vermutlich als Link, z. B. aus Google Drive).
-- Ob Metricool reine Entwürfe kann, die erst nach deinem Klick rausgehen.
+## Geklärt (07.11.2026)
+- Claude is mit Metricool verbunden. **In Metricool müssen Insta, Facebook, TikTok noch verbunden werden:** https://app.metricool.com/brands/connections?blogId=4643778
+- **Entwürfe gehen:** Das Team kann Posts als Entwurf anlegen, die erst nach deinem Okay rausgehen.
+- **Automatisch oder Erinnerung:** Pro Post wählbar. „Erinnerung“ = Push in der Metricool-App, du postest selbst. Nötig für Stories mit Quiz-/Fragen-Sticker (die kann Metricool nicht automatisch).
+- **Fotos/Videos:** als öffentlicher Link oder aus Google Drive – dafür Google Drive einma in Metricool verknüpfen.
