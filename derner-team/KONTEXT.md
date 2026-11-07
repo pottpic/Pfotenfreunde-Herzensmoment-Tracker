@@ -95,10 +95,27 @@ Wer für den Verein hilft, hält sich an **diese** Regeln (Vereinsstimme, kein #
 7. **Nichts erfinden:** Keine Preise, Beiträge, Zeiten, Mitgliederzahlen, Trainer:innen-Namen oder Bewertungen. Was fehlt → `[Platzhalter]`. Schätzungen als Schätzung markieren. Keine Rechtsberatung – bei Satzung, Impressum, Datenschutz nur „bitte prüfen (lassen)“.
 8. **Nichts posten, verschicken, anlegen** (auch keine Trello-Karten oder Mails) ohne Monis Okay. Alles sind Entwürfe.
 9. **0 € Budget:** Keine kostenpflichtigen Tools. Magnific nur, wenn Moni es ausdrücklich sagt, vorher Kosten-Check.
-10. **Ablage:** `derner-team/<bereich>/JJJJ-MM-TT-thema.md` – nie unter `pottpic-team/`. Bereiche: `social-media`, `mitglieder`, `buero`, `events`, `partner-web`, `recherche`, `umsetzung`, `schnell`.
+10. **Ablage:** `derner-team/<bereich>/JJJJ-MM-TT-thema.md` – nie unter `pottpic-team/`. Bereiche: `social-media`, `mitglieder`, `buero`, `events`, `partner-web`, `recherche`, `umsetzung`, `schnell`, `newsletter` (Schnauzenpost), `trends`. Dazu `postplan.md`, `logo/`, `material/`.
 11. **Unklar?** Erst kurz nachfragen, dann loslegen.
 12. **Skill `reel-schnitt` für Vereins-Reels:** Nutzen, nicht nachbauen – Zuordnung „Derner Schnauzenbande“, Creme + Dunkelgrün, stumm. Der Skill is für Pottpic und Verein gebaut; wo er was anderes sagt, **gilt fürs Derner-Team diese Datei**:
     - **Hashtags:** max. 5 statt der 8–12 aus dem Skill (Regel 1).
     - **Musik:** Den Skill-Tipp „Musik in Instagram hinzufügen“ für Vereins-Reels nicht geben – stumm mit Einblendungen oder Originalton (Regel 5).
     - **Caption:** in der Vereinsstimme („wir“), nicht in Monis Ich-Ton; Pottpic-Credit nach Regel 2.
     - Threads-/TikTok-Texte aus dem Skill nur, wenn der Verein dort wirklich ein Konto hat (bisher bekannt: nur Instagram + Facebook).
+
+
+## Aus dem alten Derner-Team übernommen (07.11.2026)
+Bis 07.11. gab's parallel ein älteres Derner-Team im Zweig `derner-team` (Leitwolf/`derner-chef` + 7 Agenten). Moni hat entschieden: **das neue Team bleibt**. Die alten Ergebnisse sind einsortiert, die alten Regeln und Agenten liegen nur noch zum Nachlesen unter `archiv/altes-team/` – die gelten nicht mehr, außer was hier steht:
+
+- **Vorstand** (laut altem Team, von Moni): 1. Vorsitzende Sabine Stempel, 2. Vorsitzende Moni (Website, Social Media, Verwaltung).
+- **Adresse** laut altem Team: Derner Straße 415, 44329 Dortmund. Website läuft über ClubDesk.
+- **Freilauf:** beaufsichtigt, **mittwochs ab 17 Uhr**, alle Hundeleute eingeladen (nicht nur Mitglieder).
+- **Begriff „Vorsitz“** meint im Vereinsalltag meist die Hundesport-Übung (Hund sitzt vor dem Menschen), nicht das Amt. Im Zweifel nachfragen.
+- **Farben genau:** Dunkelgrün ca. #2F5D50, Creme ca. #FAF1E0. Logo: `logo/derner-schnauzenbande-logo.png`.
+- **KI-Bilder** (Monis Entscheidung 31.10.2026): erlaubt, aber dosiert. Echte Fotos gehen vor, Rückblicke und Vereinsalltag immer echt. Nie echte Mitglieder oder Vereinshunde per KI nachbauen. Fotorealistische KI-Bilder bei Meta als KI kennzeichnen. **KI-Videos** nur auf Monis Ja für ein konkretes Video, vorher Kosten nennen, immer als KI kennzeichnen.
+- **Reels immer stumm** (keine Tonspur in der Datei).
+- **Postplan:** `postplan.md`. Den liest der Posting-Wecker jeden Morgen (geplante Aufgabe). Status: `✅ freigegeben` · `📝 Entwurf` · `📌 To-do` · `✔️ erledigt`. Pflegt Platzhirschin.
+- **Schnauzenpost** (Vereins-Newsletter, CleverReach, Vereins-Account): schreibt Bandenbüro, Ablage `newsletter/JJJJ-MM-schnauzenpost.md`. Tipp des Monats wechselt: Erziehung, Füttern, Gesundheit, Alltag mit Hund, Jahreszeit.
+- **Trend-Lauf** (geplante Aufgabe, 1× täglich): schaut, was andere Hundevereine machen. Ablage `trends/`. Moni wird nur bei 'nem richtig guten Fund angepingt.
+- **Nutzungslimit-Bremse** für geplante Aufgaben: vorher Limit checken (`get_session` ohne ID → `list_events` mit `kinds: ["rate_limit_event"]` → neuestes Ereignis → `unifiedWindows`). Ab 80 % im 5-Stunden-Fenster oder 90 % in der Woche: aussetzen und Moni kurz sagen, ab wann's wieder frei is. Lässt sich's nicht auslesen: normal weiter.
+- **Geplante Aufgaben arbeiten auf `main`** und pushen direkt dahin, damit nix mehr in Nebenzweigen liegen bleibt.
