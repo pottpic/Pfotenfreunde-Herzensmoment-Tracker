@@ -122,3 +122,59 @@ Fragen? Immer her damit, ich beiß nich. Luke übrigens auch nich 😄
 Nebenbei gefunden: Die Messe **Hund & Pferd** in Dortmund war 06.–08.11.2026 ([dortmund.de](https://www.dortmund.de/newsroom/nachrichten-dortmund.de/hund-und-pferd-2026-laedt-zu-shows-und-tierischen-erlebnissen-ein.html)). Für 2027 vielleicht ma im Kalender merken.
 
 **Bewusst nicht vorgeschlagen:** Outtake-Reel (steht schon im „Echt jetzt!“-Plan), Weihnachts-Minis (sind schon geplant).
+
+
+---
+---
+
+# Runde 2 · Stand 09.11.2026 (Witterung, Websuche + Seitenabruf)
+
+Entwurf, **nix gepostet, nix eingeplant**. Kosten: 0 €. Nur Neues: Herzensblick, KAMERAKUNST, Ruhrgeknipse, Foto Pollmann, Wild-Paws-Spaziergang, Pfoten-Galerie und die Ideen oben kommen hier nicht nochmal. Idee ja, Kopie nein: Texte, Bilder, Preise und Namen der anderen übernimmt Pottpic nie.
+
+## Fund 1: Pfotenblitzerin (Babette Schwob), Duisburg
+**Was sie machen:** Moderne, bunte Tierfotografie mit Spaß-Settings, z. B. „Naschparadies“, „Pfützenflitzer“, Unterwasser-Hundefotos. Dazu ein **Nikolaus-Shooting 2026**, Auftritte auf Messen und Events. Freie Termine laut Seite erst wieder **Studio ab März/April 2027, Outdoor ab ca. Februar/März 2027**. (Seite pfotenblitzer.de, direkt abgerufen)
+**Was Pottpic lernen kann:** (a) Ein klares Spaß-Motiv pro Aktion macht Reels leicht erklärbar. (b) Wer ausgebucht is, sagt das offen – das wirkt gefragt. Pottpic-Variante: kein Studio, kein Wasser, sondern **Alltags-Naschmoment draußen** (Luke und der Keks im Herbstlaub). Ob Pottpic Termine knapp machen will, entscheidet Moni; erfinden tun wir keine Knappheit.
+**Reel-Idee A „Keks-Moment“** (ca. 12 s, stumm, Sound in der App):
+- Hook: „Wenn der Keks fliegt …“
+- Folien: Luke guckt hoch (Keks im Anflug) / Maul auf, Ohren wehen / Schnüffeln, Suchen / Zufrieden kauen / Lieblingsbild.
+- Schluss: „Für Erinnerungen, die bleiben.“ + pottpic.de
+- Fotos: 4–5 Hochformat, Serie aus **einem** Spaziergang (Luke oder freigegebener Hund). Hashtag #esbeginntmiteinemwau.
+
+## Fund 2: Pfotenkram (Hundeladen Bochum) x CM-Photography
+**Was sie machen:** Shooting „Fang-den-Keks“ **im Laden**: 30 Min pro Hund, Online-Galerie mit ca. 10–20 Fotos, 8 zur Auswahl, 99 €. Termine 17.10. und 14.11.2026. (pfotenkram.de, direkt abgerufen)
+**Was Pottpic lernen kann:** Zusammenarbeit mit **lokalem Hundeladen** bringt Hundemenschen genau da hin, wo sie eh sind. Pottpic-Variante: kein Laden-Studio, sondern kleine Kooperation (z. B. Laden zeigt Pottpic-Bilder aus der Nachbarschaft, Pottpic fotografiert draußen vor dem Laden). Kein Reel nötig, eher Anfrage über `neukunden-akquise`. Ob der Laden Interesse hat: nicht belegt.
+
+## Fund 3: Wild Paws Photo, Duisburg (neuer Blickwinkel)
+**Was sie machen:** Outdoor-„Erlebnis“ ohne Zeitdruck, mit Kennenlern-Gespräch, Ersatztermin bei Wetter, **Spende ans Tierheim Duisburg inklusive**, 10 % für Tierschutzhunde. Preise laut Seite Stand 10.08.2026. (wildpawsphoto.de/outdoorfotoshooting-hund, direkt abgerufen)
+**Was Pottpic lernen kann:** Ein **fester guter Zweck** im Angebot gibt dem Shooting 'ne Geschichte. Pottpic-Variante: einmalige, ehrliche Aktion statt Dauer-Rabatt, z. B. ein Aktionstag mit Tierheim Dortmund (Partner-Idee steht schon im Markt-Check vom 30.10.). Kein Reel jetzt; erst klären, ob Moni das zeitlich will. Ob die Spende bei Wild Paws an Bedingungen hängt: nicht belegt.
+
+## Fund 4: Max Schrader Fotografie x Fressnapf („Upside Down Studio“)
+**Was sie machen:** Hunde und Katzen werden mit Glasplatte **von unten** fotografiert, 10–30 Min, direkt im Markt. Termine u. a. Dortmund-Eving, -Hacheney, -Aplerbeck, Essen-Borbeck, -Süd, -Werden, -Steele, Bottrop, von 04.11.2026 bis 09.07.2027. Einzelbild 29 €, Paket 99 € (4 Bilder). (max-schrader-fotografie.de, direkt abgerufen). Wo der Fotograf selbst sitzt: nicht belegt.
+**Was Pottpic lernen kann:** Niedrige Einstiegshürde (ein Bild, kurze Zeit) holt Leute ab, die nie 'n Shooting gebucht hätten. Die Glasplatte kopieren wir nicht. Pottpic-Variante: **Hundeperspektive** mit normalem Handy/Kamera auf Bodenhöhe, Luke auf'm Waldweg.
+**Reel-Idee B „Lukes Sicht“** (ca. 13 s):
+- Hook: „So sieht Luke den Weg“
+- Folien: Kamera am Boden, Luke läuft aufs Bild zu / Pfoten im Laub / Blick hoch zu dir / Schnauze nah / Lieblingsbild von oben, zum Vergleich.
+- Einblendung dazu: „Auf Augenhöhe mit dem Hund“. Schluss wie immer.
+- Fotos: 4–5 Hochformat, tief aufgenommen. Dafür Moni einmal beim nächsten Spaziergang flach auf'n Boden, ca. 15 Min.
+
+## Fund 5: Fotoschule Ruhr (Nora Landers, Tom! Striewisch), Gelsenkirchen
+**Was sie machen:** Eintägiger Kurs „Hunde fotografieren“: Theorie im Wissenschaftspark Gelsenkirchen, Praxis mit Hunden als Models. Aktuelle Termine: Seite zeigt **keine** Termine, Preis nicht angegeben. (fotoschule-ruhr.de, direkt abgerufen)
+**Was Pottpic lernen kann:** Es gibt Nachfrage nach „selber besser knipsen“. Pottpic-Variante: kein Kurs, sondern **kostenlose Mini-Tipps** im Reel, die zum Herzensmoment-Tracker und zu Pottpic führen.
+**Reel-Idee C „3 Handy-Tricks“** (ca. 15 s):
+- Hook: „Besseres Hundefoto in 3 Schritten“
+- Folien: 1. Runter auf Augenhöhe / 2. Licht von der Seite, nicht von oben / 3. Warten, bis er dich anguckt / Ergebnis-Foto / Schluss: „Mehr Momente im Herzensmoment-Tracker“.
+- Fotos: Vorher/Nachher-Paar ist ideal (Moni macht eins schief, eins richtig), plus 2 Lieblingsbilder. Tipps müssen Moni so stimmen. Sie entscheidet, ob sie die so sagen würde.
+
+## Was ich nicht belegen konnte
+- Instagram/Facebook/TikTok: nicht geprüft, **welche Reel-Formate** diese Leute gerade nutzen. Alles oben sind Website-Angebote. Reel-Ideen sind eigene Ableitungen, keine beobachteten Trends.
+- Max Schrader: Firmensitz nicht belegt; seine Industrie-Shooting-Seite war nicht abrufbar.
+- Verena Scholze (verena-scholze.de) hat ein Hundeshooting im Landschaftspark Duisburg (So 04.10.2026, 120 €, 3 Std., 4 Teilnehmer je Runde). Sitz aber offenbar Hessen. Nicht als Ruhrgebiets-Fund gezählt.
+- Follower, Reichweite, Buchungslage: nicht belegt (außer Pfotenblitzerin-Terminhinweis).
+
+## Quellen Runde 2
+- [pfotenblitzer.de](https://www.pfotenblitzer.de/)
+- [pfotenkram.de, Fang-den-Keks](https://www.pfotenkram.de/news-hundeladen-bochum/hunde-fotoshooting-bochum/)
+- [wildpawsphoto.de, Outdoor-Shooting](https://www.wildpawsphoto.de/outdoorfotoshooting-hund)
+- [max-schrader-fotografie.de, Fressnapf-Aktion](https://www.max-schrader-fotografie.de/aktionen/fressnapf-mehrere-standorte/)
+- [fotoschule-ruhr.de, Hunde fotografieren](https://www.fotoschule-ruhr.de/hunde_fotografieren.php)
+- [verena-scholze.de, Termine](https://verena-scholze.de/termine/)
