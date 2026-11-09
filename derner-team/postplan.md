@@ -10,6 +10,7 @@ Status: `✅ freigegeben` · `📝 Entwurf` (Moni muss noch Ja sagen) · `📌 T
 | Di 03.11.2026 | Instagram + Facebook | Freilauf-Einladung (Bild: echtes Freilauf-Foto aus deinem Archiv, gefilmt wird erst am Mittwoch) | `social-media/2026-10-31-freilauf-einladung.md` | ✅ freigegeben |
 | Mi 04.11.2026 | – | Freilauf filmen ab 17 Uhr (gleich am Anfang, wird früh dunkel) | `social-media/2026-10-31-freilauf-reel-shotliste.md` | 📌 To-do |
 | So 15.11.2026 | CleverReach | Schnauzenpost November prüfen, Testmail, verschicken | `newsletter/2026-11-schnauzenpost.md` | 📝 Entwurf |
+| Mi 11.11.2026 | Instagram + Facebook (+ 3 Story-Slides) | Mitglieder gewinnen: Interessenten-Formular (Bild: echtes Foto, Hund im Fokus; Vorschlag, Plan B Sa 14.11.) | `schnell/2026-11-09-mitglieder-gewinnen-post.md` | 📝 Entwurf |
 | Do 19.11.2026 | Instagram + Facebook | Silvester-Reihe 1: „Jetzt anfangen“ (Bild: echtes Archivfoto, entspannter Hund) – erst nach Monis Fach-Check | `social-media/2026-10-31-silvester-reihe.md` → Post 1 | 📝 Entwurf |
 | Sa 21.11.2026 | Instagram + Facebook | Pfotenzauber: Erinnerung | `social-media/2026-10-31-pfotenzauber-posts.md` → 2. Erinnerung | 📝 Entwurf |
 | Fr 27.11.2026 | Insta-Story + Facebook | Pfotenzauber: Tag davor | `social-media/2026-10-31-pfotenzauber-posts.md` → 3. Tag davor | 📝 Entwurf |
