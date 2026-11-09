@@ -37,6 +37,9 @@ Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim
 
 Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
 
+## Revier-Check (Konkurrenz gucken → eigene Reels)
+Skill `.claude/skills/revier-check/` („/revier-check“, „Revier-Check“, für den Verein „/revier-check derner“): Witterung guckt, was andere Hundefotograf:innen im Ruhrgebiet machen und anbieten, Leitwolf siebt (Idee ja, Kopie nein), Bellfluencerin schreibt's in Monis Ton um, Schnittpfote macht den Reel-Plan samt Foto-Ordner. Legt Moni Fotos rein, baut die **Reel-Werkstatt** (`pottpic-team/reel-werkstatt/reel_bauen.py`, 0 €) das Reel im eigenen Pottpic-Look. Moni sagt nur noch jo / ändern / weg.
+
 ## Posten über Metricool (Pottpic)
 Pottpic-Posts (Insta, Facebook, TikTok) werden über **Metricool** eingeplant, das postet dann von alleine. Die Meta Business Suite is nur noch Plan B.
 - Verbunden über den claude.ai-Connector „Metricool Social Media Management“ (keine API, kein Schlüssel). Anleitung: `pottpic-team/METRICOOL.md`.
