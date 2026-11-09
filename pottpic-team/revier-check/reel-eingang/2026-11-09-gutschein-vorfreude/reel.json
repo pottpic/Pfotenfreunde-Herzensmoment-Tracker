@@ -1,0 +1,13 @@
+{
+  "titel": "2026-11-09-gutschein-vorfreude",
+  "marke": "pottpic",
+  "hook": "Schenk ma keinen Pulli dieses Jahr",
+  "folien": [
+    {"foto": "01.jpg", "text": ""},
+    {"foto": "02.jpg", "text": "Schenk lieber 'n Nachmittag mit dem Hund"},
+    {"foto": "03.jpg", "text": "Bis dahin sammelt ihr eure Herzensmomente"},
+    {"foto": "04.jpg", "text": "Und dann halten wir die fest"}
+  ],
+  "schluss": "Gutscheine gibt's bei mir. Frag einfach.",
+  "sekunden_pro_foto": 2.8
+}

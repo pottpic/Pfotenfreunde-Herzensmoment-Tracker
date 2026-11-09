@@ -1,0 +1,14 @@
+{
+  "titel": "2026-11-09-pott-runde",
+  "marke": "pottpic",
+  "hook": "So sieht 'n Shooting bei mir aus",
+  "folien": [
+    {"foto": "01.jpg", "text": ""},
+    {"foto": "02.jpg", "text": "Erst ma ankommen. Und schnüffeln."},
+    {"foto": "03.jpg", "text": "Keiner muss stillsitzen"},
+    {"foto": "04.jpg", "text": "Pause? Na klar."},
+    {"foto": "05.jpg", "text": "Und dann kommt er halt, der Blick"}
+  ],
+  "schluss": "Für Erinnerungen, die bleiben.",
+  "sekunden_pro_foto": 2.6
+}
