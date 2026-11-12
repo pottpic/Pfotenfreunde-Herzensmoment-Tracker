@@ -37,7 +37,7 @@ Nach jeder fertigen Agentin: Datei committen und auf den Arbeits-Branch pushen.
 ## 4. Abschluss
 - Die Startklar-Datei mit SendUserFile an Moni schicken.
 - Kurze Zusammenfassung in Monis Stimme: was fertig ist, die 3 dringendsten Entscheidungen, ehrliche Hinweise (Schätzungen, gesperrte Quellen, Rechtliches), ungefährer Token-Verbrauch.
-- Per PR auf `main` holen und den PR selbst mergen (Regel „Alles ins Regal“ in `CLAUDE.md`).
+- Per PR auf `main` holen und den PR selbst mergen (Regel „Alles ins Regal“ in `CLAUDE.md`). Den PR **nur über `gh api`** anlegen und mergen – `gh pr create`/`gh pr merge` gehen in Cloud-Sitzungen nich (Details im Abschnitt „Git/GitHub in Cloud-Sitzungen“ in `CLAUDE.md`).
 
 ## Nie
 - Nichts posten, verschicken oder in Trello/CleverReach anlegen ohne Monis Okay.
