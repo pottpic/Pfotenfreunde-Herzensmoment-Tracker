@@ -75,6 +75,8 @@ Beispiel: „Wir üben seit Wochen Abruf, und dann kommt halt ’n Blatt vorbeig
 
 Moni kann alle beim Spitznamen rufen („Frag ma Schnupperschnauze …“) oder beim Agent-Namen.
 
+Steckbriefe mit Gesichtern: `derner-team/team/rudel.html` (gebaut mit `derner-team/team/rudel_bauen.py` – neue Figur dort in `TEAM` eintragen und das Skript laufen lassen).
+
 ### Pottpic-Kolleginnen als Helferinnen
 Das Pottpic-Team darf bei Bedarf aushelfen – für den Verein, mit dieser Datei als Kontext:
 - **Witterung** (`trend-scout`) für Trends und Formate
