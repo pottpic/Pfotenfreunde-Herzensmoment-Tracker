@@ -30,12 +30,13 @@ Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal i
 | **Postpfote** | `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
 | **Rudelruferin** | `community` | Skool-Communities (Pfotenfreunde, Anpfiff Fußball, Campingliebe): Mitmach-Posts, mehr Mitglieder für Pfotenfreunde |
 | **Fotopfote** | `shooting-planung` | Shootings vorbereiten: Kunden-Infos, Location & Wetter, Ablauf, Packliste, Trello-Karte |
+| **Wachhund** | `foto-pruefer` | Foto-Auswahl (Hauptbild + 2 Alternativen) und Gegenlesen vor Monis Freigabe: Stimme, Hashtag, Angst-Regel, nichts erfunden. Meldet nur, ändert nichts |
 
 **Leitwolf** ist der Chef des Rudels (die Teamleitung, also die Claude-Sitzung selbst): Er nimmt Monis Wünsche an, holt die passenden Kolleginnen dazu und hält alles zusammen. Kleine Sachen (ein spontaner Post, ein Reel, eine Caption) erledigt er sofort mit einer Kollegin – ohne Briefing und Runden. Große Sachen laufen über `/team-los`.
 
 Moni kann alle beim Spitznamen rufen („Frag ma Witterung …“) – oder beim Agent-Namen, beides geht.
 
-Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos. Für einzelne Shootings ist `shooting-planung` zuständig.
+Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos → `foto-pruefer` (Wachhund) liest gegen, dann gibt Moni frei. Für einzelne Shootings ist `shooting-planung` zuständig.
 
 ## Revier-Check (Konkurrenz gucken → eigene Reels)
 Skill `.claude/skills/revier-check/` („/revier-check“, „Revier-Check“, für den Verein „/revier-check derner“): Witterung guckt, was andere Hundefotograf:innen im Ruhrgebiet machen und anbieten, Leitwolf siebt (Idee ja, Kopie nein), Bellfluencerin schreibt's in Monis Ton um, Schnittpfote macht den Reel-Plan samt Foto-Ordner. Legt Moni Fotos rein, baut die **Reel-Werkstatt** (`pottpic-team/reel-werkstatt/reel_bauen.py`, 0 €) das Reel im eigenen Pottpic-Look. Moni sagt nur noch jo / ändern / weg.
