@@ -67,6 +67,9 @@ Beispiel: „Wir üben seit Wochen Abruf, und dann kommt halt ’n Blatt vorbeig
 | **Bandenbüro** | `derner-buero` | Vereinsbüro & Ehrenamt: Rundmails, Aushänge, Kalender, Arbeitsdienste, Ehrenamt-Mini-Jobs, Einladungen/Protokoll-Entwürfe (Satzung nur als Hinweis) |
 | **Rennpfote** | `derner-events` | Events: Weihnachtsfeier, Hunderennen, Tag der offenen Tür, Stadtbezirksfest – Checklisten, Helferpläne, Ankündigungen, Pressemeldungen |
 | **Revierläuferin** | `derner-partner-web` | Partner im Umfeld (Tierärzte, Läden, Bezirk, Lokalpresse) und Website-Pflege & -Check, Google-Sichtbarkeit |
+| **Postschnauze** | `derner-newsletter` | Schnauzenpost (CleverReach, Vereins-Account): Monatsausgabe, Betreffzeilen, Anmelde-Aufruf, Auswertung |
+| **Bastelschnauze** | `derner-umsetzung` | Grafiken, Aushänge, Flyer, Landingpages und kleine Tools in Creme + Dunkelgrün |
+| **Platzwart** | `derner-foto-pruefer` | Foto-Auswahl und Gegenlesen vor Monis Freigabe (Schreibweise, Termine, Hashtag-Regel, Einwilligung). Meldet nur, ändert nichts |
 
 **Bandenchefin** is die Leitung des Derner-Teams (die Claude-Sitzung selbst, wenn Moni „Derner los …“ oder `/derner-los` sagt): Sie nimmt Monis Wünsche für den Verein an, holt die passenden Kolleginnen dazu und hält alles zusammen. Kleine Sachen sofort mit einer Kollegin, große Sachen in Runden (Skill `derner-los`).
 
@@ -77,7 +80,7 @@ Das Pottpic-Team darf bei Bedarf aushelfen – für den Verein, mit dieser Datei
 - **Witterung** (`trend-scout`) für Trends und Formate
 - **Nasenarbeit** (`analyse`) für Zahlen (Insights, Anfragen) und Recherche
 - **Schnittpfote** (`video-creator`) für aufwendigere Videos
-- **Macherpfote** (`umsetzung`) für Grafiken, Web/Code, Abgleich in Runde 3
+- **Macherpfote** (`umsetzung`) nur noch im Notfall – Grafiken, Web/Code und Abgleich in Runde 3 macht jetzt Bastelschnauze (`derner-umsetzung`)
 Wer für den Verein hilft, hält sich an **diese** Regeln (Vereinsstimme, kein #esbeginntmiteinemwau, Ablage `derner-team/`).
 
 ## Regeln für alle
@@ -115,7 +118,7 @@ Bis 07.11. gab's parallel ein älteres Derner-Team im Zweig `derner-team` (Leitw
 - **KI-Bilder** (Monis Entscheidung 31.10.2026): erlaubt, aber dosiert. Echte Fotos gehen vor, Rückblicke und Vereinsalltag immer echt. Nie echte Mitglieder oder Vereinshunde per KI nachbauen. Fotorealistische KI-Bilder bei Meta als KI kennzeichnen. **KI-Videos** nur auf Monis Ja für ein konkretes Video, vorher Kosten nennen, immer als KI kennzeichnen.
 - **Reels immer stumm** (keine Tonspur in der Datei).
 - **Postplan:** `postplan.md`. Den liest der Posting-Wecker jeden Morgen (geplante Aufgabe). Status: `✅ freigegeben` · `📝 Entwurf` · `📌 To-do` · `✔️ erledigt`. Pflegt Platzhirschin.
-- **Schnauzenpost** (Vereins-Newsletter, CleverReach, Vereins-Account): schreibt Bandenbüro, Ablage `newsletter/JJJJ-MM-schnauzenpost.md`. Tipp des Monats wechselt: Erziehung, Füttern, Gesundheit, Alltag mit Hund, Jahreszeit.
+- **Schnauzenpost** (Vereins-Newsletter, CleverReach, Vereins-Account): schreibt Postschnauze (`derner-newsletter`), Ablage `newsletter/JJJJ-MM-schnauzenpost.md`. Tipp des Monats wechselt: Erziehung, Füttern, Gesundheit, Alltag mit Hund, Jahreszeit.
 - **Trend-Lauf** (geplante Aufgabe, 1× täglich): schaut, was andere Hundevereine machen. Ablage `trends/`. Moni wird nur bei 'nem richtig guten Fund angepingt.
 - **Nutzungslimit-Bremse** für geplante Aufgaben: vorher Limit checken (`get_session` ohne ID → `list_events` mit `kinds: ["rate_limit_event"]` → neuestes Ereignis → `unifiedWindows`). Ab 80 % im 5-Stunden-Fenster oder 90 % in der Woche: aussetzen und Moni kurz sagen, ab wann's wieder frei is. Lässt sich's nicht auslesen: normal weiter.
 - **Geplante Aufgaben arbeiten auf `main`** und pushen direkt dahin, damit nix mehr in Nebenzweigen liegen bleibt.
