@@ -1,0 +1,8 @@
+{
+  "name": "pottpic",
+  "owner": { "name": "Pottpic" },
+  "metadata": { "description": "Kleine Claude-Code-Mods fürs Pottpic-Team" },
+  "plugins": [
+    { "name": "limit-balken", "source": "./plugins/limit-balken", "description": "Balken über dem Eingabefeld: 5-Stunden-Limit und Wochenlimit" }
+  ]
+}
