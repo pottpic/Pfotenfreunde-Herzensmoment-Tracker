@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "pottpic": {
+      "source": { "source": "github", "repo": "pottpic/Pfotenfreunde-Herzensmoment-Tracker" }
+    }
+  },
+  "enabledPlugins": {
+    "limit-balken@pottpic": true
+  }
+}
