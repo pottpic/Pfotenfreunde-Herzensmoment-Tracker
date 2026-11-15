@@ -114,17 +114,17 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
 (function(){
   const K = KONFIG, $ = id => document.getElementById(id);
   const wo = (new URLSearchParams(location.search).get("wo") || "aushang").replace(/[^a-z0-9-]/g, "").slice(0, 40) || "aushang";
-  const mini = K.angebote.find(a => a.id === "mini") || K.angebote[0];
-  const gutscheine = K.angebote.filter(a => a.id !== "mini");
-
-  $("oTitel").textContent = mini.titel;
-  $("oWann").textContent = K.miniTermine + " · nur " + K.miniPlaetze + " Plätze · buchbar bis " + K.miniBuchenBis;
-  $("oPunkte").innerHTML = mini.punkte.slice(0, 3).map(p => "<li>" + p.replace(/[<>&]/g, "") + "</li>").join("");
-  $("oPreis").innerHTML = mini.preis + "<small>" + (mini.zusatz || "") + "</small>";
-  if (gutscheine.length) $("gift").innerHTML = "🎁 Oder als <b>Gutschein zum Verschenken</b>, ab " + gutscheine[0].preis + ". Geshootet wird im neuen Jahr.";
+  const gs = K.angebote;
+  const ab = gs.map(x => parseInt(x.preis, 10)).filter(n => n).sort((x, y) => x - y)[0];
+  $("oTitel").textContent = "Shooting-Gutschein zum Verschenken";
+  $("oWann").textContent = "Geshootet wird " + K.shootingAb + ", den Termin sucht ihr euch aus.";
+  const kurz = x => x.punkte.slice(0, 2).map(p => p.replace(/,.*$/, "")).join(", ");
+  $("oPunkte").innerHTML = gs.map(x => "<li><b>" + x.titel.replace(/^Gutschein\s*/, "").replace(/[<>&]/g, "") + "</b> · " + kurz(x).replace(/[<>&]/g, "") + " · " + x.preis + "</li>").join("");
+  $("oPreis").innerHTML = "<small style=\"font-size:4.5mm;margin:0 0 1mm\">ab</small>" + ab + " €<small>als Gutschein</small>";
+  $("gift").innerHTML = "📅 " + K.dezemberHinweis.replace(/[<>&]/g, "");
 
   let tabs = "";
-  for (let i = 0; i < 8; i++) tabs += '<div class="tab"><div class="t">POTT<span>PIC</span> · WhatsApp</div><img class="qr" alt="QR"></div>';
+  for (let i = 0; i < 8; i++) tabs += '<div class="tab"><div class="t">POTT<span>PIC</span> · Gutschein</div><img class="qr" alt="QR"></div>';
   $("tabs").innerHTML = tabs;
 
   // QR für diesen Ort, sonst der allgemeine Aushang-Code

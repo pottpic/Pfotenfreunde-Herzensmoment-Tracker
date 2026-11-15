@@ -3,6 +3,12 @@
 Stand: So 15.11.2026 · Leitwolf · **Entwurf. Nix gepostet, nix eingeplant, nix verschickt.**
 Preise und Termine sind **Vorschläge vom Team (Schätzung)**. Du entscheidest.
 
+> **⚠️ Update 15.11. abends – das gilt (Monis Entscheidung):**
+> - **Keine Mini-Shooting-Termine mehr.** Verkauft werden **nur Gutscheine**: „Kleines Glück“ 99 € und „Herzensmoment“ 189 € (Preise freigegeben). Geshootet wird **ab Frühjahr 2027**.
+> - Dazu überall nur ein Satz, ohne Termine und ohne Platzzahl: *„Du willst deine Bilder noch vor Weihnachten? Schreib mir einfach, vormittags geht im Dezember noch was.“* Moni entscheidet pro Anfrage.
+> - Die QR-Codes auf Aushang und Karten führen **direkt zu WhatsApp** (0176 21681512), mit Herkunft in der Nachricht. Eigener Aushang für die **Derner Schnauzenbande** (`aushang.html?wo=derner-schnauzenbande`), Werbung dort is mit Moni geklärt.
+> - Alles, was unten noch von „Mini-Shooting 05./06.12.“, „16 Plätzen“ oder „buchbar bis 01.12.“ redet, is **überholt**. Posts und DM-Texte werden vorm Einplanen auf Gutscheine umgeschrieben (Bellfluencerin), Kommentar-Wort dann **GUTSCHEIN** statt MINI.
+
 ---
 
 ## 0. Erstmal das Wichtigste, Moni
@@ -163,7 +169,7 @@ Am 01.12. gucken wir zusammen drauf. Dann wissen wir, was wirklich Geld bringt, 
 ## 7. Was du jetzt tun musst (ca. 30 Min)
 
 - [x] **Preise:** freigegeben (15.11.)
-- [ ] **Termine:** Sa 05.12. + So 06.12., 16 Plätze, buchbar bis Di 01.12. – noch offen
+- [x] **Termine:** keine festen Mini-Termine, nur Gutscheine + Dezember auf Anfrage (15.11.)
 - [ ] **WhatsApp-Nummer und Mail-Adresse** sagen, die auf die Seite sollen. Bis dahin zeigt die Seite nur „Schreib mir auf Insta“.
 - [ ] **Fotos:** 1 großes (hero), 1 von dir mit Luke, bis zu 6 für die Galerie. Nur von Leuten, die einverstanden sind.
 - [ ] **Seite online schalten (einmalig, 1 Min):** GitHub → Repo → Settings → Pages → „Deploy from a branch“ → Branch `main`, Ordner `/ (root)` → Save. Danach is die Seite unter
