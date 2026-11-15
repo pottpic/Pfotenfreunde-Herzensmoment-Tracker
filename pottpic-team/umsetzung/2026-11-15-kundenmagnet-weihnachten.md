@@ -46,7 +46,13 @@ Plus der **direkte Weg**, der am schnellsten Geld bringt: Du schreibst die Leute
 | **Gutschein zum Ausdrucken** | `angebot/gutschein.html` | Du tippst Name, Paket, Nummer ein → „Als PDF speichern“ → nach Zahlungseingang verschicken. Querformat A4. |
 | **Foto-Anleitung** | `angebot/bilder/LIESMICH.md` | Welche Fotos mit welchem Namen in den Ordner müssen. |
 
-Alles zum Ändern (Preise, Termine, Nummer, Mail) steht **ganz oben in `angebot/index.html` im Block `KONFIG`**. Oder du sagst's einfach in der nächsten Sitzung, dann trag ich's ein.
+| **Aushang A4** | `angebot/aushang.html` | Für Hundeschule, Laden, Praxis: großer QR-Code, Angebot, unten 8 Abreißzettel mit QR. Preise und Termine kommen automatisch aus `konfig.js`. |
+| **Karten zum Auslegen** | `angebot/karten.html` | 8 Karten pro A4-Blatt zum Ausschneiden, mit QR. Am besten auf dickem Papier. |
+| **QR-Codes** | `angebot/qr/` | `aushang.svg` und `karte.svg`, beide geprüft und lesbar. Eigene Codes pro Laden macht `qr/qr_machen.py`. |
+
+**Wohin der QR-Code führt:** `https://pottpic.github.io/Pfotenfreunde-Herzensmoment-Tracker/angebot/?von=aushang` (bzw. `?von=karte`). Wer darüber kommt, hat in der WhatsApp/Mail automatisch „(Hab deinen Aushang gesehen)“ bzw. „(Hab deine Karte mitgenommen)“ stehen. Mit eigenem Code pro Laden (z. B. `?von=hundeschule-xy`) steht da der Laden. So siehst du, welcher Aushang was bringt. **Erst drucken, wenn die Seite auf dem Handy aufgeht.**
+
+Alles zum Ändern (Preise, Termine, Nummer, Mail) steht in **`angebot/konfig.js`** und gilt für Seite, Aushang und Karten gleichzeitig. Oder du sagst's einfach in der nächsten Sitzung, dann trag ich's ein.
 
 ---
 

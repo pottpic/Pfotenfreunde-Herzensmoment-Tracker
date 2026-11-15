@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pottpic Aushang</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a120b;--bark:#3d2c1e;--wood:#7c5235;--amber:#e07b2a;--gold:#f5a623;--cream:#fdf7ef;--warm:#f3e8d8;--paper:#fffcf7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:#e9dfd1;color:var(--ink);padding:16px}
+.hand{font-family:"Caveat",cursive;font-weight:700}
+.tool{max-width:210mm;margin:0 auto 14px;background:var(--paper);border-radius:14px;padding:14px 16px;font-size:.88rem;color:var(--wood)}
+.tool h1{font-size:1.05rem;color:var(--bark);margin-bottom:6px}
+.tool p{margin-bottom:6px}
+.tool button{margin-top:6px;padding:11px 20px;border:none;border-radius:999px;background:var(--amber);color:#fff;font-weight:800;font-size:.95rem;cursor:pointer}
+.warn{background:#fff3cd;color:#6b4e00;border-radius:8px;padding:8px 10px;margin-top:8px}
+
+.sheet{width:210mm;height:297mm;margin:0 auto;background:var(--cream);box-shadow:0 14px 40px rgba(0,0,0,.18);display:flex;flex-direction:column;overflow:hidden;position:relative}
+.bar{background:linear-gradient(135deg,var(--bark),var(--wood));color:#fff;padding:7mm 12mm;display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:900;font-size:7mm;letter-spacing:.03em}.brand span{color:var(--gold)}
+.brand small{display:block;font-size:2.6mm;opacity:.8;letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+.bar .hand{font-size:8mm;color:var(--gold)}
+
+.main{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:minmax(0,1fr);gap:8mm;padding:8mm 12mm 5mm}
+.photo{border-radius:5mm;background:var(--warm) center/cover no-repeat;border:2.5mm solid #fff;box-shadow:0 3mm 8mm rgba(26,18,11,.18);transform:rotate(-1.5deg);display:flex;align-items:center;justify-content:center;font-size:20mm;height:100%;min-height:0}
+.txt{display:flex;flex-direction:column;justify-content:center;gap:4mm}
+h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
+.lead{font-size:4.3mm;line-height:1.4;color:var(--wood)}
+
+.offer{margin:0 12mm;background:var(--paper);border-radius:5mm;border:.7mm solid var(--amber);padding:6mm 7mm;display:grid;grid-template-columns:1fr auto;gap:6mm;align-items:center}
+.offer h2{font-size:7mm;color:var(--bark);line-height:1.1}
+.offer .when{font-size:4.6mm;color:var(--wood);margin-top:1.5mm}
+.offer ul{list-style:none;margin-top:3mm;font-size:4.3mm;display:grid;gap:1.2mm}
+.offer li::before{content:"🐾 "}
+.price{font-size:15mm;font-weight:900;color:var(--amber);line-height:1;text-align:right}
+.price small{display:block;font-size:3.6mm;color:var(--wood);font-weight:600;margin-top:1mm}
+.gift{margin:4mm 12mm 0;font-size:5mm;color:var(--bark);text-align:center}
+.gift b{color:var(--amber)}
+
+.qrrow{display:grid;grid-template-columns:auto 1fr;gap:7mm;align-items:center;margin:5mm 12mm 5mm}
+.qrbox{background:#fff;border-radius:4mm;padding:2mm;box-shadow:0 1.5mm 4mm rgba(26,18,11,.12)}
+.qrbox img{display:block;width:40mm;height:40mm}
+.qrtext .hand{font-size:10mm;color:var(--amber);line-height:1}
+.qrtext p{font-size:4.4mm;color:var(--wood);margin-top:2mm;line-height:1.4}
+
+.tabs{flex-shrink:0;display:grid;grid-template-columns:repeat(8,1fr);border-top:.5mm dashed var(--wood);height:48mm}
+.tab{min-height:0;overflow:hidden;border-right:.4mm dashed var(--wood);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:2.5mm 1mm 3mm;background:var(--paper)}
+.tab:last-child{border-right:none}
+.tab img{width:19mm;height:19mm;display:block}
+.tab .t{writing-mode:vertical-rl;transform:rotate(180deg);font-size:3.1mm;font-weight:800;color:var(--bark);text-align:center;line-height:1.1}
+.tab .t span{color:var(--amber)}
+.scissors{position:absolute;left:3mm;bottom:45.5mm;font-size:4mm;color:var(--wood);background:var(--cream);padding:0 1mm}
+
+@media screen and (max-width:860px){.sheet{transform-origin:top left;}}
+@media print{
+  @page{size:A4 portrait;margin:0}
+  body{background:#fff;padding:0}
+  .tool{display:none}
+  .sheet{box-shadow:none;margin:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="tool">
+  <h1>🖨️ Aushang A4 (nur für Moni)</h1>
+  <p>Drucken → „Als PDF speichern“ oder direkt an den Drucker, A4 Hochformat, Ränder „keine“. Unten die Abreißzettel bis zur gestrichelten Linie einschneiden.</p>
+  <p>Für einen bestimmten Laden: Adresse mit <code>?wo=name</code> aufrufen, z. B. <code>aushang.html?wo=hundeschule-xy</code>. Den passenden QR-Code macht der Leitwolf (<code>qr/qr_machen.py</code>). Dann siehst du in der WhatsApp, woher die Leute kommen.</p>
+  <div class="warn" id="warn"><b>Erst drucken, wenn die Angebotsseite auf deinem Handy aufgeht.</b> Und der Entwurf-Hinweis raus is (Preise freigegeben).</div>
+  <button onclick="window.print()">Drucken / als PDF speichern</button>
+</div>
+
+<div class="sheet">
+  <div class="bar">
+    <div class="brand">POTT<span>PIC</span><small>Hundefotografie im Ruhrgebiet</small></div>
+    <div class="hand">Weihnachten mit Hund 🎄</div>
+  </div>
+
+  <div class="main">
+    <div class="photo" id="photo">🤎</div>
+    <div class="txt">
+      <h1 class="head">Dein Hund, so wie er wirklich is.</h1>
+      <p class="lead">Kein Stillsitzen-Müssen, kein Perfekt-Getue. Ich fotografier deinen Hund so, wie du ihn kennst. Und du bist endlich ma mit drauf.</p>
+      <p class="lead hand" style="font-size:7mm;color:var(--bark)">Moni & Luke</p>
+    </div>
+  </div>
+
+  <div class="offer">
+    <div>
+      <h2 id="oTitel"></h2>
+      <div class="when" id="oWann"></div>
+      <ul id="oPunkte"></ul>
+    </div>
+    <div class="price" id="oPreis"></div>
+  </div>
+  <div class="gift" id="gift"></div>
+
+  <div class="qrrow">
+    <div class="qrbox"><img class="qr" alt="QR-Code zur Angebotsseite"></div>
+    <div class="qrtext">
+      <div class="hand">Einfach scannen 📱</div>
+      <p>Alle Infos angucken und per WhatsApp oder Mail anfragen. Die Nachricht is schon vorgeschrieben, du musst nur noch abschicken.</p>
+    </div>
+  </div>
+
+  <div class="scissors">✂</div>
+  <div class="tabs" id="tabs"></div>
+</div>
+
+<script src="konfig.js"></script>
+<script>
+(function(){
+  const K = KONFIG, $ = id => document.getElementById(id);
+  const wo = (new URLSearchParams(location.search).get("wo") || "aushang").replace(/[^a-z0-9-]/g, "").slice(0, 40) || "aushang";
+  const mini = K.angebote.find(a => a.id === "mini") || K.angebote[0];
+  const gutscheine = K.angebote.filter(a => a.id !== "mini");
+
+  $("oTitel").textContent = mini.titel;
+  $("oWann").textContent = K.miniTermine + " · nur " + K.miniPlaetze + " Plätze · buchbar bis " + K.miniBuchenBis;
+  $("oPunkte").innerHTML = mini.punkte.slice(0, 3).map(p => "<li>" + p.replace(/[<>&]/g, "") + "</li>").join("");
+  $("oPreis").innerHTML = mini.preis + "<small>" + (mini.zusatz || "") + "</small>";
+  if (gutscheine.length) $("gift").innerHTML = "🎁 Oder als <b>Gutschein zum Verschenken</b>, ab " + gutscheine[0].preis + ". Geshootet wird im neuen Jahr.";
+
+  let tabs = "";
+  for (let i = 0; i < 8; i++) tabs += '<div class="tab"><div class="t">POTT<span>PIC</span> · Hundeshooting</div><img class="qr" alt="QR"></div>';
+  $("tabs").innerHTML = tabs;
+
+  // QR für diesen Ort, sonst der allgemeine Aushang-Code
+  const qrs = document.querySelectorAll("img.qr");
+  const test = new Image();
+  test.onload = () => qrs.forEach(q => q.src = "qr/" + wo + ".svg");
+  test.onerror = () => { qrs.forEach(q => q.src = "qr/aushang.svg"); if (wo !== "aushang") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt's noch keinen eigenen QR-Code, drauf is grad der allgemeine."; };
+  test.src = "qr/" + wo + ".svg";
+
+  if (!K.entwurf) { const w = $("warn"); w.innerHTML = w.innerHTML.replace(/ Und der Entwurf-Hinweis.*?\)\./, ""); }
+
+  const ph = new Image();
+  ph.onload = () => { $("photo").style.backgroundImage = "url('bilder/hero.jpg')"; $("photo").textContent = ""; };
+  ph.src = "bilder/hero.jpg";
+})();
+</script>
+</body>
+</html>

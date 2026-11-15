@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pottpic Karten</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a120b;--bark:#3d2c1e;--wood:#7c5235;--amber:#e07b2a;--gold:#f5a623;--cream:#fdf7ef;--warm:#f3e8d8;--paper:#fffcf7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:#e9dfd1;color:var(--ink);padding:16px}
+.hand{font-family:"Caveat",cursive;font-weight:700}
+.tool{max-width:210mm;margin:0 auto 14px;background:var(--paper);border-radius:14px;padding:14px 16px;font-size:.88rem;color:var(--wood)}
+.tool h1{font-size:1.05rem;color:var(--bark);margin-bottom:6px}
+.tool p{margin-bottom:6px}
+.tool button{margin-top:6px;padding:11px 20px;border:none;border-radius:999px;background:var(--amber);color:#fff;font-weight:800;font-size:.95rem;cursor:pointer}
+.warn{background:#fff3cd;color:#6b4e00;border-radius:8px;padding:8px 10px;margin-top:8px}
+
+.sheet{width:210mm;height:297mm;margin:0 auto;background:#fff;box-shadow:0 14px 40px rgba(0,0,0,.18);display:grid;grid-template-columns:repeat(2,105mm);grid-template-rows:repeat(4,74.25mm)}
+.card{border:.25mm dashed #c9b8a3;display:grid;grid-template-columns:1fr 31mm;overflow:hidden;background:var(--cream)}
+.l{padding:5mm 4mm 4.5mm 6mm;display:flex;flex-direction:column;justify-content:space-between}
+.brand{font-weight:900;font-size:4.2mm;letter-spacing:.03em;color:var(--bark)}.brand span{color:var(--amber)}
+.brand small{display:block;font-size:1.9mm;color:var(--wood);letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+.k{font-size:6.6mm;color:var(--amber);line-height:1}
+.h{font-size:4.6mm;font-weight:800;color:var(--bark);line-height:1.15}
+.d{font-size:2.85mm;color:var(--wood);line-height:1.35}
+.r{background:linear-gradient(160deg,var(--bark),var(--wood));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2mm;color:#fff;padding:3mm}
+.r .q{background:#fff;border-radius:2mm;padding:1mm}
+.r img{display:block;width:23mm;height:23mm}
+.r .s{font-size:2.6mm;text-align:center;line-height:1.2;font-weight:700}
+
+@media print{
+  @page{size:A4 portrait;margin:0}
+  body{background:#fff;padding:0}
+  .tool{display:none}
+  .sheet{box-shadow:none;margin:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="tool">
+  <h1>🖨️ Karten zum Auslegen (nur für Moni)</h1>
+  <p>8 Karten pro A4-Blatt, an den gestrichelten Linien schneiden. Am besten auf dickerem Papier (ab ca. 200 g) drucken, dann nehmen Leute die eher mit.</p>
+  <p>Für einen bestimmten Laden: <code>karten.html?wo=name</code> (QR-Code dafür macht der Leitwolf).</p>
+  <div class="warn" id="warn"><b>Erst drucken, wenn die Angebotsseite auf deinem Handy aufgeht</b> und die Preise freigegeben sind.</div>
+  <button onclick="window.print()">Drucken / als PDF speichern</button>
+</div>
+<div class="sheet" id="sheet"></div>
+
+<script src="konfig.js"></script>
+<script>
+(function(){
+  const K = KONFIG, $ = id => document.getElementById(id);
+  const wo = (new URLSearchParams(location.search).get("wo") || "karte").replace(/[^a-z0-9-]/g, "").slice(0, 40) || "karte";
+  const mini = K.angebote.find(a => a.id === "mini") || K.angebote[0];
+  const gs = K.angebote.filter(a => a.id !== "mini");
+  const tage = K.miniTermine.replace(/\s*und\s*/, " & ");
+
+  const card =
+    '<div class="card"><div class="l">' +
+      '<div class="brand">POTT<span>PIC</span><small>Hundefotografie im Ruhrgebiet</small></div>' +
+      '<div><div class="k hand">Weihnachten mit Hund</div>' +
+      '<div class="h">Mini-Shooting ' + tage + ' · ' + mini.preis + '</div></div>' +
+      '<div class="d">20 Minuten, 5 Lieblingsbilder, dein Hund darf einfach Hund sein.' +
+      (gs.length ? '<br>🎁 Auch als Gutschein, ab ' + gs[0].preis + '.' : '') + '</div>' +
+    '</div><div class="r"><div class="q"><img class="qr" alt="QR-Code"></div><div class="s">Scannen &<br>Platz sichern</div></div></div>';
+  $("sheet").innerHTML = card.repeat(8);
+
+  const qrs = document.querySelectorAll("img.qr"), t = new Image();
+  t.onload = () => qrs.forEach(q => q.src = "qr/" + wo + ".svg");
+  t.onerror = () => { qrs.forEach(q => q.src = "qr/karte.svg"); if (wo !== "karte") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt's noch keinen eigenen QR-Code, drauf is grad der allgemeine."; };
+  t.src = "qr/" + wo + ".svg";
+})();
+</script>
+</body>
+</html>
