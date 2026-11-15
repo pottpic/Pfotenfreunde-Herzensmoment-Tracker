@@ -23,7 +23,7 @@ const KONFIG = {
 
   // Kleiner Satz für Leute, die ihre Bilder noch vor Weihnachten wollen
   // (keine Termine, keine Platzzahl – Moni entscheidet pro Anfrage)
-  dezemberHinweis: "Du willst deine Bilder noch vor Weihnachten? Schreib mir einfach, vormittags geht im Dezember noch was.",
+  dezemberHinweis: "Du willst deine Bilder noch vor Weihnachten? Schreib mir einfach, vormittags geht im Dezember noch etwas.",
 
   // Gutschein: wie lange gültig
   gutscheinGueltig: "bis 31.12.2027",
@@ -40,7 +40,7 @@ const KONFIG = {
         "30 Minuten Shooting, Termin frei wählbar",
         "5 bearbeitete Lieblingsbilder als Datei",
         "Schöner Gutschein zum Ausdrucken",
-        "Einlösbar, wann's passt"
+        "Einlösbar, wann es passt"
       ],
       highlight: true,
       badge: "Weihnachtsgeschenk 🎁"

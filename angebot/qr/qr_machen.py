@@ -16,12 +16,12 @@ konfig = (hier.parent / "konfig.js").read_text(encoding="utf-8")
 url = re.search(r'seitenUrl:\s*"([^"]*)"', konfig).group(1)
 wa = re.search(r'whatsapp:\s*"([^"]*)"', konfig).group(1)
 
-HERKUNFT = {"aushang": "hab deinen Aushang gesehen", "karte": "hab deine Karte mitgenommen"}
+HERKUNFT = {"aushang": "ich habe deinen Aushang gesehen", "karte": "ich habe deine Karte mitgenommen"}
 
 def ziel(name):
     if wa:
-        wo = HERKUNFT.get(name, f"hab deinen Aushang bei {name.replace('-', ' ').title()} gesehen")
-        text = f"Hey Moni, {wo} und will mehr wissen!"
+        wo = HERKUNFT.get(name, f"ich habe deinen Aushang bei {name.replace('-', ' ').title()} gesehen")
+        text = f"Hey Moni, {wo} und möchte mehr wissen!"
         return f"https://wa.me/{wa}?text=" + urllib.parse.quote(text)
     return f"{url}?von={name}"
 
