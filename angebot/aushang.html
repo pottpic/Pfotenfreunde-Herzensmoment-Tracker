@@ -44,11 +44,12 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
 .qrbox img{display:block;width:40mm;height:40mm}
 .qrtext .hand{font-size:10mm;color:var(--amber);line-height:1}
 .qrtext p{font-size:4.4mm;color:var(--wood);margin-top:2mm;line-height:1.4}
+.qrtext .nr{font-size:4.6mm;color:var(--bark);font-weight:800}
 
 .tabs{flex-shrink:0;display:grid;grid-template-columns:repeat(8,1fr);border-top:.5mm dashed var(--wood);height:48mm}
 .tab{min-height:0;overflow:hidden;border-right:.4mm dashed var(--wood);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:2.5mm 1mm 3mm;background:var(--paper)}
 .tab:last-child{border-right:none}
-.tab img{width:19mm;height:19mm;display:block}
+.tab img{width:21mm;height:21mm;display:block}
 .tab .t{writing-mode:vertical-rl;transform:rotate(180deg);font-size:3.1mm;font-weight:800;color:var(--bark);text-align:center;line-height:1.1}
 .tab .t span{color:var(--amber)}
 .scissors{position:absolute;left:3mm;bottom:45.5mm;font-size:4mm;color:var(--wood);background:var(--cream);padding:0 1mm}
@@ -67,7 +68,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   <h1>🖨️ Aushang A4 (nur für Moni)</h1>
   <p>Drucken → „Als PDF speichern“ oder direkt an den Drucker, A4 Hochformat, Ränder „keine“. Unten die Abreißzettel bis zur gestrichelten Linie einschneiden.</p>
   <p>Für einen bestimmten Laden: Adresse mit <code>?wo=name</code> aufrufen, z. B. <code>aushang.html?wo=hundeschule-xy</code>. Den passenden QR-Code macht der Leitwolf (<code>qr/qr_machen.py</code>). Dann siehst du in der WhatsApp, woher die Leute kommen.</p>
-  <div class="warn" id="warn"><b>Erst drucken, wenn die Angebotsseite auf deinem Handy aufgeht.</b> Und der Entwurf-Hinweis raus is (Preise freigegeben).</div>
+  <div class="warn" id="warn"><b>Vorm Drucken einmal mit dem Handy scannen</b> und gucken, ob WhatsApp mit der richtigen Nachricht aufgeht. Und erst drucken, wenn Preise und Termine freigegeben sind.</div>
   <button onclick="window.print()">Drucken / als PDF speichern</button>
 </div>
 
@@ -100,7 +101,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
     <div class="qrbox"><img class="qr" alt="QR-Code zur Angebotsseite"></div>
     <div class="qrtext">
       <div class="hand">Einfach scannen 📱</div>
-      <p>Alle Infos angucken und per WhatsApp oder Mail anfragen. Die Nachricht is schon vorgeschrieben, du musst nur noch abschicken.</p>
+      <p>Dann geht WhatsApp auf, die Nachricht an mich is schon vorgeschrieben. Nur noch abschicken, ich meld mich persönlich.</p><p class="nr" id="nr"></p>
     </div>
   </div>
 
@@ -123,7 +124,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   if (gutscheine.length) $("gift").innerHTML = "🎁 Oder als <b>Gutschein zum Verschenken</b>, ab " + gutscheine[0].preis + ". Geshootet wird im neuen Jahr.";
 
   let tabs = "";
-  for (let i = 0; i < 8; i++) tabs += '<div class="tab"><div class="t">POTT<span>PIC</span> · Hundeshooting</div><img class="qr" alt="QR"></div>';
+  for (let i = 0; i < 8; i++) tabs += '<div class="tab"><div class="t">POTT<span>PIC</span> · WhatsApp</div><img class="qr" alt="QR"></div>';
   $("tabs").innerHTML = tabs;
 
   // QR für diesen Ort, sonst der allgemeine Aushang-Code
@@ -133,7 +134,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   test.onerror = () => { qrs.forEach(q => q.src = "qr/aushang.svg"); if (wo !== "aushang") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt's noch keinen eigenen QR-Code, drauf is grad der allgemeine."; };
   test.src = "qr/" + wo + ".svg";
 
-  if (!K.entwurf) { const w = $("warn"); w.innerHTML = w.innerHTML.replace(/ Und der Entwurf-Hinweis.*?\)\./, ""); }
+  if (K.whatsapp) { const n = K.whatsapp.replace(/^49/, "0"); $("nr").textContent = "Oder direkt: WhatsApp " + n.slice(0, 4) + " " + n.slice(4); }
 
   const ph = new Image();
   ph.onload = () => { $("photo").style.backgroundImage = "url('bilder/hero.jpg')"; $("photo").textContent = ""; };
