@@ -68,7 +68,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   <h1>🖨️ Aushang A4 (nur für Moni)</h1>
   <p>Drucken → „Als PDF speichern“ oder direkt an den Drucker, A4 Hochformat, Ränder „keine“. Unten die Abreißzettel bis zur gestrichelten Linie einschneiden.</p>
   <p>Für einen bestimmten Laden: Adresse mit <code>?wo=name</code> aufrufen, z. B. <code>aushang.html?wo=hundeschule-xy</code>. Den passenden QR-Code macht der Leitwolf (<code>qr/qr_machen.py</code>). Dann siehst du in der WhatsApp, woher die Leute kommen.</p>
-  <div class="warn" id="warn"><b>Vorm Drucken einmal mit dem Handy scannen</b> und gucken, ob WhatsApp mit der richtigen Nachricht aufgeht. Und erst drucken, wenn Preise und Termine freigegeben sind.</div>
+  <div class="warn" id="warn"><b>Vorm Drucken einmal mit dem Handy scannen</b> und schauen, ob WhatsApp mit der richtigen Nachricht aufgeht. Und erst drucken, wenn Preise und Termine freigegeben sind.</div>
   <button onclick="window.print()">Drucken / als PDF speichern</button>
 </div>
 
@@ -81,8 +81,8 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   <div class="main">
     <div class="photo" id="photo">🤎</div>
     <div class="txt">
-      <h1 class="head">Dein Hund, so wie er wirklich is.</h1>
-      <p class="lead">Kein Stillsitzen-Müssen, kein Perfekt-Getue. Ich fotografier deinen Hund so, wie du ihn kennst. Und du bist endlich ma mit drauf.</p>
+      <h1 class="head">Dein Hund, so wie er wirklich ist.</h1>
+      <p class="lead">Kein Stillsitzen-Müssen, kein Perfekt-Getue. Ich fotografiere deinen Hund so, wie du ihn kennst. Und du bist endlich mal mit drauf.</p>
       <p class="lead hand" style="font-size:7mm;color:var(--bark)">Moni & Luke</p>
     </div>
   </div>
@@ -101,7 +101,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
     <div class="qrbox"><img class="qr" alt="QR-Code zur Angebotsseite"></div>
     <div class="qrtext">
       <div class="hand">Einfach scannen 📱</div>
-      <p>Dann geht WhatsApp auf, die Nachricht an mich is schon vorgeschrieben. Nur noch abschicken, ich meld mich persönlich.</p><p class="nr" id="nr"></p>
+      <p>Dann geht WhatsApp auf, die Nachricht an mich ist schon vorgeschrieben. Nur noch abschicken, ich melde mich persönlich.</p><p class="nr" id="nr"></p>
     </div>
   </div>
 
@@ -131,7 +131,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   const qrs = document.querySelectorAll("img.qr");
   const test = new Image();
   test.onload = () => qrs.forEach(q => q.src = "qr/" + wo + ".svg");
-  test.onerror = () => { qrs.forEach(q => q.src = "qr/aushang.svg"); if (wo !== "aushang") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt's noch keinen eigenen QR-Code, drauf is grad der allgemeine."; };
+  test.onerror = () => { qrs.forEach(q => q.src = "qr/aushang.svg"); if (wo !== "aushang") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt es noch keinen eigenen QR-Code, drauf ist gerade der allgemeine."; };
   test.src = "qr/" + wo + ".svg";
 
   if (K.whatsapp) { const n = K.whatsapp.replace(/^49/, "0"); $("nr").textContent = "Oder direkt: WhatsApp " + n.slice(0, 4) + " " + n.slice(4); }

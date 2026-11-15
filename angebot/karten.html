@@ -43,7 +43,7 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:
   <h1>🖨️ Karten zum Auslegen (nur für Moni)</h1>
   <p>8 Karten pro A4-Blatt, an den gestrichelten Linien schneiden. Am besten auf dickerem Papier (ab ca. 200 g) drucken, dann nehmen Leute die eher mit.</p>
   <p>Für einen bestimmten Laden: <code>karten.html?wo=name</code> (QR-Code dafür macht der Leitwolf).</p>
-  <div class="warn" id="warn"><b>Vorm Drucken einmal mit dem Handy scannen</b> und gucken, ob WhatsApp aufgeht. Und erst drucken, wenn Preise und Termine freigegeben sind.</div>
+  <div class="warn" id="warn"><b>Vorm Drucken einmal mit dem Handy scannen</b> und schauen, ob WhatsApp aufgeht. Und erst drucken, wenn Preise und Termine freigegeben sind.</div>
   <button onclick="window.print()">Drucken / als PDF speichern</button>
 </div>
 <div class="sheet" id="sheet"></div>
@@ -70,7 +70,7 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:
 
   const qrs = document.querySelectorAll("img.qr"), t = new Image();
   t.onload = () => qrs.forEach(q => q.src = "qr/" + wo + ".svg");
-  t.onerror = () => { qrs.forEach(q => q.src = "qr/karte.svg"); if (wo !== "karte") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt's noch keinen eigenen QR-Code, drauf is grad der allgemeine."; };
+  t.onerror = () => { qrs.forEach(q => q.src = "qr/karte.svg"); if (wo !== "karte") $("warn").innerHTML += "<br>⚠️ Für „" + wo + "“ gibt es noch keinen eigenen QR-Code, drauf ist gerade der allgemeine."; };
   t.src = "qr/" + wo + ".svg";
 })();
 </script>
