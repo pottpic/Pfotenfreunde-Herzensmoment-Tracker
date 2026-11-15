@@ -40,7 +40,7 @@ persönliche Nachricht ─┘                          │
                                             neue Leute
 ```
 
-Der **schnellste Weg zu Geld**: Du schreibst die Leute an, die dich schon gelobt haben (4C). Die mögen dich ja schon.
+Der **schnellste Weg zu Geld ohne Reichweite**: dein WhatsApp-Status. Den sehen alle mit deiner Nummer, ganz ohne Algorithmus. Bilder und Texte: `2026-11-15-ohne-reichweite.md`.
 
 ---
 
@@ -94,14 +94,8 @@ Gültig bis 31.12.2027. Shooting ab Frühjahr 2027. Du bist Kleinunternehmerin, 
 > Der Gutschein kommt als hübsches PDF zum Ausdrucken, liegt also pünktlich unterm Baum.
 > Schreib mir einfach, welcher es sein soll und für wen, dann schick ich dir alles. Oder direkt per WhatsApp: 0176 21681512
 
-### 4C. Die wichtigste Nachricht: an Leute, die dich schon gelobt haben
-Mach dir 'ne Liste mit **20 Leuten**, die in den letzten Monaten „tolle Bilder“ gesagt haben (Kommentare, WhatsApp, persönlich, Verein). Jede kriegt 'ne **persönliche** Nachricht, kein Massen-Copy-Paste. Vorlage:
-
-> Hey [Name]! Du hast ja letztens so lieb was zu meinen Bildern gesagt, das hat mich echt gefreut. 🤎
-> Ich hab jetzt Shooting-Gutscheine, ab 99 €, geshootet wird dann im Frühjahr. Falls du jemanden kennst, der seinen Hund total vergöttert und eigentlich schon alles hat … 😄
-> Oder hättest du selbst Lust? Würd mir echt helfen, wenn du's weitersagst.
-
-Der letzte Satz is wichtig. Wer selbst nich kauft, empfiehlt oft gern, wenn man ehrlich fragt.
+### 4C. ~~20-Leute-Liste~~ → ersetzt
+Gibt's nich (Moni hat keine Liste, im Verein läuft grad das Adventsshooting beim Pfotenzauber). Stattdessen: **WhatsApp-Status, Pottpic-Seite auf Facebook, Homepage** mit fertigen Bildern und Texten in `2026-11-15-ohne-reichweite.md`.
 
 ### 4D. Nachfassen (ca. 3 Tage später, nur 1×)
 > Hey, nur kurz, damit's nich untergeht: Wenn du 'nen Gutschein noch vor Weihnachten haben willst, sag mir einfach bis [DATUM – legst du fest] Bescheid. Kein Druck, ich wollt's nur gesagt haben. 🐾
@@ -213,7 +207,7 @@ Am Di 01.12. gucken wir zusammen drauf. Dann wissen wir, was wirklich Geld bring
 - [x] **Werbung bei der Derner Schnauzenbande** geklärt
 - [ ] **Aushang einmal mit dem Handy scannen**, dann drucken und aufhängen
 - [ ] **Bio-Link** auf den Instagram-WhatsApp-Link aus Abschnitt 2 stellen
-- [ ] **Die 20-Leute-Liste** (4C). Das is der schnellste Weg zu Geld, ehrlich.
+- [ ] **WhatsApp-Status Mi 18.11. abends**, Facebook-Post anpinnen, Kasten auf die Homepage (`2026-11-15-ohne-reichweite.md`)
 - [ ] **Bis wann du Gutschein-PDFs vor Weihnachten rausschickst** (für 4D und die Last-Minute-Posts)
 - [ ] **Foto** für den Aushang (statt Herz) und für den Karussell-Post am 18.11.
 - [ ] **Metricool:** Instagram verbinden, dann plan ich die Posts nach deinem Okay ein
