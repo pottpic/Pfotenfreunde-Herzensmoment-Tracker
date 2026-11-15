@@ -121,7 +121,7 @@ h1.head{font-size:11mm;line-height:1.02;color:var(--bark)}
   const kurz = x => x.punkte.slice(0, 2).map(p => p.replace(/,.*$/, "")).join(", ");
   $("oPunkte").innerHTML = gs.map(x => "<li><b>" + x.titel.replace(/^Gutschein\s*/, "").replace(/[<>&]/g, "") + "</b> · " + kurz(x).replace(/[<>&]/g, "") + " · " + x.preis + "</li>").join("");
   $("oPreis").innerHTML = "<small style=\"font-size:4.5mm;margin:0 0 1mm\">ab</small>" + ab + " €<small>als Gutschein</small>";
-  $("gift").innerHTML = "📅 " + K.dezemberHinweis.replace(/[<>&]/g, "");
+  $("gift").innerHTML = "🎄 " + K.dezemberHinweis.replace(/[<>&]/g, "");
 
   let tabs = "";
   for (let i = 0; i < 8; i++) tabs += '<div class="tab"><div class="t">POTT<span>PIC</span> · Gutschein</div><img class="qr" alt="QR"></div>';
