@@ -303,7 +303,7 @@ footer a{font-weight:700;text-decoration:none}
   // Gutschein-Info + Dezember auf Anfrage
   const ab = K.angebote.map(a => parseInt(a.preis, 10)).filter(n => n).sort((x, y) => x - y)[0];
   $("scarcity").textContent = "🎁 Shooting-Gutscheine ab " + ab + " € · geshootet wird " + K.shootingAb;
-  $("dezText").textContent = "📅 " + K.dezemberHinweis;
+  $("dezText").textContent = "🎄 " + K.dezemberHinweis;
   $("dezBtns").innerHTML = buttons({id: "dezember", titel: "Shooting im Dezember"}, true);
   $("faqGueltig").textContent = "Der Gutschein gilt " + K.gutscheinGueltig + ". Den Termin sucht ihr euch dann zusammen mit mir aus, so wie es bei euch passt. Am schönsten finde ich ja Frühling und Herbst, aber ist deine Entscheidung.";
 
