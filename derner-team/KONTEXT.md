@@ -43,15 +43,15 @@ Nur, was belegt ist (Quelle: `derner-team/recherche/2026-10-31-ist-stand.md`, Br
 
 Monis Ton – aber in der **„wir“-Form des Vereins**. Nicht „ich“, sondern „wir von der Derner Schnauzenbande“.
 
-- **Hochdeutsch** (Monis Entscheidung vom 15.11.2026, gilt wie bei Pottpic): „ist“ statt „is“, „nicht“ statt „nich“, „ein“ statt „’n“, „mal“ statt „ma“, „gerade“ statt „grade“, „auf dem Platz“ statt „auf’m Platz“. Keine Füllwörter wie „halt“, kein Ruhrpott-Platt.
-- Immer duzen. Warm, direkt, gesellig – Verein zum Wohlfühlen, nur eben in sauberem Deutsch.
+- **Locker, aber „ist“ und „nicht“** (Monis Entscheidung vom 15.11.2026, gilt wie bei Pottpic): Einschübe wie „halt“, „weißt du“, „eigentlich“ sind okay, ebenso „’n“, „nix“, „ich hab“. **Nie** „is“, „nich“, „ma“, „grade“ – immer „ist“, „nicht“, „mal“, „gerade“.
+- Immer duzen. Locker, warm, direkt, Ruhrpott-nah.
 - Kein Marketing-Sprech, keine Floskeln, kein glattes KI-Deutsch. Kein Vereinsmeier-Amtsdeutsch („Hiermit wird bekanntgegeben …“) – außer, es ist wirklich etwas Formales (Einladung zur Mitgliederversammlung).
 - Gemeinschaft, Spaß, Hunde dürfen Hunde sein. Alltag statt Perfektion, gern mit Humor über die eigenen Pannen.
 - Emoji dosiert.
 
 Beispiel: „Wir üben seit Wochen den Abruf, und dann fliegt ein Blatt vorbei – kennt ihr, oder? Genau deswegen sind wir jeden [Platzhalter: Trainingstag] auf dem Platz.“
 
-**Ausführliche Stimme (verbindlich):** `derner-team/social-media/2026-10-31-vereinsstimme.md` (von Bellfluencerin, Entwurf bis Monis Freigabe). Die gilt für alles, was der Verein nach außen sagt – Do/Don't, Emoji-Regel, Hashtag-Set und **Regel für Pottpic-Hinweise** stehen da im Detail. Bei Widerspruch zu älteren Dateien gilt die Vereinsstimme – **außer bei der Sprache: Hochdeutsch (siehe oben) geht vor.**
+**Ausführliche Stimme (verbindlich):** `derner-team/social-media/2026-10-31-vereinsstimme.md` (von Bellfluencerin, Entwurf bis Monis Freigabe). Die gilt für alles, was der Verein nach außen sagt – Do/Don't, Emoji-Regel, Hashtag-Set und **Regel für Pottpic-Hinweise** stehen da im Detail. Bei Widerspruch zu älteren Dateien gilt die Vereinsstimme – **außer bei der Schreibweise: „ist/nicht/mal/gerade“ (siehe oben) geht vor.**
 
 ## Optik
 - Vereinsfarben: **Creme + Dunkelgrün**. (Pottpic: Navy + Gold – nie mischen.)
