@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pottpic – Hundeshooting & Gutscheine</title>
+<meta name="description" content="Hundefotografie im Ruhrgebiet: Mini-Shootings im Dezember und Shooting-Gutscheine zum Verschenken. Hunde dürfen Hunde sein.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a120b;--bark:#3d2c1e;--wood:#7c5235;--amber:#e07b2a;--amber-dark:#b85f17;--gold:#f5a623;--sage:#6b8f71;--cream:#fdf7ef;--warm:#f3e8d8;--paper:#fffcf7;--shadow:rgba(26,18,11,.12);--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.55;font-size:17px}
+a{color:inherit}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+.hand{font-family:"Caveat",cursive;font-weight:700}
+
+/* Entwurf-Banner */
+.draft{background:#fff3cd;color:#6b4e00;border-bottom:2px solid var(--gold);padding:10px 16px;font-size:.85rem;text-align:center}
+.draft strong{font-weight:800}
+
+/* Kopf */
+.top{background:linear-gradient(135deg,var(--bark),var(--wood));color:#fff}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:14px;padding-bottom:14px}
+.logo{font-weight:800;letter-spacing:.02em;font-size:1.15rem;text-decoration:none}
+.logo span{color:var(--gold)}
+.top small{display:block;font-size:.66rem;opacity:.75;text-transform:uppercase;letter-spacing:.09em;font-weight:600}
+.top nav a{font-size:.85rem;font-weight:700;text-decoration:none;opacity:.9}
+
+/* Hero */
+.hero{background:linear-gradient(180deg,var(--wood) 0%,var(--cream) 100%);color:#fff;padding:36px 0 30px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+.kicker{font-size:1.6rem;color:var(--gold);line-height:1}
+.hero h1{font-size:clamp(2rem,6vw,3.1rem);line-height:1.08;margin:8px 0 14px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.18)}
+.hero p.lead{font-size:1.08rem;max-width:34em;color:#fffaf2}
+.hero-photo{border-radius:22px;overflow:hidden;aspect-ratio:4/5;background:var(--warm) center/cover no-repeat;box-shadow:0 18px 40px rgba(26,18,11,.28);border:6px solid var(--paper);transform:rotate(1.5deg);display:flex;align-items:center;justify-content:center;color:var(--wood);font-size:3rem}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:none;border-radius:999px;padding:14px 22px;font-weight:800;font-size:1rem;text-decoration:none;cursor:pointer;transition:transform .15s,box-shadow .15s;min-height:48px}
+.btn:hover{transform:translateY(-2px)}
+.btn-main{background:var(--amber);color:#fff;box-shadow:0 8px 20px rgba(224,123,42,.4)}
+.btn-main:hover{background:var(--amber-dark)}
+.btn-ghost{background:var(--paper);color:var(--bark)}
+.btn-wa{background:#1f9d55;color:#fff}
+.btn-mail{background:var(--bark);color:#fff}
+.btn-small{padding:11px 16px;font-size:.92rem;min-height:44px}
+.scarcity{margin-top:14px;font-size:.92rem;color:var(--bark);background:rgba(255,252,247,.85);display:inline-block;padding:7px 13px;border-radius:999px;font-weight:700}
+
+/* Abschnitte */
+section{padding:44px 0}
+h2{font-size:clamp(1.55rem,4.5vw,2.1rem);color:var(--bark);line-height:1.15;margin-bottom:10px}
+.sub{color:var(--wood);max-width:40em;margin-bottom:22px}
+
+/* Galerie */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.gallery img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;display:block;box-shadow:0 6px 16px var(--shadow);background:var(--warm)}
+
+/* Gefühl */
+.feel{background:var(--paper);border-top:1px solid rgba(0,0,0,.05);border-bottom:1px solid rgba(0,0,0,.05)}
+.feel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.feel-card{background:var(--cream);border-radius:var(--r);padding:18px;border:1.5px solid var(--warm)}
+.feel-card .ico{font-size:1.7rem}
+.feel-card h3{color:var(--bark);font-size:1.05rem;margin:6px 0 4px}
+.feel-card p{color:var(--wood);font-size:.95rem}
+
+/* Angebote */
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}
+.offer{background:var(--paper);border-radius:var(--r);box-shadow:0 6px 22px var(--shadow);padding:22px 20px;display:flex;flex-direction:column;border:2px solid transparent;position:relative}
+.offer.top-pick{border-color:var(--amber)}
+.badge{position:absolute;top:-13px;left:20px;background:var(--amber);color:#fff;font-size:.75rem;font-weight:800;padding:5px 11px;border-radius:999px;letter-spacing:.03em}
+.offer h3{color:var(--bark);font-size:1.25rem;margin-top:4px}
+.offer .for{color:var(--wood);font-size:.9rem;margin:4px 0 12px}
+.price{font-size:2.2rem;font-weight:900;color:var(--amber);line-height:1}
+.price small{font-size:.9rem;color:var(--wood);font-weight:600}
+.offer ul{list-style:none;margin:14px 0 18px;display:flex;flex-direction:column;gap:7px;flex:1}
+.offer li{padding-left:24px;position:relative;font-size:.95rem}
+.offer li::before{content:"🐾";position:absolute;left:0;top:0;font-size:.85rem}
+.offer .actions{display:flex;flex-direction:column;gap:8px}
+.note{font-size:.8rem;color:var(--wood);margin-top:14px;text-align:center}
+
+/* Ablauf */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:s}
+.step{background:var(--paper);border-radius:var(--r);padding:20px;box-shadow:0 4px 14px var(--shadow)}
+.step::before{counter-increment:s;content:counter(s);display:flex;width:38px;height:38px;border-radius:50%;background:var(--gold);color:var(--bark);font-weight:900;align-items:center;justify-content:center;margin-bottom:10px}
+.step h3{color:var(--bark);font-size:1.05rem;margin-bottom:4px}
+.step p{color:var(--wood);font-size:.95rem}
+
+/* Über mich */
+.me{display:grid;grid-template-columns:.8fr 1.2fr;gap:26px;align-items:center}
+.me-photo{border-radius:50%;aspect-ratio:1;background:var(--warm) center/cover no-repeat;border:6px solid var(--paper);box-shadow:0 10px 26px var(--shadow);max-width:300px;width:100%;margin:0 auto;display:flex;align-items:center;justify-content:center;font-size:3rem}
+.me p{margin-bottom:10px}
+.sign{font-size:2rem;color:var(--amber)}
+
+/* FAQ */
+details{background:var(--paper);border-radius:14px;padding:14px 16px;margin-bottom:9px;border:1.5px solid var(--warm)}
+summary{font-weight:800;color:var(--bark);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::after{content:"+";color:var(--amber);font-size:1.3rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--wood);margin-top:8px;font-size:.96rem}
+
+/* Gratis */
+.free{background:linear-gradient(135deg,var(--sage),#55775b);color:#fff;border-radius:var(--r);padding:24px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.free h3{font-size:1.3rem}
+.free p{opacity:.92;max-width:34em}
+
+/* Schluss */
+.final{background:var(--bark);color:#fff;text-align:center}
+.final h2{color:#fff}
+.final p{opacity:.9;max-width:34em;margin:0 auto}
+.final .btns{justify-content:center}
+
+footer{background:var(--warm);color:var(--wood);font-size:.8rem;text-align:center;padding:20px 16px}
+footer a{font-weight:700;text-decoration:none}
+
+/* Handy-Leiste */
+.sticky{position:fixed;left:0;right:0;bottom:0;background:var(--paper);box-shadow:0 -6px 20px var(--shadow);padding:10px 16px;display:none;gap:8px;z-index:20}
+.sticky .btn{flex:1;padding:12px 10px;font-size:.92rem}
+
+@media(max-width:820px){
+  .hero-grid,.me{grid-template-columns:1fr}
+  .hero-photo{max-width:360px;width:100%;margin:0 auto}
+  .offers,.steps,.feel-grid{grid-template-columns:1fr}
+  .offer.top-pick{order:-1}
+  .gallery{grid-template-columns:repeat(2,1fr)}
+  .top nav{display:none}
+  .sticky{display:flex}
+  body{padding-bottom:72px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     MONI, HIER TRÄGST DU DEINE SACHEN EIN (nur diesen Block ändern)
+     ============================================================ -->
+<script>
+const KONFIG = {
+  // true = gelber Entwurf-Hinweis oben. Auf false stellen, wenn alles stimmt.
+  entwurf: true,
+
+  // WhatsApp-Nummer mit Ländervorwahl, ohne + und ohne Leerzeichen, z. B. "4917612345678"
+  whatsapp: "",
+
+  // Deine Mail-Adresse für Anfragen
+  mail: "",
+
+  // Instagram-Name ohne @
+  instagram: "pottpic",
+
+  // Mini-Shootings im Dezember (VORSCHLAG – Moni entscheidet)
+  miniTermine: "Sa 05.12. und So 06.12.2026",
+  miniOrt: "draußen im Dortmunder Norden – genauer Treffpunkt kommt mit der Buchung",
+  miniPlaetze: 16,          // wie viele Slots es insgesamt gibt
+  miniBuchenBis: "Di 01.12.",
+  galerieBis: "Fr 18.12.",  // bis wann die Bilder da sind
+
+  // Gutschein: wie lange gültig
+  gutscheinGueltig: "bis 31.12.2027",
+
+  // Preise (VORSCHLAG vom Team, Schätzung – Moni entscheidet)
+  angebote: [
+    {
+      id: "mini",
+      titel: "Mini-Shooting im Dezember",
+      fuer: "Für dich und deinen Hund – noch vor Weihnachten",
+      preis: "99 €",
+      zusatz: "einmalig",
+      punkte: [
+        "20 Minuten draußen, ganz entspannt",
+        "5 bearbeitete Lieblingsbilder als Datei",
+        "Online-Galerie zum Aussuchen",
+        "Weitere Bilder je 25 €",
+        "Bilder rechtzeitig vor Heiligabend da"
+      ],
+      highlight: true,
+      badge: "Nur im Dezember"
+    },
+    {
+      id: "gutschein-klein",
+      titel: "Gutschein „Kleines Glück“",
+      fuer: "Zum Verschenken – geshootet wird 2027",
+      preis: "99 €",
+      zusatz: "Gutschein",
+      punkte: [
+        "30 Minuten Shooting, Termin frei wählbar",
+        "5 bearbeitete Lieblingsbilder als Datei",
+        "Schöner Gutschein zum Ausdrucken",
+        "Einlösbar, wann's passt"
+      ],
+      highlight: false
+    },
+    {
+      id: "gutschein-gross",
+      titel: "Gutschein „Herzensmoment“",
+      fuer: "Für die, die ihren Hund richtig feiern wollen",
+      preis: "189 €",
+      zusatz: "Gutschein",
+      punkte: [
+        "60 Minuten Shooting, Lieblingsort aussuchen",
+        "12 bearbeitete Lieblingsbilder als Datei",
+        "Schöner Gutschein zum Ausdrucken",
+        "Gern auch mit Mensch mit drauf"
+      ],
+      highlight: false
+    }
+  ]
+};
+</script>
+<!-- ============================================================ -->
+
+<div class="draft" id="draft"><strong>Entwurf:</strong> Preise und Termine sind noch Vorschläge und nicht freigegeben. Bitte noch nicht teilen.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="https://www.pottpic.de">POTT<span>PIC</span><small>Hundefotografie im Ruhrgebiet</small></a>
+    <nav><a href="#angebote">Angebote</a></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker hand">Weihnachten mit Hund 🎄</div>
+      <h1>Dein Hund, so wie er wirklich is.</h1>
+      <p class="lead">Kein Stillsitzen-Müssen, kein Perfekt-Getue. Ich fotografier deinen Hund so, wie du ihn kennst – mit Schlappohr, schiefem Blick und allem. Und du hast endlich ma Bilder, wo ihr <em>beide</em> drauf seid.</p>
+      <div class="btns">
+        <a class="btn btn-main" href="#angebote">Mini-Shooting sichern</a>
+        <a class="btn btn-ghost" href="#angebote">Gutschein verschenken 🎁</a>
+      </div>
+      <div class="scarcity" id="scarcity"></div>
+    </div>
+    <div class="hero-photo" id="heroPhoto" role="img" aria-label="Hundefoto von Pottpic">🐾</div>
+  </div>
+</section>
+
+<section id="galerieSec">
+  <div class="wrap">
+    <h2>So sieht das bei mir aus</h2>
+    <p class="sub">Echte Hunde, echte Menschen, aus'm Ruhrgebiet. Nix gestellt, was nich passt.</p>
+    <div class="gallery" id="gallery"></div>
+  </div>
+</section>
+
+<section class="feel">
+  <div class="wrap">
+    <h2>Ich mein, Fotos vom Hund hast du ja.</h2>
+    <p class="sub">Tausend Stück wahrscheinlich, im Handy. Aber mal ehrlich, weißt du:</p>
+    <div class="feel-grid">
+      <div class="feel-card"><div class="ico">📱</div><h3>Er guckt immer grad weg</h3><p>Sobald du das Handy hebst, is er woanders. Oder unscharf. Oder beides.</p></div>
+      <div class="feel-card"><div class="ico">🙋‍♀️</div><h3>Du bist nie mit drauf</h3><p>Weil du halt immer die bist, die fotografiert. Dabei seid ihr doch 'n Team.</p></div>
+      <div class="feel-card"><div class="ico">🖼️</div><h3>Nix hängt an der Wand</h3><p>Die schönsten Momente liegen irgendwo zwischen Screenshots und Einkaufszetteln.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="angebote">
+  <div class="wrap">
+    <h2>Such dir was aus</h2>
+    <p class="sub">Für dich selbst oder als Geschenk für jemanden, der seinen Hund genauso liebt wie du deinen.</p>
+    <div class="offers" id="offers"></div>
+    <p class="note">Ich bin Kleinunternehmerin, darum steht da keine Umsatzsteuer drauf. Bezahlt wird nach Absprache per Überweisung oder PayPal.</p>
+  </div>
+</section>
+
+<section style="padding-top:10px">
+  <div class="wrap">
+    <h2>So einfach läuft's</h2>
+    <p class="sub">Du musst nix vorbereiten. Ehrlich nich.</p>
+    <div class="steps">
+      <div class="step"><h3>Du schreibst mir</h3><p>Per WhatsApp oder Mail, die Nachricht is schon vorgeschrieben. Einmal tippen, fertig.</p></div>
+      <div class="step"><h3>Wir machen's fest</h3><p>Ich meld mich, wir klären Termin oder Gutschein, du kriegst die Rechnung. Gutscheine kommen als hübsches PDF zum Ausdrucken.</p></div>
+      <div class="step"><h3>Ihr habt einfach Spaß</h3><p>Dein Hund darf schnüffeln, Pause machen, Quatsch machen. Ich mach den Rest. Danach suchst du dir deine Lieblinge aus.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="feel">
+  <div class="wrap me">
+    <div class="me-photo" id="mePhoto" role="img" aria-label="Moni mit Luke">🐶</div>
+    <div>
+      <h2>Ich bin Moni.</h2>
+      <p>Und Luke, das is mein Labrador. Der is mein strengster Kritiker und mein bester Assistent, je nachdem, ob grad Leckerli im Spiel sind.</p>
+      <p>Ich fotografier Hunde im Ruhrgebiet, weil ich halt selbst weiß, wie das is: Man hat diesen einen Hund, und irgendwie will man festhalten, wie er einen anguckt, wenn er sich sicher is, dass man's nich merkt.</p>
+      <p>Bei mir dürfen Hunde Hunde sein. Wenn deiner lieber buddelt als posiert, dann fotografier ich halt das Buddeln. Gibt eh die besten Bilder.</p>
+      <div class="sign hand">Moni & Luke</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Was du vielleicht noch wissen willst</h2>
+    <div style="margin-top:14px">
+      <details><summary>Mein Hund hält aber nich still …</summary><p>Muss er auch nich. Ich arbeite mit Geduld, Pausen und Leckerli (sag mir vorher, was er verträgt). Die schönsten Bilder entstehen eh meistens zwischendurch.</p></details>
+      <details><summary>Mein Hund is unsicher oder ängstlich. Geht das trotzdem?</summary><p>Ja. Schreib mir das einfach vorher, dann nehmen wir uns mehr Zeit, suchen 'nen ruhigen Ort und er darf erstmal ankommen. Kein Druck, für keinen von euch.</p></details>
+      <details><summary>Was is, wenn's am Shooting-Tag schüttet?</summary><p>Dann verschieben wir. Bei Nieselregen geht's meistens trotzdem, das gibt sogar richtig schöne Stimmung. Wir entscheiden das am Tag vorher zusammen.</p></details>
+      <details><summary>Wie lange gilt der Gutschein?</summary><p id="faqGueltig"></p></details>
+      <details><summary>Kann ich mit mehreren Hunden kommen?</summary><p>Klar. Schreib's mir einfach dazu, dann planen wir 'n bisschen mehr Zeit ein und ich sag dir vorher, was das kostet.</p></details>
+      <details><summary>Wie bezahl ich?</summary><p>Nach unserer Absprache bekommst du 'ne Rechnung, die zahlst du per Überweisung oder PayPal. Erst dann is dein Platz oder dein Gutschein fest.</p></details>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="free">
+      <div>
+        <h3>Erstmal nur gucken? Auch okay. 💛</h3>
+        <p>Mit dem kostenlosen Herzensmoment-Tracker sammelst du jeden Tag kleine Momente mit deinem Hund. Ohne Anmeldung, einfach so.</p>
+      </div>
+      <a class="btn btn-ghost" href="../">Tracker ausprobieren</a>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Lass uns das einfach machen.</h2>
+    <p>Schreib mir kurz, ich antworte persönlich. Kein Callcenter, kein Bot, nur ich. Und wahrscheinlich Luke im Hintergrund.</p>
+    <div class="btns" id="finalBtns"></div>
+  </div>
+</section>
+
+<footer>
+  <div><strong>Pottpic</strong> · Hundefotografie im Ruhrgebiet · Für Erinnerungen, die bleiben.</div>
+  <div style="margin-top:6px"><a href="https://www.pottpic.de">Website</a> · <a href="https://www.pottpic.de/about/">Impressum</a> · <a href="https://www.pottpic.de/j/privacy">Datenschutz</a> · <a id="igLink" href="#">Instagram</a></div>
+</footer>
+
+<div class="sticky" id="sticky"></div>
+
+<script>
+(function(){
+  const K = KONFIG;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+  if (!K.entwurf) $("draft").remove();
+
+  function text(a){
+    if (!a) return "Hey Moni! Ich hab deine Seite gesehen und hätte Lust auf Bilder von meinem Hund. Magst du dich ma melden? 🐾";
+    if (a.id === "mini") return "Hey Moni! Ich hätte gern einen Platz beim Mini-Shooting im Dezember (" + K.miniTermine + ").\nMein Hund heißt: \nAm liebsten an: Samstag / Sonntag\n🐾";
+    return "Hey Moni! Ich möchte den Gutschein „" + a.titel.replace(/^Gutschein\s*/, "").replace(/[„“]/g,"") + "“ (" + a.preis + ") verschenken.\nFür: \nSoll bis wann da sein: \n🎁";
+  }
+  function waLink(a){ return "https://wa.me/" + K.whatsapp + "?text=" + encodeURIComponent(text(a)); }
+  function mailLink(a){
+    const subj = a ? "Anfrage: " + a.titel : "Anfrage Hundeshooting";
+    return "mailto:" + K.mail + "?subject=" + encodeURIComponent(subj) + "&body=" + encodeURIComponent(text(a));
+  }
+  function buttons(a, small){
+    const cls = small ? " btn-small" : "";
+    let h = "";
+    if (K.whatsapp) h += '<a class="btn btn-wa' + cls + '" href="' + waLink(a) + '" target="_blank" rel="noopener">WhatsApp</a>';
+    if (K.mail) h += '<a class="btn btn-mail' + cls + '" href="' + mailLink(a) + '">Per Mail</a>';
+    if (!h && K.instagram) h += '<a class="btn btn-main' + cls + '" href="https://ig.me/m/' + K.instagram + '" target="_blank" rel="noopener">Schreib mir auf Insta</a>';
+    return h;
+  }
+
+  // Angebote
+  $("offers").innerHTML = K.angebote.map(a =>
+    '<article class="offer' + (a.highlight ? " top-pick" : "") + '">' +
+      (a.badge ? '<span class="badge">' + esc(a.badge) + '</span>' : "") +
+      '<h3>' + esc(a.titel) + '</h3>' +
+      '<div class="for">' + esc(a.fuer) + '</div>' +
+      '<div class="price">' + esc(a.preis) + ' <small>' + esc(a.zusatz || "") + '</small></div>' +
+      '<ul>' + a.punkte.map(p => '<li>' + esc(p) + '</li>').join("") + '</ul>' +
+      '<div class="actions">' + buttons(a, true) + '</div>' +
+    '</article>').join("");
+
+  // Mini-Infos
+  const mini = K.angebote.find(a => a.id === "mini");
+  $("scarcity").textContent = "📅 Mini-Shootings " + K.miniTermine + " · nur " + K.miniPlaetze + " Plätze · buchbar bis " + K.miniBuchenBis;
+  $("faqGueltig").textContent = "Der Gutschein gilt " + K.gutscheinGueltig + ". Den Termin sucht ihr euch dann zusammen mit mir aus, so wie's bei euch passt. Am schönsten find ich ja Frühling und Herbst, aber is deine Entscheidung.";
+
+  $("finalBtns").innerHTML = buttons(null, false) || '<a class="btn btn-main" href="#angebote">Zu den Angeboten</a>';
+  const st = buttons(null, true);
+  if (st) $("sticky").innerHTML = st; else $("sticky").remove();
+
+  const ig = $("igLink");
+  if (K.instagram) ig.href = "https://www.instagram.com/" + K.instagram + "/"; else ig.remove();
+
+  // Fotos: legt Moni in angebot/bilder/ als hero.jpg, moni-luke.jpg, 1.jpg bis 6.jpg
+  function tryImg(src, ok){ const i = new Image(); i.onload = () => ok(src); i.src = src; }
+  tryImg("bilder/hero.jpg", s => { const e = $("heroPhoto"); e.style.backgroundImage = "url('" + s + "')"; e.textContent = ""; });
+  tryImg("bilder/moni-luke.jpg", s => { const e = $("mePhoto"); e.style.backgroundImage = "url('" + s + "')"; e.textContent = ""; });
+  let found = 0;
+  const gal = $("gallery");
+  for (let n = 1; n <= 6; n++) {
+    tryImg("bilder/" + n + ".jpg", s => {
+      found++;
+      const img = document.createElement("img");
+      img.src = s; img.alt = "Hundefoto von Pottpic"; img.loading = "lazy";
+      img.style.order = n;
+      gal.appendChild(img);
+      $("galerieSec").style.display = "";
+    });
+  }
+  $("galerieSec").style.display = "none";
+})();
+</script>
+</body>
+</html>
