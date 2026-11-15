@@ -10,7 +10,7 @@ const KONFIG = {
   entwurf: true,
 
   // WhatsApp-Nummer mit Ländervorwahl, ohne + und ohne Leerzeichen, z. B. "4917612345678"
-  whatsapp: "",
+  whatsapp: "4917621681512",
 
   // Deine Mail-Adresse für Anfragen
   mail: "",

@@ -43,7 +43,7 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:
   <h1>🖨️ Karten zum Auslegen (nur für Moni)</h1>
   <p>8 Karten pro A4-Blatt, an den gestrichelten Linien schneiden. Am besten auf dickerem Papier (ab ca. 200 g) drucken, dann nehmen Leute die eher mit.</p>
   <p>Für einen bestimmten Laden: <code>karten.html?wo=name</code> (QR-Code dafür macht der Leitwolf).</p>
-  <div class="warn" id="warn"><b>Erst drucken, wenn die Angebotsseite auf deinem Handy aufgeht</b> und die Preise freigegeben sind.</div>
+  <div class="warn" id="warn"><b>Vorm Drucken einmal mit dem Handy scannen</b> und gucken, ob WhatsApp aufgeht. Und erst drucken, wenn Preise und Termine freigegeben sind.</div>
   <button onclick="window.print()">Drucken / als PDF speichern</button>
 </div>
 <div class="sheet" id="sheet"></div>
@@ -56,6 +56,7 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:
   const mini = K.angebote.find(a => a.id === "mini") || K.angebote[0];
   const gs = K.angebote.filter(a => a.id !== "mini");
   const tage = K.miniTermine.replace(/\s*und\s*/, " & ");
+  const n0 = (K.whatsapp || "").replace(/^49/, "0"), nr = n0.slice(0, 4) + " " + n0.slice(4);
 
   const card =
     '<div class="card"><div class="l">' +
@@ -63,8 +64,8 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:
       '<div><div class="k hand">Weihnachten mit Hund</div>' +
       '<div class="h">Mini-Shooting ' + tage + ' · ' + mini.preis + '</div></div>' +
       '<div class="d">20 Minuten, 5 Lieblingsbilder, dein Hund darf einfach Hund sein.' +
-      (gs.length ? '<br>🎁 Auch als Gutschein, ab ' + gs[0].preis + '.' : '') + '</div>' +
-    '</div><div class="r"><div class="q"><img class="qr" alt="QR-Code"></div><div class="s">Scannen &<br>Platz sichern</div></div></div>';
+      (gs.length ? '<br>🎁 Auch als Gutschein, ab ' + gs[0].preis + '.' : '') + (K.whatsapp ? '<br><b>WhatsApp ' + nr + '</b>' : '') + '</div>' +
+    '</div><div class="r"><div class="q"><img class="qr" alt="QR-Code"></div><div class="s">Scannen &<br>per WhatsApp<br>anfragen</div></div></div>';
   $("sheet").innerHTML = card.repeat(8);
 
   const qrs = document.querySelectorAll("img.qr"), t = new Image();

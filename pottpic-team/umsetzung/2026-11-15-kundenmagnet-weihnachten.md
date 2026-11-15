@@ -50,7 +50,7 @@ Plus der **direkte Weg**, der am schnellsten Geld bringt: Du schreibst die Leute
 | **Karten zum Auslegen** | `angebot/karten.html` | 8 Karten pro A4-Blatt zum Ausschneiden, mit QR. Am besten auf dickem Papier. |
 | **QR-Codes** | `angebot/qr/` | `aushang.svg` und `karte.svg`, beide geprüft und lesbar. Eigene Codes pro Laden macht `qr/qr_machen.py`. |
 
-**Wohin der QR-Code führt:** `https://pottpic.github.io/Pfotenfreunde-Herzensmoment-Tracker/angebot/?von=aushang` (bzw. `?von=karte`). Wer darüber kommt, hat in der WhatsApp/Mail automatisch „(Hab deinen Aushang gesehen)“ bzw. „(Hab deine Karte mitgenommen)“ stehen. Mit eigenem Code pro Laden (z. B. `?von=hundeschule-xy`) steht da der Laden. So siehst du, welcher Aushang was bringt. **Erst drucken, wenn die Seite auf dem Handy aufgeht.**
+**Wohin der QR-Code führt (seit 15.11. abends):** direkt zu **WhatsApp** an 0176 21681512, mit fertiger Nachricht „Hey Moni, hab deinen Aushang gesehen und will mehr wissen!“ (bzw. „… hab deine Karte mitgenommen …“). Keine Webseite nötig, GitHub Pages muss dafür nich an sein. Eigene Codes pro Laden: `python3 angebot/qr/qr_machen.py hundeschule-xy` → in der Nachricht steht dann der Laden. Die Nummer steht auch als Text auf Aushang und Karten.
 
 Alles zum Ändern (Preise, Termine, Nummer, Mail) steht in **`angebot/konfig.js`** und gilt für Seite, Aushang und Karten gleichzeitig. Oder du sagst's einfach in der nächsten Sitzung, dann trag ich's ein.
 
