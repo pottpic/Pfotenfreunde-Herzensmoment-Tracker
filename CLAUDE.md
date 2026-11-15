@@ -40,6 +40,9 @@ Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `
 ## Revier-Check (Konkurrenz gucken → eigene Reels)
 Skill `.claude/skills/revier-check/` („/revier-check“, „Revier-Check“, für den Verein „/revier-check derner“): Witterung guckt, was andere Hundefotograf:innen im Ruhrgebiet machen und anbieten, Leitwolf siebt (Idee ja, Kopie nein), Bellfluencerin schreibt es in Monis Ton um, Schnittpfote macht den Reel-Plan samt Foto-Ordner. Legt Moni Fotos rein, baut die **Reel-Werkstatt** (`pottpic-team/reel-werkstatt/reel_bauen.py`, 0 €) das Reel im eigenen Pottpic-Look. Moni sagt nur noch jo / ändern / weg.
 
+## Video-Seite (YouTube → Transkript → Webseite)
+Skill `.claude/skills/video-seite/` („/video-seite <link>“, „mach aus dem Video 'ne Seite“): Die **Seiten-Werkstatt** (`pottpic-team/seiten-werkstatt/seiten_werkstatt.py`, 0 €, kein API-Schlüssel) holt das Transkript von 'nem YouTube-Video und baut daraus Blogartikel, Landingpage oder Kurzfassung im Look von Pottpic, Derner oder Pfotenfreunde – entweder vom Team in Monis Ton umgeschrieben oder nur sauber aufbereitet. Sperrt YouTube den Abruf, schickt Moni das kopierte Transkript (Plan B). Fremde Videos: immer mit Quelle, nix eins zu eins. Braucht die Umgebung „pfotenfreunde-herzensmoment-tracker“ (YouTube erlaubt).
+
 ## Posten über Metricool (Pottpic)
 Pottpic-Posts (Insta, Facebook, TikTok) werden über **Metricool** eingeplant, das postet dann von alleine. Die Meta Business Suite ist nur noch Plan B.
 - Verbunden über den claude.ai-Connector „Metricool Social Media Management“ (keine API, kein Schlüssel). Anleitung: `pottpic-team/METRICOOL.md`.
