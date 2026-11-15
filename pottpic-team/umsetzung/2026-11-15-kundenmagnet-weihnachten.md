@@ -56,7 +56,7 @@ Alles zum Ändern (Preise, Termine, Nummer, Mail) steht in **`angebot/konfig.js`
 
 ---
 
-## 3. Preis-Vorschlag (Schätzung, du entscheidest)
+## 3. Preise (✅ von Moni freigegeben am 15.11.2026)
 
 | Angebot | Vorschlag | Inhalt |
 |---|---|---|
@@ -162,7 +162,8 @@ Am 01.12. gucken wir zusammen drauf. Dann wissen wir, was wirklich Geld bringt, 
 
 ## 7. Was du jetzt tun musst (ca. 30 Min)
 
-- [ ] **Preise und Termine:** passt so / ändern (einfach Zahlen nennen)
+- [x] **Preise:** freigegeben (15.11.)
+- [ ] **Termine:** Sa 05.12. + So 06.12., 16 Plätze, buchbar bis Di 01.12. – noch offen
 - [ ] **WhatsApp-Nummer und Mail-Adresse** sagen, die auf die Seite sollen. Bis dahin zeigt die Seite nur „Schreib mir auf Insta“.
 - [ ] **Fotos:** 1 großes (hero), 1 von dir mit Luke, bis zu 6 für die Galerie. Nur von Leuten, die einverstanden sind.
 - [ ] **Seite online schalten (einmalig, 1 Min):** GitHub → Repo → Settings → Pages → „Deploy from a branch“ → Branch `main`, Ordner `/ (root)` → Save. Danach is die Seite unter
