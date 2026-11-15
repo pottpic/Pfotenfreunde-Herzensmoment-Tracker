@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pottpic – Hundeshooting & Gutscheine</title>
-<meta name="description" content="Hundefotografie im Ruhrgebiet: Mini-Shootings im Dezember und Shooting-Gutscheine zum Verschenken. Hunde dürfen Hunde sein.">
+<meta name="description" content="Hundefotografie im Ruhrgebiet: Shooting-Gutscheine zum Verschenken, geshootet wird ab Frühjahr. Hunde dürfen Hunde sein.">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +66,9 @@ h2{font-size:clamp(1.55rem,4.5vw,2.1rem);color:var(--bark);line-height:1.15;marg
 .feel-card p{color:var(--wood);font-size:.95rem}
 
 /* Angebote */
-.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}
+.offers{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;align-items:stretch;max-width:760px}
+.dez{margin-top:18px;max-width:760px;background:var(--paper);border:2px dashed var(--gold);border-radius:var(--r);padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.dez p{color:var(--bark);font-weight:700;max-width:32em}
 .offer{background:var(--paper);border-radius:var(--r);box-shadow:0 6px 22px var(--shadow);padding:22px 20px;display:flex;flex-direction:column;border:2px solid transparent;position:relative}
 .offer.top-pick{border-color:var(--amber)}
 .badge{position:absolute;top:-13px;left:20px;background:var(--amber);color:#fff;font-size:.75rem;font-weight:800;padding:5px 11px;border-radius:999px;letter-spacing:.03em}
@@ -151,8 +153,8 @@ footer a{font-weight:700;text-decoration:none}
       <h1>Dein Hund, so wie er wirklich is.</h1>
       <p class="lead">Kein Stillsitzen-Müssen, kein Perfekt-Getue. Ich fotografier deinen Hund so, wie du ihn kennst – mit Schlappohr, schiefem Blick und allem. Und du hast endlich ma Bilder, wo ihr <em>beide</em> drauf seid.</p>
       <div class="btns">
-        <a class="btn btn-main" href="#angebote">Mini-Shooting sichern</a>
-        <a class="btn btn-ghost" href="#angebote">Gutschein verschenken 🎁</a>
+        <a class="btn btn-main" href="#angebote">Gutschein verschenken 🎁</a>
+        <a class="btn btn-ghost" href="#dezember">Bilder noch vor Weihnachten?</a>
       </div>
       <div class="scarcity" id="scarcity"></div>
     </div>
@@ -185,6 +187,7 @@ footer a{font-weight:700;text-decoration:none}
     <h2>Such dir was aus</h2>
     <p class="sub">Für dich selbst oder als Geschenk für jemanden, der seinen Hund genauso liebt wie du deinen.</p>
     <div class="offers" id="offers"></div>
+    <div class="dez" id="dezember"><p id="dezText"></p><div class="btns" style="margin:0" id="dezBtns"></div></div>
     <p class="note">Ich bin Kleinunternehmerin, darum steht da keine Umsatzsteuer drauf. Bezahlt wird nach Absprache per Überweisung oder PayPal.</p>
   </div>
 </section>
@@ -269,7 +272,7 @@ footer a{font-weight:700;text-decoration:none}
   function text(a){ return grundtext(a) + herkunft; }
   function grundtext(a){
     if (!a) return "Hey Moni! Ich hab deine Seite gesehen und hätte Lust auf Bilder von meinem Hund. Magst du dich ma melden? 🐾";
-    if (a.id === "mini") return "Hey Moni! Ich hätte gern einen Platz beim Mini-Shooting im Dezember (" + K.miniTermine + ").\nMein Hund heißt: \nAm liebsten an: Samstag / Sonntag\n🐾";
+    if (a.id === "dezember") return "Hey Moni! Ich hätte gern noch vor Weihnachten Bilder von meinem Hund. Geht im Dezember vormittags noch was?\nMein Hund heißt: \n🐾";
     return "Hey Moni! Ich möchte den Gutschein „" + a.titel.replace(/^Gutschein\s*/, "").replace(/[„“]/g,"") + "“ (" + a.preis + ") verschenken.\nFür: \nSoll bis wann da sein: \n🎁";
   }
   function waLink(a){ return "https://wa.me/" + K.whatsapp + "?text=" + encodeURIComponent(text(a)); }
@@ -297,9 +300,11 @@ footer a{font-weight:700;text-decoration:none}
       '<div class="actions">' + buttons(a, true) + '</div>' +
     '</article>').join("");
 
-  // Mini-Infos
-  const mini = K.angebote.find(a => a.id === "mini");
-  $("scarcity").textContent = "📅 Mini-Shootings " + K.miniTermine + " · nur " + K.miniPlaetze + " Plätze · buchbar bis " + K.miniBuchenBis;
+  // Gutschein-Info + Dezember auf Anfrage
+  const ab = K.angebote.map(a => parseInt(a.preis, 10)).filter(n => n).sort((x, y) => x - y)[0];
+  $("scarcity").textContent = "🎁 Shooting-Gutscheine ab " + ab + " € · geshootet wird " + K.shootingAb;
+  $("dezText").textContent = "📅 " + K.dezemberHinweis;
+  $("dezBtns").innerHTML = buttons({id: "dezember", titel: "Shooting im Dezember"}, true);
   $("faqGueltig").textContent = "Der Gutschein gilt " + K.gutscheinGueltig + ". Den Termin sucht ihr euch dann zusammen mit mir aus, so wie's bei euch passt. Am schönsten find ich ja Frühling und Herbst, aber is deine Entscheidung.";
 
   $("finalBtns").innerHTML = buttons(null, false) || '<a class="btn btn-main" href="#angebote">Zu den Angeboten</a>';

@@ -59,6 +59,7 @@ Die Derner Schnauzenbande hat ein eigenes Team (`.claude/agents/derner-*.md`, Le
 - **Pottpic hat immer Vorrang** (Monis Entscheidung vom 01.11.2026). Wenn sich was beißt – Zeit, Posts am selben Tag, Nutzungslimit, Monis Aufmerksamkeit –, kommt erst Pottpic, dann Derner Schnauzenbande und die anderen Projekte.
 - Jeder Pottpic-Beitrag (Insta, Facebook, TikTok) bekommt immer den Hashtag **#esbeginntmiteinemwau** – zusätzlich zu den anderen Hashtags.
 - Unklar, was Moni will? Erst kurz nachfragen, dann loslegen.
+- **Rückfragen an Moni immer als Multiple Choice** (Monis Wunsch vom 15.11.2026): Fragen mit fertigen Antwort-Optionen zum Anklicken stellen (Tool `AskUserQuestion`), Empfehlung zuerst und als „(Empfohlen)“ markiert. Keine offenen Fragen im Fließtext, wenn sich's irgendwie als Auswahl stellen lässt.
 - Ergebnisse als Markdown unter `pottpic-team/<bereich>/JJJJ-MM-TT-thema.md` ablegen.
 - Keine erfundenen Zahlen, Kunden oder Bewertungen. Was geschätzt ist, als Schätzung markieren.
 - Nichts veröffentlichen, posten oder verschicken ohne Monis Okay. Einplanen in Metricool zählt als Posten.

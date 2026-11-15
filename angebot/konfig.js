@@ -18,12 +18,12 @@ const KONFIG = {
   // Instagram-Name ohne @
   instagram: "pottpic",
 
-  // Mini-Shootings im Dezember (VORSCHLAG – Moni entscheidet)
-  miniTermine: "Sa 05.12. und So 06.12.2026",
-  miniOrt: "draußen im Dortmunder Norden – genauer Treffpunkt kommt mit der Buchung",
-  miniPlaetze: 16,          // wie viele Slots es insgesamt gibt
-  miniBuchenBis: "Di 01.12.",
-  galerieBis: "Fr 18.12.",  // bis wann die Bilder da sind
+  // Wann mit Gutschein geshootet wird
+  shootingAb: "ab Frühjahr 2027",
+
+  // Kleiner Satz für Leute, die ihre Bilder noch vor Weihnachten wollen
+  // (keine Termine, keine Platzzahl – Moni entscheidet pro Anfrage)
+  dezemberHinweis: "Du willst deine Bilder noch vor Weihnachten? Schreib mir einfach, vormittags geht im Dezember noch was.",
 
   // Gutschein: wie lange gültig
   gutscheinGueltig: "bis 31.12.2027",
@@ -31,25 +31,9 @@ const KONFIG = {
   // Preise: von Moni freigegeben am 15.11.2026
   angebote: [
     {
-      id: "mini",
-      titel: "Mini-Shooting im Dezember",
-      fuer: "Für dich und deinen Hund – noch vor Weihnachten",
-      preis: "99 €",
-      zusatz: "einmalig",
-      punkte: [
-        "20 Minuten draußen, ganz entspannt",
-        "5 bearbeitete Lieblingsbilder als Datei",
-        "Online-Galerie zum Aussuchen",
-        "Weitere Bilder je 25 €",
-        "Bilder rechtzeitig vor Heiligabend da"
-      ],
-      highlight: true,
-      badge: "Nur im Dezember"
-    },
-    {
       id: "gutschein-klein",
       titel: "Gutschein „Kleines Glück“",
-      fuer: "Zum Verschenken – geshootet wird 2027",
+      fuer: "Das Geschenk für Hundemenschen – geshootet wird ab Frühjahr",
       preis: "99 €",
       zusatz: "Gutschein",
       punkte: [
@@ -58,7 +42,8 @@ const KONFIG = {
         "Schöner Gutschein zum Ausdrucken",
         "Einlösbar, wann's passt"
       ],
-      highlight: false
+      highlight: true,
+      badge: "Weihnachtsgeschenk 🎁"
     },
     {
       id: "gutschein-gross",

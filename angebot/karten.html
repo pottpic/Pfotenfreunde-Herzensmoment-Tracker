@@ -53,18 +53,18 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:
 (function(){
   const K = KONFIG, $ = id => document.getElementById(id);
   const wo = (new URLSearchParams(location.search).get("wo") || "karte").replace(/[^a-z0-9-]/g, "").slice(0, 40) || "karte";
-  const mini = K.angebote.find(a => a.id === "mini") || K.angebote[0];
-  const gs = K.angebote.filter(a => a.id !== "mini");
-  const tage = K.miniTermine.replace(/\s*und\s*/, " & ");
+  const gs = K.angebote;
+  const ab = gs.map(x => parseInt(x.preis, 10)).filter(n => n).sort((x, y) => x - y)[0];
   const n0 = (K.whatsapp || "").replace(/^49/, "0"), nr = n0.slice(0, 4) + " " + n0.slice(4);
 
   const card =
     '<div class="card"><div class="l">' +
       '<div class="brand">POTT<span>PIC</span><small>Hundefotografie im Ruhrgebiet</small></div>' +
-      '<div><div class="k hand">Weihnachten mit Hund</div>' +
-      '<div class="h">Mini-Shooting ' + tage + ' · ' + mini.preis + '</div></div>' +
-      '<div class="d">20 Minuten, 5 Lieblingsbilder, dein Hund darf einfach Hund sein.' +
-      (gs.length ? '<br>🎁 Auch als Gutschein, ab ' + gs[0].preis + '.' : '') + (K.whatsapp ? '<br><b>WhatsApp ' + nr + '</b>' : '') + '</div>' +
+      '<div><div class="k hand">Das Geschenk mit Hund</div>' +
+      '<div class="h">Shooting-Gutschein<br>ab ' + ab + '&nbsp;€</div></div>' +
+      '<div class="d">Geshootet wird ' + K.shootingAb + ', dein Hund darf einfach Hund sein.' +
+      '<br>📅 Bilder noch vor Weihnachten? Frag mich.' +
+      (K.whatsapp ? '<br><b>WhatsApp ' + nr + '</b>' : '') + '</div>' +
     '</div><div class="r"><div class="q"><img class="qr" alt="QR-Code"></div><div class="s">Scannen &<br>per WhatsApp<br>anfragen</div></div></div>';
   $("sheet").innerHTML = card.repeat(8);
 
