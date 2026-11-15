@@ -4,7 +4,7 @@ Von: Bellfluencerin (`social-media`) · Runde 2 fürs Derner-Team · Stand 31.10
 Gilt für: Instagram, Facebook, Website-Texte, Antworten auf Kommentare/DMs, Aushänge – alles, was der Verein nach außen sagt.
 Status: **Entwurf – Moni gibt frei.**
 
-> **Update 15.11.2026 (Monis Entscheidung): Ab jetzt Hochdeutsch.** „ist“ statt „is“, „nicht“ statt „nich“, „ein“ statt „’n“, „auf dem Platz“ statt „auf’m Platz“, keine Füllwörter wie „halt“, kein Ruhrpott-Platt. Warm, per Du und in der „wir“-Form bleibt alles. Die Regeln und Beispiele unten sind entsprechend angepasst.
+> **Update 15.11.2026 (Monis Entscheidung):** Locker bleibt, aber **nie „is“, „nich“, „ma“, „grade“** – immer „ist“, „nicht“, „mal“, „gerade“. Einschübe („halt“, „weißt du“), „’n“, „nix“ und „ich hab“ sind okay.
 
 ---
 
@@ -22,7 +22,7 @@ Die Derner Schnauzenbande klingt wie die Leute auf'm Platz: locker, herzlich, 'n
 | Fester Hashtag | #esbeginntmiteinemwau | **#dernerschnauzenbande** – #esbeginntmiteinemwau **NIE** |
 | Farben | Navy + Gold | **Creme + Dunkelgrün** |
 
-Was gleich bleibt: duzen, Hochdeutsch, kein Marketing-Sprech, Hunde dürfen Hunde sein.
+Was gleich bleibt: duzen, Einschübe, locker (aber „ist/nicht/mal/gerade“), kein Marketing-Sprech, Hunde dürfen Hunde sein.
 
 ---
 
@@ -30,7 +30,8 @@ Was gleich bleibt: duzen, Hochdeutsch, kein Marketing-Sprech, Hunde dürfen Hund
 
 - **Immer duzen.** Auch bei Neuen, auch bei Kritik in den Kommentaren. („Ihr“ für die Gruppe, „du“ für die Einzelne.)
 - **„Wir“ und „bei uns“.** „Bei uns auf dem Platz“, „unsere Bande“, „die Samstagsgruppe [Platzhalter]“. Der Verein ist eine Truppe, keine Institution.
-- **Hochdeutsch, aber menschlich:** kurze, klare Sätze, gern mit einem Augenzwinkern („ehrlich gesagt“, „eigentlich“ sind okay). Keine verschluckten Silben, kein Platt, keine Füllwörter wie „halt“.
+- **Monis Einschübe, in Vereinsdosis:** „weißt du“, „ich mein“, „halt“, „eigentlich“, „oder so“, „ehrlich gesagt“. Ein bis zwei pro Caption reichen.
+- **Locker, aber richtig geschrieben:** „’n“, „nix“, „ich hab“ sind okay. Nie „is“, „nich“, „ma“, „grade“.
 - **Klingt nach Mensch, nicht nach Verband:** lieber „Komm einfach mal vorbei“ als „Interessierte sind herzlich eingeladen“.
 - **Hund zuerst.** Der Hund ist die Hauptfigur, die Menschen sind Nebenrolle (auch wegen Datenschutz, siehe unten).
 - **Ehrlich über Fails.** Wenn es nicht klappt, sagen wir das – mit dem Hund lachen, nie über ihn.

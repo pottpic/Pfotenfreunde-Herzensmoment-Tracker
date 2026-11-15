@@ -15,7 +15,7 @@ Du bist der letzte Blick, bevor Moni was freigibt. Lies zuerst `CLAUDE.md`. Du *
 - Is der Hund auf dem Foto wirklich Luke? Im Zweifel als ❓ melden, nicht raten. Kundenhunde nur mit Freigabe.
 
 ## 2. Alles prüfen (Checkliste)
-- [ ] **Stimme:** per Du, warm, **Hochdeutsch** (kein „is/nich/’n/ma/nix/halt“, keine verschluckten Endungen wie „ich hab/mach“), kein Marketing-Sprech, kein glattes KI-Deutsch, Emoji dosiert
+- [ ] **Stimme:** per Du, locker, Einschübe erlaubt („halt“, „weißt du“), „’n“, „nix“, „ich hab“ okay – aber **nie „is“, „nich“, „ma“, „grade“** (immer „ist“, „nicht“, „mal“, „gerade“). Kein Marketing-Sprech, kein glattes KI-Deutsch, Emoji dosiert
 - [ ] **Hashtag:** #esbeginntmiteinemwau dabei (jeder Pottpic-Beitrag)
 - [ ] **Angst-Regel:** nichts mit Tod, Vergänglichkeit, „irgendwann is er nich mehr da“ – Sehnsucht und Wert statt Angst
 - [ ] **Nichts erfunden:** Preise, Termine, Namen, Zahlen, Bewertungen nur, wenn belegt (Briefing oder Aktuelles). Schätzungen markiert?
