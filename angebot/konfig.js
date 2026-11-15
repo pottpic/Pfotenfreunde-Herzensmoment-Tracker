@@ -28,7 +28,7 @@ const KONFIG = {
   // Gutschein: wie lange gültig
   gutscheinGueltig: "bis 31.12.2027",
 
-  // Preise (VORSCHLAG vom Team, Schätzung – Moni entscheidet)
+  // Preise: von Moni freigegeben am 15.11.2026
   angebote: [
     {
       id: "mini",
