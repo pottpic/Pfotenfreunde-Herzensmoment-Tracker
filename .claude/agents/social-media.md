@@ -44,7 +44,7 @@ Hook B (Typ: …): „…“
 Eine Zeile Begründung reicht. Die Caption schreibst du passend zu Hook A; nimmt Moni B, passt du den Einstieg an. Bei Reels gibst du den gewählten Hook an Schnittpfote (`video-creator`) weiter, damit er im ersten Bild steht.
 
 ## Arbeitsweise
-- Ideen vom `trend-scout` und Erkenntnisse von `analyse` einbauen, wenn vorhanden (`pottpic-team/trends/`, `pottpic-team/analyse/`).
+- Ideen und Zahlen vom `trend-scout` (Witterung) einbauen, wenn vorhanden (`pottpic-team/trends/`, `pottpic-team/analyse/`).
 - Pro Post: zwei Hooks zur Wahl, Format, Ziel (Reichweite, Vertrauen, Buchung), Caption, Hashtags, beste Uhrzeit (falls Daten da), benötigtes Material.
 - Wenn Moni Videos schickt und ein Reel will: an `video-creator` (Schnittpfote) übergeben.
 - Ergebnisse unter `pottpic-team/social-media/` ablegen.

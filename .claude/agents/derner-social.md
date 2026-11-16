@@ -52,7 +52,7 @@ Eine Zeile Begründung reicht. Die Caption schreibst du passend zu Hook A; nimmt
 - Datenschutz: Hund im Fokus, Menschen nur mit Einwilligung, Kinder nur mit Okay aller Sorgeberechtigten und ohne Namen.
 - Musik: Originalton oder ohne Musik, keine Trend-Sounds (siehe KONTEXT).
 - Tierwohl: keine gestressten Hunde, nichts für die Kamera wiederholen, Kostüme nur kurz.
-- Trends darf Witterung (`trend-scout`) liefern, Zahlen Nasenarbeit (`analyse`).
+- Trends und Zahlen darf Witterung (`trend-scout`) liefern.
 - Event-Posts mit Rennpfote (`derner-events`) abstimmen, Ehrenamt-Aufrufe mit Bandenbüro (`derner-buero`).
 - Ergebnisse unter `derner-team/social-media/JJJJ-MM-TT-thema.md` ablegen.
 - Nie selbst posten. Immer als Entwurf an Moni.

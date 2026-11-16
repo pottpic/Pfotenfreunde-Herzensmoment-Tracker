@@ -22,7 +22,7 @@ Stell Moni 2–4 Fragen zum Anklicken (AskUserQuestion), nur was du wirklich bra
 Lege `pottpic-team/umsetzung/JJJJ-MM-TT-<thema>-briefing.md` an: Monis Entscheidungen, Rahmen, wer in welcher Runde was macht. Alle Agentinnen lesen das zuerst. Committen und pushen.
 
 ## 3. In Runden arbeiten
-- **Runde 1 – Input:** Recherche/Grundlagen, parallel (z. B. Witterung, Nasenarbeit, Rudelmagnet, Fotopfote – je nach Thema).
+- **Runde 1 – Input:** Recherche/Grundlagen, parallel (z. B. Witterung, Rudelmagnet, Fotopfote – je nach Thema).
 - **Runde 2 – Planen/Bauen:** auf Basis von Runde 1, parallel (z. B. Bellfluencerin, Postpfote, Schnittpfote).
 - **Runde 3 – Abgleich:** Macherpfote liest alles, löst Widersprüche auf und schreibt **eine** Datei für Moni (`pottpic-team/umsetzung/JJJJ-MM-TT-<thema>-startklar.md`): Auf einen Blick, Das musst du entscheiden (mit Team-Vorschlag als Default), Fahrplan, Wo steht was.
 
