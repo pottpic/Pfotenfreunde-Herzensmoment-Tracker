@@ -57,7 +57,7 @@ TEAM = [
       bg="#DCE8D4", cloth="#1F4D3A", skin="#EBC9A6", hair="#6B4A2E", hair_style="short",
       dog=dict(type="floppy", fur="#9AA0A4", ear="#7D8387", muz="#D9DCDE", extra='<path d="M132 168 Q146 186 160 168 Q146 174 132 168 Z" fill="#D9DCDE"/><path d="M130 134 Q136 128 142 134 M150 134 Q156 128 162 134" stroke="#D9DCDE" stroke-width="5" fill="none" stroke-linecap="round"/>')),
  dict(id="platzhirschin", name="Platzhirschin", rolle="Social Media", agent="derner-social", gruppe="planen", icon="stern",
-      merk="Macht, dass der Verein auf Instagram und Facebook nach Verein klingt.", ruf="„Platzhirschin, schreib 'n Post zum Freilauf am Mittwoch.“", hund="Golden Retriever",
+      merk="Macht, dass der Verein auf Instagram und Facebook nach Verein klingt. Gibt dir zu jedem Post zwei Hooks zur Wahl.", ruf="„Platzhirschin, schreib 'n Post zum Freilauf am Mittwoch.“", hund="Golden Retriever",
       bg="#F3E3B8", cloth="#2F6B4F", skin="#F0CBA5", hair="#B4552E", hair_style="long",
       dog=dict(type="floppy", fur="#E3A653", ear="#C4853A", muz="#F5C98A")),
  dict(id="schnupperschnauze", name="Schnupperschnauze", rolle="Mitglieder &amp; Anfragen", agent="derner-mitglieder", gruppe="input", icon="pfote",
@@ -69,15 +69,15 @@ TEAM = [
       bg="#F6D2C4", cloth="#C2573F", skin="#E8B98F", hair="#3B2A20", hair_style="bun",
       dog=dict(type="pointed", fur="#2B2B2B", ear="#2B2B2B", muz="#FFFFFF", extra='<path d="M142 125 L150 125 L154 156 L138 156 Z" fill="#fff"/>')),
  dict(id="bandenbuero", name="Bandenbüro", rolle="Büro &amp; Ehrenamt", agent="derner-buero", gruppe="planen", icon="ordner",
-      merk="Hält den Zettelkram zusammen: Rundmails, Aushänge, Arbeitsdienste.", ruf="„Bandenbüro, mach 'nen Aushang für den Arbeitsdienst.“", hund="Dackel",
+      merk="Hält den Zettelkram zusammen: Aushänge, Kalender, Arbeitsdienste und Helfer-Aufrufe.", ruf="„Bandenbüro, mach 'nen Aushang für den Arbeitsdienst.“", hund="Dackel",
       bg="#D6E2EC", cloth="#4A5C8C", skin="#F5D3B8", hair="#8D9296", hair_style="short",
       dog=dict(type="floppy", fur="#7A4A26", ear="#5E3719", muz="#A36A38")),
- dict(id="revierlaeuferin", name="Revierläuferin", rolle="Partner &amp; Website", agent="derner-partner-web", gruppe="input", icon="kette",
-      merk="Läuft das Revier ab: Wer in Scharnhorst kann helfen, und findet man uns online?", ruf="„Revierläuferin, welche Tierärzte in Scharnhorst könnten wir anfragen?“", hund="Husky",
+ dict(id="revierlaeuferin", name="Revierläuferin", rolle="Partner &amp; Website-Inhalte", agent="derner-partner-web", gruppe="input", icon="kette",
+      merk="Läuft das Revier ab: Wer in Scharnhorst kann helfen, und findet man uns online? Sagt, was auf die Website muss – Bastelschnauze baut's.", ruf="„Revierläuferin, welche Tierärzte in Scharnhorst könnten wir anfragen?“", hund="Husky",
       bg="#D8E7B8", cloth="#2D4A5C", skin="#C98E66", hair="#1F1A17", hair_style="long",
       dog=dict(type="pointed", fur="#8C949C", ear="#8C949C", muz="#FFFFFF", extra='<path d="M122 154 Q132 138 142 148 L144 174 Q128 172 122 154 Z" fill="#fff"/><path d="M170 154 Q160 138 150 148 L148 174 Q164 172 170 154 Z" fill="#fff"/>')),
- dict(id="postschnauze", name="Postschnauze", rolle="Newsletter", agent="derner-newsletter", gruppe="planen", icon="brief",
-      merk="Schreibt die Schnauzenpost – wie 'ne Mail vom Verein, kein Werbeprospekt.", ruf="„Postschnauze, schreib die Schnauzenpost für Dezember.“", hund="Cockerspaniel",
+ dict(id="postschnauze", name="Postschnauze", rolle="Rundmails &amp; Newsletter", agent="derner-newsletter", gruppe="planen", icon="brief",
+      merk="Alles, was per Mail rausgeht: Rundmails an Mitglieder und die Schnauzenpost – wie 'ne Mail vom Verein, kein Werbeprospekt.", ruf="„Postschnauze, schreib die Schnauzenpost für Dezember.“", hund="Cockerspaniel",
       bg="#F9D9A6", cloth="#E05A47", skin="#F7D6BF", hair="#E3C27A", hair_style="short",
       dog=dict(type="floppy", fur="#B5552B", ear="#8E3F1E", muz="#C7673D")),
  dict(id="bastelschnauze", name="Bastelschnauze", rolle="Grafik &amp; Umsetzung", agent="derner-umsetzung", gruppe="fertig", icon="pinsel",
@@ -85,11 +85,11 @@ TEAM = [
       bg="#F3D27A", cloth="#7C5235", skin="#C98E66", hair="#1F1A17", hair_style="bun",
       dog=dict(type="floppy", fur="#2A2522", ear="#3A332F", muz="#3C3734")),
  dict(id="platzwart", name="Platzwart", rolle="Foto-Auswahl &amp; Gegenlesen", agent="derner-foto-pruefer", gruppe="pruefen", icon="schild",
-      merk="Der letzte Blick, bevor du freigibst. Meldet nur, ändert nix.", ruf="„Platzwart, les den Post ma gegen.“", hund="Deutscher Schäferhund",
+      merk="Der letzte Blick, bevor du freigibst. Meldet nur, ändert nix.", ruf="„Platzwart, les den Post mal gegen.“", hund="Deutscher Schäferhund",
       bg="#CFD8DC", cloth="#1F4D3A", skin="#EBC9A6", hair="#8D9296", hair_style="short",
       dog=dict(type="pointed", fur="#3A2A20", ear="#3A2A20", muz="#C9975A", extra='<path d="M126 140 Q146 118 166 140 Q146 132 126 140 Z" fill="#C9975A"/>')),
 ]
-HELFER = [("Witterung", "Trends &amp; Formate"), ("Nasenarbeit", "Zahlen &amp; Analyse"), ("Schnittpfote", "aufwendigere Videos"), ("Macherpfote", "nur noch im Notfall")]
+HELFER = [("Witterung", "Trends, Formate &amp; Zahlen"), ("Schnittpfote", "aufwendigere Videos"), ("Macherpfote", "nur noch im Notfall")]
 
 def av(f, u): return '<div class="av">' + avatar(f).replace("{u}", u) + '</div>'
 def chip(f): return f'<figure class="chip">{av(f,"f")}<figcaption><b>{f["name"]}</b><span>{f["rolle"]}</span></figcaption></figure>'
@@ -138,7 +138,7 @@ footer{color:var(--muted);font-size:.85rem;max-width:62ch}
 <header>
  <p class="eyebrow">Derner Schnauzenbande · dein Vereinsteam</p>
  <h1>Das Derner-<em>Rudel</em></h1>
- <p class="lead">Neun Figuren, jede mit ihrem Hund – eigene Stimme, eigene Kanäle, nix mit Pottpic gemischt. Ruf sie beim Spitznamen („Frag ma Schnupperschnauze …“) oder sag einfach „Derner los …“, dann holt die Bandenchefin die Richtigen dazu.</p>
+ <p class="lead">Neun Figuren, jede mit ihrem Hund – eigene Stimme, eigene Kanäle, nix mit Pottpic gemischt. Ruf sie beim Spitznamen („Frag mal Schnupperschnauze …“) oder sag einfach „Derner los …“, dann holt die Bandenchefin die Richtigen dazu.</p>
  <div class="rudel" aria-hidden="true">@@TOP@@</div>
 </header>
 <section aria-labelledby="h-ablauf">

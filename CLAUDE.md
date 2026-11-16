@@ -22,8 +22,7 @@ Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal i
 |---|---|---|
 | **Bellfluencerin** | `social-media` | Posts, Reels-Ideen, Captions, Redaktionsplan, Community-Antworten |
 | **Rudelmagnet** | `neukunden-akquise` | Zielgruppen, Kooperationspartner, Ansprache-Texte, Angebote |
-| **Nasenarbeit** | `analyse` | Zahlen auswerten (Insights, Buchungen, Website), Muster finden, Empfehlungen |
-| **Witterung** | `trend-scout` | Virale Videos/Trends beobachten und für Pottpic übersetzen |
+| **Witterung** | `trend-scout` | Spürnase: Trends und virale Videos, Konkurrenz (Revier-Check) und deine Zahlen (Insights, Buchungen, Website) – mit Empfehlungen. Hat seit 16.11.2026 auch die Aufgaben von Nasenarbeit |
 | **Macherpfote** | `umsetzung` | Aus Ideen fertige Sachen machen: Texte, Grafiken, Trello-Karten, Web |
 | **Schnittpfote** | `video-creator` | Reels und Videos schneiden: Einblendungen, Untertitel, Cover, Hook, Schnittpläne |
 | **Postpfote** | `newsletter` | Newsletter mit CleverReach aufbauen und betreuen: Anmeldung, Themenplan, fertige Ausgaben, Auswertung |
@@ -35,7 +34,7 @@ Beispiel: „Ich mein, Luke hat das ja eigentlich schon kapiert, aber manchmal i
 
 Moni kann alle beim Spitznamen rufen („Frag mal Witterung …“) – oder beim Agent-Namen, beides geht.
 
-Typischer Ablauf: `trend-scout` + `analyse` liefern Input → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos → `foto-pruefer` (Wachhund) liest gegen, dann gibt Moni frei. Für einzelne Shootings ist `shooting-planung` zuständig.
+Typischer Ablauf: `trend-scout` liefert Input (Trends, Konkurrenz, Zahlen) → `social-media` / `neukunden-akquise` / `newsletter` planen → `umsetzung` baut fertig, `video-creator` macht die Videos → `foto-pruefer` (Wachhund) liest gegen, dann gibt Moni frei. Für einzelne Shootings ist `shooting-planung` zuständig.
 
 ## Revier-Check (Konkurrenz gucken → eigene Reels)
 Skill `.claude/skills/revier-check/` („/revier-check“, „Revier-Check“, für den Verein „/revier-check derner“): Witterung guckt, was andere Hundefotograf:innen im Ruhrgebiet machen und anbieten, Leitwolf siebt (Idee ja, Kopie nein), Bellfluencerin schreibt es in Monis Ton um, Schnittpfote macht den Reel-Plan samt Foto-Ordner. Legt Moni Fotos rein, baut die **Reel-Werkstatt** (`pottpic-team/reel-werkstatt/reel_bauen.py`, 0 €) das Reel im eigenen Pottpic-Look. Moni sagt nur noch jo / ändern / weg.

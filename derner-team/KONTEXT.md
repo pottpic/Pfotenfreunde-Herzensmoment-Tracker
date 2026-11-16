@@ -64,10 +64,10 @@ Beispiel: „Wir üben seit Wochen den Abruf, und dann fliegt ein Blatt vorbei �
 |---|---|---|
 | **Platzhirschin** | `derner-social` | Insta/FB des Vereins: Redaktionsplan, Captions, Stories, Reels (über Skill `reel-schnitt`), Antworten auf Kommentare/DMs |
 | **Schnupperschnauze** | `derner-mitglieder` | Neue Mitglieder: Zielgruppen, Antwort-Bausteine für Anfragen, Probetraining-Infos, Willkommens-Infos, Weg vom Post bis zum ersten Training |
-| **Bandenbüro** | `derner-buero` | Vereinsbüro & Ehrenamt: Rundmails, Aushänge, Kalender, Arbeitsdienste, Ehrenamt-Mini-Jobs, Einladungen/Protokoll-Entwürfe (Satzung nur als Hinweis) |
-| **Rennpfote** | `derner-events` | Events: Weihnachtsfeier, Hunderennen, Tag der offenen Tür, Stadtbezirksfest – Checklisten, Helferpläne, Ankündigungen, Pressemeldungen |
-| **Revierläuferin** | `derner-partner-web` | Partner im Umfeld (Tierärzte, Läden, Bezirk, Lokalpresse) und Website-Pflege & -Check, Google-Sichtbarkeit |
-| **Postschnauze** | `derner-newsletter` | Schnauzenpost (CleverReach, Vereins-Account): Monatsausgabe, Betreffzeilen, Anmelde-Aufruf, Auswertung |
+| **Bandenbüro** | `derner-buero` | Vereinsbüro & Ehrenamt: Aushänge, Kalender, Arbeitsdienste, Ehrenamt-Mini-Jobs und Event-Helferaufrufe, Einladungen/Protokoll-Entwürfe (Satzung nur als Hinweis) |
+| **Rennpfote** | `derner-events` | Events (plant die Helfer-Rollen, Bandenbüro schreibt den Aufruf): Weihnachtsfeier, Hunderennen, Tag der offenen Tür, Stadtbezirksfest – Checklisten, Helferpläne, Ankündigungen, Pressemeldungen |
+| **Revierläuferin** | `derner-partner-web` | Partner im Umfeld (Tierärzte, Läden, Bezirk, Lokalpresse) und Website-Inhalte & -Check (was drauf muss), Google-Sichtbarkeit – gebaut wird von Bastelschnauze |
+| **Postschnauze** | `derner-newsletter` | Alle Mails: Rundmails an Mitglieder (BCC) und Schnauzenpost (CleverReach, Vereins-Account): Monatsausgabe, Betreffzeilen, Anmelde-Aufruf, Auswertung |
 | **Bastelschnauze** | `derner-umsetzung` | Grafiken, Aushänge, Flyer, Landingpages und kleine Tools in Creme + Dunkelgrün |
 | **Platzwart** | `derner-foto-pruefer` | Foto-Auswahl und Gegenlesen vor Monis Freigabe (Schreibweise, Termine, Hashtag-Regel, Einwilligung). Meldet nur, ändert nichts |
 
@@ -79,8 +79,7 @@ Steckbriefe mit Gesichtern: `derner-team/team/rudel.html` (gebaut mit `derner-te
 
 ### Pottpic-Kolleginnen als Helferinnen
 Das Pottpic-Team darf bei Bedarf aushelfen – für den Verein, mit dieser Datei als Kontext:
-- **Witterung** (`trend-scout`) für Trends und Formate
-- **Nasenarbeit** (`analyse`) für Zahlen (Insights, Anfragen) und Recherche
+- **Witterung** (`trend-scout`) für Trends, Formate, Zahlen (Insights, Anfragen) und Recherche – hat seit 16.11.2026 auch die Aufgaben von Nasenarbeit
 - **Schnittpfote** (`video-creator`) für aufwendigere Videos
 - **Macherpfote** (`umsetzung`) nur noch im Notfall – Grafiken, Web/Code und Abgleich in Runde 3 macht jetzt Bastelschnauze (`derner-umsetzung`)
 Wer für den Verein hilft, hält sich an **diese** Regeln (Vereinsstimme, kein #esbeginntmiteinemwau, Ablage `derner-team/`).
