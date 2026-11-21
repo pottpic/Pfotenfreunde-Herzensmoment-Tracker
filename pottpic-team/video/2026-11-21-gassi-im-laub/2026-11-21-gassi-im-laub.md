@@ -12,6 +12,13 @@ Status: Zwei Versionen – Zeitlupe (18 s, ohne Ton) und Originaltempo (10,7 s, 
 5. (Zum Schluss) **Die Fotos** – Herbstbilder sind einfach was anderes
 - Schluss: **Laub-Fan oder Pfützen-Fan?** – Schreib's mir mal in die Kommentare · pottpic.de
 
+## Kurze Sätze (Originaltempo, Monis Wunsch)
+1. Schnüffel-Paradies – Zeitung lesen, halt
+2. Dieses Rascheln – Einfach reinhüpfen
+3. Das Licht – Gold, nur in bunt
+4. Kopf frei – Für euch beide
+5. Die Fotos – Herbstliebe, weißt du
+
 ## Caption (Entwurf)
 Ich mein, gibt's was Besseres als 'ne Runde durchs Laub? 🍂
 Nase rein, Rascheln, das Licht – und am Ende ist der Kopf frei, bei euch beiden.

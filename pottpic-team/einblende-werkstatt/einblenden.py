@@ -257,7 +257,7 @@ def baue_ebenen(p, dauer):
             s1 = s0 + seg
             if s0 - 0.05 <= t <= s1 + 0.35:
                 lt = (t - s0) / tempo  # bei kurzen Reels laufen die Animationen schneller
-                raus = ease((t - s1 + 0.3) / 0.3) if t > s1 - 0.3 else 0
+                raus = ease((t - s1 + 0.3 * tempo) / (0.3 * tempo)) if t > s1 - 0.3 * tempo else 0
                 y = 300
                 if pk["vorlauf"]:
                     a = ease((lt - 0.0) / 0.3) * (1 - raus)
