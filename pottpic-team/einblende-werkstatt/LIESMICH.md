@@ -17,7 +17,7 @@ Ergebnis liegt neben der plan.json: `<titel>.mp4` (Ton vom Original bleibt) und 
 
 Ablauf: Intro-Karte mit Titel + 5er-Leiste (3,4 s) → Punkt 1–5 gleichmäßig verteilt (Zahlenkarte, Titel-Chip,
 Handschrift-Satz, oben kleine Fortschrittspunkte, beim letzten „Zum Schluss“) → Schlusskarte mit Frage (3 s).
-Ist das Reel kürzer als 18 Sekunden (`--min-dauer`), wird es automatisch in Zeitlupe gestreckt, ohne Ton – den Sound sucht Moni eh in der Insta-App aus.
+Ist das Reel kürzer als 18 Sekunden (`--min-dauer`), wird es in Zeitlupe gestreckt, ohne Ton. Mit `--min-dauer 0` bleibt das Originaltempo samt Ton – die Animationen laufen dann schneller; Intro/Outro über `intro_sekunden`/`outro_sekunden` im Plan kürzen (Beispiel: `plan-originaltempo.json`, klappt ab ca. 11 Sekunden).
 
 Beispiel-Plan: `pottpic-team/video/2026-11-21-gassi-im-laub/plan.json`.
 Schriften (OFL, frei nutzbar): Montserrat + Caveat in `schrift/`. Farben: Navy, Gold, Creme wie die Reel-Werkstatt.

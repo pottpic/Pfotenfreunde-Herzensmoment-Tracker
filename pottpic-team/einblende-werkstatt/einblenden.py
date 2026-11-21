@@ -198,8 +198,8 @@ def zeitplan(p, dauer):
     outro = p.get("outro_sekunden", 3.0)
     n = len(p["punkte"])
     seg = (dauer - intro - outro) / n
-    if seg < 1.8:
-        sys.exit(f"Video zu kurz ({dauer:.1f}s) – für {n} Punkte braucht's mindestens {intro + outro + n * 1.8:.0f} Sekunden.")
+    if seg < 1.2:
+        sys.exit(f"Video zu kurz ({dauer:.1f}s) – für {n} Punkte braucht's mindestens {intro + outro + n * 1.2:.0f} Sekunden.")
     return intro, outro, seg
 
 
@@ -220,6 +220,7 @@ def baue_ebenen(p, dauer):
     fort = [fortschritt(i, n) for i in range(n)]
     karte_outro = outro_karte(p)
     intro_y = 210
+    tempo = min(1.0, seg / 2.6)
     # Weicher dunkler Verlauf oben, damit die weiße Handschrift auch auf hellem Laub lesbar bleibt
     verlauf = Image.new("RGBA", (W, 1000), (0, 0, 0, 0))
     vd = ImageDraw.Draw(verlauf)
@@ -255,7 +256,7 @@ def baue_ebenen(p, dauer):
             s0 = intro + i * seg
             s1 = s0 + seg
             if s0 - 0.05 <= t <= s1 + 0.35:
-                lt = t - s0
+                lt = (t - s0) / tempo  # bei kurzen Reels laufen die Animationen schneller
                 raus = ease((t - s1 + 0.3) / 0.3) if t > s1 - 0.3 else 0
                 y = 300
                 if pk["vorlauf"]:
@@ -357,7 +358,7 @@ def main():
         "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
         "-filter_complex",
         f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1[bg];[bg][1:v]overlay=0:0:format=auto,format=yuv420p[v]",
-        "-map", "[v]", "-map", "0:a?", "-c:v", "libx264", "-crf", "18", "-preset", "medium", "-c:a", "aac",
+        "-map", "[v]", "-map", "0:a:0?", "-c:v", "libx264", "-crf", "18", "-preset", "medium", "-c:a", "aac",
         "-shortest", "-movflags", "+faststart", str(fertig)], stdin=subprocess.PIPE)
     alpha = subprocess.Popen([
         "ffmpeg", "-y", "-v", "error",

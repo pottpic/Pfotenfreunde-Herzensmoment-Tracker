@@ -1,0 +1,40 @@
+{
+  "titel": "2026-11-21-gassi-im-laub-originaltempo",
+  "kicker": "Gassi im Herbst",
+  "titel_1": "5 Gründe",
+  "titel_hand": "für",
+  "titel_2": "Gassi im Laub",
+  "punkte": [
+    {
+      "kurz": "Schnüffeln",
+      "titel": "Schnüffel-Paradies",
+      "satz": "Da drin steckt halt die ganze Nachbarschaft"
+    },
+    {
+      "kurz": "Rascheln",
+      "titel": "Dieses Rascheln",
+      "satz": "Ich mein, wer hüpft da nicht rein?"
+    },
+    {
+      "kurz": "Licht",
+      "titel": "Das Licht",
+      "satz": "Goldene Stunde, nur halt in bunt"
+    },
+    {
+      "kurz": "Kopf frei",
+      "titel": "Kopf frei",
+      "satz": "Und zwar für euch beide, weißt du"
+    },
+    {
+      "kurz": "Fotos",
+      "titel": "Die Fotos",
+      "satz": "Herbstbilder sind einfach was anderes"
+    }
+  ],
+  "letzter_vorlauf": "Zum Schluss",
+  "outro_frage": "Laub-Fan oder Pfützen-Fan?",
+  "outro_hand": "Schreib's mir mal in die Kommentare",
+  "absender": "pottpic.de",
+  "intro_sekunden": 2.4,
+  "outro_sekunden": 2.0
+}
