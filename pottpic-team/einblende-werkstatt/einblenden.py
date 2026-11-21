@@ -220,6 +220,11 @@ def baue_ebenen(p, dauer):
     fort = [fortschritt(i, n) for i in range(n)]
     karte_outro = outro_karte(p)
     intro_y = 210
+    # Weicher dunkler Verlauf oben, damit die weiße Handschrift auch auf hellem Laub lesbar bleibt
+    verlauf = Image.new("RGBA", (W, 1000), (0, 0, 0, 0))
+    vd = ImageDraw.Draw(verlauf)
+    for yy in range(1000):
+        vd.line((0, yy, W, yy), fill=(20, 16, 12, int(120 * (1 - yy / 1000) ** 1.6)))
 
     def frame(t):
         layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -243,6 +248,9 @@ def baue_ebenen(p, dauer):
                 for xx in range(int(x0), int(xe), 18):
                     d.line((xx, intro_y + 420 + 50, min(xx + 9, xe), intro_y + 420 + 50), fill=GOLD + (int(220 * (1 - raus)),), width=3)
         # Punkte
+        s_end = intro + n * seg
+        va = ease((t - intro + 0.2) / 0.4) * (1 - ease((t - s_end) / 0.4))
+        einblenden(layer, (verlauf, 0), (0, 0), va)
         for i, pk in enumerate(punkte):
             s0 = intro + i * seg
             s1 = s0 + seg
@@ -311,6 +319,8 @@ def main():
     ap.add_argument("--demo", action="store_true", help="Vorschau mit Platzhalter")
     ap.add_argument("--dauer", type=float, default=19.0, help="Länge der Demo in Sekunden")
     ap.add_argument("--ziel", default=None)
+    ap.add_argument("--min-dauer", type=float, default=18.0,
+                    help="Ist das Reel kürzer, wird es in Zeitlupe gestreckt (ohne Ton – Sound kommt in der Insta-App drauf)")
     a = ap.parse_args()
 
     plan_pfad = Path(a.plan)
@@ -322,6 +332,14 @@ def main():
     if a.video:
         quelle = Path(a.video)
         dauer = dauer_von(quelle)
+        if dauer < a.min_dauer:
+            faktor = a.min_dauer / dauer
+            gestreckt = ziel / f"{titel}-zeitlupe.mp4"
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(quelle), "-an",
+                            "-vf", f"setpts={faktor:.4f}*PTS,fps={FPS}", "-c:v", "libx264", "-crf", "16", str(gestreckt)], check=True)
+            print(f"Reel war {dauer:.1f}s – auf {a.min_dauer:.0f}s gestreckt (Zeitlupe, ohne Ton).")
+            quelle, dauer = gestreckt, dauer_von(gestreckt)
+            a.zeitlupe_tmp = gestreckt
     elif a.demo:
         dauer = a.dauer
         quelle = platzhalter(ziel / f"{titel}-platzhalter.mp4", dauer)
@@ -353,7 +371,7 @@ def main():
     for pr in (mix, alpha):
         pr.stdin.close()
         pr.wait()
-    if a.demo and not a.video:
+    if (a.demo and not a.video) or getattr(a, "zeitlupe_tmp", None):
         quelle.unlink()
     print(fertig)
     print(nur)

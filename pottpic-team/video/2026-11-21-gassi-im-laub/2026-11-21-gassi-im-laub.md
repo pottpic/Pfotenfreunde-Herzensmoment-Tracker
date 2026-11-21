@@ -1,7 +1,7 @@
 # Reel: 5 Gründe für Gassi im Laub (Einblendungen)
 
 Vorbild: Moni-Upload IMG_7813 (Zahlenkarten, Label, Handschrift-Zeile, Übersicht mit 5 Punkten). Look aber eigen: Pottpic Navy/Gold/Creme.
-Status: Vorschau mit Platzhalter fertig – wartet auf Monis Reel.
+Status: Reel mit Monis Video (IMG_7801, auf 18 s Zeitlupe gestreckt, ohne Ton) fertig – wartet auf Freigabe.
 
 ## Einblendungen
 - Intro: „Gassi im Herbst“ · **5 Gründe** *für* **Gassi im Laub** · Leiste: Schnüffeln, Rascheln, Licht, Kopf frei, Fotos
