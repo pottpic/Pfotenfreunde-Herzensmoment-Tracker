@@ -51,14 +51,12 @@ Und dann der Wunsch ganz am Ende … da mussten wir echt kurz schlucken. ❤️
 
 Was steht bei eurem Hund dieses Jahr auf'm Wunschzettel? Schreibt's uns in die Kommentare!
 
-[Platzhalter: Name des Hundes, nur wenn die Familie das will]
-
 #dernerschnauzenbande #hundeverein #derne #dortmundmithund #wunschzettel
 
 **Facebook:** gleicher Text, Hashtags nur `#dernerschnauzenbande #derne`.
 
 ## Offene Fragen an Moni
-1. **Wer hat den Wunschzettel geschrieben?** Soll der Hundename ins Reel oder in die Caption, z. B. als Unterschrift am Ende?
+1. ~~Hundename~~: geklärt, bleibt ohne Namen (Moni, 25.11.).
 2. **Ist die Familie einverstanden**, dass ihr Wunschzettel öffentlich gezeigt wird?
 3. ~~Wer is „ihn“?~~ Geklärt: der gelbe Quietscheball, is eingebaut.
 4. **49 Sekunden** sind für 'n Reel eher lang. Soll ich noch 'ne kurze Version (~25 s) machen, nur mit Leckerli, Körbchen und dem großen Wunsch am Ende?
