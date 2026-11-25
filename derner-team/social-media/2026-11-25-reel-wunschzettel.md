@@ -7,6 +7,7 @@
 ## Dateien (Ordner `2026-11-25-reel-wunschzettel/`)
 - `Reel_Wunschzettel_mit-Beat.mp4`: 49 s, 1080×1920, 30 fps, mit Musik (-14 LUFS)
 - `Cover1_Wunschzettel.jpg`, `Cover2_Leckerli.jpg`, `Cover3_erledigt.jpg` (9:16, Text liegt mittig, also passt auch der 1:1-Ausschnitt im Profilraster)
+- `Reel_Wunschzettel_kurz_26s.mp4`: **Kurzversion**, 26 s, gleicher Look und gleicher Beat (Skript: `build_reel_kurz.py`)
 - `Beat_120bpm_eigenproduktion.mp3`: die Musik einzeln
 - `build_reel.py`: das Skript, mit dem alles gebaut is. Texte und Timing stehen oben in `CARDS` und lassen sich schnell ändern.
 
@@ -59,4 +60,18 @@ Was steht bei eurem Hund dieses Jahr auf'm Wunschzettel? Schreibt's uns in die K
 1. ~~Hundename~~: geklärt, bleibt ohne Namen (Moni, 25.11.).
 2. **Ist die Familie einverstanden**, dass ihr Wunschzettel öffentlich gezeigt wird?
 3. ~~Wer is „ihn“?~~ Geklärt: der gelbe Quietscheball, is eingebaut.
-4. **49 Sekunden** sind für 'n Reel eher lang. Soll ich noch 'ne kurze Version (~25 s) machen, nur mit Leckerli, Körbchen und dem großen Wunsch am Ende?
+4. ~~Kurzversion~~: erledigt (26 s), siehe unten.
+
+## Kurzversion (26 s)
+| Zeit | Text |
+|---|---|
+| 0–2 s | Lieber / **Weihnachtsmann,** |
+| 2–4 s | Ich bin jetzt neu bei der / **Derner Schnauzenbande!** 🐾❤ |
+| 4–8 s | Gaaaaannnzzzz / vvvviiiiieeeeel / **Leckerli.** |
+| 8–12 s | Mein altes Körbchen / hat mich angegriffen … / Das Körbchen hab ich / **erledigt 💪** |
+| 12–16 s | Aber weißt du, / was ich mir / am allermeisten / **wünsche?** (Breakdown, ohne Drums) |
+| 16–20 s | Dass meine Familie / gesund und glücklich bleibt / und jeden Tag ganz viel / **Liebe ❤** |
+| 20–23 s | Ach ja, und 'n / **Quietscheball!** / Ich verspreche, / ihn wiederzubringen … / **… meistens jedenfalls 😉** |
+| 23–26 s | **Frohe Weihnachten!** 🐾 / Derner Schnauzenbande / @dernerschnauzenbande / www.dernerschnauzenbande.de |
+
+Raus sind: „Ich freue mich riesig …“ und der Teil „alle Tiere auf der Welt …“. Die Caption passt für beide Versionen.
