@@ -7,6 +7,8 @@
 
 ## Dateien (Ordner `2026-11-26-reel-pfotenzauber-countdown/`)
 - `Reel_Pfotenzauber_Countdown.mp4`: 29 s, 1080×1920, 30 fps, stumm (stille Tonspur, damit Insta's sauber nimmt)
+- `Reel_Pfotenzauber_Countdown_mit-Beat.mp4`: **gleiches Video mit ruhigem Beat** (-16 LUFS), die Version zum Posten
+- `Beat_84bpm_ruhig_eigenproduktion.mp3`: die Musik einzeln (Skript: `build_beat.py`)
 - `Cover_Noch-zweimal-schlafen.jpg`: Vorschlag fürs Cover, das erste Bild
 - `build_reel.py`: das Skript, mit dem's gebaut ist (Reihenfolge, Kamerafahrten, Dauer)
 
@@ -45,9 +47,10 @@ Die Bilder sind KI-generiert.
 **Facebook:** gleicher Text, Hashtags nur `#dernerschnauzenbande #derne`.
 
 ## Musik
-Das Reel ist stumm, weil die GEMA-Frage für Insta-Sounds noch offen ist (KONTEXT Regel 5). Wenn Moni Musik will, kann ich wie beim Wunschzettel 'nen eigenen ruhigen Weihnachts-Beat bauen.
+Eigener ruhiger Weihnachts-Beat, 84 BPM: Spieluhr-Melodie über F – C – Dm – B♭, weiche Fläche, Bass, leiser Kick, Rimshot, Shaker und 'n Hauch Schlittenglöckchen. Im ersten Takt nur Spieluhr, dann kommt der sanfte Groove dazu, und am Ende klingt ein Schlussakkord aus. Ist kein bekanntes Lied, also gibt's kein GEMA-Thema und es kostet keine Credits (Moni, 26.11.).
+**Beim Hochladen keinen Insta-Sound drüberlegen**, sonst wird's doppelt.
 
 ## Offene Fragen an Moni
 1. **Ort:** Wo findet der Pfotenzauber statt? Soll das in die Caption?
 2. **Programm:** Gibt's wirklich Waffeln (der Comic deutet's an)? Was erwartet die Leute sonst noch?
-3. **Musik:** Lassen wir's stumm oder soll ich 'nen eigenen ruhigen Beat drunterlegen?
+3. ~~Musik~~: erledigt, ruhiger Beat ist drunter.
